@@ -106,6 +106,15 @@ def team_statistics(fixtures):
     return stats
 
 
+def score_value(value):
+    if value is None or str(value).strip() == "":
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def normalize_openfootball(item, source_file, season_label, fetched_at):
     raw = fetch_json(f"{OPENFOOTBALL}/2026-27/{source_file}")
     fixtures, teams = [], {}
@@ -118,13 +127,17 @@ def normalize_openfootball(item, source_file, season_label, fetched_at):
         teams[away_id] = {"id": away_id, "name": away_name, "country": item.get("country")}
         ft = (row.get("score") or {}).get("ft") or [None, None]
         ht = (row.get("score") or {}).get("ht") or [None, None]
-        played = len(ft) >= 2 and ft[0] is not None and ft[1] is not None
+        ft_home = score_value(ft[0]) if len(ft) >= 2 else None
+        ft_away = score_value(ft[1]) if len(ft) >= 2 else None
+        ht_home = score_value(ht[0]) if len(ht) >= 2 else None
+        ht_away = score_value(ht[1]) if len(ht) >= 2 else None
+        played = ft_home is not None and ft_away is not None
         fixtures.append({
             "id": f"openfootball-{item['id']}-{index}", "date": row.get("date"), "timestamp": None,
             "round": row.get("round"), "status": "FT" if played else "NS", "statusLong": "Finished" if played else "Scheduled",
             "home": {"id": home_id, "name": home_name}, "away": {"id": away_id, "name": away_name},
-            "goals": {"home": ft[0] if played else None, "away": ft[1] if played else None},
-            "halftime": {"home": ht[0] if len(ht) >= 2 else None, "away": ht[1] if len(ht) >= 2 else None},
+            "goals": {"home": ft_home if played else None, "away": ft_away if played else None},
+            "halftime": {"home": ht_home, "away": ht_away},
         })
     fixtures.sort(key=lambda f: f.get("date") or "")
     snapshot = {
@@ -191,7 +204,9 @@ def main():
             for section, state in snap["coverage"].items():
                 coverage["competitions"][comp_id][section] = state
         except Exception as exc:
-            coverage["competitions"].setdefault(comp_id, {"seasons": []})["fixtures"] = {"available": False, "note": f"OpenFootball file could not be refreshed: {exc}"}
+            row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
+            row["openfootball"] = {"available": False, "note": f"OpenFootball file could not be refreshed: {exc}"}
+            print(f"OpenFootball {comp_id}: {exc}")
     for comp_id, seasons in STATSBOMB_SEASONS.items():
         item = by_id.get(comp_id)
         if not item:

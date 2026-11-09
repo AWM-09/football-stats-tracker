@@ -26,15 +26,12 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
       - name: Set up Python
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
       - name: Refresh static open-data snapshots
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/sync_open_data.py
       - name: Commit data snapshots
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
