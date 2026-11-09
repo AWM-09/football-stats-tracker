@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "OpenFootball (CC0)",
   "sourceUrl": "https://github.com/openfootball/football.json/tree/master/2026-27",
-  "generatedAt": "2026-11-09T15:20:31Z",
+  "generatedAt": "2026-11-09T22:08:38Z",
   "fixtures": [
     {
       "id": "openfootball-ligue-1-1",
@@ -8034,18 +8034,18 @@
     "fixtures": {
       "available": true,
       "rows": 306,
-      "fetchedAt": "2026-11-09T15:20:31Z"
+      "fetchedAt": "2026-11-09T22:08:38Z"
     },
     "standings": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-09T15:20:31Z",
+      "fetchedAt": "2026-11-09T22:08:38Z",
       "note": "Calculated from completed OpenFootball results."
     },
     "teams": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-09T15:20:31Z"
+      "fetchedAt": "2026-11-09T22:08:38Z"
     },
     "players": {
       "available": false,
