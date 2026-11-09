@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import csv
 import json
 import math
 import re
@@ -16,6 +17,8 @@ SNAPSHOTS = DATA / "competitions"
 OPENFOOTBALL = "https://raw.githubusercontent.com/openfootball/football.json/master"
 STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
 OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/tags/data-v0.1.0"
+OPEN_MATCHDAY = "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data"
+CORNERFLICK_SEASON = "https://cornerflick.com/football/leagues/ekstraklasa/results/season.json"
 OPENPLAY_COMPS = {
     "eng": "premier-league", "esp": "la-liga", "ita": "serie-a", "ger": "bundesliga", "fra": "ligue-1",
     "ucl": "champions-league", "uel": "europa-league", "wc": "fifa-world-cup", "euro": "uefa-euro",
@@ -56,8 +59,184 @@ def fetch_json(url: str):
         return json.loads(response.read().decode("utf-8"))
 
 
+def fetch_csv(url: str):
+    request = urllib.request.Request(url, headers={"User-Agent": "football-stats-tracker/1.0"})
+    with urllib.request.urlopen(request, timeout=45) as response:
+        return list(csv.DictReader(response.read().decode("utf-8-sig").splitlines()))
+
+
+def match_stats(home_id, away_id, row, prefix="home", field_labels=None):
+    field_labels = field_labels or {}
+    values = {}
+    for field, label in field_labels.items():
+        value = number(row.get(f"{prefix}_{field}"), None)
+        if value is not None:
+            try:
+                number_value = float(value)
+                values[label] = int(number_value) if number_value.is_integer() else round(number_value, 2)
+            except (TypeError, ValueError):
+                values[label] = value
+    return values
+
+
+def normalize_openmatchday(item, season_key, folder, fetched_at):
+    base = f"{OPEN_MATCHDAY}/{folder}"
+    result_rows = fetch_csv(f"{base}/results_2627.csv")
+    fixture_rows = fetch_csv(f"{base}/fixtures_2627.csv")
+    merged = {}
+    for row in result_rows + fixture_rows:
+        key = (row.get("date"), row.get("home"), row.get("away"))
+        merged[key] = {**merged.get(key, {}), **{k: v for k, v in row.items() if v not in (None, "")}}
+    fixtures, teams, fixture_stats = [], {}, {}
+    stat_fields = {"shots":"Shots", "target":"Shots on target", "fouls":"Fouls", "corners":"Corners", "corners_1h":"Corners (1st half)", "corners_2h":"Corners (2nd half)", "yellow":"Yellow cards", "red":"Red cards"}
+    for index, row in enumerate(merged.values(), 1):
+        home_name = row.get("home", "").strip(); away_name = row.get("away", "").strip()
+        if not home_name or not away_name:
+            continue
+        hid, aid = slug(home_name), slug(away_name)
+        teams[hid] = {"id": hid, "name": home_name, "country": item.get("country")}
+        teams[aid] = {"id": aid, "name": away_name, "country": item.get("country")}
+        gh, ga = score_value(row.get("ft_home")), score_value(row.get("ft_away"))
+        finished = gh is not None and ga is not None
+        mid = f"openmatchday-{item['id']}-{row.get('date')}-{hid}-{aid}"
+        fixtures.append({"id": mid, "date": row.get("date"), "timestamp": None, "round": f"Matchday {row.get('gw')}" if row.get("gw") else None,
+                         "status": "FT" if finished else "NS", "statusLong": "Finished" if finished else "Scheduled",
+                         "home": {"id": hid, "name": home_name}, "away": {"id": aid, "name": away_name},
+                         "goals": {"home": gh, "away": ga},
+                         "halftime": {"home": score_value(row.get("ht_home")), "away": score_value(row.get("ht_away"))}})
+        stats = [
+            {"teamId": hid, "statistics": match_stats(hid, aid, row, "home", stat_fields)},
+            {"teamId": aid, "statistics": match_stats(hid, aid, row, "away", stat_fields)},
+        ]
+        if any(entry["statistics"] for entry in stats):
+            fixture_stats[mid] = stats
+    fixtures.sort(key=lambda f: f.get("date") or "")
+    team_stats = team_statistics(fixtures)
+    for tid, stats in team_stats.items():
+        stats.update({"shots": 0, "corners": 0, "yellowCards": 0, "redCards": 0})
+    for mid, stats in fixture_stats.items():
+        for entry in stats:
+            tid = entry["teamId"]
+            for label, field in (("Shots", "shots"), ("Corners", "corners"), ("Yellow cards", "yellowCards"), ("Red cards", "redCards")):
+                value = entry["statistics"].get(label)
+                if value is not None:
+                    team_stats.setdefault(tid, {}).setdefault(field, 0)
+                    team_stats[tid][field] += int(value)
+    standings_rows = standings(fixtures)
+    snapshot = {"schemaVersion": 2, "competition": {"id": item["id"], "name": item["name"], "country": item.get("country")},
+                "season": season_key, "seasonLabel": item["season"], "provider": "open-matchday (non-commercial use; attribution required)",
+                "sourceUrl": "https://github.com/oladeeayo/open-matchday", "generatedAt": fetched_at,
+                "fixtures": fixtures, "teams": list(teams.values()), "standings": standings_rows, "teamStats": team_stats,
+                "fixtureStats": fixture_stats, "players": [], "topScorers": [],
+                "coverage": {"fixtures": {"available": bool(fixtures), "rows": len(fixtures), "fetchedAt": fetched_at},
+                             "standings": {"available": bool(standings_rows), "rows": len(standings_rows), "fetchedAt": fetched_at, "note": "Calculated from the source's completed match results."},
+                             "teams": {"available": bool(teams), "rows": len(teams), "fetchedAt": fetched_at},
+                             "players": {"available": False, "rows": 0, "note": "This source does not publish player season totals."},
+                             "topScorers": {"available": False, "rows": 0, "note": "This source does not publish a player scorer table."},
+                             "fixtureStats": {"available": bool(fixture_stats), "rows": len(fixture_stats), "fetchedAt": fetched_at}}}
+    write_json(SNAPSHOTS / f"{item['id']}-{season_key}.json", snapshot)
+    return snapshot
+
+
+def normalize_cornerflick_ekstraklasa(item, season_key, fetched_at):
+    source = fetch_json(CORNERFLICK_SEASON)
+    source_updated = source.get("meta", {}).get("last_updated_at") or fetched_at
+    fixtures, teams, fixture_stats, events, lineups = [], {}, {}, {}, {}
+    goals_by_player = {}
+    stats_rows = 0
+    for match in source.get("matches", []):
+        home_name, away_name = match.get("home_team"), match.get("away_team")
+        if not home_name or not away_name:
+            continue
+        hid = f"cornerflick-team-{match.get('home_team_slug') or slug(home_name)}"
+        aid = f"cornerflick-team-{match.get('away_team_slug') or slug(away_name)}"
+        teams[hid] = {"id": hid, "name": home_name, "country": "Poland"}
+        teams[aid] = {"id": aid, "name": away_name, "country": "Poland"}
+        match_id = match.get("id", "")
+        fid = f"cornerflick-{match.get('slug') or slug(match_id)}"
+        kickoff = match.get("kickoff_at")
+        finished = str(match.get("status", "")).lower() == "finished"
+        fixtures.append({"id": fid, "date": kickoff, "timestamp": None, "round": match.get("round"), "status": "FT" if finished else "NS", "statusLong": "Finished" if finished else "Scheduled",
+                         "home": {"id": hid, "name": home_name}, "away": {"id": aid, "name": away_name},
+                         "goals": {"home": score_value(match.get("home_score")), "away": score_value(match.get("away_score"))},
+                         "venue": match.get("venue"), "referee": match.get("referee"), "cornerflickUrl": match.get("url"), "cornerflickDataUrl": match.get("dataset_url")})
+    fixture_by_data_url = {f.get("cornerflickDataUrl"): f for f in fixtures if f.get("cornerflickDataUrl")}
+    urls = list(fixture_by_data_url)
+    # Match details are cached into the static snapshot, so visitors do not need cross-site requests.
+    from concurrent.futures import ThreadPoolExecutor
+    def load_match(url):
+        try:
+            return url, fetch_json(url)
+        except Exception as exc:
+            print(f"Cornerflick match detail unavailable {url}: {exc}")
+            return url, None
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for url, detail in pool.map(load_match, urls):
+            if not detail:
+                continue
+            fixture = fixture_by_data_url[url]
+            fid, home_id, away_id = fixture["id"], fixture["home"]["id"], fixture["away"]["id"]
+            statistics = detail.get("statistics") or []
+            if statistics:
+                fixture_stats[fid] = [{"teamId": home_id, "statistics": {row["label"]: row.get("home") for row in statistics if row.get("home") is not None}},
+                                      {"teamId": away_id, "statistics": {row["label"]: row.get("away") for row in statistics if row.get("away") is not None}}]
+                stats_rows += 1
+            events[fid] = [{"time": {"elapsed": ev.get("minute"), "extra": ev.get("extra")}, "team": ev.get("team"), "type": str(ev.get("type", "event")).replace("_", " ").title(), "detail": ev.get("detail", ""), "player": ev.get("player"), "assist": ev.get("assist")} for ev in detail.get("events", [])]
+            lineup_data = detail.get("lineups") or {}
+            lineups[fid] = [{"team": side_data.get("team", fixture["home"]["name"] if side == "home" else fixture["away"]["name"]), "formation": side_data.get("formation"), "coach": side_data.get("coach"),
+                             "startXI": [{"name": p.get("name"), "position": p.get("position")} for p in side_data.get("starting_xi", [])],
+                             "substitutes": [{"name": p.get("name"), "position": p.get("position")} for p in side_data.get("bench", [])]} for side, side_data in lineup_data.items()]
+            for goal in detail.get("goals", []):
+                name, team = goal.get("player"), goal.get("team")
+                if not name:
+                    continue
+                key = slug(name)
+                player = goals_by_player.setdefault(key, {"id": f"cornerflick-player-{key}", "name": name, "team": team, "goals": 0, "assists": 0})
+                if goal.get("credited_side"):
+                    player["goals"] += 1
+                if goal.get("assist"):
+                    assister_key = slug(goal["assist"])
+                    assister = goals_by_player.setdefault(assister_key, {"id": f"cornerflick-player-{assister_key}", "name": goal["assist"], "team": team, "goals": 0, "assists": 0})
+                    assister["assists"] += 1
+    fixtures.sort(key=lambda f: f.get("date") or "")
+    # Include forthcoming matchweeks from the no-key CSV feed, where the results source has not published fixtures yet.
+    base = f"{OPEN_MATCHDAY}/POL_1_ekstraklasa"
+    future_rows = fetch_csv(f"{base}/fixtures_2627.csv")
+    known = {(f["date"][:10] if f.get("date") else None, f["home"]["name"], f["away"]["name"]) for f in fixtures}
+    for row in future_rows:
+        home, away = row.get("home", "").strip(), row.get("away", "").strip()
+        if not home or not away or (row.get("date"), home, away) in known:
+            continue
+        hid, aid = f"cornerflick-team-{slug(home)}", f"cornerflick-team-{slug(away)}"
+        teams.setdefault(hid, {"id": hid, "name": home, "country": "Poland"}); teams.setdefault(aid, {"id": aid, "name": away, "country": "Poland"})
+        fixtures.append({"id": f"openmatchday-ekstraklasa-{row.get('date')}-{slug(home)}-{slug(away)}", "date": row.get("date"), "round": f"Matchday {row.get('gw')}" if row.get("gw") else "", "status": "NS", "statusLong": "Scheduled", "home": {"id": hid, "name": home}, "away": {"id": aid, "name": away}, "goals": {"home": None, "away": None}})
+    fixtures.sort(key=lambda f: f.get("date") or "")
+    completed = [f for f in fixtures if f["status"] == "FT"]
+    standings_rows = standings(completed)
+    team_stats = team_statistics(completed)
+    for fixture in fixtures:
+        for team in (fixture["home"], fixture["away"]):
+            if team["id"] not in team_stats:
+                team_stats[team["id"]] = {"fixtures": {"played": 0, "wins": 0, "draws": 0, "loses": 0}, "goals": {"for": {"total": 0}, "against": {"total": 0}}, "clean_sheet": {"total": 0}}
+    providers = "Cornerflick (CC BY 4.0) + open-matchday (non-commercial, attribution required)"
+    snapshot = {"schemaVersion": 2, "competition": {"id": item["id"], "name": item["name"], "country": "Poland"}, "season": season_key, "seasonLabel": item["season"],
+                "provider": providers, "sourceUrl": "https://cornerflick.com/data", "generatedAt": source.get("meta", {}).get("last_updated_at", fetched_at),
+                "fixtures": fixtures, "teams": list(teams.values()), "standings": standings_rows, "teamStats": team_stats, "fixtureStats": fixture_stats,
+                "events": events, "lineups": lineups, "players": sorted(goals_by_player.values(), key=lambda p: (-p["goals"], -p["assists"], p["name"])),
+                "topScorers": sorted(goals_by_player.values(), key=lambda p: (-p["goals"], -p["assists"], p["name"]))[:100],
+                "coverage": {"fixtures": {"available": bool(fixtures), "rows": len(fixtures), "fetchedAt": source_updated},
+                             "standings": {"available": bool(standings_rows), "rows": len(standings_rows), "fetchedAt": source_updated, "note": "Calculated from completed Cornerflick results."},
+                             "teams": {"available": bool(teams), "rows": len(teams), "fetchedAt": source_updated},
+                             "players": {"available": bool(goals_by_player), "rows": len(goals_by_player), "note": "Season goals and assists aggregated from published match event records."},
+                             "topScorers": {"available": bool(goals_by_player), "rows": min(len(goals_by_player), 100)},
+                             "fixtureStats": {"available": bool(fixture_stats), "rows": stats_rows}, "events": {"available": bool(events), "rows": sum(len(x) for x in events.values())},
+                             "lineups": {"available": bool(lineups), "rows": sum(len(x) for x in lineups.values())}}}
+    write_json(SNAPSHOTS / f"{item['id']}-{season_key}.json", snapshot)
+    return snapshot
+
+
 def number(value, default=0):
-    if value is None:
+    if value is None or str(value).strip() == "":
         return default
     try:
         if math.isnan(float(value)):
@@ -323,11 +502,13 @@ def main():
     fetched_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     index = json.loads((DATA / "competitions.json").read_text(encoding="utf-8"))
     by_id = {item["id"]: item for item in index}
-    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay", "status": "partial", "generatedAt": fetched_at,
+    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick", "status": "partial", "generatedAt": fetched_at,
                 "sources": [{"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
                             {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"},
-                            {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"}],
-                "competitions": {}, "message": "Static open datasets; current fixtures and results are limited to the listed OpenFootball leagues. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
+                            {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"},
+                            {"name": "open-matchday", "url": "https://github.com/oladeeayo/open-matchday", "license": "Non-commercial use only; attribution required"},
+                            {"name": "Cornerflick", "url": "https://cornerflick.com/data", "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"}],
+                "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball and open-matchday coverage. Ekstraklasa includes Cornerflick match reports, events, lineups and stats. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for comp_id, (filename, season_label) in LEAGUES.items():
         item = by_id.get(comp_id)
@@ -342,6 +523,36 @@ def main():
             row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
             row["openfootball"] = {"available": False, "note": f"OpenFootball file could not be refreshed: {exc}"}
             print(f"OpenFootball {comp_id}: {exc}")
+    for comp_id, folder in (("premier-league", "ENG_1_premier-league"), ("ekstraklasa", "POL_1_ekstraklasa")):
+        item = by_id.get(comp_id)
+        if not item:
+            continue
+        try:
+            snap = normalize_openmatchday(item, "2026", folder, fetched_at)
+            row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
+            row["seasons"].append("2026")
+            row.setdefault("seasonLabels", {})["2026"] = item["season"]
+            row["openmatchday"] = {"available": True, "rows": len(snap["fixtures"]), "fetchedAt": fetched_at}
+            for section, state in snap["coverage"].items():
+                if state.get("available"):
+                    row[section] = state
+        except Exception as exc:
+            coverage["competitions"].setdefault(comp_id, {"seasons": []})["openmatchday"] = {"available": False, "note": str(exc)}
+            print(f"open-matchday {comp_id}: {exc}")
+    item = by_id.get("ekstraklasa")
+    if item:
+        try:
+            snap = normalize_cornerflick_ekstraklasa(item, "2026", fetched_at)
+            row = coverage["competitions"].setdefault("ekstraklasa", {"seasons": []})
+            row["seasons"].append("2026")
+            row.setdefault("seasonLabels", {})["2026"] = item["season"]
+            row["cornerflick"] = {"available": True, "rows": len(snap["fixtures"]), "fetchedAt": snap["generatedAt"]}
+            for section, state in snap["coverage"].items():
+                if state.get("available"):
+                    row[section] = state
+        except Exception as exc:
+            coverage["competitions"].setdefault("ekstraklasa", {"seasons": []})["cornerflick"] = {"available": False, "note": str(exc)}
+            print(f"Cornerflick Ekstraklasa: {exc}")
     for comp_id, seasons in STATSBOMB_SEASONS.items():
         item = by_id.get(comp_id)
         if not item:
