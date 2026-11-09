@@ -1,0 +1,5310 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "conference-league",
+    "name": "UEFA Conference League",
+    "country": "Europe"
+  },
+  "season": "2026",
+  "seasonLabel": "2026/27",
+  "provider": "open-matchday (non-commercial use; attribution required)",
+  "sourceUrl": "https://github.com/oladeeayo/open-matchday",
+  "generatedAt": "2026-11-09T22:50:59Z",
+  "fixtures": [
+    {
+      "id": "openmatchday-conference-league-2026-10-15-cska-sofia-monaco",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "away": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-egnatia-midtjylland",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "away": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-gent-aarhus",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "away": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-hajduk-split-ajax",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "away": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-kups-kuopio-trabzonspor",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "away": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-lugano-crvena-zvezda",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "away": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-mj-llby-inter-escaldes",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "away": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-panathinaikos-borac",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "away": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-riga-kairat-almaty",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "away": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-u-craiova-getafe",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "away": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-atalanta-pafos",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-brann-l-red-imps",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "away": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-brighton-kauno-algiris",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "away": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-copenhagen-braga",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "away": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-freiburg-jablonec",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "away": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-hearts-nordsj-lland",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "away": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-sint-truidense-iberia-tbilisi",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "away": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-15-twente-thun",
+      "date": "2026-10-15",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "away": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-kairat-almaty-panathinaikos",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "away": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-crvena-zvezda-copenhagen",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "away": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-getafe-lugano",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "away": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-iberia-tbilisi-mj-llby",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "away": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-inter-escaldes-u-craiova",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "away": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-jablonec-brighton",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "away": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-kauno-algiris-brann",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "away": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-nordsj-lland-cska-sofia",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "away": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-pafos-riga",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "away": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-trabzonspor-hearts",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "away": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-aarhus-egnatia",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "away": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-ajax-atalanta",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "away": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-borac-kups-kuopio",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "away": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-braga-gent",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "away": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-l-red-imps-twente",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "away": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-midtjylland-sint-truidense",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "away": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-monaco-freiburg",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "away": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-10-22-thun-hajduk-split",
+      "date": "2026-10-22",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "away": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-aarhus-braga",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "away": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-atalanta-kairat-almaty",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-crvena-zvezda-inter-escaldes",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "away": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-kups-kuopio-gent",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "away": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-l-red-imps-hajduk-split",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "away": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-midtjylland-ajax",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "away": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-mj-llby-borac",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "away": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-thun-hearts",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "away": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-trabzonspor-freiburg",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "away": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-copenhagen-iberia-tbilisi",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "away": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-getafe-brighton",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "away": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-lugano-kauno-algiris",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "away": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-monaco-nordsj-lland",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "away": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-panathinaikos-cska-sofia",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "away": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-riga-jablonec",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "away": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-sint-truidense-brann",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "away": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-twente-pafos",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "away": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-05-u-craiova-egnatia",
+      "date": "2026-11-05",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "away": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-kairat-almaty-mj-llby",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "away": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-ajax-thun",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "away": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-brann-aarhus",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "away": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-brighton-u-craiova",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "away": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-egnatia-l-red-imps",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "away": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-hearts-monaco",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "away": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-iberia-tbilisi-getafe",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "away": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-jablonec-lugano",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "away": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-kauno-algiris-riga",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "away": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-pafos-midtjylland",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "away": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-borac-atalanta",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "away": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-braga-kups-kuopio",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "away": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-cska-sofia-trabzonspor",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "away": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-freiburg-twente",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "away": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-gent-crvena-zvezda",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "away": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-hajduk-split-sint-truidense",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "away": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-inter-escaldes-copenhagen",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "away": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-11-26-nordsj-lland-panathinaikos",
+      "date": "2026-11-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "away": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-kairat-almaty-u-craiova",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "away": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-brann-braga",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "away": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-copenhagen-lugano",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "away": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-freiburg-panathinaikos",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "away": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-getafe-inter-escaldes",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "away": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-iberia-tbilisi-crvena-zvezda",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "away": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-kups-kuopio-cska-sofia",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "away": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-l-red-imps-midtjylland",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "away": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-riga-atalanta",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "away": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-trabzonspor-jablonec",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "away": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-aarhus-twente",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "away": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-brighton-monaco",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "away": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-egnatia-kauno-algiris",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "away": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-hajduk-split-nordsj-lland",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "away": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-hearts-borac",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "away": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-mj-llby-pafos",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "away": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-sint-truidense-ajax",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "away": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-10-thun-gent",
+      "date": "2026-12-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "away": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-ajax-getafe",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "ajax",
+        "name": "Ajax"
+      },
+      "away": {
+        "id": "getafe",
+        "name": "Getafe"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-atalanta-mj-llby",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "atalanta",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "mj-llby",
+        "name": "Mjällby"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-borac-riga",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borac",
+        "name": "Borac"
+      },
+      "away": {
+        "id": "riga",
+        "name": "Riga"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-braga-egnatia",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "braga",
+        "name": "Braga"
+      },
+      "away": {
+        "id": "egnatia",
+        "name": "Egnatia"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-cska-sofia-thun",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "cska-sofia",
+        "name": "CSKA Sofia"
+      },
+      "away": {
+        "id": "thun",
+        "name": "Thun"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-crvena-zvezda-trabzonspor",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "crvena-zvezda",
+        "name": "Crvena Zvezda"
+      },
+      "away": {
+        "id": "trabzonspor",
+        "name": "Trabzonspor"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-gent-brann",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "gent",
+        "name": "Gent"
+      },
+      "away": {
+        "id": "brann",
+        "name": "Brann"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-inter-escaldes-aarhus",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "inter-escaldes",
+        "name": "Inter Escaldes"
+      },
+      "away": {
+        "id": "aarhus",
+        "name": "Aarhus"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-jablonec-iberia-tbilisi",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "jablonec",
+        "name": "Jablonec"
+      },
+      "away": {
+        "id": "iberia-tbilisi",
+        "name": "Iberia Tbilisi"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-kauno-algiris-freiburg",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "kauno-algiris",
+        "name": "Kauno Žalgiris"
+      },
+      "away": {
+        "id": "freiburg",
+        "name": "Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-lugano-sint-truidense",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lugano",
+        "name": "Lugano"
+      },
+      "away": {
+        "id": "sint-truidense",
+        "name": "Sint-Truidense"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-midtjylland-hajduk-split",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "midtjylland",
+        "name": "Midtjylland"
+      },
+      "away": {
+        "id": "hajduk-split",
+        "name": "Hajduk Split"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-monaco-l-red-imps",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "monaco",
+        "name": "Monaco"
+      },
+      "away": {
+        "id": "l-red-imps",
+        "name": "L. Red Imps"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-nordsj-lland-kups-kuopio",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "nordsj-lland",
+        "name": "Nordsjælland"
+      },
+      "away": {
+        "id": "kups-kuopio",
+        "name": "KuPS Kuopio"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-pafos-hearts",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "pafos",
+        "name": "Pafos"
+      },
+      "away": {
+        "id": "hearts",
+        "name": "Hearts"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-panathinaikos-brighton",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "panathinaikos",
+        "name": "Panathinaikos"
+      },
+      "away": {
+        "id": "brighton",
+        "name": "Brighton"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-twente-kairat-almaty",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "twente",
+        "name": "Twente"
+      },
+      "away": {
+        "id": "kairat-almaty",
+        "name": "Kairat Almaty"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-conference-league-2026-12-17-u-craiova-copenhagen",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "u-craiova",
+        "name": "U. Craiova"
+      },
+      "away": {
+        "id": "copenhagen",
+        "name": "Copenhagen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "cska-sofia",
+      "name": "CSKA Sofia",
+      "country": "Europe"
+    },
+    {
+      "id": "monaco",
+      "name": "Monaco",
+      "country": "Europe"
+    },
+    {
+      "id": "egnatia",
+      "name": "Egnatia",
+      "country": "Europe"
+    },
+    {
+      "id": "midtjylland",
+      "name": "Midtjylland",
+      "country": "Europe"
+    },
+    {
+      "id": "gent",
+      "name": "Gent",
+      "country": "Europe"
+    },
+    {
+      "id": "aarhus",
+      "name": "Aarhus",
+      "country": "Europe"
+    },
+    {
+      "id": "hajduk-split",
+      "name": "Hajduk Split",
+      "country": "Europe"
+    },
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "country": "Europe"
+    },
+    {
+      "id": "kups-kuopio",
+      "name": "KuPS Kuopio",
+      "country": "Europe"
+    },
+    {
+      "id": "trabzonspor",
+      "name": "Trabzonspor",
+      "country": "Europe"
+    },
+    {
+      "id": "lugano",
+      "name": "Lugano",
+      "country": "Europe"
+    },
+    {
+      "id": "crvena-zvezda",
+      "name": "Crvena Zvezda",
+      "country": "Europe"
+    },
+    {
+      "id": "mj-llby",
+      "name": "Mjällby",
+      "country": "Europe"
+    },
+    {
+      "id": "inter-escaldes",
+      "name": "Inter Escaldes",
+      "country": "Europe"
+    },
+    {
+      "id": "panathinaikos",
+      "name": "Panathinaikos",
+      "country": "Europe"
+    },
+    {
+      "id": "borac",
+      "name": "Borac",
+      "country": "Europe"
+    },
+    {
+      "id": "riga",
+      "name": "Riga",
+      "country": "Europe"
+    },
+    {
+      "id": "kairat-almaty",
+      "name": "Kairat Almaty",
+      "country": "Europe"
+    },
+    {
+      "id": "u-craiova",
+      "name": "U. Craiova",
+      "country": "Europe"
+    },
+    {
+      "id": "getafe",
+      "name": "Getafe",
+      "country": "Europe"
+    },
+    {
+      "id": "atalanta",
+      "name": "Atalanta",
+      "country": "Europe"
+    },
+    {
+      "id": "pafos",
+      "name": "Pafos",
+      "country": "Europe"
+    },
+    {
+      "id": "brann",
+      "name": "Brann",
+      "country": "Europe"
+    },
+    {
+      "id": "l-red-imps",
+      "name": "L. Red Imps",
+      "country": "Europe"
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton",
+      "country": "Europe"
+    },
+    {
+      "id": "kauno-algiris",
+      "name": "Kauno Žalgiris",
+      "country": "Europe"
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "country": "Europe"
+    },
+    {
+      "id": "braga",
+      "name": "Braga",
+      "country": "Europe"
+    },
+    {
+      "id": "freiburg",
+      "name": "Freiburg",
+      "country": "Europe"
+    },
+    {
+      "id": "jablonec",
+      "name": "Jablonec",
+      "country": "Europe"
+    },
+    {
+      "id": "hearts",
+      "name": "Hearts",
+      "country": "Europe"
+    },
+    {
+      "id": "nordsj-lland",
+      "name": "Nordsjælland",
+      "country": "Europe"
+    },
+    {
+      "id": "sint-truidense",
+      "name": "Sint-Truidense",
+      "country": "Europe"
+    },
+    {
+      "id": "iberia-tbilisi",
+      "name": "Iberia Tbilisi",
+      "country": "Europe"
+    },
+    {
+      "id": "twente",
+      "name": "Twente",
+      "country": "Europe"
+    },
+    {
+      "id": "thun",
+      "name": "Thun",
+      "country": "Europe"
+    }
+  ],
+  "standings": [
+    {
+      "teamId": "lugano",
+      "team": "Lugano",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 11,
+      "goalsAgainst": 4,
+      "points": 9,
+      "rank": 1,
+      "goalDifference": 7
+    },
+    {
+      "teamId": "panathinaikos",
+      "team": "Panathinaikos",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 3,
+      "points": 9,
+      "rank": 2,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "twente",
+      "team": "Twente",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 8,
+      "goalsAgainst": 2,
+      "points": 9,
+      "rank": 3,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "monaco",
+      "team": "Monaco",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 1,
+      "points": 9,
+      "rank": 4,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "brighton",
+      "team": "Brighton",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 0,
+      "points": 7,
+      "rank": 5,
+      "goalDifference": 5
+    },
+    {
+      "teamId": "brann",
+      "team": "Brann",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "points": 7,
+      "rank": 6,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "copenhagen",
+      "team": "Copenhagen",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "points": 7,
+      "rank": 7,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "u-craiova",
+      "team": "U. Craiova",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 2,
+      "points": 7,
+      "rank": 8,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "mj-llby",
+      "team": "Mjällby",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "points": 7,
+      "rank": 9,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "sint-truidense",
+      "team": "Sint-Truidense",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 1,
+      "points": 7,
+      "rank": 10,
+      "goalDifference": 3
+    },
+    {
+      "teamId": "ajax",
+      "team": "Ajax",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 3,
+      "points": 6,
+      "rank": 11,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "trabzonspor",
+      "team": "Trabzonspor",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
+      "points": 6,
+      "rank": 12,
+      "goalDifference": 3
+    },
+    {
+      "teamId": "hajduk-split",
+      "team": "Hajduk Split",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 2,
+      "points": 6,
+      "rank": 13,
+      "goalDifference": 1
+    },
+    {
+      "teamId": "freiburg",
+      "team": "Freiburg",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "points": 6,
+      "rank": 14,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "crvena-zvezda",
+      "team": "Crvena Zvezda",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
+      "points": 4,
+      "rank": 15,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "atalanta",
+      "team": "Atalanta",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 4,
+      "points": 4,
+      "rank": 16,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "braga",
+      "team": "Braga",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 3,
+      "points": 4,
+      "rank": 17,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "gent",
+      "team": "Gent",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "points": 4,
+      "rank": 18,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "riga",
+      "team": "Riga",
+      "played": 3,
+      "won": 0,
+      "drawn": 3,
+      "lost": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "points": 3,
+      "rank": 19,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "thun",
+      "team": "Thun",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "points": 3,
+      "rank": 20,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "borac",
+      "team": "Borac",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "points": 3,
+      "rank": 21,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "l-red-imps",
+      "team": "L. Red Imps",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 6,
+      "points": 3,
+      "rank": 22,
+      "goalDifference": -3
+    },
+    {
+      "teamId": "jablonec",
+      "team": "Jablonec",
+      "played": 3,
+      "won": 0,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "points": 2,
+      "rank": 23,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "aarhus",
+      "team": "Aarhus",
+      "played": 3,
+      "won": 0,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "points": 2,
+      "rank": 24,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "nordsj-lland",
+      "team": "Nordsjælland",
+      "played": 3,
+      "won": 0,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "points": 2,
+      "rank": 25,
+      "goalDifference": -2
+    },
+    {
+      "teamId": "egnatia",
+      "team": "Egnatia",
+      "played": 3,
+      "won": 0,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "points": 2,
+      "rank": 26,
+      "goalDifference": -2
+    },
+    {
+      "teamId": "kairat-almaty",
+      "team": "Kairat Almaty",
+      "played": 3,
+      "won": 0,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "points": 2,
+      "rank": 27,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "cska-sofia",
+      "team": "CSKA Sofia",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "points": 1,
+      "rank": 28,
+      "goalDifference": -2
+    },
+    {
+      "teamId": "iberia-tbilisi",
+      "team": "Iberia Tbilisi",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 5,
+      "points": 1,
+      "rank": 29,
+      "goalDifference": -3
+    },
+    {
+      "teamId": "getafe",
+      "team": "Getafe",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "points": 1,
+      "rank": 30,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "pafos",
+      "team": "Pafos",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "points": 1,
+      "rank": 31,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "kups-kuopio",
+      "team": "KuPS Kuopio",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 6,
+      "points": 1,
+      "rank": 32,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "hearts",
+      "team": "Hearts",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 6,
+      "points": 1,
+      "rank": 33,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "midtjylland",
+      "team": "Midtjylland",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
+      "points": 1,
+      "rank": 34,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "inter-escaldes",
+      "team": "Inter Escaldes",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 7,
+      "points": 0,
+      "rank": 35,
+      "goalDifference": -5
+    },
+    {
+      "teamId": "kauno-algiris",
+      "team": "Kauno Žalgiris",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 1,
+      "goalsAgainst": 11,
+      "points": 0,
+      "rank": 36,
+      "goalDifference": -10
+    }
+  ],
+  "teamStats": {
+    "cska-sofia": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "monaco": {
+      "fixtures": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "egnatia": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "midtjylland": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "gent": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "aarhus": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "hajduk-split": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "ajax": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "kups-kuopio": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "trabzonspor": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "lugano": {
+      "fixtures": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "crvena-zvezda": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "mj-llby": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "inter-escaldes": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "panathinaikos": {
+      "fixtures": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "borac": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "riga": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 3,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "kairat-almaty": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "u-craiova": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "getafe": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "atalanta": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "pafos": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "brann": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "l-red-imps": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "brighton": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "kauno-algiris": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "copenhagen": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "braga": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "freiburg": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "jablonec": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "hearts": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "nordsj-lland": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sint-truidense": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "iberia-tbilisi": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "twente": {
+      "fixtures": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "thun": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  "fixtureStats": {},
+  "events": {
+    "openmatchday-conference-league-2026-10-15-cska-sofia-monaco": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-hajduk-split-ajax": [
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-kups-kuopio-trabzonspor": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 96
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-lugano-crvena-zvezda": [
+      {
+        "time": {
+          "elapsed": 25
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 84
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 89
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-mj-llby-inter-escaldes": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-panathinaikos-borac": [
+      {
+        "time": {
+          "elapsed": 10
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-riga-kairat-almaty": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-u-craiova-getafe": [
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-atalanta-pafos": [
+      {
+        "time": {
+          "elapsed": 1
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 18
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-brann-l-red-imps": [
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-brighton-kauno-algiris": [
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-copenhagen-braga": [
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-freiburg-jablonec": [
+      {
+        "time": {
+          "elapsed": 28
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-hearts-nordsj-lland": [
+      {
+        "time": {
+          "elapsed": 33
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-sint-truidense-iberia-tbilisi": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-15-twente-thun": [
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-kairat-almaty-panathinaikos": [
+      {
+        "time": {
+          "elapsed": 6
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-crvena-zvezda-copenhagen": [
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-getafe-lugano": [
+      {
+        "time": {
+          "elapsed": 2
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 26
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 92
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-iberia-tbilisi-mj-llby": [
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-inter-escaldes-u-craiova": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-kauno-algiris-brann": [
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 40
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-nordsj-lland-cska-sofia": [
+      {
+        "time": {
+          "elapsed": 8
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-pafos-riga": [
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 76
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-trabzonspor-hearts": [
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-aarhus-egnatia": [
+      {
+        "time": {
+          "elapsed": 13
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-ajax-atalanta": [
+      {
+        "time": {
+          "elapsed": 87
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-borac-kups-kuopio": [
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-braga-gent": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 76
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-l-red-imps-twente": [
+      {
+        "time": {
+          "elapsed": 19
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-monaco-freiburg": [
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-10-22-thun-hajduk-split": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-atalanta-kairat-almaty": [
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-crvena-zvezda-inter-escaldes": [
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 92
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-l-red-imps-hajduk-split": [
+      {
+        "time": {
+          "elapsed": 89
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-midtjylland-ajax": [
+      {
+        "time": {
+          "elapsed": 28
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-mj-llby-borac": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-thun-hearts": [
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 56
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-trabzonspor-freiburg": [
+      {
+        "time": {
+          "elapsed": 14
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-copenhagen-iberia-tbilisi": [
+      {
+        "time": {
+          "elapsed": 19
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 30
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-lugano-kauno-algiris": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-monaco-nordsj-lland": [
+      {
+        "time": {
+          "elapsed": 33
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-panathinaikos-cska-sofia": [
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-riga-jablonec": [
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-sint-truidense-brann": [
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-twente-pafos": [
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 76
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-conference-league-2026-11-05-u-craiova-egnatia": [
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ]
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 108,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "standings": {
+      "available": true,
+      "rows": 36,
+      "fetchedAt": "2026-11-09T22:50:59Z",
+      "note": "Calculated from the source's completed match results."
+    },
+    "teams": {
+      "available": true,
+      "rows": 36,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Scorer names are included only where the source provides them."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "Goal totals aggregated from published goal rows."
+    },
+    "fixtureStats": {
+      "available": false,
+      "rows": 0,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    }
+  }
+}

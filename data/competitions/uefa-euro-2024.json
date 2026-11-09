@@ -2659,96 +2659,6 @@
         "total": 1
       }
     },
-    "op-team-336": {
-      "fixtures": {
-        "played": 5
-      },
-      "goals": {
-        "for": {
-          "total": 11
-        },
-        "against": {
-          "total": 4
-        }
-      },
-      "shots": 96,
-      "xg": 9.72,
-      "passes": 3388,
-      "tackles": 75,
-      "interceptions": 32
-    },
-    "op-team-343": {
-      "fixtures": {
-        "played": 4
-      },
-      "goals": {
-        "for": {
-          "total": 3
-        },
-        "against": {
-          "total": 5
-        }
-      },
-      "shots": 45,
-      "xg": 3.42,
-      "passes": 2488,
-      "tackles": 66,
-      "interceptions": 33
-    },
-    "op-team-324": {
-      "fixtures": {
-        "played": 4
-      },
-      "goals": {
-        "for": {
-          "total": 7
-        },
-        "against": {
-          "total": 6
-        }
-      },
-      "shots": 52,
-      "xg": 5.53,
-      "passes": 2067,
-      "tackles": 73,
-      "interceptions": 34
-    },
-    "op-team-337": {
-      "fixtures": {
-        "played": 3
-      },
-      "goals": {
-        "for": {
-          "total": 3
-        },
-        "against": {
-          "total": 6
-        }
-      },
-      "shots": 44,
-      "xg": 6.74,
-      "passes": 1779,
-      "tackles": 46,
-      "interceptions": 37
-    },
-    "op-team-413": {
-      "fixtures": {
-        "played": 4
-      },
-      "goals": {
-        "for": {
-          "total": 5
-        },
-        "against": {
-          "total": 8
-        }
-      },
-      "shots": 30,
-      "xg": 4.16,
-      "passes": 1406,
-      "tackles": 83,
-      "interceptions": 24
-    },
     "op-team-338": {
       "fixtures": {
         "played": 7
@@ -2839,25 +2749,61 @@
       "tackles": 54,
       "interceptions": 24
     },
-    "op-team-464": {
+    "op-team-336": {
+      "fixtures": {
+        "played": 5
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "shots": 96,
+      "xg": 9.72,
+      "passes": 3388,
+      "tackles": 75,
+      "interceptions": 32
+    },
+    "op-team-343": {
       "fixtures": {
         "played": 4
       },
       "goals": {
         "for": {
-          "total": 2
+          "total": 3
         },
         "against": {
-          "total": 2
+          "total": 5
         }
       },
-      "shots": 36,
-      "xg": 3.13,
-      "passes": 1358,
-      "tackles": 84,
-      "interceptions": 32
+      "shots": 45,
+      "xg": 3.42,
+      "passes": 2488,
+      "tackles": 66,
+      "interceptions": 33
     },
-    "op-team-342": {
+    "op-team-324": {
+      "fixtures": {
+        "played": 4
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "shots": 52,
+      "xg": 5.53,
+      "passes": 2067,
+      "tackles": 73,
+      "interceptions": 34
+    },
+    "op-team-337": {
       "fixtures": {
         "played": 3
       },
@@ -2869,65 +2815,29 @@
           "total": 6
         }
       },
-      "shots": 37,
-      "xg": 4.14,
-      "passes": 1198,
-      "tackles": 41,
-      "interceptions": 23
+      "shots": 44,
+      "xg": 6.74,
+      "passes": 1779,
+      "tackles": 46,
+      "interceptions": 37
     },
-    "op-team-412": {
+    "op-team-413": {
       "fixtures": {
         "played": 4
-      },
-      "goals": {
-        "for": {
-          "total": 4
-        },
-        "against": {
-          "total": 6
-        }
-      },
-      "shots": 37,
-      "xg": 3.63,
-      "passes": 1320,
-      "tackles": 48,
-      "interceptions": 25
-    },
-    "op-team-340": {
-      "fixtures": {
-        "played": 5
       },
       "goals": {
         "for": {
           "total": 5
         },
         "against": {
-          "total": 3
+          "total": 8
         }
       },
-      "shots": 88,
-      "xg": 8.49,
-      "passes": 3872,
+      "shots": 30,
+      "xg": 4.16,
+      "passes": 1406,
       "tackles": 83,
-      "interceptions": 41
-    },
-    "op-team-335": {
-      "fixtures": {
-        "played": 6
-      },
-      "goals": {
-        "for": {
-          "total": 10
-        },
-        "against": {
-          "total": 7
-        }
-      },
-      "shots": 82,
-      "xg": 8.58,
-      "passes": 3093,
-      "tackles": 75,
-      "interceptions": 37
+      "interceptions": 24
     },
     "op-team-327": {
       "fixtures": {
@@ -3090,6 +3000,96 @@
       "passes": 4492,
       "tackles": 90,
       "interceptions": 43
+    },
+    "op-team-464": {
+      "fixtures": {
+        "played": 4
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "shots": 36,
+      "xg": 3.13,
+      "passes": 1358,
+      "tackles": 84,
+      "interceptions": 32
+    },
+    "op-team-342": {
+      "fixtures": {
+        "played": 3
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "shots": 37,
+      "xg": 4.14,
+      "passes": 1198,
+      "tackles": 41,
+      "interceptions": 23
+    },
+    "op-team-412": {
+      "fixtures": {
+        "played": 4
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "shots": 37,
+      "xg": 3.63,
+      "passes": 1320,
+      "tackles": 48,
+      "interceptions": 25
+    },
+    "op-team-340": {
+      "fixtures": {
+        "played": 5
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "shots": 88,
+      "xg": 8.49,
+      "passes": 3872,
+      "tackles": 83,
+      "interceptions": 41
+    },
+    "op-team-335": {
+      "fixtures": {
+        "played": 6
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "shots": 82,
+      "xg": 8.58,
+      "passes": 3093,
+      "tackles": 75,
+      "interceptions": 37
     }
   },
   "players": [

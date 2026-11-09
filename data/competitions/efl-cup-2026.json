@@ -1,0 +1,4745 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "efl-cup",
+    "name": "EFL Cup",
+    "country": "England"
+  },
+  "season": "2026",
+  "seasonLabel": "2026/27",
+  "provider": "open-matchday (non-commercial use; attribution required)",
+  "sourceUrl": "https://github.com/oladeeayo/open-matchday",
+  "generatedAt": "2026-11-09T22:50:59Z",
+  "fixtures": [
+    {
+      "id": "openmatchday-efl-cup-2026-08-01-tranmere-rovers-rochdale",
+      "date": "2026-08-01",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "tranmere-rovers",
+        "name": "Tranmere Rovers"
+      },
+      "away": {
+        "id": "rochdale",
+        "name": "Rochdale"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-03-york-city-crawley-town",
+      "date": "2026-08-03",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "york-city",
+        "name": "York City"
+      },
+      "away": {
+        "id": "crawley-town",
+        "name": "Crawley Town"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-06-bristol-city-walsall",
+      "date": "2026-08-06",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bristol-city",
+        "name": "Bristol City"
+      },
+      "away": {
+        "id": "walsall",
+        "name": "Walsall"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-07-wolverhampton-wanderers-port-vale",
+      "date": "2026-08-07",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "wolverhampton-wanderers",
+        "name": "Wolverhampton Wanderers"
+      },
+      "away": {
+        "id": "port-vale",
+        "name": "Port Vale"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-07-wycombe-wanderers-stevenage",
+      "date": "2026-08-07",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "wycombe-wanderers",
+        "name": "Wycombe Wanderers"
+      },
+      "away": {
+        "id": "stevenage",
+        "name": "Stevenage"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-07-middlesbrough-wrexham",
+      "date": "2026-08-07",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "middlesbrough",
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "id": "wrexham",
+        "name": "Wrexham"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-cambridge-united-barnet",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cambridge-united",
+        "name": "Cambridge United"
+      },
+      "away": {
+        "id": "barnet",
+        "name": "Barnet"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-queens-park-rangers-millwall",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "queens-park-rangers",
+        "name": "Queens Park Rangers"
+      },
+      "away": {
+        "id": "millwall",
+        "name": "Millwall"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-afc-wimbledon-newport-county",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "afc-wimbledon",
+        "name": "AFC Wimbledon"
+      },
+      "away": {
+        "id": "newport-county",
+        "name": "Newport County"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-barnsley-wigan-athletic",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "barnsley",
+        "name": "Barnsley"
+      },
+      "away": {
+        "id": "wigan-athletic",
+        "name": "Wigan Athletic"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-bradford-city-rochdale",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bradford-city",
+        "name": "Bradford City"
+      },
+      "away": {
+        "id": "rochdale",
+        "name": "Rochdale"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-bristol-rovers-peterborough-united",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bristol-rovers",
+        "name": "Bristol Rovers"
+      },
+      "away": {
+        "id": "peterborough-united",
+        "name": "Peterborough United"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-bromley-reading",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bromley",
+        "name": "Bromley"
+      },
+      "away": {
+        "id": "reading",
+        "name": "Reading"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-burnley-notts-county",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "burnley",
+        "name": "Burnley"
+      },
+      "away": {
+        "id": "notts-county",
+        "name": "Notts County"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-burton-albion-blackburn-rovers",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "burton-albion",
+        "name": "Burton Albion"
+      },
+      "away": {
+        "id": "blackburn-rovers",
+        "name": "Blackburn Rovers"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-cardiff-city-swindon-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cardiff-city",
+        "name": "Cardiff City"
+      },
+      "away": {
+        "id": "swindon-town",
+        "name": "Swindon Town"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-crewe-alexandra-accrington-stanley",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "crewe-alexandra",
+        "name": "Crewe Alexandra"
+      },
+      "away": {
+        "id": "accrington-stanley",
+        "name": "Accrington Stanley"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-derby-county-lincoln-city",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "derby-county",
+        "name": "Derby County"
+      },
+      "away": {
+        "id": "lincoln-city",
+        "name": "Lincoln City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-fleetwood-town-chesterfield",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fleetwood-town",
+        "name": "Fleetwood Town"
+      },
+      "away": {
+        "id": "chesterfield",
+        "name": "Chesterfield"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-gillingham-luton-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "gillingham",
+        "name": "Gillingham"
+      },
+      "away": {
+        "id": "luton-town",
+        "name": "Luton Town"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-grimsby-town-blackpool",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "grimsby-town",
+        "name": "Grimsby Town"
+      },
+      "away": {
+        "id": "blackpool",
+        "name": "Blackpool"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-leicester-city-northampton-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "leicester-city",
+        "name": "Leicester City"
+      },
+      "away": {
+        "id": "northampton-town",
+        "name": "Northampton Town"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-leyton-orient-oxford-united",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "leyton-orient",
+        "name": "Leyton Orient"
+      },
+      "away": {
+        "id": "oxford-united",
+        "name": "Oxford United"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-norwich-city-milton-keynes-dons",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "norwich-city",
+        "name": "Norwich City"
+      },
+      "away": {
+        "id": "milton-keynes-dons",
+        "name": "Milton Keynes Dons"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-preston-north-end-huddersfield-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "preston-north-end",
+        "name": "Preston North End"
+      },
+      "away": {
+        "id": "huddersfield-town",
+        "name": "Huddersfield Town"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-salford-city-shrewsbury-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "salford-city",
+        "name": "Salford City"
+      },
+      "away": {
+        "id": "shrewsbury-town",
+        "name": "Shrewsbury Town"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-sheffield-wednesday-bolton-wanderers",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sheffield-wednesday",
+        "name": "Sheffield Wednesday"
+      },
+      "away": {
+        "id": "bolton-wanderers",
+        "name": "Bolton Wanderers"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-stockport-county-doncaster-rovers",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stockport-county",
+        "name": "Stockport County"
+      },
+      "away": {
+        "id": "doncaster-rovers",
+        "name": "Doncaster Rovers"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-stoke-city-oldham-athletic",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stoke-city",
+        "name": "Stoke City"
+      },
+      "away": {
+        "id": "oldham-athletic",
+        "name": "Oldham Athletic"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-swansea-city-birmingham-city",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "swansea-city",
+        "name": "Swansea City"
+      },
+      "away": {
+        "id": "birmingham-city",
+        "name": "Birmingham City"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-watford-crawley-town",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "watford",
+        "name": "Watford"
+      },
+      "away": {
+        "id": "crawley-town",
+        "name": "Crawley Town"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-west-ham-united-portsmouth",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "west-ham-united",
+        "name": "West Ham United"
+      },
+      "away": {
+        "id": "portsmouth",
+        "name": "Portsmouth"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-cheltenham-town-charlton-athletic",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cheltenham-town",
+        "name": "Cheltenham Town"
+      },
+      "away": {
+        "id": "charlton-athletic",
+        "name": "Charlton Athletic"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-colchester-united-southampton",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "colchester-united",
+        "name": "Colchester United"
+      },
+      "away": {
+        "id": "southampton",
+        "name": "Southampton"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-08-rotherham-united-west-bromwich-albion",
+      "date": "2026-08-08",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "rotherham-united",
+        "name": "Rotherham United"
+      },
+      "away": {
+        "id": "west-bromwich-albion",
+        "name": "West Bromwich Albion"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-09-mansfield-town-sheffield-united",
+      "date": "2026-08-09",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "mansfield-town",
+        "name": "Mansfield Town"
+      },
+      "away": {
+        "id": "sheffield-united",
+        "name": "Sheffield United"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-10-plymouth-argyle-exeter-city",
+      "date": "2026-08-10",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "plymouth-argyle",
+        "name": "Plymouth Argyle"
+      },
+      "away": {
+        "id": "exeter-city",
+        "name": "Exeter City"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-cardiff-city-norwich-city",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cardiff-city",
+        "name": "Cardiff City"
+      },
+      "away": {
+        "id": "norwich-city",
+        "name": "Norwich City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-doncaster-rovers-middlesbrough",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "doncaster-rovers",
+        "name": "Doncaster Rovers"
+      },
+      "away": {
+        "id": "middlesbrough",
+        "name": "Middlesbrough"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-barnsley-crewe-alexandra",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "barnsley",
+        "name": "Barnsley"
+      },
+      "away": {
+        "id": "crewe-alexandra",
+        "name": "Crewe Alexandra"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-blackburn-rovers-sheffield-united",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "blackburn-rovers",
+        "name": "Blackburn Rovers"
+      },
+      "away": {
+        "id": "sheffield-united",
+        "name": "Sheffield United"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-blackpool-lincoln-city",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "blackpool",
+        "name": "Blackpool"
+      },
+      "away": {
+        "id": "lincoln-city",
+        "name": "Lincoln City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-cambridge-united-millwall",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "cambridge-united",
+        "name": "Cambridge United"
+      },
+      "away": {
+        "id": "millwall",
+        "name": "Millwall"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-fleetwood-town-shrewsbury-town",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fleetwood-town",
+        "name": "Fleetwood Town"
+      },
+      "away": {
+        "id": "shrewsbury-town",
+        "name": "Shrewsbury Town"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-ipswich-town-leicester-city",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "ipswich-town",
+        "name": "Ipswich Town"
+      },
+      "away": {
+        "id": "leicester-city",
+        "name": "Leicester City"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-plymouth-argyle-coventry-city",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "plymouth-argyle",
+        "name": "Plymouth Argyle"
+      },
+      "away": {
+        "id": "coventry-city",
+        "name": "Coventry City"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-sheffield-wednesday-wolverhampton-wanderers",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sheffield-wednesday",
+        "name": "Sheffield Wednesday"
+      },
+      "away": {
+        "id": "wolverhampton-wanderers",
+        "name": "Wolverhampton Wanderers"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-southampton-west-ham-united",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "southampton",
+        "name": "Southampton"
+      },
+      "away": {
+        "id": "west-ham-united",
+        "name": "West Ham United"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-stevenage-reading",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stevenage",
+        "name": "Stevenage"
+      },
+      "away": {
+        "id": "reading",
+        "name": "Reading"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-stoke-city-hull-city",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stoke-city",
+        "name": "Stoke City"
+      },
+      "away": {
+        "id": "hull-city",
+        "name": "Hull City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-walsall-leyton-orient",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "walsall",
+        "name": "Walsall"
+      },
+      "away": {
+        "id": "leyton-orient",
+        "name": "Leyton Orient"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-watford-peterborough-united",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "watford",
+        "name": "Watford"
+      },
+      "away": {
+        "id": "peterborough-united",
+        "name": "Peterborough United"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-birmingham-city-brentford",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "birmingham-city",
+        "name": "Birmingham City"
+      },
+      "away": {
+        "id": "brentford",
+        "name": "Brentford"
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-25-nottingham-forest-leeds-united",
+      "date": "2026-08-25",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "nottingham-forest",
+        "name": "Nottingham Forest"
+      },
+      "away": {
+        "id": "leeds-united",
+        "name": "Leeds United"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-26-bradford-city-burnley",
+      "date": "2026-08-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bradford-city",
+        "name": "Bradford City"
+      },
+      "away": {
+        "id": "burnley",
+        "name": "Burnley"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-26-newcastle-united-west-bromwich-albion",
+      "date": "2026-08-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "newcastle-united",
+        "name": "Newcastle United"
+      },
+      "away": {
+        "id": "west-bromwich-albion",
+        "name": "West Bromwich Albion"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-26-tottenham-hotspur-charlton-athletic",
+      "date": "2026-08-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "tottenham-hotspur",
+        "name": "Tottenham Hotspur"
+      },
+      "away": {
+        "id": "charlton-athletic",
+        "name": "Charlton Athletic"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-26-preston-north-end-everton",
+      "date": "2026-08-26",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "preston-north-end",
+        "name": "Preston North End"
+      },
+      "away": {
+        "id": "everton",
+        "name": "Everton"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-27-chelsea-luton-town",
+      "date": "2026-08-27",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "chelsea",
+        "name": "Chelsea"
+      },
+      "away": {
+        "id": "luton-town",
+        "name": "Luton Town"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-08-27-fulham-afc-wimbledon",
+      "date": "2026-08-27",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fulham",
+        "name": "Fulham"
+      },
+      "away": {
+        "id": "afc-wimbledon",
+        "name": "AFC Wimbledon"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-08-afc-bournemouth-lincoln-city",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "afc-bournemouth",
+        "name": "AFC Bournemouth"
+      },
+      "away": {
+        "id": "lincoln-city",
+        "name": "Lincoln City"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-08-crystal-palace-middlesbrough",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "crystal-palace",
+        "name": "Crystal Palace"
+      },
+      "away": {
+        "id": "middlesbrough",
+        "name": "Middlesbrough"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-08-leyton-orient-bradford-city",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "leyton-orient",
+        "name": "Leyton Orient"
+      },
+      "away": {
+        "id": "bradford-city",
+        "name": "Bradford City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-08-sunderland-hull-city",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sunderland",
+        "name": "Sunderland"
+      },
+      "away": {
+        "id": "hull-city",
+        "name": "Hull City"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-08-millwall-newcastle-united",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "millwall",
+        "name": "Millwall"
+      },
+      "away": {
+        "id": "newcastle-united",
+        "name": "Newcastle United"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-09-chelsea-leeds-united",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "chelsea",
+        "name": "Chelsea"
+      },
+      "away": {
+        "id": "leeds-united",
+        "name": "Leeds United"
+      },
+      "goals": {
+        "home": 6,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-15-peterborough-united-barnsley",
+      "date": "2026-09-15",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "peterborough-united",
+        "name": "Peterborough United"
+      },
+      "away": {
+        "id": "barnsley",
+        "name": "Barnsley"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-15-west-ham-united-fulham",
+      "date": "2026-09-15",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "west-ham-united",
+        "name": "West Ham United"
+      },
+      "away": {
+        "id": "fulham",
+        "name": "Fulham"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-15-ipswich-town-arsenal",
+      "date": "2026-09-15",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "ipswich-town",
+        "name": "Ipswich Town"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-15-liverpool-tottenham-hotspur",
+      "date": "2026-09-15",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "tottenham-hotspur",
+        "name": "Tottenham Hotspur"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-15-reading-brentford",
+      "date": "2026-09-15",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "reading",
+        "name": "Reading"
+      },
+      "away": {
+        "id": "brentford",
+        "name": "Brentford"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-16-everton-wolverhampton-wanderers",
+      "date": "2026-09-16",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "everton",
+        "name": "Everton"
+      },
+      "away": {
+        "id": "wolverhampton-wanderers",
+        "name": "Wolverhampton Wanderers"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-16-fleetwood-town-sheffield-united",
+      "date": "2026-09-16",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fleetwood-town",
+        "name": "Fleetwood Town"
+      },
+      "away": {
+        "id": "sheffield-united",
+        "name": "Sheffield United"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-16-coventry-city-aston-villa",
+      "date": "2026-09-16",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "coventry-city",
+        "name": "Coventry City"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-16-manchester-united-brighton-hove-albion",
+      "date": "2026-09-16",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "manchester-united",
+        "name": "Manchester United"
+      },
+      "away": {
+        "id": "brighton-hove-albion",
+        "name": "Brighton & Hove Albion"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-09-17-manchester-city-norwich-city",
+      "date": "2026-09-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "manchester-city",
+        "name": "Manchester City"
+      },
+      "away": {
+        "id": "norwich-city",
+        "name": "Norwich City"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-27-bradford-city-peterborough-united",
+      "date": "2026-10-27",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bradford-city",
+        "name": "Bradford City"
+      },
+      "away": {
+        "id": "peterborough-united",
+        "name": "Peterborough United"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-27-fleetwood-town-arsenal",
+      "date": "2026-10-27",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fleetwood-town",
+        "name": "Fleetwood Town"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-28-manchester-city-brighton-hove-albion",
+      "date": "2026-10-28",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "manchester-city",
+        "name": "Manchester City"
+      },
+      "away": {
+        "id": "brighton-hove-albion",
+        "name": "Brighton & Hove Albion"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-28-afc-bournemouth-aston-villa",
+      "date": "2026-10-28",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "afc-bournemouth",
+        "name": "AFC Bournemouth"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-28-fulham-crystal-palace",
+      "date": "2026-10-28",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fulham",
+        "name": "Fulham"
+      },
+      "away": {
+        "id": "crystal-palace",
+        "name": "Crystal Palace"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-28-sunderland-brentford",
+      "date": "2026-10-28",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sunderland",
+        "name": "Sunderland"
+      },
+      "away": {
+        "id": "brentford",
+        "name": "Brentford"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-28-liverpool-chelsea",
+      "date": "2026-10-28",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "chelsea",
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-10-29-everton-newcastle-united",
+      "date": "2026-10-29",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "everton",
+        "name": "Everton"
+      },
+      "away": {
+        "id": "newcastle-united",
+        "name": "Newcastle United"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-12-15-manchester-city-bradford-city",
+      "date": "2026-12-15",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "manchester-city",
+        "name": "Manchester City"
+      },
+      "away": {
+        "id": "bradford-city",
+        "name": "Bradford City"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-12-16-crystal-palace-sunderland",
+      "date": "2026-12-16",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "crystal-palace",
+        "name": "Crystal Palace"
+      },
+      "away": {
+        "id": "sunderland",
+        "name": "Sunderland"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-12-16-liverpool-afc-bournemouth",
+      "date": "2026-12-16",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "afc-bournemouth",
+        "name": "AFC Bournemouth"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-efl-cup-2026-12-17-fleetwood-town-everton",
+      "date": "2026-12-17",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fleetwood-town",
+        "name": "Fleetwood Town"
+      },
+      "away": {
+        "id": "everton",
+        "name": "Everton"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "tranmere-rovers",
+      "name": "Tranmere Rovers",
+      "country": "England"
+    },
+    {
+      "id": "rochdale",
+      "name": "Rochdale",
+      "country": "England"
+    },
+    {
+      "id": "york-city",
+      "name": "York City",
+      "country": "England"
+    },
+    {
+      "id": "crawley-town",
+      "name": "Crawley Town",
+      "country": "England"
+    },
+    {
+      "id": "bristol-city",
+      "name": "Bristol City",
+      "country": "England"
+    },
+    {
+      "id": "walsall",
+      "name": "Walsall",
+      "country": "England"
+    },
+    {
+      "id": "wolverhampton-wanderers",
+      "name": "Wolverhampton Wanderers",
+      "country": "England"
+    },
+    {
+      "id": "port-vale",
+      "name": "Port Vale",
+      "country": "England"
+    },
+    {
+      "id": "wycombe-wanderers",
+      "name": "Wycombe Wanderers",
+      "country": "England"
+    },
+    {
+      "id": "stevenage",
+      "name": "Stevenage",
+      "country": "England"
+    },
+    {
+      "id": "middlesbrough",
+      "name": "Middlesbrough",
+      "country": "England"
+    },
+    {
+      "id": "wrexham",
+      "name": "Wrexham",
+      "country": "England"
+    },
+    {
+      "id": "cambridge-united",
+      "name": "Cambridge United",
+      "country": "England"
+    },
+    {
+      "id": "barnet",
+      "name": "Barnet",
+      "country": "England"
+    },
+    {
+      "id": "queens-park-rangers",
+      "name": "Queens Park Rangers",
+      "country": "England"
+    },
+    {
+      "id": "millwall",
+      "name": "Millwall",
+      "country": "England"
+    },
+    {
+      "id": "afc-wimbledon",
+      "name": "AFC Wimbledon",
+      "country": "England"
+    },
+    {
+      "id": "newport-county",
+      "name": "Newport County",
+      "country": "England"
+    },
+    {
+      "id": "barnsley",
+      "name": "Barnsley",
+      "country": "England"
+    },
+    {
+      "id": "wigan-athletic",
+      "name": "Wigan Athletic",
+      "country": "England"
+    },
+    {
+      "id": "bradford-city",
+      "name": "Bradford City",
+      "country": "England"
+    },
+    {
+      "id": "bristol-rovers",
+      "name": "Bristol Rovers",
+      "country": "England"
+    },
+    {
+      "id": "peterborough-united",
+      "name": "Peterborough United",
+      "country": "England"
+    },
+    {
+      "id": "bromley",
+      "name": "Bromley",
+      "country": "England"
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "country": "England"
+    },
+    {
+      "id": "burnley",
+      "name": "Burnley",
+      "country": "England"
+    },
+    {
+      "id": "notts-county",
+      "name": "Notts County",
+      "country": "England"
+    },
+    {
+      "id": "burton-albion",
+      "name": "Burton Albion",
+      "country": "England"
+    },
+    {
+      "id": "blackburn-rovers",
+      "name": "Blackburn Rovers",
+      "country": "England"
+    },
+    {
+      "id": "cardiff-city",
+      "name": "Cardiff City",
+      "country": "England"
+    },
+    {
+      "id": "swindon-town",
+      "name": "Swindon Town",
+      "country": "England"
+    },
+    {
+      "id": "crewe-alexandra",
+      "name": "Crewe Alexandra",
+      "country": "England"
+    },
+    {
+      "id": "accrington-stanley",
+      "name": "Accrington Stanley",
+      "country": "England"
+    },
+    {
+      "id": "derby-county",
+      "name": "Derby County",
+      "country": "England"
+    },
+    {
+      "id": "lincoln-city",
+      "name": "Lincoln City",
+      "country": "England"
+    },
+    {
+      "id": "fleetwood-town",
+      "name": "Fleetwood Town",
+      "country": "England"
+    },
+    {
+      "id": "chesterfield",
+      "name": "Chesterfield",
+      "country": "England"
+    },
+    {
+      "id": "gillingham",
+      "name": "Gillingham",
+      "country": "England"
+    },
+    {
+      "id": "luton-town",
+      "name": "Luton Town",
+      "country": "England"
+    },
+    {
+      "id": "grimsby-town",
+      "name": "Grimsby Town",
+      "country": "England"
+    },
+    {
+      "id": "blackpool",
+      "name": "Blackpool",
+      "country": "England"
+    },
+    {
+      "id": "leicester-city",
+      "name": "Leicester City",
+      "country": "England"
+    },
+    {
+      "id": "northampton-town",
+      "name": "Northampton Town",
+      "country": "England"
+    },
+    {
+      "id": "leyton-orient",
+      "name": "Leyton Orient",
+      "country": "England"
+    },
+    {
+      "id": "oxford-united",
+      "name": "Oxford United",
+      "country": "England"
+    },
+    {
+      "id": "norwich-city",
+      "name": "Norwich City",
+      "country": "England"
+    },
+    {
+      "id": "milton-keynes-dons",
+      "name": "Milton Keynes Dons",
+      "country": "England"
+    },
+    {
+      "id": "preston-north-end",
+      "name": "Preston North End",
+      "country": "England"
+    },
+    {
+      "id": "huddersfield-town",
+      "name": "Huddersfield Town",
+      "country": "England"
+    },
+    {
+      "id": "salford-city",
+      "name": "Salford City",
+      "country": "England"
+    },
+    {
+      "id": "shrewsbury-town",
+      "name": "Shrewsbury Town",
+      "country": "England"
+    },
+    {
+      "id": "sheffield-wednesday",
+      "name": "Sheffield Wednesday",
+      "country": "England"
+    },
+    {
+      "id": "bolton-wanderers",
+      "name": "Bolton Wanderers",
+      "country": "England"
+    },
+    {
+      "id": "stockport-county",
+      "name": "Stockport County",
+      "country": "England"
+    },
+    {
+      "id": "doncaster-rovers",
+      "name": "Doncaster Rovers",
+      "country": "England"
+    },
+    {
+      "id": "stoke-city",
+      "name": "Stoke City",
+      "country": "England"
+    },
+    {
+      "id": "oldham-athletic",
+      "name": "Oldham Athletic",
+      "country": "England"
+    },
+    {
+      "id": "swansea-city",
+      "name": "Swansea City",
+      "country": "England"
+    },
+    {
+      "id": "birmingham-city",
+      "name": "Birmingham City",
+      "country": "England"
+    },
+    {
+      "id": "watford",
+      "name": "Watford",
+      "country": "England"
+    },
+    {
+      "id": "west-ham-united",
+      "name": "West Ham United",
+      "country": "England"
+    },
+    {
+      "id": "portsmouth",
+      "name": "Portsmouth",
+      "country": "England"
+    },
+    {
+      "id": "cheltenham-town",
+      "name": "Cheltenham Town",
+      "country": "England"
+    },
+    {
+      "id": "charlton-athletic",
+      "name": "Charlton Athletic",
+      "country": "England"
+    },
+    {
+      "id": "colchester-united",
+      "name": "Colchester United",
+      "country": "England"
+    },
+    {
+      "id": "southampton",
+      "name": "Southampton",
+      "country": "England"
+    },
+    {
+      "id": "rotherham-united",
+      "name": "Rotherham United",
+      "country": "England"
+    },
+    {
+      "id": "west-bromwich-albion",
+      "name": "West Bromwich Albion",
+      "country": "England"
+    },
+    {
+      "id": "mansfield-town",
+      "name": "Mansfield Town",
+      "country": "England"
+    },
+    {
+      "id": "sheffield-united",
+      "name": "Sheffield United",
+      "country": "England"
+    },
+    {
+      "id": "plymouth-argyle",
+      "name": "Plymouth Argyle",
+      "country": "England"
+    },
+    {
+      "id": "exeter-city",
+      "name": "Exeter City",
+      "country": "England"
+    },
+    {
+      "id": "ipswich-town",
+      "name": "Ipswich Town",
+      "country": "England"
+    },
+    {
+      "id": "coventry-city",
+      "name": "Coventry City",
+      "country": "England"
+    },
+    {
+      "id": "hull-city",
+      "name": "Hull City",
+      "country": "England"
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "country": "England"
+    },
+    {
+      "id": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "country": "England"
+    },
+    {
+      "id": "leeds-united",
+      "name": "Leeds United",
+      "country": "England"
+    },
+    {
+      "id": "newcastle-united",
+      "name": "Newcastle United",
+      "country": "England"
+    },
+    {
+      "id": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "country": "England"
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "country": "England"
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "country": "England"
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "country": "England"
+    },
+    {
+      "id": "afc-bournemouth",
+      "name": "AFC Bournemouth",
+      "country": "England"
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "country": "England"
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "country": "England"
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "country": "England"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "country": "England"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "country": "England"
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "country": "England"
+    },
+    {
+      "id": "brighton-hove-albion",
+      "name": "Brighton & Hove Albion",
+      "country": "England"
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "country": "England"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "tranmere-rovers": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "rochdale": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "york-city": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "crawley-town": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bristol-city": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "walsall": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "wolverhampton-wanderers": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "port-vale": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "wycombe-wanderers": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "stevenage": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "middlesbrough": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "wrexham": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "cambridge-united": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "barnet": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "queens-park-rangers": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "millwall": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "afc-wimbledon": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "newport-county": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "barnsley": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "wigan-athletic": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bradford-city": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bristol-rovers": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "peterborough-united": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bromley": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "reading": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "burnley": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "notts-county": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "burton-albion": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "blackburn-rovers": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "cardiff-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "swindon-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "crewe-alexandra": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "accrington-stanley": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "derby-county": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "lincoln-city": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "fleetwood-town": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "chesterfield": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "gillingham": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "luton-town": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "grimsby-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "blackpool": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "leicester-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "northampton-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "leyton-orient": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "oxford-united": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "norwich-city": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "milton-keynes-dons": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "preston-north-end": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "huddersfield-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "salford-city": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "shrewsbury-town": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sheffield-wednesday": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bolton-wanderers": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "stockport-county": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "doncaster-rovers": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "stoke-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "oldham-athletic": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "swansea-city": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "birmingham-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "watford": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "west-ham-united": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "portsmouth": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "cheltenham-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "charlton-athletic": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "colchester-united": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "southampton": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "rotherham-united": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "west-bromwich-albion": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "mansfield-town": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sheffield-united": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "plymouth-argyle": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "exeter-city": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "ipswich-town": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "coventry-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "hull-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "brentford": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "nottingham-forest": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "leeds-united": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "newcastle-united": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "tottenham-hotspur": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "everton": {
+      "fixtures": {
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "chelsea": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "fulham": {
+      "fixtures": {
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "afc-bournemouth": {
+      "fixtures": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "crystal-palace": {
+      "fixtures": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sunderland": {
+      "fixtures": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "arsenal": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "liverpool": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "aston-villa": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "manchester-united": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "brighton-hove-albion": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "manchester-city": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  "fixtureStats": {},
+  "events": {},
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 88,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "fetchedAt": "2026-11-09T22:50:59Z",
+      "note": "Calculated from the source's completed match results."
+    },
+    "teams": {
+      "available": true,
+      "rows": 92,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Scorer names are included only where the source provides them."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "Goal totals aggregated from published goal rows."
+    },
+    "fixtureStats": {
+      "available": false,
+      "rows": 0,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    }
+  }
+}

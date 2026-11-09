@@ -1,0 +1,7219 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "champions-league",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+  },
+  "season": "2026",
+  "seasonLabel": "2026/27",
+  "provider": "open-matchday (non-commercial use; attribution required)",
+  "sourceUrl": "https://github.com/oladeeayo/open-matchday",
+  "generatedAt": "2026-11-09T22:50:59Z",
+  "fixtures": [
+    {
+      "id": "openmatchday-champions-league-2026-09-08-aek-athens-lask",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "away": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-08-club-brugge-aston-villa",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-08-b-dortmund-villarreal",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "away": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-08-lille-real-betis",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "away": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-08-porto-man-city",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "away": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-08-real-madrid-inter",
+      "date": "2026-09-08",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "away": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-barcelona-feyenoord",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-stuttgart-viking",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "away": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-liverpool-atleti",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-napoli-arsenal",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-paris-s-bratislava",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "away": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-09-sporting-cp-galatasaray",
+      "date": "2026-09-09",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "away": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-fenerbah-e-roma",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "away": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-psv-shakhtar",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "away": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-bayern-m-nchen-bod-glimt",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "away": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-como-leipzig",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "como",
+        "name": "Como"
+      },
+      "away": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-man-utd-sabah",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "away": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-09-10-slavia-praha-lens",
+      "date": "2026-09-10",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "away": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-lens-sporting-cp",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "away": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-sabah-slavia-praha",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "away": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-arsenal-lille",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-atleti-man-utd",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "away": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-galatasaray-barcelona",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "away": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-inter-club-brugge",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "away": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-leipzig-psv",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "away": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-viking-bayern-m-nchen",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "away": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-13-villarreal-napoli",
+      "date": "2026-10-13",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "away": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-feyenoord-como",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "away": {
+        "id": "como",
+        "name": "Como"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-lask-liverpool",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "away": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": 3,
+        "away": 6
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-aston-villa-fenerbah-e",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "away": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-bod-glimt-b-dortmund",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "away": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-man-city-paris",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "away": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-real-betis-porto",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "away": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-roma-real-madrid",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "away": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-s-bratislava-stuttgart",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "away": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-14-shakhtar-aek-athens",
+      "date": "2026-10-14",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "away": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-fenerbah-e-slavia-praha",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "away": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-sabah-b-dortmund",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "away": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-liverpool-villarreal",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-man-city-aek-athens",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "away": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-napoli-bod-glimt",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-paris-barcelona",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "away": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-porto-psv",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "away": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-roma-s-bratislava",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "away": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-20-stuttgart-atleti",
+      "date": "2026-10-20",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "away": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-como-man-utd",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "como",
+        "name": "Como"
+      },
+      "away": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-lille-galatasaray",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "away": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-aston-villa-viking",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "away": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-bayern-m-nchen-arsenal",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-club-brugge-lens",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "away": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-inter-shakhtar",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "away": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-real-betis-feyenoord",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "away": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-real-madrid-leipzig",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "away": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-10-21-sporting-cp-lask",
+      "date": "2026-10-21",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "away": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-galatasaray-stuttgart",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "away": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-shakhtar-sporting-cp",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "away": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-atleti-bayern-m-nchen",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "away": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-barcelona-aston-villa",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-bod-glimt-lille",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "away": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-feyenoord-inter",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "away": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-lask-s-bratislava",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "away": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-man-utd-roma",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "away": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-03-villarreal-paris",
+      "date": "2026-11-03",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "away": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "goals": {
+        "home": 0,
+        "away": 6
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-aek-athens-real-madrid",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "away": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-fenerbah-e-liverpool",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "away": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-b-dortmund-real-betis",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "away": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-leipzig-man-city",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "away": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-lens-como",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "away": {
+        "id": "como",
+        "name": "Como"
+      },
+      "goals": {
+        "home": 1,
+        "away": 9
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-psv-club-brugge",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "away": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-porto-napoli",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "away": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-slavia-praha-arsenal",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-04-viking-sabah",
+      "date": "2026-11-04",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "away": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-bod-glimt-lask",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "away": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-galatasaray-aston-villa",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-arsenal-b-dortmund",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-como-aek-athens",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "como",
+        "name": "Como"
+      },
+      "away": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-feyenoord-porto",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "away": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-leipzig-lens",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "away": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-man-city-napoli",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "away": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-real-madrid-psv",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "away": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-24-s-bratislava-real-betis",
+      "date": "2026-11-24",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "away": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-sabah-barcelona",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "away": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-slavia-praha-villarreal",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "away": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-atleti-viking",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "away": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-club-brugge-liverpool",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "away": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-inter-stuttgart",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "away": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-lille-bayern-m-nchen",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "away": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-paris-roma",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "away": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-shakhtar-fenerbah-e",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "away": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-11-25-sporting-cp-man-utd",
+      "date": "2026-11-25",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "away": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-viking-feyenoord",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "away": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-villarreal-sabah",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "away": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-aek-athens-galatasaray",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "away": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-aston-villa-paris",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "away": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-barcelona-man-city",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-bayern-m-nchen-slavia-praha",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "away": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-man-utd-leipzig",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "away": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-napoli-club-brugge",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-08-roma-sporting-cp",
+      "date": "2026-12-08",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "away": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-real-betis-como",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "away": {
+        "id": "como",
+        "name": "Como"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-s-bratislava-shakhtar",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "away": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-arsenal-real-madrid",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-b-dortmund-inter",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "away": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-lask-fenerbah-e",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "away": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-lens-bod-glimt",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "away": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-liverpool-porto",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-psv-atleti",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "away": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2026-12-09-stuttgart-lille",
+      "date": "2026-12-09",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "away": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-bod-glimt-atleti",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "away": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-galatasaray-feyenoord",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "away": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-aek-athens-roma",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "away": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-aston-villa-b-dortmund",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "away": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-inter-liverpool",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "away": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-lille-s-bratislava",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "away": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-porto-slavia-praha",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "away": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-real-madrid-lask",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "away": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-19-stuttgart-club-brugge",
+      "date": "2027-01-19",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "away": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-fenerbah-e-villarreal",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "away": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-sabah-napoli",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "away": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-como-paris",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "como",
+        "name": "Como"
+      },
+      "away": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-leipzig-shakhtar",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "away": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-lens-man-city",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "away": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-man-utd-bayern-m-nchen",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "away": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-real-betis-arsenal",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "away": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-sporting-cp-barcelona",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "away": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-20-viking-psv",
+      "date": "2027-01-20",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "away": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-arsenal-sabah",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "arsenal",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sabah",
+        "name": "Sabah"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-atleti-fenerbah-e",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "atleti",
+        "name": "Atleti"
+      },
+      "away": {
+        "id": "fenerbah-e",
+        "name": "Fenerbahçe"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-b-dortmund-aek-athens",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "b-dortmund",
+        "name": "B. Dortmund"
+      },
+      "away": {
+        "id": "aek-athens",
+        "name": "AEK Athens"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-barcelona-como",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "barcelona",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "como",
+        "name": "Como"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-bayern-m-nchen-real-betis",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayern-m-nchen",
+        "name": "Bayern München"
+      },
+      "away": {
+        "id": "real-betis",
+        "name": "Real Betis"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-club-brugge-bod-glimt",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "club-brugge",
+        "name": "Club Brugge"
+      },
+      "away": {
+        "id": "bod-glimt",
+        "name": "Bodø/Glimt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-feyenoord-leipzig",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "feyenoord",
+        "name": "Feyenoord"
+      },
+      "away": {
+        "id": "leipzig",
+        "name": "Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-lask-porto",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "lask",
+        "name": "LASK"
+      },
+      "away": {
+        "id": "porto",
+        "name": "Porto"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-liverpool-lens",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "liverpool",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "lens",
+        "name": "Lens"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-man-city-sporting-cp",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "man-city",
+        "name": "Man City"
+      },
+      "away": {
+        "id": "sporting-cp",
+        "name": "Sporting CP"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-napoli-viking",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "napoli",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "viking",
+        "name": "Viking"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-psv-stuttgart",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "psv",
+        "name": "PSV"
+      },
+      "away": {
+        "id": "stuttgart",
+        "name": "Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-paris-galatasaray",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "paris",
+        "name": "Paris"
+      },
+      "away": {
+        "id": "galatasaray",
+        "name": "Galatasaray"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-roma-lille",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "roma",
+        "name": "Roma"
+      },
+      "away": {
+        "id": "lille",
+        "name": "Lille"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-s-bratislava-inter",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "s-bratislava",
+        "name": "S. Bratislava"
+      },
+      "away": {
+        "id": "inter",
+        "name": "Inter"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-shakhtar-real-madrid",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "shakhtar",
+        "name": "Shakhtar"
+      },
+      "away": {
+        "id": "real-madrid",
+        "name": "Real Madrid"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-slavia-praha-aston-villa",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "slavia-praha",
+        "name": "Slavia Praha"
+      },
+      "away": {
+        "id": "aston-villa",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-champions-league-2027-01-27-villarreal-man-utd",
+      "date": "2027-01-27",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "villarreal",
+        "name": "Villarreal"
+      },
+      "away": {
+        "id": "man-utd",
+        "name": "Man Utd"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "aek-athens",
+      "name": "AEK Athens",
+      "country": "Europe"
+    },
+    {
+      "id": "lask",
+      "name": "LASK",
+      "country": "Europe"
+    },
+    {
+      "id": "club-brugge",
+      "name": "Club Brugge",
+      "country": "Europe"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "country": "Europe"
+    },
+    {
+      "id": "b-dortmund",
+      "name": "B. Dortmund",
+      "country": "Europe"
+    },
+    {
+      "id": "villarreal",
+      "name": "Villarreal",
+      "country": "Europe"
+    },
+    {
+      "id": "lille",
+      "name": "Lille",
+      "country": "Europe"
+    },
+    {
+      "id": "real-betis",
+      "name": "Real Betis",
+      "country": "Europe"
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "country": "Europe"
+    },
+    {
+      "id": "man-city",
+      "name": "Man City",
+      "country": "Europe"
+    },
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "country": "Europe"
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "country": "Europe"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Europe"
+    },
+    {
+      "id": "feyenoord",
+      "name": "Feyenoord",
+      "country": "Europe"
+    },
+    {
+      "id": "stuttgart",
+      "name": "Stuttgart",
+      "country": "Europe"
+    },
+    {
+      "id": "viking",
+      "name": "Viking",
+      "country": "Europe"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "country": "Europe"
+    },
+    {
+      "id": "atleti",
+      "name": "Atleti",
+      "country": "Europe"
+    },
+    {
+      "id": "napoli",
+      "name": "Napoli",
+      "country": "Europe"
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "country": "Europe"
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "Europe"
+    },
+    {
+      "id": "s-bratislava",
+      "name": "S. Bratislava",
+      "country": "Europe"
+    },
+    {
+      "id": "sporting-cp",
+      "name": "Sporting CP",
+      "country": "Europe"
+    },
+    {
+      "id": "galatasaray",
+      "name": "Galatasaray",
+      "country": "Europe"
+    },
+    {
+      "id": "fenerbah-e",
+      "name": "Fenerbahçe",
+      "country": "Europe"
+    },
+    {
+      "id": "roma",
+      "name": "Roma",
+      "country": "Europe"
+    },
+    {
+      "id": "psv",
+      "name": "PSV",
+      "country": "Europe"
+    },
+    {
+      "id": "shakhtar",
+      "name": "Shakhtar",
+      "country": "Europe"
+    },
+    {
+      "id": "bayern-m-nchen",
+      "name": "Bayern München",
+      "country": "Europe"
+    },
+    {
+      "id": "bod-glimt",
+      "name": "Bodø/Glimt",
+      "country": "Europe"
+    },
+    {
+      "id": "como",
+      "name": "Como",
+      "country": "Europe"
+    },
+    {
+      "id": "leipzig",
+      "name": "Leipzig",
+      "country": "Europe"
+    },
+    {
+      "id": "man-utd",
+      "name": "Man Utd",
+      "country": "Europe"
+    },
+    {
+      "id": "sabah",
+      "name": "Sabah",
+      "country": "Europe"
+    },
+    {
+      "id": "slavia-praha",
+      "name": "Slavia Praha",
+      "country": "Europe"
+    },
+    {
+      "id": "lens",
+      "name": "Lens",
+      "country": "Europe"
+    }
+  ],
+  "standings": [
+    {
+      "teamId": "paris",
+      "team": "Paris",
+      "played": 4,
+      "won": 4,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 20,
+      "goalsAgainst": 5,
+      "points": 12,
+      "rank": 1,
+      "goalDifference": 15
+    },
+    {
+      "teamId": "real-madrid",
+      "team": "Real Madrid",
+      "played": 4,
+      "won": 4,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 13,
+      "goalsAgainst": 7,
+      "points": 12,
+      "rank": 2,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "arsenal",
+      "team": "Arsenal",
+      "played": 4,
+      "won": 3,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 8,
+      "goalsAgainst": 3,
+      "points": 10,
+      "rank": 3,
+      "goalDifference": 5
+    },
+    {
+      "teamId": "como",
+      "team": "Como",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 19,
+      "goalsAgainst": 6,
+      "points": 9,
+      "rank": 4,
+      "goalDifference": 13
+    },
+    {
+      "teamId": "barcelona",
+      "team": "Barcelona",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 6,
+      "points": 9,
+      "rank": 5,
+      "goalDifference": 8
+    },
+    {
+      "teamId": "aston-villa",
+      "team": "Aston Villa",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 6,
+      "points": 9,
+      "rank": 6,
+      "goalDifference": 6
+    },
+    {
+      "teamId": "man-city",
+      "team": "Man City",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 7,
+      "points": 9,
+      "rank": 7,
+      "goalDifference": 5
+    },
+    {
+      "teamId": "liverpool",
+      "team": "Liverpool",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 10,
+      "points": 9,
+      "rank": 8,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "club-brugge",
+      "team": "Club Brugge",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 11,
+      "goalsAgainst": 7,
+      "points": 9,
+      "rank": 9,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "sporting-cp",
+      "team": "Sporting CP",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 4,
+      "points": 9,
+      "rank": 10,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "real-betis",
+      "team": "Real Betis",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
+      "points": 9,
+      "rank": 11,
+      "goalDifference": 2
+    },
+    {
+      "teamId": "b-dortmund",
+      "team": "B. Dortmund",
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 5,
+      "points": 9,
+      "rank": 12,
+      "goalDifference": 2
+    },
+    {
+      "teamId": "bayern-m-nchen",
+      "team": "Bayern München",
+      "played": 4,
+      "won": 2,
+      "drawn": 2,
+      "lost": 0,
+      "goalsFor": 12,
+      "goalsAgainst": 5,
+      "points": 8,
+      "rank": 13,
+      "goalDifference": 7
+    },
+    {
+      "teamId": "stuttgart",
+      "team": "Stuttgart",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
+      "points": 7,
+      "rank": 14,
+      "goalDifference": 3
+    },
+    {
+      "teamId": "inter",
+      "team": "Inter",
+      "played": 4,
+      "won": 2,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
+      "points": 6,
+      "rank": 15,
+      "goalDifference": 2
+    },
+    {
+      "teamId": "lask",
+      "team": "LASK",
+      "played": 4,
+      "won": 2,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 10,
+      "goalsAgainst": 9,
+      "points": 6,
+      "rank": 16,
+      "goalDifference": 1
+    },
+    {
+      "teamId": "man-utd",
+      "team": "Man Utd",
+      "played": 4,
+      "won": 2,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 8,
+      "points": 6,
+      "rank": 17,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "galatasaray",
+      "team": "Galatasaray",
+      "played": 4,
+      "won": 2,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 9,
+      "points": 6,
+      "rank": 18,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "fenerbah-e",
+      "team": "Fenerbahçe",
+      "played": 4,
+      "won": 1,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 11,
+      "points": 5,
+      "rank": 19,
+      "goalDifference": -5
+    },
+    {
+      "teamId": "roma",
+      "team": "Roma",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 10,
+      "goalsAgainst": 8,
+      "points": 4,
+      "rank": 20,
+      "goalDifference": 2
+    },
+    {
+      "teamId": "shakhtar",
+      "team": "Shakhtar",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 4,
+      "points": 4,
+      "rank": 21,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "viking",
+      "team": "Viking",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 9,
+      "goalsAgainst": 10,
+      "points": 4,
+      "rank": 22,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "atleti",
+      "team": "Atleti",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "points": 4,
+      "rank": 23,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "psv",
+      "team": "PSV",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "points": 4,
+      "rank": 24,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "bod-glimt",
+      "team": "Bodø/Glimt",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 9,
+      "points": 4,
+      "rank": 25,
+      "goalDifference": -5
+    },
+    {
+      "teamId": "porto",
+      "team": "Porto",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 7,
+      "points": 3,
+      "rank": 26,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "napoli",
+      "team": "Napoli",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 11,
+      "points": 3,
+      "rank": 27,
+      "goalDifference": -5
+    },
+    {
+      "teamId": "villarreal",
+      "team": "Villarreal",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 14,
+      "points": 3,
+      "rank": 28,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "aek-athens",
+      "team": "AEK Athens",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "points": 3,
+      "rank": 29,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "leipzig",
+      "team": "Leipzig",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "points": 3,
+      "rank": 30,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "sabah",
+      "team": "Sabah",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 10,
+      "points": 3,
+      "rank": 31,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "feyenoord",
+      "team": "Feyenoord",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 11,
+      "points": 3,
+      "rank": 32,
+      "goalDifference": -7
+    },
+    {
+      "teamId": "lens",
+      "team": "Lens",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 16,
+      "points": 3,
+      "rank": 33,
+      "goalDifference": -12
+    },
+    {
+      "teamId": "slavia-praha",
+      "team": "Slavia Praha",
+      "played": 4,
+      "won": 0,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 9,
+      "points": 1,
+      "rank": 34,
+      "goalDifference": -4
+    },
+    {
+      "teamId": "lille",
+      "team": "Lille",
+      "played": 4,
+      "won": 0,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 10,
+      "points": 1,
+      "rank": 35,
+      "goalDifference": -6
+    },
+    {
+      "teamId": "s-bratislava",
+      "team": "S. Bratislava",
+      "played": 4,
+      "won": 0,
+      "drawn": 0,
+      "lost": 4,
+      "goalsFor": 1,
+      "goalsAgainst": 17,
+      "points": 0,
+      "rank": 36,
+      "goalDifference": -16
+    }
+  ],
+  "teamStats": {
+    "aek-athens": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "lask": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "club-brugge": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "aston-villa": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "b-dortmund": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "villarreal": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 14
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "lille": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 1,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "real-betis": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "porto": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "man-city": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "real-madrid": {
+      "fixtures": {
+        "played": 4,
+        "wins": 4,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 13
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "inter": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "barcelona": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 14
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "feyenoord": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "stuttgart": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "viking": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "liverpool": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 14
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "atleti": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "napoli": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "arsenal": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "paris": {
+      "fixtures": {
+        "played": 4,
+        "wins": 4,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 20
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "s-bratislava": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 0,
+        "loses": 4
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 17
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sporting-cp": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "galatasaray": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "fenerbah-e": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "roma": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "psv": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "shakhtar": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bayern-m-nchen": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "bod-glimt": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "como": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 19
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "leipzig": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "man-utd": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "sabah": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "slavia-praha": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 1,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "lens": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 16
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      },
+      "shots": 0,
+      "corners": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  },
+  "fixtureStats": {},
+  "events": {
+    "openmatchday-champions-league-2026-09-08-club-brugge-aston-villa": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 19
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-08-b-dortmund-villarreal": [
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 85
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-08-lille-real-betis": [
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-08-porto-man-city": [
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-08-real-madrid-inter": [
+      {
+        "time": {
+          "elapsed": 14
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 23
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-barcelona-feyenoord": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-stuttgart-viking": [
+      {
+        "time": {
+          "elapsed": 20
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 26
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-liverpool-atleti": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 40
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-napoli-arsenal": [
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-paris-s-bratislava": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 31
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 87
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-09-sporting-cp-galatasaray": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 27
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-fenerbah-e-roma": [
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-psv-shakhtar": [
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-bayern-m-nchen-bod-glimt": [
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 92
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-como-leipzig": [
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-man-utd-sabah": [
+      {
+        "time": {
+          "elapsed": 42
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 45
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-09-10-slavia-praha-lens": [
+      {
+        "time": {
+          "elapsed": 51
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 73
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-lens-sporting-cp": [
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-sabah-slavia-praha": [
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-arsenal-lille": [
+      {
+        "time": {
+          "elapsed": 64
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 71
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-atleti-man-utd": [
+      {
+        "time": {
+          "elapsed": 1
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-galatasaray-barcelona": [
+      {
+        "time": {
+          "elapsed": 28
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-inter-club-brugge": [
+      {
+        "time": {
+          "elapsed": 30
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 63
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 87
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-leipzig-psv": [
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-viking-bayern-m-nchen": [
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 71
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-13-villarreal-napoli": [
+      {
+        "time": {
+          "elapsed": 8
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 23
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 26
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-feyenoord-como": [
+      {
+        "time": {
+          "elapsed": 18
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 20
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-lask-liverpool": [
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 63
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 66
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 72
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-aston-villa-fenerbah-e": [
+      {
+        "time": {
+          "elapsed": 31
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 72
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-bod-glimt-b-dortmund": [
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-man-city-paris": [
+      {
+        "time": {
+          "elapsed": 13
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-real-betis-porto": [
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 84
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-roma-real-madrid": [
+      {
+        "time": {
+          "elapsed": 20
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 25
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 51
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-s-bratislava-stuttgart": [
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 64
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-14-shakhtar-aek-athens": [
+      {
+        "time": {
+          "elapsed": 28
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-fenerbah-e-slavia-praha": [
+      {
+        "time": {
+          "elapsed": 4
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-sabah-b-dortmund": [
+      {
+        "time": {
+          "elapsed": 10
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-liverpool-villarreal": [
+      {
+        "time": {
+          "elapsed": 4
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-man-city-aek-athens": [
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 76
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-napoli-bod-glimt": [
+      {
+        "time": {
+          "elapsed": 27
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-paris-barcelona": [
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-porto-psv": [
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-roma-s-bratislava": [
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-20-stuttgart-atleti": [
+      {
+        "time": {
+          "elapsed": 36
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-como-man-utd": [
+      {
+        "time": {
+          "elapsed": 2
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-lille-galatasaray": [
+      {
+        "time": {
+          "elapsed": 2
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-aston-villa-viking": [
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-bayern-m-nchen-arsenal": [
+      {
+        "time": {
+          "elapsed": 25
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 35
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-club-brugge-lens": [
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 72
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-inter-shakhtar": [
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-real-betis-feyenoord": [
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-real-madrid-leipzig": [
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 85
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-10-21-sporting-cp-lask": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 63
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 89
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-galatasaray-stuttgart": [
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-shakhtar-sporting-cp": [
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-atleti-bayern-m-nchen": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-barcelona-aston-villa": [
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 64
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-feyenoord-inter": [
+      {
+        "time": {
+          "elapsed": 8
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-lask-s-bratislava": [
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-man-utd-roma": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-03-villarreal-paris": [
+      {
+        "time": {
+          "elapsed": 9
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 13
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 78
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-aek-athens-real-madrid": [
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 78
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 92
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-fenerbah-e-liverpool": [
+      {
+        "time": {
+          "elapsed": 25
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-b-dortmund-real-betis": [
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 72
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-leipzig-man-city": [
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 78
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-lens-como": [
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 40
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 69
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-psv-club-brugge": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-porto-napoli": [
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 71
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-slavia-praha-arsenal": [
+      {
+        "time": {
+          "elapsed": 9
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-champions-league-2026-11-04-viking-sabah": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 27
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 69
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 94
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ]
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 144,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "standings": {
+      "available": true,
+      "rows": 36,
+      "fetchedAt": "2026-11-09T22:50:59Z",
+      "note": "Calculated from the source's completed match results."
+    },
+    "teams": {
+      "available": true,
+      "rows": 36,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Scorer names are included only where the source provides them."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "Goal totals aggregated from published goal rows."
+    },
+    "fixtureStats": {
+      "available": false,
+      "rows": 0,
+      "fetchedAt": "2026-11-09T22:50:59Z"
+    }
+  }
+}

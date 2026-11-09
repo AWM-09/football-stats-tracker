@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-09T22:46:44Z",
+  "generatedAt": "2026-11-09T22:50:59Z",
   "fixtures": [
     {
       "id": "openmatchday-premier-league-2026-08-21-arsenal-coventry",
@@ -12660,39 +12660,2255 @@
       }
     ]
   },
+  "events": {
+    "openmatchday-premier-league-2026-08-21-arsenal-coventry": [
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 23
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-22-hull-man-utd": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-22-everton-crystal-palace": [
+      {
+        "time": {
+          "elapsed": 42
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-22-ipswich-sunderland": [
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-22-brentford-spurs": [
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 33
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-23-brighton-aston-villa": [
+      {
+        "time": {
+          "elapsed": 8
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 18
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 31
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-23-man-city-bournemouth": [
+      {
+        "time": {
+          "elapsed": 26
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-23-newcastle-liverpool": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 99
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-24-fulham-chelsea": [
+      {
+        "time": {
+          "elapsed": 1
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 23
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-28-crystal-palace-man-city": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 56
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 84
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-29-liverpool-nott-m-forest": [
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 60
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-29-bournemouth-everton": [
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-29-coventry-hull": [
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-29-spurs-newcastle": [
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-30-chelsea-brighton": [
+      {
+        "time": {
+          "elapsed": 4
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 14
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 35
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 63
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-30-leeds-brentford": [
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-30-sunderland-fulham": [
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-30-man-utd-ipswich": [
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 40
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 56
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 91
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-08-31-aston-villa-arsenal": [
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-04-ipswich-liverpool": [
+      {
+        "time": {
+          "elapsed": 6
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 9
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-05-newcastle-bournemouth": [
+      {
+        "time": {
+          "elapsed": 9
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 35
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-05-brentford-sunderland": [
+      {
+        "time": {
+          "elapsed": 82
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-05-brighton-leeds": [
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-05-fulham-crystal-palace": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 35
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 42
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-06-everton-man-utd": [
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 96
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-06-arsenal-chelsea": [
+      {
+        "time": {
+          "elapsed": 2
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 25
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-12-aston-villa-nott-m-forest": [
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-12-bournemouth-brentford": [
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 56
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-12-chelsea-hull": [
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 28
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 34
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 66
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-12-crystal-palace-ipswich": [
+      {
+        "time": {
+          "elapsed": 14
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 75
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-12-sunderland-arsenal": [
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 97
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-13-coventry-brighton": [
+      {
+        "time": {
+          "elapsed": 51
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 94
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-13-man-utd-man-city": [
+      {
+        "time": {
+          "elapsed": 60
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-14-leeds-newcastle": [
+      {
+        "time": {
+          "elapsed": 32
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-18-brentford-chelsea": [
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 94
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-19-spurs-aston-villa": [
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-19-brighton-arsenal": [
+      {
+        "time": {
+          "elapsed": 31
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 45
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-19-everton-ipswich": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-19-newcastle-hull": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-19-nott-m-forest-coventry": [
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-20-bournemouth-liverpool": [
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-20-man-city-sunderland": [
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 29
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 33
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 57
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-09-20-fulham-man-utd": [
+      {
+        "time": {
+          "elapsed": 63
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 89
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-arsenal-leeds": [
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-aston-villa-brentford": [
+      {
+        "time": {
+          "elapsed": 10
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 12
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-chelsea-bournemouth": [
+      {
+        "time": {
+          "elapsed": 2
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 51
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-ipswich-fulham": [
+      {
+        "time": {
+          "elapsed": 55
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 88
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-sunderland-brighton": [
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 93
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-10-man-utd-spurs": [
+      {
+        "time": {
+          "elapsed": 73
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-11-crystal-palace-nott-m-forest": [
+      {
+        "time": {
+          "elapsed": 3
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 59
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-11-hull-everton": [
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-11-liverpool-man-city": [
+      {
+        "time": {
+          "elapsed": 65
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 68
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 78
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-12-coventry-newcastle": [
+      {
+        "time": {
+          "elapsed": 6
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 86
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-17-everton-chelsea": [
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-17-brentford-liverpool": [
+      {
+        "time": {
+          "elapsed": 62
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 70
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-17-fulham-hull": [
+      {
+        "time": {
+          "elapsed": 33
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-17-man-city-ipswich": [
+      {
+        "time": {
+          "elapsed": 19
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 21
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 69
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 90
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-18-bournemouth-sunderland": [
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-18-brighton-crystal-palace": [
+      {
+        "time": {
+          "elapsed": 4
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 10
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-18-leeds-man-utd": [
+      {
+        "time": {
+          "elapsed": 35
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-18-nott-m-forest-arsenal": [
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-19-spurs-coventry": [
+      {
+        "time": {
+          "elapsed": 14
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 96
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-23-ipswich-nott-m-forest": [
+      {
+        "time": {
+          "elapsed": 13
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 41
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-24-aston-villa-man-city": [
+      {
+        "time": {
+          "elapsed": 6
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 60
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-24-arsenal-everton": [
+      {
+        "time": {
+          "elapsed": 7
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-24-coventry-fulham": [
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-24-chelsea-spurs": [
+      {
+        "time": {
+          "elapsed": 77
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 87
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-25-crystal-palace-newcastle": [
+      {
+        "time": {
+          "elapsed": 47
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-25-hull-brentford": [
+      {
+        "time": {
+          "elapsed": 24
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-25-liverpool-brighton": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-25-man-utd-bournemouth": [
+      {
+        "time": {
+          "elapsed": 38
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 43
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 71
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-chelsea-man-utd": [
+      {
+        "time": {
+          "elapsed": 50
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 64
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-bournemouth-leeds": [
+      {
+        "time": {
+          "elapsed": 31
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 94
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-brentford-nott-m-forest": [
+      {
+        "time": {
+          "elapsed": 30
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 76
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-coventry-sunderland": [
+      {
+        "time": {
+          "elapsed": 17
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 37
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 67
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-hull-ipswich": [
+      {
+        "time": {
+          "elapsed": 22
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 58
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 74
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-man-city-brighton": [
+      {
+        "time": {
+          "elapsed": 11
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-10-31-aston-villa-fulham": [
+      {
+        "time": {
+          "elapsed": 39
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 64
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-01-liverpool-arsenal": [
+      {
+        "time": {
+          "elapsed": 16
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-02-newcastle-everton": [
+      {
+        "time": {
+          "elapsed": 49
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-06-everton-coventry": [
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 61
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 81
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-07-leeds-spurs": [
+      {
+        "time": {
+          "elapsed": 79
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-07-arsenal-hull": [
+      {
+        "time": {
+          "elapsed": 72
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-07-fulham-newcastle": [
+      {
+        "time": {
+          "elapsed": 80
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 83
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-07-nott-m-forest-man-city": [
+      {
+        "time": {
+          "elapsed": 6
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 18
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 52
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 73
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-08-brighton-brentford": [
+      {
+        "time": {
+          "elapsed": 15
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 42
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-08-crystal-palace-liverpool": [
+      {
+        "time": {
+          "elapsed": 54
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 89
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 95
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-08-ipswich-bournemouth": [
+      {
+        "time": {
+          "elapsed": 5
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 46
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 73
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-08-sunderland-chelsea": [
+      {
+        "time": {
+          "elapsed": 36
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ],
+    "openmatchday-premier-league-2026-11-08-man-utd-aston-villa": [
+      {
+        "time": {
+          "elapsed": 1
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 4
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 16
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 44
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 48
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 53
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      },
+      {
+        "time": {
+          "elapsed": 92
+        },
+        "team": "",
+        "type": "Goal",
+        "detail": "",
+        "player": null
+      }
+    ]
+  },
   "players": [],
   "topScorers": [],
   "coverage": {
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-09T22:46:44Z"
+      "fetchedAt": "2026-11-09T22:50:59Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-09T22:46:44Z",
+      "fetchedAt": "2026-11-09T22:50:59Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-09T22:46:44Z"
+      "fetchedAt": "2026-11-09T22:50:59Z"
     },
     "players": {
       "available": false,
       "rows": 0,
-      "note": "This source does not publish player season totals."
+      "note": "Scorer names are included only where the source provides them."
     },
     "topScorers": {
       "available": false,
       "rows": 0,
-      "note": "This source does not publish a player scorer table."
+      "note": "Goal totals aggregated from published goal rows."
     },
     "fixtureStats": {
       "available": true,
       "rows": 100,
-      "fetchedAt": "2026-11-09T22:46:44Z"
+      "fetchedAt": "2026-11-09T22:50:59Z"
     }
   }
 }
