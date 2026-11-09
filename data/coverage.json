@@ -1,12 +1,940 @@
 {
   "schemaVersion": 2,
-  "provider": "OpenFootball + StatsBomb Open Data",
-  "status": "pending_first_sync",
-  "generatedAt": null,
+  "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick",
+  "status": "partial",
+  "generatedAt": "2026-11-09T22:42:34Z",
   "sources": [
-    {"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
-    {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"}
+    {
+      "name": "OpenFootball",
+      "url": "https://github.com/openfootball/football.json",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "StatsBomb Open Data",
+      "url": "https://github.com/hudl/open-data",
+      "license": "Attribution required"
+    },
+    {
+      "name": "OpenPlay",
+      "url": "https://github.com/nlbair/openplay",
+      "license": "CC BY 4.0 · credit Noah Bair / openplay"
+    },
+    {
+      "name": "open-matchday",
+      "url": "https://github.com/oladeeayo/open-matchday",
+      "license": "Non-commercial use only; attribution required"
+    },
+    {
+      "name": "Cornerflick",
+      "url": "https://cornerflick.com/data",
+      "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"
+    }
   ],
-  "competitions": {},
-  "message": "The site uses free static open datasets with no key required. Coverage is limited to selected current leagues and historical seasons; no live scores or full player totals are available. Run the GitHub Actions workflow to publish the first data snapshot."
+  "competitions": {
+    "premier-league": {
+      "seasons": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2003"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 380,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "standings": {
+        "available": true,
+        "rows": 20,
+        "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 1482,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      },
+      "seasonLabels": {
+        "2026": "2026/27",
+        "2003": "2003/04",
+        "2018": "2018/19",
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26"
+      },
+      "openmatchday": {
+        "available": true,
+        "rows": 380,
+        "fetchedAt": "2026-11-09T22:42:34Z"
+      },
+      "fixtureStats": {
+        "available": true,
+        "rows": 100,
+        "fetchedAt": "2026-11-09T22:42:34Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 38,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2003/04"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 4556,
+        "players": 17676,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2018/19",
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2017/18",
+          "2019/20",
+          "2020/21",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26"
+        ]
+      }
+    },
+    "ligue-1": {
+      "seasons": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 306,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "standings": {
+        "available": true,
+        "rows": 18,
+        "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."
+      },
+      "teams": {
+        "available": true,
+        "rows": 18,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 1506,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      },
+      "seasonLabels": {
+        "2022": "2022/23",
+        "2018": "2018/19",
+        "2015": "2015/16",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2022/23"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 4229,
+        "players": 19070,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2018/19",
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2017/18",
+          "2019/20",
+          "2020/21",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26"
+        ]
+      }
+    },
+    "la-liga": {
+      "seasons": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 380,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "standings": {
+        "available": true,
+        "rows": 20,
+        "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 1510,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      },
+      "seasonLabels": {
+        "2020": "2020/21",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2018": "2018/19"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 35,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2020/21"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 4559,
+        "players": 19001,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
+          "2017/18",
+          "2019/20",
+          "2020/21",
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2018/19"
+        ]
+      }
+    },
+    "serie-a": {
+      "seasons": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 380,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "standings": {
+        "available": true,
+        "rows": 20,
+        "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 1497,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      },
+      "seasonLabels": {
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2018": "2018/19",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 380,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2015/16"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 4549,
+        "players": 18107,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2018/19",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
+          "2017/18",
+          "2019/20",
+          "2020/21"
+        ]
+      }
+    },
+    "bundesliga": {
+      "seasons": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 306,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "standings": {
+        "available": true,
+        "rows": 18,
+        "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."
+      },
+      "teams": {
+        "available": true,
+        "rows": 18,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 1398,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      },
+      "seasonLabels": {
+        "2023": "2023/24",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21",
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2024": "2024/25",
+        "2018": "2018/19"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 34,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2023/24"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 3670,
+        "players": 16869,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
+          "2017/18",
+          "2019/20",
+          "2020/21",
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2018/19"
+        ]
+      }
+    },
+    "ekstraklasa": {
+      "seasons": [
+        "2026"
+      ],
+      "seasonLabels": {
+        "2026": "2026"
+      },
+      "openmatchday": {
+        "available": true,
+        "rows": 216,
+        "fetchedAt": "2026-11-09T22:42:34Z"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 217,
+        "fetchedAt": "2026-11-09T22:00:46+00:00"
+      },
+      "standings": {
+        "available": true,
+        "rows": 18,
+        "fetchedAt": "2026-11-09T22:00:46+00:00",
+        "note": "Calculated from completed Cornerflick results."
+      },
+      "teams": {
+        "available": true,
+        "rows": 23,
+        "fetchedAt": "2026-11-09T22:00:46+00:00"
+      },
+      "cornerflick": {
+        "available": true,
+        "rows": 217,
+        "fetchedAt": "2026-11-09T22:00:46+00:00"
+      },
+      "players": {
+        "available": true,
+        "rows": 268,
+        "note": "Season goals and assists aggregated from published match event records."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100
+      },
+      "fixtureStats": {
+        "available": true,
+        "rows": 93
+      },
+      "events": {
+        "available": true,
+        "rows": 1630
+      },
+      "lineups": {
+        "available": true,
+        "rows": 188
+      }
+    },
+    "champions-league": {
+      "seasons": [
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "seasonLabels": {
+        "2018": "2018/19",
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 125,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 32,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 1,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2018/19"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 1622,
+        "players": 16949,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2018/19",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
+          "2017/18",
+          "2019/20",
+          "2020/21"
+        ]
+      },
+      "players": {
+        "available": true,
+        "rows": 1434,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "fifa-world-cup": {
+      "seasons": [
+        "2026",
+        "2022",
+        "2018"
+      ],
+      "seasonLabels": {
+        "2022": "2022",
+        "2018": "2018",
+        "2026": "2026"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 64,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 32,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 128,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2022",
+          "2018"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 232,
+        "players": 3453,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2018",
+          "2026",
+          "2022"
+        ]
+      },
+      "players": {
+        "available": true,
+        "rows": 999,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "uefa-euro": {
+      "seasons": [
+        "2024",
+        "2020",
+        "2016"
+      ],
+      "seasonLabels": {
+        "2024": "2024",
+        "2020": "2020",
+        "2016": "2016"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 51,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 24,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 102,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2024",
+          "2020"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 153,
+        "players": 2112,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2016",
+          "2024",
+          "2020"
+        ]
+      },
+      "players": {
+        "available": true,
+        "rows": 708,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "copa-america": {
+      "seasons": [
+        "2024",
+        "2019",
+        "2015"
+      ],
+      "seasonLabels": {
+        "2024": "2024",
+        "2015": "2015",
+        "2019": "2019"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 32,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 16,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2024"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 84,
+        "players": 1145,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2015",
+          "2019",
+          "2024"
+        ]
+      },
+      "players": {
+        "available": true,
+        "rows": 491,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "afcon": {
+      "seasons": [
+        "2025",
+        "2023",
+        "2021",
+        "2019",
+        "2015"
+      ],
+      "seasonLabels": {
+        "2023": "2023",
+        "2015": "2015",
+        "2019": "2019",
+        "2025": "2025",
+        "2021": "2021"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 52,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 24,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 52,
+        "fetchedAt": "2026-11-09T22:42:34Z",
+        "seasons": [
+          "2023"
+        ]
+      },
+      "openplay": {
+        "available": true,
+        "rows": 240,
+        "players": 3674,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2015",
+          "2019",
+          "2025",
+          "2021",
+          "2023"
+        ]
+      },
+      "players": {
+        "available": true,
+        "rows": 805,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "europa-league": {
+      "seasons": [
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "openplay": {
+        "available": true,
+        "rows": 2225,
+        "players": 25167,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2018/19",
+          "2015/16",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2017/18",
+          "2019/20",
+          "2020/21",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26"
+        ]
+      },
+      "seasonLabels": {
+        "2018": "2018/19",
+        "2015": "2015/16",
+        "2022": "2022/23",
+        "2023": "2023/24",
+        "2024": "2024/25",
+        "2017": "2017/18",
+        "2019": "2019/20",
+        "2020": "2020/21",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 189,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 2040,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 36,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    },
+    "nations-league": {
+      "seasons": [
+        "2024",
+        "2022",
+        "2020",
+        "2018"
+      ],
+      "openplay": {
+        "available": true,
+        "rows": 342,
+        "players": 5271,
+        "version": "data-v0.1.0",
+        "seasons": [
+          "2020/21",
+          "2020/21",
+          "2022/23",
+          "2022/23",
+          "2024/25",
+          "2024/25",
+          "2018/19",
+          "2018/19"
+        ]
+      },
+      "seasonLabels": {
+        "2020": "2020/21",
+        "2022": "2022/23",
+        "2024": "2024/25",
+        "2018": "2018/19"
+      },
+      "fixtures": {
+        "available": true,
+        "rows": 24,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "players": {
+        "available": true,
+        "rows": 379,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "teams": {
+        "available": true,
+        "rows": 12,
+        "note": "OpenPlay historical snapshot; not live."
+      },
+      "topScorers": {
+        "available": true,
+        "rows": 100,
+        "note": "Ranked by goals from OpenPlay player match totals."
+      }
+    }
+  },
+  "message": "Static open datasets; current fixtures and results include OpenFootball and open-matchday coverage. Ekstraklasa includes Cornerflick match reports, events, lineups and stats. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them.",
+  "openplay": {
+    "available": true,
+    "version": "data-v0.1.0",
+    "competitions": 13,
+    "license": "CC BY 4.0"
+  }
 }
