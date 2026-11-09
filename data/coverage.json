@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "provider": "OpenFootball + StatsBomb + OpenPlay",
   "status": "partial",
-  "generatedAt": "2026-11-09T22:10:27Z",
+  "generatedAt": "2026-11-09T22:13:05Z",
   "sources": [
     {
       "name": "OpenFootball",
@@ -55,7 +55,7 @@
       "statsbomb": {
         "available": true,
         "rows": 38,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2003/04"
         ]
@@ -76,18 +76,18 @@
       "fixtures": {
         "available": true,
         "rows": 306,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "standings": {
         "available": true,
         "rows": 18,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "note": "Calculated from completed OpenFootball results."
       },
       "teams": {
         "available": true,
         "rows": 18,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "players": {
         "available": false,
@@ -102,7 +102,7 @@
       "statsbomb": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2022/23"
         ]
@@ -116,18 +116,18 @@
       "fixtures": {
         "available": true,
         "rows": 380,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "standings": {
         "available": true,
         "rows": 20,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "note": "Calculated from completed OpenFootball results."
       },
       "teams": {
         "available": true,
         "rows": 20,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "players": {
         "available": false,
@@ -142,7 +142,7 @@
       "statsbomb": {
         "available": true,
         "rows": 35,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2020/21"
         ]
@@ -156,18 +156,18 @@
       "fixtures": {
         "available": true,
         "rows": 380,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "standings": {
         "available": true,
         "rows": 20,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "note": "Calculated from completed OpenFootball results."
       },
       "teams": {
         "available": true,
         "rows": 20,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "players": {
         "available": false,
@@ -182,7 +182,7 @@
       "statsbomb": {
         "available": true,
         "rows": 380,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2015/16"
         ]
@@ -196,18 +196,18 @@
       "fixtures": {
         "available": true,
         "rows": 306,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "standings": {
         "available": true,
         "rows": 18,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "note": "Calculated from completed OpenFootball results."
       },
       "teams": {
         "available": true,
         "rows": 18,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "players": {
         "available": false,
@@ -222,7 +222,7 @@
       "statsbomb": {
         "available": true,
         "rows": 34,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2023/24"
         ]
@@ -235,17 +235,17 @@
       "fixtures": {
         "available": true,
         "rows": 1,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "teams": {
         "available": true,
         "rows": 2,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 1,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2018/19"
         ]
@@ -259,17 +259,17 @@
       "fixtures": {
         "available": true,
         "rows": 64,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "teams": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 128,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2022",
           "2018"
@@ -284,17 +284,17 @@
       "fixtures": {
         "available": true,
         "rows": 51,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "teams": {
         "available": true,
         "rows": 24,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 102,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2024",
           "2020"
@@ -308,17 +308,17 @@
       "fixtures": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "teams": {
         "available": true,
         "rows": 16,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2024"
         ]
@@ -331,17 +331,17 @@
       "fixtures": {
         "available": true,
         "rows": 52,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "teams": {
         "available": true,
         "rows": 24,
-        "fetchedAt": "2026-11-09T22:10:27Z"
+        "fetchedAt": "2026-11-09T22:13:05Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 52,
-        "fetchedAt": "2026-11-09T22:10:27Z",
+        "fetchedAt": "2026-11-09T22:13:05Z",
         "seasons": [
           "2023"
         ]
@@ -351,6 +351,6 @@
   "message": "Static open datasets; current fixtures and results are limited to the listed OpenFootball leagues. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them.",
   "openplay": {
     "available": false,
-    "note": "OpenPlay download failed: cannot convert float NaN to integer"
+    "note": "OpenPlay download failed: '<' not supported between instances of 'float' and 'str'"
   }
 }
