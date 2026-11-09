@@ -1,0 +1,420 @@
+[
+  {
+    "id": "premier-league",
+    "name": "Premier League",
+    "country": "England",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026/27",
+    "code": "PL",
+    "accent": "#e56bff",
+    "description": "English top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "ligue-1",
+    "name": "Ligue 1",
+    "country": "France",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026/27",
+    "code": "L1",
+    "accent": "#67b8ff",
+    "description": "French top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "la-liga",
+    "name": "La Liga",
+    "country": "Spain",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026/27",
+    "code": "LL",
+    "accent": "#ff786c",
+    "description": "Spanish top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "serie-a",
+    "name": "Serie A",
+    "country": "Italy",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026/27",
+    "code": "SA",
+    "accent": "#70a8ff",
+    "description": "Italian top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Germany",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026/27",
+    "code": "BL",
+    "accent": "#ff6e72",
+    "description": "German top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "ekstraklasa",
+    "name": "Ekstraklasa",
+    "country": "Poland",
+    "kind": "League",
+    "group": "Leagues",
+    "season": "2026",
+    "code": "EK",
+    "accent": "#f4f4f4",
+    "description": "Polish top flight · clubs, standings, match calendar and season history."
+  },
+  {
+    "id": "champions-league",
+    "name": "UEFA Champions League",
+    "country": "Europe",
+    "kind": "Continental cup",
+    "group": "UEFA Competitions",
+    "season": "2026/27",
+    "code": "UCL",
+    "accent": "#9f91ff",
+    "description": "Europe's premier club competition · league phase, knockout rounds and finals."
+  },
+  {
+    "id": "europa-league",
+    "name": "UEFA Europa League",
+    "country": "Europe",
+    "kind": "Continental cup",
+    "group": "UEFA Competitions",
+    "season": "2026/27",
+    "code": "UEL",
+    "accent": "#ffad69",
+    "description": "European club competition · league phase, knockout rounds and finals."
+  },
+  {
+    "id": "conference-league",
+    "name": "UEFA Conference League",
+    "country": "Europe",
+    "kind": "Continental cup",
+    "group": "UEFA Competitions",
+    "season": "2026/27",
+    "code": "UECL",
+    "accent": "#8fd369",
+    "description": "European club competition · league phase, knockout rounds and finals."
+  },
+  {
+    "id": "fifa-world-cup",
+    "name": "FIFA World Cup",
+    "country": "International",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "WC",
+    "accent": "#77d9be",
+    "description": "Men's national-team world championship and tournament history.",
+    "providerSearchTerms": [
+      "FIFA World Cup",
+      "World Cup"
+    ]
+  },
+  {
+    "id": "uefa-euro",
+    "name": "UEFA European Championship",
+    "country": "Europe",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2028",
+    "code": "EURO",
+    "accent": "#78a9ff",
+    "description": "European national-team championship and qualifying history.",
+    "providerSearchTerms": [
+      "UEFA European Championship",
+      "Euro Championship",
+      "UEFA Euro"
+    ]
+  },
+  {
+    "id": "nations-league",
+    "name": "UEFA Nations League",
+    "country": "Europe",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026/27",
+    "code": "UNL",
+    "accent": "#d1a3ff",
+    "description": "UEFA national-team league phases, finals and promotion/relegation."
+  },
+  {
+    "id": "world-cup-qualifiers-uefa",
+    "name": "World Cup Qualifiers · UEFA",
+    "country": "Europe",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "UWCQ",
+    "accent": "#91c5d7",
+    "description": "UEFA national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - Europe",
+      "World Cup - Qualification - Europe"
+    ]
+  },
+  {
+    "id": "world-cup-qualifiers-conmebol",
+    "name": "World Cup Qualifiers · CONMEBOL",
+    "country": "South America",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "CWCQ",
+    "accent": "#91c5d7",
+    "description": "CONMEBOL national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - South America",
+      "World Cup - Qualification - South America"
+    ]
+  },
+  {
+    "id": "world-cup-qualifiers-afc",
+    "name": "World Cup Qualifiers · AFC",
+    "country": "Asia",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "AWCQ",
+    "accent": "#91c5d7",
+    "description": "AFC national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - Asia",
+      "World Cup - Qualification - Asia"
+    ]
+  },
+  {
+    "id": "world-cup-qualifiers-caf",
+    "name": "World Cup Qualifiers · CAF",
+    "country": "Africa",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "FWCQ",
+    "accent": "#91c5d7",
+    "description": "CAF national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - Africa",
+      "World Cup - Qualification - Africa"
+    ]
+  },
+  {
+    "id": "world-cup-qualifiers-concacaf",
+    "name": "World Cup Qualifiers · CONCACAF",
+    "country": "North & Central America",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "NWCQ",
+    "accent": "#91c5d7",
+    "description": "CONCACAF national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - N/C America",
+      "World Cup - Qualification - North & Central America"
+    ]
+  },
+  {
+    "id": "world-cup-qualifiers-ofc",
+    "name": "World Cup Qualifiers · OFC",
+    "country": "Oceania",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2026",
+    "code": "OWCQ",
+    "accent": "#91c5d7",
+    "description": "OFC national-team qualification for the FIFA World Cup.",
+    "providerSearchTerms": [
+      "World Cup - Qualification - Oceania",
+      "World Cup - Qualification - Oceania"
+    ]
+  },
+  {
+    "id": "copa-america",
+    "name": "Copa América",
+    "country": "South America",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2028",
+    "code": "CA",
+    "accent": "#87d3a0",
+    "description": "South American national-team championship and historical results."
+  },
+  {
+    "id": "afcon",
+    "name": "Africa Cup of Nations",
+    "country": "Africa",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2027",
+    "code": "AFCON",
+    "accent": "#e0c56e",
+    "description": "African national-team championship and qualifying history."
+  },
+  {
+    "id": "asian-cup",
+    "name": "AFC Asian Cup",
+    "country": "Asia",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2027",
+    "code": "AFC",
+    "accent": "#e89278",
+    "description": "Asian national-team championship and qualifying history."
+  },
+  {
+    "id": "concacaf-gold-cup",
+    "name": "CONCACAF Gold Cup",
+    "country": "North & Central America",
+    "kind": "National teams",
+    "group": "International Football",
+    "season": "2027",
+    "code": "GC",
+    "accent": "#f2d16b",
+    "description": "North American, Central American and Caribbean championship."
+  },
+  {
+    "id": "fa-cup",
+    "name": "FA Cup",
+    "country": "England",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "FA",
+    "accent": "#83d5bd",
+    "description": "England's national knockout cup."
+  },
+  {
+    "id": "efl-cup",
+    "name": "EFL Cup",
+    "country": "England",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "EFL",
+    "accent": "#66aaff",
+    "description": "England's league cup knockout competition."
+  },
+  {
+    "id": "community-shield",
+    "name": "FA Community Shield",
+    "country": "England",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2026",
+    "code": "CS",
+    "accent": "#d9f2e9",
+    "description": "English season-opening super cup."
+  },
+  {
+    "id": "coupe-de-france",
+    "name": "Coupe de France",
+    "country": "France",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "CDF",
+    "accent": "#6dc4ed",
+    "description": "France's national knockout cup."
+  },
+  {
+    "id": "trophee-champions",
+    "name": "Trophée des Champions",
+    "country": "France",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2026",
+    "code": "TDC",
+    "accent": "#a8d6ff",
+    "description": "French season-opening super cup."
+  },
+  {
+    "id": "copa-del-rey",
+    "name": "Copa del Rey",
+    "country": "Spain",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "CDR",
+    "accent": "#ff9a83",
+    "description": "Spain's national knockout cup."
+  },
+  {
+    "id": "supercopa-espana",
+    "name": "Supercopa de España",
+    "country": "Spain",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2027",
+    "code": "SDE",
+    "accent": "#ffc18d",
+    "description": "Spanish super cup."
+  },
+  {
+    "id": "coppa-italia",
+    "name": "Coppa Italia",
+    "country": "Italy",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "CI",
+    "accent": "#84b0ff",
+    "description": "Italy's national knockout cup."
+  },
+  {
+    "id": "supercoppa-italiana",
+    "name": "Supercoppa Italiana",
+    "country": "Italy",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "SI",
+    "accent": "#b5d4ff",
+    "description": "Italian super cup."
+  },
+  {
+    "id": "dfb-pokal",
+    "name": "DFB-Pokal",
+    "country": "Germany",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "DFB",
+    "accent": "#ff8989",
+    "description": "Germany's national knockout cup."
+  },
+  {
+    "id": "dfl-supercup",
+    "name": "DFL-Supercup",
+    "country": "Germany",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2026",
+    "code": "DFL",
+    "accent": "#ffc1c1",
+    "description": "German season-opening super cup."
+  },
+  {
+    "id": "puchar-polski",
+    "name": "Puchar Polski",
+    "country": "Poland",
+    "kind": "Domestic cup",
+    "group": "Domestic Cups",
+    "season": "2026/27",
+    "code": "PP",
+    "accent": "#f3f4f4",
+    "description": "Poland's national knockout cup."
+  },
+  {
+    "id": "superpuchar-polski",
+    "name": "Superpuchar Polski",
+    "country": "Poland",
+    "kind": "Super cup",
+    "group": "Domestic Cups",
+    "season": "2026",
+    "code": "SP",
+    "accent": "#d8e8e2",
+    "description": "Polish super cup."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "provider": null,
+  "status": "provider_not_configured",
+  "generatedAt": null,
+  "lastSyncGroup": null,
+  "requestCount": 0,
+  "competitions": {},
+  "message": "No provider key is configured. Add API_FOOTBALL_KEY as a repository secret to publish verified data."
+}
