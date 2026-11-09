@@ -14,7 +14,7 @@ DATA = ROOT / "data"
 SNAPSHOTS = DATA / "competitions"
 OPENFOOTBALL = "https://raw.githubusercontent.com/openfootball/football.json/master"
 STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
-OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/latest"
+OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/tags/data-v0.1.0"
 OPENPLAY_COMPS = {
     "eng": "premier-league", "esp": "la-liga", "ita": "serie-a", "ger": "bundesliga", "fra": "ligue-1",
     "ucl": "champions-league", "uel": "europa-league", "wc": "fifa-world-cup", "euro": "uefa-euro",
