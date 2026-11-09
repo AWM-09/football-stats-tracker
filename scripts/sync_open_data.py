@@ -125,8 +125,14 @@ def normalize_openfootball(item, source_file, season_label, fetched_at):
         home_id, away_id = slug(home_name), slug(away_name)
         teams[home_id] = {"id": home_id, "name": home_name, "country": item.get("country")}
         teams[away_id] = {"id": away_id, "name": away_name, "country": item.get("country")}
-        ft = (row.get("score") or {}).get("ft") or [None, None]
-        ht = (row.get("score") or {}).get("ht") or [None, None]
+        score = row.get("score")
+        if isinstance(score, list):
+            # OpenFootball files use a two-item score for full-time-only results.
+            ft, ht = score, [None, None]
+        elif isinstance(score, dict):
+            ft, ht = score.get("ft") or [None, None], score.get("ht") or [None, None]
+        else:
+            ft, ht = [None, None], [None, None]
         ft_home = score_value(ft[0]) if len(ft) >= 2 else None
         ft_away = score_value(ft[1]) if len(ft) >= 2 else None
         ht_home = score_value(ht[0]) if len(ht) >= 2 else None
@@ -218,8 +224,10 @@ def main():
                 row["seasons"].append(season_key)
                 for section, state in snap["coverage"].items():
                     if state.get("available"):
-                        row[section] = state
-                row["statsbomb"] = {"available": True, "rows": len(snap["fixtures"]), "fetchedAt": fetched_at, "season": label}
+                        row.setdefault(section, state)
+                statsbomb = row.setdefault("statsbomb", {"available": True, "rows": 0, "fetchedAt": fetched_at, "seasons": []})
+                statsbomb["rows"] += len(snap["fixtures"])
+                statsbomb["seasons"].append(label)
             except Exception as exc:
                 coverage["competitions"].setdefault(comp_id, {"seasons": []})["statsbomb"] = {"available": False, "note": f"StatsBomb match list unavailable: {exc}"}
     for row in coverage["competitions"].values():
