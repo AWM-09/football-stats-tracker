@@ -7,6 +7,17 @@ const DATA_MESSAGE = "Open-data coverage varies by competition and season. OpenP
 
 function byId(id){return document.getElementById(id)}
 function esc(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}
+async function fetchSnapshot(path){
+  const suffix="?v="+Date.now();
+  try{
+    const compressed=await fetch(path+".gz"+suffix);
+    if(compressed.ok&&"DecompressionStream" in window){
+      return await new Response(compressed.body.pipeThrough(new DecompressionStream("gzip"))).json();
+    }
+  }catch{}
+  const response=await fetch(path+suffix);
+  return response.ok?response.json():null;
+}
 function competitionUrl(item){return `./competition.html?id=${encodeURIComponent(item.id)}`}
 function renderCard(item){return `<a class="competition-card" href="${competitionUrl(item)}" style="--card-accent:${esc(item.accent)}"><div class="card-top"><span class="competition-badge" aria-hidden="true">${esc(item.code)}</span><span class="card-category">${esc(item.kind)}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>${esc(item.name)}</h3><p class="card-detail">${esc(item.country)} <span>·</span> ${esc(item.season)}</p><p class="card-description">${esc(item.description)}</p></a>`}
 
@@ -101,7 +112,7 @@ function initCompetitionPage(){
     const labelFor=year=>year===String(currentYear)?item.season:(coverage?.competitions?.[item.id]?.seasonLabels?.[year]||year);
     hero.innerHTML=`<div class="competition-kicker"><span>${esc(item.group)}</span><span>·</span><span>${esc(item.country)}</span></div><div class="competition-title-row"><span class="competition-crest" style="--card-accent:${esc(item.accent)}">${esc(item.code)}</span><div><h1>${esc(item.name)}</h1><p>${esc(item.description)}</p></div></div><div class="season-row"><label class="season-label" for="seasonSelect">Season</label><select id="seasonSelect" class="season-select">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select><span class="availability-pill ${snapshot?"is-ready":""}"><i class="status-dot ${snapshot?"good":"pending"}"></i>${snapshot?"Snapshot available":"Data unavailable"}</span></div>`;
     const path=`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(selectedSeason)}.json`;
-    try{const r=await fetch(path+"?v="+Date.now());snapshot=r.ok?await r.json():null}catch{snapshot=null}
+    try{snapshot=await fetchSnapshot(path)}catch{snapshot=null}
     hero.querySelector("#seasonSelect")?.addEventListener("change",async event=>{selectedSeason=event.target.value;const next=new URL(location.href);next.searchParams.set("season",selectedSeason);history.replaceState({},"",next);await load();render(activeTab)});
     render(activeTab);
   }
@@ -115,7 +126,7 @@ async function initGlobalView(view,hero,panel){
   panel.innerHTML=`<div class="unavailable"><span class="unavailable-icon">◷</span><h2>Loading published snapshots</h2><p>Reading competition data.</p></div>`;
   let index={};try{const res=await fetch("./data/coverage.json");if(res.ok)index=(await res.json()).competitions||{}}catch{}
   const refs=COMPETITIONS.flatMap(item=>(index[item.id]?.seasons||[]).map(season=>({item,season:String(season)})));
-  const snapshots=await Promise.all(refs.map(async ({item,season})=>{try{const res=await fetch(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(season)}.json`);if(!res.ok)return null;return {item,season,data:await res.json()}}catch{return null}}));
+  const snapshots=await Promise.all(refs.map(async ({item,season})=>{try{const data=await fetchSnapshot(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(season)}.json`);return data?{item,season,data}:null}catch{return null}}));
   const available=snapshots.filter(Boolean);
   if(!available.length){panel.innerHTML=`<div class="unavailable"><span class="unavailable-icon">◷</span><h2>No published open-data snapshots yet</h2><p>${esc(DATA_MESSAGE)} The static data workflow refreshes supported files daily.</p><a class="text-link" href="./health.html">Check data status →</a></div>`;return}
   const searchBar=`<label class="table-search"><span>Search ${esc(title.toLowerCase())}</span><input id="globalSearch" type="search" placeholder="Search ${esc(title.toLowerCase())}"></label>`;
@@ -136,7 +147,7 @@ async function initEntityPage(){
   byId("entityBack").href=`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(season)}`;
   let coverage={};try{const r=await fetch("./data/coverage.json");if(r.ok)coverage=(await r.json()).competitions?.[item.id]||{}}catch{}
   const years=[...new Set([season,...(coverage.seasons||[]).map(String)])].sort((a,b)=>Number(b.slice(0,4))-Number(a.slice(0,4)));
-  const snapshots=await Promise.all(years.map(async year=>{try{const r=await fetch(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(year)}.json`);return r.ok?await r.json():null}catch{return null}}));
+  const snapshots=await Promise.all(years.map(async year=>{try{return await fetchSnapshot(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(year)}.json`)}catch{return null}}));
   const found=[];
   for(const snap of snapshots.filter(Boolean)){
     if(type==="player"){
@@ -164,7 +175,7 @@ async function initMatchPage(){
   const params=new URLSearchParams(location.search),id=params.get("id"),competitionId=params.get("competition"),season=params.get("season"),item=COMPETITIONS.find(c=>c.id===competitionId);
   if(!id||!item){panel.innerHTML=`<div class="data-empty">Choose a fixture from a competition page.</div>`;return}
   byId("matchBack").href=`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(season||"")}`;
-  let snapshot=null;try{const response=await fetch(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(season)}.json`);if(response.ok)snapshot=await response.json()}catch{}
+  let snapshot=null;try{snapshot=await fetchSnapshot(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(season)}.json`)}catch{}
   const fixture=snapshot?.fixtures?.find(f=>String(f.id)===String(id));
   if(!fixture){hero.innerHTML=`<div class="eyebrow">${esc(item.name)} · ${esc(season||"")}</div><h1 class="title">Match details <span>unavailable.</span></h1>`;panel.innerHTML=`<div class="unavailable"><h2>No published match data</h2><p>${esc(DATA_MESSAGE)}</p><a class="text-link" href="./health.html">Check data status →</a></div>`;return}
   const score=fixture.goals?.home==null||fixture.goals?.away==null?"vs":`${fixture.goals.home} – ${fixture.goals.away}`;

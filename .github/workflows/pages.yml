@@ -45,10 +45,17 @@ jobs:
           fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Prepare compressed Pages site
+        run: |
+          mkdir -p _site/data/competitions
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./data/competitions' -cf - . | tar -C _site -xf -
+          for snapshot in data/competitions/*.json; do
+            gzip -n -c "$snapshot" > "_site/${snapshot}.gz"
+          done
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
