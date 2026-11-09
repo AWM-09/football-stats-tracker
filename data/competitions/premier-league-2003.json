@@ -1,0 +1,1307 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "premier-league",
+    "name": "Premier League",
+    "country": "England"
+  },
+  "season": "2003",
+  "seasonLabel": "2003/04",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3749493",
+      "statsbombMatchId": 3749493,
+      "date": "2003-08-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-29",
+        "name": "Everton"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749358",
+      "statsbombMatchId": 3749358,
+      "date": "2003-08-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-47",
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3749108",
+      "statsbombMatchId": 3749108,
+      "date": "2003-08-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-59",
+        "name": "Aston Villa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749454",
+      "statsbombMatchId": 3749454,
+      "date": "2003-08-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-36",
+        "name": "Manchester City"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749296",
+      "statsbombMatchId": 3749296,
+      "date": "2003-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-105",
+        "name": "Portsmouth"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749552",
+      "statsbombMatchId": 3749552,
+      "date": "2003-09-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-39",
+        "name": "Manchester United"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749528",
+      "statsbombMatchId": 3749528,
+      "date": "2003-09-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-37",
+        "name": "Newcastle United"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749253",
+      "statsbombMatchId": 3749253,
+      "date": "2003-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-24",
+        "name": "Liverpool"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749079",
+      "statsbombMatchId": 3749079,
+      "date": "2003-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-33",
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749526",
+      "statsbombMatchId": 3749526,
+      "date": "2003-10-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-75",
+        "name": "Charlton Athletic"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749346",
+      "statsbombMatchId": 3749346,
+      "date": "2003-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-101",
+        "name": "Leeds United"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3749196",
+      "statsbombMatchId": 3749196,
+      "date": "2003-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-38",
+        "name": "Tottenham Hotspur"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749434",
+      "statsbombMatchId": 3749434,
+      "date": "2003-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-54",
+        "name": "Birmingham City"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3749192",
+      "statsbombMatchId": 3749192,
+      "date": "2003-11-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-55",
+        "name": "Fulham"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749590",
+      "statsbombMatchId": 3749590,
+      "date": "2003-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-22",
+        "name": "Leicester City"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749360",
+      "statsbombMatchId": 3749360,
+      "date": "2003-12-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-98",
+        "name": "Blackburn Rovers"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749278",
+      "statsbombMatchId": 3749278,
+      "date": "2003-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-328",
+        "name": "Bolton Wanderers"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749522",
+      "statsbombMatchId": 3749522,
+      "date": "2003-12-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-46",
+        "name": "Wolverhampton Wanderers"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749310",
+      "statsbombMatchId": 3749310,
+      "date": "2003-12-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-25",
+        "name": "Southampton"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749117",
+      "statsbombMatchId": 3749117,
+      "date": "2004-01-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-29",
+        "name": "Everton"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749153",
+      "statsbombMatchId": 3749153,
+      "date": "2004-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-47",
+        "name": "Middlesbrough"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749133",
+      "statsbombMatchId": 3749133,
+      "date": "2004-01-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-59",
+        "name": "Aston Villa"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749233",
+      "statsbombMatchId": 3749233,
+      "date": "2004-02-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-36",
+        "name": "Manchester City"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749052",
+      "statsbombMatchId": 3749052,
+      "date": "2004-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-46",
+        "name": "Wolverhampton Wanderers"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3749631",
+      "statsbombMatchId": 3749631,
+      "date": "2004-02-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-25",
+        "name": "Southampton"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749276",
+      "statsbombMatchId": 3749276,
+      "date": "2004-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-33",
+        "name": "Chelsea"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749642",
+      "statsbombMatchId": 3749642,
+      "date": "2004-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-75",
+        "name": "Charlton Athletic"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749465",
+      "statsbombMatchId": 3749465,
+      "date": "2004-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-98",
+        "name": "Blackburn Rovers"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749403",
+      "statsbombMatchId": 3749403,
+      "date": "2004-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-328",
+        "name": "Bolton Wanderers"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749246",
+      "statsbombMatchId": 3749246,
+      "date": "2004-03-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-39",
+        "name": "Manchester United"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749448",
+      "statsbombMatchId": 3749448,
+      "date": "2004-04-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-24",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749431",
+      "statsbombMatchId": 3749431,
+      "date": "2004-04-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-37",
+        "name": "Newcastle United"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749453",
+      "statsbombMatchId": 3749453,
+      "date": "2004-04-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-101",
+        "name": "Leeds United"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749068",
+      "statsbombMatchId": 3749068,
+      "date": "2004-04-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-38",
+        "name": "Tottenham Hotspur"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3749462",
+      "statsbombMatchId": 3749462,
+      "date": "2004-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-54",
+        "name": "Birmingham City"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3749274",
+      "statsbombMatchId": 3749274,
+      "date": "2004-05-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-105",
+        "name": "Portsmouth"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749603",
+      "statsbombMatchId": 3749603,
+      "date": "2004-05-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-55",
+        "name": "Fulham"
+      },
+      "away": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3749257",
+      "statsbombMatchId": 3749257,
+      "date": "2004-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1",
+        "name": "Arsenal"
+      },
+      "away": {
+        "id": "sb-22",
+        "name": "Leicester City"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-1",
+      "name": "Arsenal"
+    },
+    {
+      "id": "sb-29",
+      "name": "Everton"
+    },
+    {
+      "id": "sb-24",
+      "name": "Liverpool"
+    },
+    {
+      "id": "sb-38",
+      "name": "Tottenham Hotspur"
+    },
+    {
+      "id": "sb-36",
+      "name": "Manchester City"
+    },
+    {
+      "id": "sb-55",
+      "name": "Fulham"
+    },
+    {
+      "id": "sb-46",
+      "name": "Wolverhampton Wanderers"
+    },
+    {
+      "id": "sb-105",
+      "name": "Portsmouth"
+    },
+    {
+      "id": "sb-39",
+      "name": "Manchester United"
+    },
+    {
+      "id": "sb-22",
+      "name": "Leicester City"
+    },
+    {
+      "id": "sb-75",
+      "name": "Charlton Athletic"
+    },
+    {
+      "id": "sb-47",
+      "name": "Middlesbrough"
+    },
+    {
+      "id": "sb-101",
+      "name": "Leeds United"
+    },
+    {
+      "id": "sb-33",
+      "name": "Chelsea"
+    },
+    {
+      "id": "sb-98",
+      "name": "Blackburn Rovers"
+    },
+    {
+      "id": "sb-59",
+      "name": "Aston Villa"
+    },
+    {
+      "id": "sb-37",
+      "name": "Newcastle United"
+    },
+    {
+      "id": "sb-54",
+      "name": "Birmingham City"
+    },
+    {
+      "id": "sb-25",
+      "name": "Southampton"
+    },
+    {
+      "id": "sb-328",
+      "name": "Bolton Wanderers"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-1": {
+      "fixtures": {
+        "played": 38,
+        "wins": 26,
+        "draws": 12,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 73
+        },
+        "against": {
+          "total": 26
+        }
+      },
+      "clean_sheet": {
+        "total": 15
+      }
+    },
+    "sb-29": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-47": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-59": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-36": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-105": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-39": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-37": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-24": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-33": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-75": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-101": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-38": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-54": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-55": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-22": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-98": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-328": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-46": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-25": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 38,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 20,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "ligue-1",
+    "name": "Ligue 1",
+    "country": "France"
+  },
+  "season": "2022",
+  "seasonLabel": "2022/23",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3837650",
+      "statsbombMatchId": 3837650,
+      "date": "2022-08-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-152",
+        "name": "Clermont Foot"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3837659",
+      "statsbombMatchId": 3837659,
+      "date": "2022-08-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-139",
+        "name": "Montpellier"
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837662",
+      "statsbombMatchId": 3837662,
+      "date": "2022-08-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-143",
+        "name": "Lille"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 7
+      }
+    },
+    {
+      "id": "statsbomb-3837680",
+      "statsbombMatchId": 3837680,
+      "date": "2022-08-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-129",
+        "name": "AS Monaco"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837683",
+      "statsbombMatchId": 3837683,
+      "date": "2022-08-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-130",
+        "name": "Toulouse"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837695",
+      "statsbombMatchId": 3837695,
+      "date": "2022-09-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-144",
+        "name": "Nantes"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837706",
+      "statsbombMatchId": 3837706,
+      "date": "2022-09-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-153",
+        "name": "Stade Brestois"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837717",
+      "statsbombMatchId": 3837717,
+      "date": "2022-09-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-137",
+        "name": "Lyon"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837727",
+      "statsbombMatchId": 3837727,
+      "date": "2022-10-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-136",
+        "name": "OGC Nice"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837747",
+      "statsbombMatchId": 3837747,
+      "date": "2022-10-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-147",
+        "name": "Olympique de Marseille"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837752",
+      "statsbombMatchId": 3837752,
+      "date": "2022-10-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-158",
+        "name": "AC Ajaccio"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837771",
+      "statsbombMatchId": 3837771,
+      "date": "2022-10-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-133",
+        "name": "Troyes"
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837785",
+      "statsbombMatchId": 3837785,
+      "date": "2022-11-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-167",
+        "name": "Auxerre"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837818",
+      "statsbombMatchId": 3837818,
+      "date": "2023-01-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-145",
+        "name": "Angers"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837827",
+      "statsbombMatchId": 3837827,
+      "date": "2023-01-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-134",
+        "name": "Rennes"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837839",
+      "statsbombMatchId": 3837839,
+      "date": "2023-01-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-156",
+        "name": "Stade de Reims"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837844",
+      "statsbombMatchId": 3837844,
+      "date": "2023-02-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-139",
+        "name": "Montpellier"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837859",
+      "statsbombMatchId": 3837859,
+      "date": "2023-02-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-130",
+        "name": "Toulouse"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837876",
+      "statsbombMatchId": 3837876,
+      "date": "2023-02-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-143",
+        "name": "Lille"
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837885",
+      "statsbombMatchId": 3837885,
+      "date": "2023-02-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-147",
+        "name": "Olympique de Marseille"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837896",
+      "statsbombMatchId": 3837896,
+      "date": "2023-03-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-144",
+        "name": "Nantes"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837902",
+      "statsbombMatchId": 3837902,
+      "date": "2023-03-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-153",
+        "name": "Stade Brestois"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837918",
+      "statsbombMatchId": 3837918,
+      "date": "2023-03-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-134",
+        "name": "Rennes"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837928",
+      "statsbombMatchId": 3837928,
+      "date": "2023-04-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-137",
+        "name": "Lyon"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837938",
+      "statsbombMatchId": 3837938,
+      "date": "2023-04-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-136",
+        "name": "OGC Nice"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837947",
+      "statsbombMatchId": 3837947,
+      "date": "2023-04-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-168",
+        "name": "Lens"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3837954",
+      "statsbombMatchId": 3837954,
+      "date": "2023-04-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-145",
+        "name": "Angers"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3837963",
+      "statsbombMatchId": 3837963,
+      "date": "2023-04-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-165",
+        "name": "Lorient"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3837987",
+      "statsbombMatchId": 3837987,
+      "date": "2023-05-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-158",
+        "name": "AC Ajaccio"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3837998",
+      "statsbombMatchId": 3837998,
+      "date": "2023-05-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-167",
+        "name": "Auxerre"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3838004",
+      "statsbombMatchId": 3838004,
+      "date": "2023-05-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-138",
+        "name": "Strasbourg"
+      },
+      "away": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3838017",
+      "statsbombMatchId": 3838017,
+      "date": "2023-06-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-131",
+        "name": "Paris Saint-Germain"
+      },
+      "away": {
+        "id": "sb-152",
+        "name": "Clermont Foot"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-131",
+      "name": "Paris Saint-Germain"
+    },
+    {
+      "id": "sb-152",
+      "name": "Clermont Foot"
+    },
+    {
+      "id": "sb-158",
+      "name": "AC Ajaccio"
+    },
+    {
+      "id": "sb-137",
+      "name": "Lyon"
+    },
+    {
+      "id": "sb-134",
+      "name": "Rennes"
+    },
+    {
+      "id": "sb-153",
+      "name": "Stade Brestois"
+    },
+    {
+      "id": "sb-147",
+      "name": "Olympique de Marseille"
+    },
+    {
+      "id": "sb-143",
+      "name": "Lille"
+    },
+    {
+      "id": "sb-156",
+      "name": "Stade de Reims"
+    },
+    {
+      "id": "sb-145",
+      "name": "Angers"
+    },
+    {
+      "id": "sb-167",
+      "name": "Auxerre"
+    },
+    {
+      "id": "sb-129",
+      "name": "AS Monaco"
+    },
+    {
+      "id": "sb-139",
+      "name": "Montpellier"
+    },
+    {
+      "id": "sb-138",
+      "name": "Strasbourg"
+    },
+    {
+      "id": "sb-165",
+      "name": "Lorient"
+    },
+    {
+      "id": "sb-168",
+      "name": "Lens"
+    },
+    {
+      "id": "sb-136",
+      "name": "OGC Nice"
+    },
+    {
+      "id": "sb-144",
+      "name": "Nantes"
+    },
+    {
+      "id": "sb-130",
+      "name": "Toulouse"
+    },
+    {
+      "id": "sb-133",
+      "name": "Troyes"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-152": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-131": {
+      "fixtures": {
+        "played": 32,
+        "wins": 24,
+        "draws": 3,
+        "loses": 5
+      },
+      "goals": {
+        "for": {
+          "total": 80
+        },
+        "against": {
+          "total": 31
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-139": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-143": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-129": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-130": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-144": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-153": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-137": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-136": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-147": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-158": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-133": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-167": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-145": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-134": {
+      "fixtures": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-156": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-168": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-165": {
+      "fixtures": {
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-138": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 32,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 20,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "copa-america",
+    "name": "Copa América",
+    "country": "South America"
+  },
+  "season": "2024",
+  "seasonLabel": "2024",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3939969",
+      "statsbombMatchId": 3939969,
+      "date": "2024-06-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939970",
+      "statsbombMatchId": 3939970,
+      "date": "2024-06-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-784",
+        "name": "Peru"
+      },
+      "away": {
+        "id": "sb-3562",
+        "name": "Chile"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939972",
+      "statsbombMatchId": 3939972,
+      "date": "2024-06-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "away": {
+        "id": "sb-3563",
+        "name": "Venezuela"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3939974",
+      "statsbombMatchId": 3939974,
+      "date": "2024-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "away": {
+        "id": "sb-3564",
+        "name": "Bolivia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939971",
+      "statsbombMatchId": 3939971,
+      "date": "2024-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "away": {
+        "id": "sb-2305",
+        "name": "Jamaica"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939975",
+      "statsbombMatchId": 3939975,
+      "date": "2024-06-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "away": {
+        "id": "sb-3567",
+        "name": "Paraguay"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939973",
+      "statsbombMatchId": 3939973,
+      "date": "2024-06-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "away": {
+        "id": "sb-798",
+        "name": "Panama"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939978",
+      "statsbombMatchId": 3939978,
+      "date": "2024-06-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-784",
+        "name": "Peru"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939976",
+      "statsbombMatchId": 3939976,
+      "date": "2024-06-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "away": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939980",
+      "statsbombMatchId": 3939980,
+      "date": "2024-06-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "away": {
+        "id": "sb-2305",
+        "name": "Jamaica"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939977",
+      "statsbombMatchId": 3939977,
+      "date": "2024-06-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3562",
+        "name": "Chile"
+      },
+      "away": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939979",
+      "statsbombMatchId": 3939979,
+      "date": "2024-06-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3563",
+        "name": "Venezuela"
+      },
+      "away": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939981",
+      "statsbombMatchId": 3939981,
+      "date": "2024-06-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-798",
+        "name": "Panama"
+      },
+      "away": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939982",
+      "statsbombMatchId": 3939982,
+      "date": "2024-06-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "away": {
+        "id": "sb-3564",
+        "name": "Bolivia"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939984",
+      "statsbombMatchId": 3939984,
+      "date": "2024-06-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "away": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939983",
+      "statsbombMatchId": 3939983,
+      "date": "2024-06-29",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3567",
+        "name": "Paraguay"
+      },
+      "away": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3939986",
+      "statsbombMatchId": 3939986,
+      "date": "2024-06-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-784",
+        "name": "Peru"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939985",
+      "statsbombMatchId": 3939985,
+      "date": "2024-06-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "away": {
+        "id": "sb-3562",
+        "name": "Chile"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939987",
+      "statsbombMatchId": 3939987,
+      "date": "2024-07-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2305",
+        "name": "Jamaica"
+      },
+      "away": {
+        "id": "sb-3563",
+        "name": "Venezuela"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3939988",
+      "statsbombMatchId": 3939988,
+      "date": "2024-07-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "away": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3939990",
+      "statsbombMatchId": 3939990,
+      "date": "2024-07-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "away": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939989",
+      "statsbombMatchId": 3939989,
+      "date": "2024-07-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3564",
+        "name": "Bolivia"
+      },
+      "away": {
+        "id": "sb-798",
+        "name": "Panama"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3939991",
+      "statsbombMatchId": 3939991,
+      "date": "2024-07-03",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "away": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3939992",
+      "statsbombMatchId": 3939992,
+      "date": "2024-07-03",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "away": {
+        "id": "sb-3567",
+        "name": "Paraguay"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3942228",
+      "statsbombMatchId": 3942228,
+      "date": "2024-07-05",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3942416",
+      "statsbombMatchId": 3942416,
+      "date": "2024-07-06",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "away": {
+        "id": "sb-798",
+        "name": "Panama"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3942229",
+      "statsbombMatchId": 3942229,
+      "date": "2024-07-06",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3563",
+        "name": "Venezuela"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3942415",
+      "statsbombMatchId": 3942415,
+      "date": "2024-07-07",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "away": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3942785",
+      "statsbombMatchId": 3942785,
+      "date": "2024-07-10",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3942852",
+      "statsbombMatchId": 3942852,
+      "date": "2024-07-11",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "away": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3943076",
+      "statsbombMatchId": 3943076,
+      "date": "2024-07-14",
+      "timestamp": null,
+      "round": "3rd Place Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "away": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3943077",
+      "statsbombMatchId": 3943077,
+      "date": "2024-07-15",
+      "timestamp": null,
+      "round": "Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-769",
+        "name": "Colombia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-781",
+      "name": "Brazil"
+    },
+    {
+      "id": "sb-769",
+      "name": "Colombia"
+    },
+    {
+      "id": "sb-2305",
+      "name": "Jamaica"
+    },
+    {
+      "id": "sb-3563",
+      "name": "Venezuela"
+    },
+    {
+      "id": "sb-783",
+      "name": "Uruguay"
+    },
+    {
+      "id": "sb-3564",
+      "name": "Bolivia"
+    },
+    {
+      "id": "sb-784",
+      "name": "Peru"
+    },
+    {
+      "id": "sb-3562",
+      "name": "Chile"
+    },
+    {
+      "id": "sb-3565",
+      "name": "Ecuador"
+    },
+    {
+      "id": "sb-779",
+      "name": "Argentina"
+    },
+    {
+      "id": "sb-3567",
+      "name": "Paraguay"
+    },
+    {
+      "id": "sb-1839",
+      "name": "United States"
+    },
+    {
+      "id": "sb-794",
+      "name": "Mexico"
+    },
+    {
+      "id": "sb-1833",
+      "name": "Canada"
+    },
+    {
+      "id": "sb-795",
+      "name": "Costa Rica"
+    },
+    {
+      "id": "sb-798",
+      "name": "Panama"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-779": {
+      "fixtures": {
+        "played": 6,
+        "wins": 5,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 5
+      }
+    },
+    "sb-1833": {
+      "fixtures": {
+        "played": 6,
+        "wins": 1,
+        "draws": 3,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-784": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-3562": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-3565": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-3563": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-1839": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-3564": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-794": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-2305": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-769": {
+      "fixtures": {
+        "played": 6,
+        "wins": 4,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-3567": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-783": {
+      "fixtures": {
+        "played": 6,
+        "wins": 3,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-798": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-781": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 3,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-795": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 32,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 16,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

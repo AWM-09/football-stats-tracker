@@ -1,12 +1,250 @@
 {
   "schemaVersion": 2,
   "provider": "OpenFootball + StatsBomb Open Data",
-  "status": "pending_first_sync",
-  "generatedAt": null,
+  "status": "partial",
+  "generatedAt": "2026-11-09T15:11:55Z",
   "sources": [
-    {"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
-    {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"}
+    {
+      "name": "OpenFootball",
+      "url": "https://github.com/openfootball/football.json",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "StatsBomb Open Data",
+      "url": "https://github.com/hudl/open-data",
+      "license": "Attribution required"
+    }
   ],
-  "competitions": {},
-  "message": "The site uses free static open datasets with no key required. Coverage is limited to selected current leagues and historical seasons; no live scores or full player totals are available. Run the GitHub Actions workflow to publish the first data snapshot."
+  "competitions": {
+    "premier-league": {
+      "seasons": [
+        "2003"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 38,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 38,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2003/04"
+      }
+    },
+    "ligue-1": {
+      "seasons": [
+        "2022"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2022/23"
+      }
+    },
+    "la-liga": {
+      "seasons": [
+        "2020"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 35,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 19,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 35,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2020/21"
+      }
+    },
+    "serie-a": {
+      "seasons": [
+        "2026",
+        "2015"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 380,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "standings": {
+        "available": true,
+        "rows": 20,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "note": "Calculated from completed OpenFootball results."
+      },
+      "teams": {
+        "available": true,
+        "rows": 20,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "players": {
+        "available": false,
+        "rows": 0,
+        "note": "OpenFootball does not publish player statistics."
+      },
+      "topScorers": {
+        "available": false,
+        "rows": 0,
+        "note": "OpenFootball does not publish player statistics."
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 380,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2015/16"
+      }
+    },
+    "bundesliga": {
+      "seasons": [
+        "2023"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 34,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 18,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 34,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2023/24"
+      }
+    },
+    "champions-league": {
+      "seasons": [
+        "2018"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 1,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 2,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 1,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2018/19"
+      }
+    },
+    "fifa-world-cup": {
+      "seasons": [
+        "2022",
+        "2018"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 64,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 64,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2018"
+      }
+    },
+    "uefa-euro": {
+      "seasons": [
+        "2024",
+        "2020"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 51,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 24,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 51,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2020"
+      }
+    },
+    "copa-america": {
+      "seasons": [
+        "2024"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 16,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 32,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2024"
+      }
+    },
+    "afcon": {
+      "seasons": [
+        "2023"
+      ],
+      "fixtures": {
+        "available": true,
+        "rows": 52,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "teams": {
+        "available": true,
+        "rows": 24,
+        "fetchedAt": "2026-11-09T15:11:55Z"
+      },
+      "statsbomb": {
+        "available": true,
+        "rows": 52,
+        "fetchedAt": "2026-11-09T15:11:55Z",
+        "season": "2023"
+      }
+    }
+  },
+  "message": "Static open datasets; current fixtures and results are limited to the listed OpenFootball leagues. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."
 }

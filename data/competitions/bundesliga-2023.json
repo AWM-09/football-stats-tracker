@@ -1,0 +1,1177 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Germany"
+  },
+  "season": "2023",
+  "seasonLabel": "2023/24",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3895052",
+      "statsbombMatchId": 3895052,
+      "date": "2023-08-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-182",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895060",
+      "statsbombMatchId": 3895060,
+      "date": "2023-08-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-185",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895067",
+      "statsbombMatchId": 3895067,
+      "date": "2023-09-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-872",
+        "name": "Darmstadt 98"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895074",
+      "statsbombMatchId": 3895074,
+      "date": "2023-09-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-169",
+        "name": "Bayern Munich"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895086",
+      "statsbombMatchId": 3895086,
+      "date": "2023-09-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-201",
+        "name": "FC Heidenheim"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895095",
+      "statsbombMatchId": 3895095,
+      "date": "2023-09-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-177",
+        "name": "FSV Mainz 05"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895107",
+      "statsbombMatchId": 3895107,
+      "date": "2023-10-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-186",
+        "name": "FC Köln"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895113",
+      "statsbombMatchId": 3895113,
+      "date": "2023-10-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-179",
+        "name": "Wolfsburg"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895121",
+      "statsbombMatchId": 3895121,
+      "date": "2023-10-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-183",
+        "name": "Freiburg"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895134",
+      "statsbombMatchId": 3895134,
+      "date": "2023-11-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-175",
+        "name": "Hoffenheim"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895139",
+      "statsbombMatchId": 3895139,
+      "date": "2023-11-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-190",
+        "name": "Union Berlin"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895153",
+      "statsbombMatchId": 3895153,
+      "date": "2023-11-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-176",
+        "name": "Werder Bremen"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895158",
+      "statsbombMatchId": 3895158,
+      "date": "2023-12-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-180",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895167",
+      "statsbombMatchId": 3895167,
+      "date": "2023-12-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-174",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895180",
+      "statsbombMatchId": 3895180,
+      "date": "2023-12-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-184",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895182",
+      "statsbombMatchId": 3895182,
+      "date": "2023-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-868",
+        "name": "Bochum"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895194",
+      "statsbombMatchId": 3895194,
+      "date": "2024-01-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-172",
+        "name": "Augsburg"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895202",
+      "statsbombMatchId": 3895202,
+      "date": "2024-01-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-182",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895210",
+      "statsbombMatchId": 3895210,
+      "date": "2024-01-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-185",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895220",
+      "statsbombMatchId": 3895220,
+      "date": "2024-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-872",
+        "name": "Darmstadt 98"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895232",
+      "statsbombMatchId": 3895232,
+      "date": "2024-02-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-169",
+        "name": "Bayern Munich"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895244",
+      "statsbombMatchId": 3895244,
+      "date": "2024-02-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-201",
+        "name": "FC Heidenheim"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895250",
+      "statsbombMatchId": 3895250,
+      "date": "2024-02-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-177",
+        "name": "FSV Mainz 05"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895258",
+      "statsbombMatchId": 3895258,
+      "date": "2024-03-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-186",
+        "name": "FC Köln"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895266",
+      "statsbombMatchId": 3895266,
+      "date": "2024-03-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-179",
+        "name": "Wolfsburg"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895275",
+      "statsbombMatchId": 3895275,
+      "date": "2024-03-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-183",
+        "name": "Freiburg"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3895286",
+      "statsbombMatchId": 3895286,
+      "date": "2024-03-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-175",
+        "name": "Hoffenheim"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895292",
+      "statsbombMatchId": 3895292,
+      "date": "2024-04-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-190",
+        "name": "Union Berlin"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895302",
+      "statsbombMatchId": 3895302,
+      "date": "2024-04-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-176",
+        "name": "Werder Bremen"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3895309",
+      "statsbombMatchId": 3895309,
+      "date": "2024-04-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-180",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3895320",
+      "statsbombMatchId": 3895320,
+      "date": "2024-04-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-174",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3895333",
+      "statsbombMatchId": 3895333,
+      "date": "2024-05-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-184",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3895340",
+      "statsbombMatchId": 3895340,
+      "date": "2024-05-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-868",
+        "name": "Bochum"
+      },
+      "away": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3895348",
+      "statsbombMatchId": 3895348,
+      "date": "2024-05-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-904",
+        "name": "Bayer Leverkusen"
+      },
+      "away": {
+        "id": "sb-172",
+        "name": "Augsburg"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-190",
+      "name": "Union Berlin"
+    },
+    {
+      "id": "sb-904",
+      "name": "Bayer Leverkusen"
+    },
+    {
+      "id": "sb-174",
+      "name": "VfB Stuttgart"
+    },
+    {
+      "id": "sb-180",
+      "name": "Borussia Dortmund"
+    },
+    {
+      "id": "sb-186",
+      "name": "FC Köln"
+    },
+    {
+      "id": "sb-868",
+      "name": "Bochum"
+    },
+    {
+      "id": "sb-175",
+      "name": "Hoffenheim"
+    },
+    {
+      "id": "sb-176",
+      "name": "Werder Bremen"
+    },
+    {
+      "id": "sb-184",
+      "name": "Eintracht Frankfurt"
+    },
+    {
+      "id": "sb-172",
+      "name": "Augsburg"
+    },
+    {
+      "id": "sb-872",
+      "name": "Darmstadt 98"
+    },
+    {
+      "id": "sb-177",
+      "name": "FSV Mainz 05"
+    },
+    {
+      "id": "sb-179",
+      "name": "Wolfsburg"
+    },
+    {
+      "id": "sb-183",
+      "name": "Freiburg"
+    },
+    {
+      "id": "sb-169",
+      "name": "Bayern Munich"
+    },
+    {
+      "id": "sb-201",
+      "name": "FC Heidenheim"
+    },
+    {
+      "id": "sb-185",
+      "name": "Borussia Mönchengladbach"
+    },
+    {
+      "id": "sb-182",
+      "name": "RB Leipzig"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-904": {
+      "fixtures": {
+        "played": 34,
+        "wins": 28,
+        "draws": 6,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 89
+        },
+        "against": {
+          "total": 24
+        }
+      },
+      "clean_sheet": {
+        "total": 16
+      }
+    },
+    "sb-182": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-185": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-872": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-169": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-201": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-177": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-186": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-179": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-183": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-175": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-190": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-176": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-180": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-174": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-184": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-868": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-172": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 34,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 18,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

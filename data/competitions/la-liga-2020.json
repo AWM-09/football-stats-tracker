@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "la-liga",
+    "name": "La Liga",
+    "country": "Spain"
+  },
+  "season": "2020",
+  "seasonLabel": "2020/21",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3773593",
+      "statsbombMatchId": 3773593,
+      "date": "2020-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-222",
+        "name": "Villarreal"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773466",
+      "statsbombMatchId": 3773466,
+      "date": "2020-10-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-209",
+        "name": "Celta Vigo"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773672",
+      "statsbombMatchId": 3773672,
+      "date": "2020-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-213",
+        "name": "Sevilla"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773587",
+      "statsbombMatchId": 3773587,
+      "date": "2020-10-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-216",
+        "name": "Getafe"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773585",
+      "statsbombMatchId": 3773585,
+      "date": "2020-10-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-220",
+        "name": "Real Madrid"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773386",
+      "statsbombMatchId": 3773386,
+      "date": "2020-10-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-206",
+        "name": "Deportivo Alavés"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773477",
+      "statsbombMatchId": 3773477,
+      "date": "2020-11-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-218",
+        "name": "Real Betis"
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773656",
+      "statsbombMatchId": 3773656,
+      "date": "2020-11-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-212",
+        "name": "Atlético Madrid"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773547",
+      "statsbombMatchId": 3773547,
+      "date": "2020-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-422",
+        "name": "Osasuna"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773428",
+      "statsbombMatchId": 3773428,
+      "date": "2020-12-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-552",
+        "name": "Cádiz"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773660",
+      "statsbombMatchId": 3773660,
+      "date": "2020-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-221",
+        "name": "Levante UD"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773523",
+      "statsbombMatchId": 3773523,
+      "date": "2020-12-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-210",
+        "name": "Real Sociedad"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773377",
+      "statsbombMatchId": 3773377,
+      "date": "2020-12-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-207",
+        "name": "Valencia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773571",
+      "statsbombMatchId": 3773571,
+      "date": "2020-12-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-901",
+        "name": "Real Valladolid"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773552",
+      "statsbombMatchId": 3773552,
+      "date": "2021-01-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-902",
+        "name": "Huesca"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3764661",
+      "statsbombMatchId": 3764661,
+      "date": "2021-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-215",
+        "name": "Athletic Club"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773565",
+      "statsbombMatchId": 3773565,
+      "date": "2021-01-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1049",
+        "name": "Granada"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3773403",
+      "statsbombMatchId": 3773403,
+      "date": "2021-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-215",
+        "name": "Athletic Club"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773631",
+      "statsbombMatchId": 3773631,
+      "date": "2021-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-218",
+        "name": "Real Betis"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773526",
+      "statsbombMatchId": 3773526,
+      "date": "2021-02-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-206",
+        "name": "Deportivo Alavés"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773415",
+      "statsbombMatchId": 3773415,
+      "date": "2021-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-552",
+        "name": "Cádiz"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3764440",
+      "statsbombMatchId": 3764440,
+      "date": "2021-02-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-1042",
+        "name": "Elche"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773625",
+      "statsbombMatchId": 3773625,
+      "date": "2021-02-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-213",
+        "name": "Sevilla"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773665",
+      "statsbombMatchId": 3773665,
+      "date": "2021-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-422",
+        "name": "Osasuna"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773369",
+      "statsbombMatchId": 3773369,
+      "date": "2021-03-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-902",
+        "name": "Huesca"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773597",
+      "statsbombMatchId": 3773597,
+      "date": "2021-03-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-210",
+        "name": "Real Sociedad"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 6
+      }
+    },
+    {
+      "id": "statsbomb-3773474",
+      "statsbombMatchId": 3773474,
+      "date": "2021-04-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-901",
+        "name": "Real Valladolid"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773497",
+      "statsbombMatchId": 3773497,
+      "date": "2021-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-220",
+        "name": "Real Madrid"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3773661",
+      "statsbombMatchId": 3773661,
+      "date": "2021-04-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-216",
+        "name": "Getafe"
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773689",
+      "statsbombMatchId": 3773689,
+      "date": "2021-04-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-222",
+        "name": "Villarreal"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773586",
+      "statsbombMatchId": 3773586,
+      "date": "2021-04-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-1049",
+        "name": "Granada"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3773695",
+      "statsbombMatchId": 3773695,
+      "date": "2021-05-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-207",
+        "name": "Valencia"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773372",
+      "statsbombMatchId": 3773372,
+      "date": "2021-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-212",
+        "name": "Atlético Madrid"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3773387",
+      "statsbombMatchId": 3773387,
+      "date": "2021-05-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-221",
+        "name": "Levante UD"
+      },
+      "away": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3773457",
+      "statsbombMatchId": 3773457,
+      "date": "2021-05-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-217",
+        "name": "Barcelona"
+      },
+      "away": {
+        "id": "sb-209",
+        "name": "Celta Vigo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-206",
+      "name": "Deportivo Alavés"
+    },
+    {
+      "id": "sb-217",
+      "name": "Barcelona"
+    },
+    {
+      "id": "sb-1049",
+      "name": "Granada"
+    },
+    {
+      "id": "sb-209",
+      "name": "Celta Vigo"
+    },
+    {
+      "id": "sb-218",
+      "name": "Real Betis"
+    },
+    {
+      "id": "sb-422",
+      "name": "Osasuna"
+    },
+    {
+      "id": "sb-220",
+      "name": "Real Madrid"
+    },
+    {
+      "id": "sb-221",
+      "name": "Levante UD"
+    },
+    {
+      "id": "sb-222",
+      "name": "Villarreal"
+    },
+    {
+      "id": "sb-902",
+      "name": "Huesca"
+    },
+    {
+      "id": "sb-213",
+      "name": "Sevilla"
+    },
+    {
+      "id": "sb-216",
+      "name": "Getafe"
+    },
+    {
+      "id": "sb-212",
+      "name": "Atlético Madrid"
+    },
+    {
+      "id": "sb-207",
+      "name": "Valencia"
+    },
+    {
+      "id": "sb-210",
+      "name": "Real Sociedad"
+    },
+    {
+      "id": "sb-901",
+      "name": "Real Valladolid"
+    },
+    {
+      "id": "sb-552",
+      "name": "Cádiz"
+    },
+    {
+      "id": "sb-215",
+      "name": "Athletic Club"
+    },
+    {
+      "id": "sb-1042",
+      "name": "Elche"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-217": {
+      "fixtures": {
+        "played": 35,
+        "wins": 22,
+        "draws": 6,
+        "loses": 7
+      },
+      "goals": {
+        "for": {
+          "total": 81
+        },
+        "against": {
+          "total": 37
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-222": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-209": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-213": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-216": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-220": {
+      "fixtures": {
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-206": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-218": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-212": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-422": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-552": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-221": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-210": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-207": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-901": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-902": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-215": {
+      "fixtures": {
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-1049": {
+      "fixtures": {
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-1042": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 35,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 19,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

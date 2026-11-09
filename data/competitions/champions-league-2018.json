@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "champions-league",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+  },
+  "season": "2018",
+  "seasonLabel": "2018/19",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-22912",
+      "statsbombMatchId": 22912,
+      "date": "2019-06-01",
+      "timestamp": null,
+      "round": "Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-38",
+        "name": "Tottenham Hotspur"
+      },
+      "away": {
+        "id": "sb-24",
+        "name": "Liverpool"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-38",
+      "name": "Tottenham Hotspur"
+    },
+    {
+      "id": "sb-24",
+      "name": "Liverpool"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-38": {
+      "fixtures": {
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 0
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-24": {
+      "fixtures": {
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 0
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 1,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 2,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

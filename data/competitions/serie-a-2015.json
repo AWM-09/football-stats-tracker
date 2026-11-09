@@ -1,0 +1,8489 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "serie-a",
+    "name": "Serie A",
+    "country": "Italy"
+  },
+  "season": "2015",
+  "seasonLabel": "2015/16",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3878541",
+      "statsbombMatchId": 3878541,
+      "date": "2015-08-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878540",
+      "statsbombMatchId": 3878540,
+      "date": "2015-08-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878549",
+      "statsbombMatchId": 3878549,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3878548",
+      "statsbombMatchId": 3878548,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878547",
+      "statsbombMatchId": 3878547,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878546",
+      "statsbombMatchId": 3878546,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878545",
+      "statsbombMatchId": 3878545,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878544",
+      "statsbombMatchId": 3878544,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878543",
+      "statsbombMatchId": 3878543,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878542",
+      "statsbombMatchId": 3878542,
+      "date": "2015-08-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878551",
+      "statsbombMatchId": 3878551,
+      "date": "2015-08-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878550",
+      "statsbombMatchId": 3878550,
+      "date": "2015-08-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878559",
+      "statsbombMatchId": 3878559,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878558",
+      "statsbombMatchId": 3878558,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878557",
+      "statsbombMatchId": 3878557,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878556",
+      "statsbombMatchId": 3878556,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878555",
+      "statsbombMatchId": 3878555,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878554",
+      "statsbombMatchId": 3878554,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878553",
+      "statsbombMatchId": 3878553,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878552",
+      "statsbombMatchId": 3878552,
+      "date": "2015-08-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878594",
+      "statsbombMatchId": 3878594,
+      "date": "2015-09-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878593",
+      "statsbombMatchId": 3878593,
+      "date": "2015-09-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878592",
+      "statsbombMatchId": 3878592,
+      "date": "2015-09-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878600",
+      "statsbombMatchId": 3878600,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878599",
+      "statsbombMatchId": 3878599,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878598",
+      "statsbombMatchId": 3878598,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878597",
+      "statsbombMatchId": 3878597,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878596",
+      "statsbombMatchId": 3878596,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878595",
+      "statsbombMatchId": 3878595,
+      "date": "2015-09-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878601",
+      "statsbombMatchId": 3878601,
+      "date": "2015-09-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878603",
+      "statsbombMatchId": 3878603,
+      "date": "2015-09-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878602",
+      "statsbombMatchId": 3878602,
+      "date": "2015-09-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878611",
+      "statsbombMatchId": 3878611,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878610",
+      "statsbombMatchId": 3878610,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878608",
+      "statsbombMatchId": 3878608,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878607",
+      "statsbombMatchId": 3878607,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878606",
+      "statsbombMatchId": 3878606,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3878605",
+      "statsbombMatchId": 3878605,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3878609",
+      "statsbombMatchId": 3878609,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3878604",
+      "statsbombMatchId": 3878604,
+      "date": "2015-09-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879537",
+      "statsbombMatchId": 3879537,
+      "date": "2015-09-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879542",
+      "statsbombMatchId": 3879542,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879545",
+      "statsbombMatchId": 3879545,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879544",
+      "statsbombMatchId": 3879544,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879543",
+      "statsbombMatchId": 3879543,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879541",
+      "statsbombMatchId": 3879541,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879540",
+      "statsbombMatchId": 3879540,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879539",
+      "statsbombMatchId": 3879539,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879538",
+      "statsbombMatchId": 3879538,
+      "date": "2015-09-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879546",
+      "statsbombMatchId": 3879546,
+      "date": "2015-09-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879548",
+      "statsbombMatchId": 3879548,
+      "date": "2015-09-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879547",
+      "statsbombMatchId": 3879547,
+      "date": "2015-09-26",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879551",
+      "statsbombMatchId": 3879551,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879554",
+      "statsbombMatchId": 3879554,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879553",
+      "statsbombMatchId": 3879553,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879552",
+      "statsbombMatchId": 3879552,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879550",
+      "statsbombMatchId": 3879550,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879549",
+      "statsbombMatchId": 3879549,
+      "date": "2015-09-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879556",
+      "statsbombMatchId": 3879556,
+      "date": "2015-09-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879555",
+      "statsbombMatchId": 3879555,
+      "date": "2015-09-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879557",
+      "statsbombMatchId": 3879557,
+      "date": "2015-10-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879558",
+      "statsbombMatchId": 3879558,
+      "date": "2015-10-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879566",
+      "statsbombMatchId": 3879566,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879564",
+      "statsbombMatchId": 3879564,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879562",
+      "statsbombMatchId": 3879562,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879565",
+      "statsbombMatchId": 3879565,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879563",
+      "statsbombMatchId": 3879563,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879561",
+      "statsbombMatchId": 3879561,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879560",
+      "statsbombMatchId": 3879560,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879559",
+      "statsbombMatchId": 3879559,
+      "date": "2015-10-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879567",
+      "statsbombMatchId": 3879567,
+      "date": "2015-10-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879568",
+      "statsbombMatchId": 3879568,
+      "date": "2015-10-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879575",
+      "statsbombMatchId": 3879575,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879576",
+      "statsbombMatchId": 3879576,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879574",
+      "statsbombMatchId": 3879574,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879573",
+      "statsbombMatchId": 3879573,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879572",
+      "statsbombMatchId": 3879572,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879571",
+      "statsbombMatchId": 3879571,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879570",
+      "statsbombMatchId": 3879570,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879569",
+      "statsbombMatchId": 3879569,
+      "date": "2015-10-18",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879579",
+      "statsbombMatchId": 3879579,
+      "date": "2015-10-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879578",
+      "statsbombMatchId": 3879578,
+      "date": "2015-10-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879577",
+      "statsbombMatchId": 3879577,
+      "date": "2015-10-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879585",
+      "statsbombMatchId": 3879585,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879582",
+      "statsbombMatchId": 3879582,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879586",
+      "statsbombMatchId": 3879586,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879584",
+      "statsbombMatchId": 3879584,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879583",
+      "statsbombMatchId": 3879583,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879581",
+      "statsbombMatchId": 3879581,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879580",
+      "statsbombMatchId": 3879580,
+      "date": "2015-10-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879587",
+      "statsbombMatchId": 3879587,
+      "date": "2015-10-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879595",
+      "statsbombMatchId": 3879595,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879594",
+      "statsbombMatchId": 3879594,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879593",
+      "statsbombMatchId": 3879593,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879592",
+      "statsbombMatchId": 3879592,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879591",
+      "statsbombMatchId": 3879591,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879590",
+      "statsbombMatchId": 3879590,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879589",
+      "statsbombMatchId": 3879589,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879588",
+      "statsbombMatchId": 3879588,
+      "date": "2015-10-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879596",
+      "statsbombMatchId": 3879596,
+      "date": "2015-10-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879598",
+      "statsbombMatchId": 3879598,
+      "date": "2015-10-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879597",
+      "statsbombMatchId": 3879597,
+      "date": "2015-10-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879600",
+      "statsbombMatchId": 3879600,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879604",
+      "statsbombMatchId": 3879604,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879603",
+      "statsbombMatchId": 3879603,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879602",
+      "statsbombMatchId": 3879602,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879601",
+      "statsbombMatchId": 3879601,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879599",
+      "statsbombMatchId": 3879599,
+      "date": "2015-11-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879606",
+      "statsbombMatchId": 3879606,
+      "date": "2015-11-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879605",
+      "statsbombMatchId": 3879605,
+      "date": "2015-11-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879608",
+      "statsbombMatchId": 3879608,
+      "date": "2015-11-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879607",
+      "statsbombMatchId": 3879607,
+      "date": "2015-11-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879609",
+      "statsbombMatchId": 3879609,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879616",
+      "statsbombMatchId": 3879616,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879615",
+      "statsbombMatchId": 3879615,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879614",
+      "statsbombMatchId": 3879614,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879613",
+      "statsbombMatchId": 3879613,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879612",
+      "statsbombMatchId": 3879612,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879611",
+      "statsbombMatchId": 3879611,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879610",
+      "statsbombMatchId": 3879610,
+      "date": "2015-11-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879618",
+      "statsbombMatchId": 3879618,
+      "date": "2015-11-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879617",
+      "statsbombMatchId": 3879617,
+      "date": "2015-11-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879626",
+      "statsbombMatchId": 3879626,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879625",
+      "statsbombMatchId": 3879625,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879624",
+      "statsbombMatchId": 3879624,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879623",
+      "statsbombMatchId": 3879623,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879622",
+      "statsbombMatchId": 3879622,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879621",
+      "statsbombMatchId": 3879621,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879620",
+      "statsbombMatchId": 3879620,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879619",
+      "statsbombMatchId": 3879619,
+      "date": "2015-11-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879628",
+      "statsbombMatchId": 3879628,
+      "date": "2015-11-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879627",
+      "statsbombMatchId": 3879627,
+      "date": "2015-11-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879632",
+      "statsbombMatchId": 3879632,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879634",
+      "statsbombMatchId": 3879634,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879633",
+      "statsbombMatchId": 3879633,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879631",
+      "statsbombMatchId": 3879631,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879630",
+      "statsbombMatchId": 3879630,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879629",
+      "statsbombMatchId": 3879629,
+      "date": "2015-11-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879636",
+      "statsbombMatchId": 3879636,
+      "date": "2015-11-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879635",
+      "statsbombMatchId": 3879635,
+      "date": "2015-11-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879637",
+      "statsbombMatchId": 3879637,
+      "date": "2015-12-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879639",
+      "statsbombMatchId": 3879639,
+      "date": "2015-12-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879638",
+      "statsbombMatchId": 3879638,
+      "date": "2015-12-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879645",
+      "statsbombMatchId": 3879645,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879646",
+      "statsbombMatchId": 3879646,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879644",
+      "statsbombMatchId": 3879644,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879643",
+      "statsbombMatchId": 3879643,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879642",
+      "statsbombMatchId": 3879642,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879641",
+      "statsbombMatchId": 3879641,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879640",
+      "statsbombMatchId": 3879640,
+      "date": "2015-12-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879649",
+      "statsbombMatchId": 3879649,
+      "date": "2015-12-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879648",
+      "statsbombMatchId": 3879648,
+      "date": "2015-12-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879647",
+      "statsbombMatchId": 3879647,
+      "date": "2015-12-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879653",
+      "statsbombMatchId": 3879653,
+      "date": "2015-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879654",
+      "statsbombMatchId": 3879654,
+      "date": "2015-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879652",
+      "statsbombMatchId": 3879652,
+      "date": "2015-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879651",
+      "statsbombMatchId": 3879651,
+      "date": "2015-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879650",
+      "statsbombMatchId": 3879650,
+      "date": "2015-12-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879655",
+      "statsbombMatchId": 3879655,
+      "date": "2015-12-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879656",
+      "statsbombMatchId": 3879656,
+      "date": "2015-12-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879664",
+      "statsbombMatchId": 3879664,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879665",
+      "statsbombMatchId": 3879665,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879663",
+      "statsbombMatchId": 3879663,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879662",
+      "statsbombMatchId": 3879662,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879661",
+      "statsbombMatchId": 3879661,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879660",
+      "statsbombMatchId": 3879660,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879659",
+      "statsbombMatchId": 3879659,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879658",
+      "statsbombMatchId": 3879658,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879657",
+      "statsbombMatchId": 3879657,
+      "date": "2015-12-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879666",
+      "statsbombMatchId": 3879666,
+      "date": "2016-01-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879675",
+      "statsbombMatchId": 3879675,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879674",
+      "statsbombMatchId": 3879674,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879673",
+      "statsbombMatchId": 3879673,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879672",
+      "statsbombMatchId": 3879672,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879671",
+      "statsbombMatchId": 3879671,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879670",
+      "statsbombMatchId": 3879670,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879669",
+      "statsbombMatchId": 3879669,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879668",
+      "statsbombMatchId": 3879668,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879667",
+      "statsbombMatchId": 3879667,
+      "date": "2016-01-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879678",
+      "statsbombMatchId": 3879678,
+      "date": "2016-01-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879677",
+      "statsbombMatchId": 3879677,
+      "date": "2016-01-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879676",
+      "statsbombMatchId": 3879676,
+      "date": "2016-01-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879685",
+      "statsbombMatchId": 3879685,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879684",
+      "statsbombMatchId": 3879684,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879683",
+      "statsbombMatchId": 3879683,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879682",
+      "statsbombMatchId": 3879682,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879681",
+      "statsbombMatchId": 3879681,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879680",
+      "statsbombMatchId": 3879680,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879679",
+      "statsbombMatchId": 3879679,
+      "date": "2016-01-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3879688",
+      "statsbombMatchId": 3879688,
+      "date": "2016-01-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879687",
+      "statsbombMatchId": 3879687,
+      "date": "2016-01-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879686",
+      "statsbombMatchId": 3879686,
+      "date": "2016-01-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879695",
+      "statsbombMatchId": 3879695,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879694",
+      "statsbombMatchId": 3879694,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879693",
+      "statsbombMatchId": 3879693,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879692",
+      "statsbombMatchId": 3879692,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879691",
+      "statsbombMatchId": 3879691,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879690",
+      "statsbombMatchId": 3879690,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879689",
+      "statsbombMatchId": 3879689,
+      "date": "2016-01-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879696",
+      "statsbombMatchId": 3879696,
+      "date": "2016-01-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879698",
+      "statsbombMatchId": 3879698,
+      "date": "2016-01-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879697",
+      "statsbombMatchId": 3879697,
+      "date": "2016-01-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879705",
+      "statsbombMatchId": 3879705,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879699",
+      "statsbombMatchId": 3879699,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879703",
+      "statsbombMatchId": 3879703,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879702",
+      "statsbombMatchId": 3879702,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879704",
+      "statsbombMatchId": 3879704,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879701",
+      "statsbombMatchId": 3879701,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879700",
+      "statsbombMatchId": 3879700,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879706",
+      "statsbombMatchId": 3879706,
+      "date": "2016-01-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879707",
+      "statsbombMatchId": 3879707,
+      "date": "2016-01-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879709",
+      "statsbombMatchId": 3879709,
+      "date": "2016-01-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879708",
+      "statsbombMatchId": 3879708,
+      "date": "2016-01-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879716",
+      "statsbombMatchId": 3879716,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879715",
+      "statsbombMatchId": 3879715,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879714",
+      "statsbombMatchId": 3879714,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879713",
+      "statsbombMatchId": 3879713,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879712",
+      "statsbombMatchId": 3879712,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879711",
+      "statsbombMatchId": 3879711,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879710",
+      "statsbombMatchId": 3879710,
+      "date": "2016-01-31",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879717",
+      "statsbombMatchId": 3879717,
+      "date": "2016-02-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879726",
+      "statsbombMatchId": 3879726,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879725",
+      "statsbombMatchId": 3879725,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879724",
+      "statsbombMatchId": 3879724,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879723",
+      "statsbombMatchId": 3879723,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879722",
+      "statsbombMatchId": 3879722,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879721",
+      "statsbombMatchId": 3879721,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879720",
+      "statsbombMatchId": 3879720,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879719",
+      "statsbombMatchId": 3879719,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879718",
+      "statsbombMatchId": 3879718,
+      "date": "2016-02-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879728",
+      "statsbombMatchId": 3879728,
+      "date": "2016-02-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879727",
+      "statsbombMatchId": 3879727,
+      "date": "2016-02-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879732",
+      "statsbombMatchId": 3879732,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879736",
+      "statsbombMatchId": 3879736,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879735",
+      "statsbombMatchId": 3879735,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879734",
+      "statsbombMatchId": 3879734,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879733",
+      "statsbombMatchId": 3879733,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879731",
+      "statsbombMatchId": 3879731,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879730",
+      "statsbombMatchId": 3879730,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879729",
+      "statsbombMatchId": 3879729,
+      "date": "2016-02-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879737",
+      "statsbombMatchId": 3879737,
+      "date": "2016-02-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879738",
+      "statsbombMatchId": 3879738,
+      "date": "2016-02-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879739",
+      "statsbombMatchId": 3879739,
+      "date": "2016-02-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879741",
+      "statsbombMatchId": 3879741,
+      "date": "2016-02-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879740",
+      "statsbombMatchId": 3879740,
+      "date": "2016-02-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879742",
+      "statsbombMatchId": 3879742,
+      "date": "2016-02-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879746",
+      "statsbombMatchId": 3879746,
+      "date": "2016-02-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879744",
+      "statsbombMatchId": 3879744,
+      "date": "2016-02-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879745",
+      "statsbombMatchId": 3879745,
+      "date": "2016-02-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879743",
+      "statsbombMatchId": 3879743,
+      "date": "2016-02-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879747",
+      "statsbombMatchId": 3879747,
+      "date": "2016-02-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879748",
+      "statsbombMatchId": 3879748,
+      "date": "2016-02-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879749",
+      "statsbombMatchId": 3879749,
+      "date": "2016-02-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879750",
+      "statsbombMatchId": 3879750,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879754",
+      "statsbombMatchId": 3879754,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879755",
+      "statsbombMatchId": 3879755,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879753",
+      "statsbombMatchId": 3879753,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879752",
+      "statsbombMatchId": 3879752,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879751",
+      "statsbombMatchId": 3879751,
+      "date": "2016-02-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879756",
+      "statsbombMatchId": 3879756,
+      "date": "2016-02-22",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879758",
+      "statsbombMatchId": 3879758,
+      "date": "2016-02-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879757",
+      "statsbombMatchId": 3879757,
+      "date": "2016-02-27",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879764",
+      "statsbombMatchId": 3879764,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879763",
+      "statsbombMatchId": 3879763,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879762",
+      "statsbombMatchId": 3879762,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879761",
+      "statsbombMatchId": 3879761,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879760",
+      "statsbombMatchId": 3879760,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879759",
+      "statsbombMatchId": 3879759,
+      "date": "2016-02-28",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879766",
+      "statsbombMatchId": 3879766,
+      "date": "2016-02-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879765",
+      "statsbombMatchId": 3879765,
+      "date": "2016-02-29",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879767",
+      "statsbombMatchId": 3879767,
+      "date": "2016-03-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879769",
+      "statsbombMatchId": 3879769,
+      "date": "2016-03-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879768",
+      "statsbombMatchId": 3879768,
+      "date": "2016-03-05",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879773",
+      "statsbombMatchId": 3879773,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879774",
+      "statsbombMatchId": 3879774,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879776",
+      "statsbombMatchId": 3879776,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879771",
+      "statsbombMatchId": 3879771,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879772",
+      "statsbombMatchId": 3879772,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879775",
+      "statsbombMatchId": 3879775,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879770",
+      "statsbombMatchId": 3879770,
+      "date": "2016-03-06",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879777",
+      "statsbombMatchId": 3879777,
+      "date": "2016-03-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879779",
+      "statsbombMatchId": 3879779,
+      "date": "2016-03-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879778",
+      "statsbombMatchId": 3879778,
+      "date": "2016-03-12",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879785",
+      "statsbombMatchId": 3879785,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879786",
+      "statsbombMatchId": 3879786,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879784",
+      "statsbombMatchId": 3879784,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879783",
+      "statsbombMatchId": 3879783,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879782",
+      "statsbombMatchId": 3879782,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879781",
+      "statsbombMatchId": 3879781,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879780",
+      "statsbombMatchId": 3879780,
+      "date": "2016-03-13",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879788",
+      "statsbombMatchId": 3879788,
+      "date": "2016-03-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879787",
+      "statsbombMatchId": 3879787,
+      "date": "2016-03-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879792",
+      "statsbombMatchId": 3879792,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879795",
+      "statsbombMatchId": 3879795,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879794",
+      "statsbombMatchId": 3879794,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879796",
+      "statsbombMatchId": 3879796,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879793",
+      "statsbombMatchId": 3879793,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879791",
+      "statsbombMatchId": 3879791,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879790",
+      "statsbombMatchId": 3879790,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879789",
+      "statsbombMatchId": 3879789,
+      "date": "2016-03-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879798",
+      "statsbombMatchId": 3879798,
+      "date": "2016-04-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879797",
+      "statsbombMatchId": 3879797,
+      "date": "2016-04-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879805",
+      "statsbombMatchId": 3879805,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879804",
+      "statsbombMatchId": 3879804,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879803",
+      "statsbombMatchId": 3879803,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879802",
+      "statsbombMatchId": 3879802,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879801",
+      "statsbombMatchId": 3879801,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879800",
+      "statsbombMatchId": 3879800,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879799",
+      "statsbombMatchId": 3879799,
+      "date": "2016-04-03",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879806",
+      "statsbombMatchId": 3879806,
+      "date": "2016-04-04",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879810",
+      "statsbombMatchId": 3879810,
+      "date": "2016-04-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879809",
+      "statsbombMatchId": 3879809,
+      "date": "2016-04-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879808",
+      "statsbombMatchId": 3879808,
+      "date": "2016-04-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879807",
+      "statsbombMatchId": 3879807,
+      "date": "2016-04-09",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879815",
+      "statsbombMatchId": 3879815,
+      "date": "2016-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879814",
+      "statsbombMatchId": 3879814,
+      "date": "2016-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879813",
+      "statsbombMatchId": 3879813,
+      "date": "2016-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879812",
+      "statsbombMatchId": 3879812,
+      "date": "2016-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879811",
+      "statsbombMatchId": 3879811,
+      "date": "2016-04-10",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879816",
+      "statsbombMatchId": 3879816,
+      "date": "2016-04-11",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879819",
+      "statsbombMatchId": 3879819,
+      "date": "2016-04-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879817",
+      "statsbombMatchId": 3879817,
+      "date": "2016-04-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879818",
+      "statsbombMatchId": 3879818,
+      "date": "2016-04-16",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879825",
+      "statsbombMatchId": 3879825,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879826",
+      "statsbombMatchId": 3879826,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879824",
+      "statsbombMatchId": 3879824,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879823",
+      "statsbombMatchId": 3879823,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879822",
+      "statsbombMatchId": 3879822,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879821",
+      "statsbombMatchId": 3879821,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879820",
+      "statsbombMatchId": 3879820,
+      "date": "2016-04-17",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879827",
+      "statsbombMatchId": 3879827,
+      "date": "2016-04-19",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879833",
+      "statsbombMatchId": 3879833,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879828",
+      "statsbombMatchId": 3879828,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879832",
+      "statsbombMatchId": 3879832,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879830",
+      "statsbombMatchId": 3879830,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879835",
+      "statsbombMatchId": 3879835,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879834",
+      "statsbombMatchId": 3879834,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879831",
+      "statsbombMatchId": 3879831,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879829",
+      "statsbombMatchId": 3879829,
+      "date": "2016-04-20",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879836",
+      "statsbombMatchId": 3879836,
+      "date": "2016-04-21",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879837",
+      "statsbombMatchId": 3879837,
+      "date": "2016-04-23",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879838",
+      "statsbombMatchId": 3879838,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879839",
+      "statsbombMatchId": 3879839,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879840",
+      "statsbombMatchId": 3879840,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879843",
+      "statsbombMatchId": 3879843,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879842",
+      "statsbombMatchId": 3879842,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879841",
+      "statsbombMatchId": 3879841,
+      "date": "2016-04-24",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879846",
+      "statsbombMatchId": 3879846,
+      "date": "2016-04-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879845",
+      "statsbombMatchId": 3879845,
+      "date": "2016-04-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879844",
+      "statsbombMatchId": 3879844,
+      "date": "2016-04-25",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879847",
+      "statsbombMatchId": 3879847,
+      "date": "2016-04-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3879848",
+      "statsbombMatchId": 3879848,
+      "date": "2016-04-30",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879854",
+      "statsbombMatchId": 3879854,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879853",
+      "statsbombMatchId": 3879853,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879852",
+      "statsbombMatchId": 3879852,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879851",
+      "statsbombMatchId": 3879851,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879850",
+      "statsbombMatchId": 3879850,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879849",
+      "statsbombMatchId": 3879849,
+      "date": "2016-05-01",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879856",
+      "statsbombMatchId": 3879856,
+      "date": "2016-05-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879855",
+      "statsbombMatchId": 3879855,
+      "date": "2016-05-02",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879858",
+      "statsbombMatchId": 3879858,
+      "date": "2016-05-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "away": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879857",
+      "statsbombMatchId": 3879857,
+      "date": "2016-05-07",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "away": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879863",
+      "statsbombMatchId": 3879863,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "away": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879862",
+      "statsbombMatchId": 3879862,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "away": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879866",
+      "statsbombMatchId": 3879866,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "away": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879865",
+      "statsbombMatchId": 3879865,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "away": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879864",
+      "statsbombMatchId": 3879864,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "away": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879861",
+      "statsbombMatchId": 3879861,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "away": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879860",
+      "statsbombMatchId": 3879860,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "away": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879859",
+      "statsbombMatchId": 3879859,
+      "date": "2016-05-08",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "away": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879870",
+      "statsbombMatchId": 3879870,
+      "date": "2016-05-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-224",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "sb-234",
+        "name": "Sampdoria"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879869",
+      "statsbombMatchId": 3879869,
+      "date": "2016-05-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-243",
+        "name": "AC Milan"
+      },
+      "away": {
+        "id": "sb-229",
+        "name": "AS Roma"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3879868",
+      "statsbombMatchId": 3879868,
+      "date": "2016-05-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-232",
+        "name": "Sassuolo"
+      },
+      "away": {
+        "id": "sb-238",
+        "name": "Inter Milan"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879867",
+      "statsbombMatchId": 3879867,
+      "date": "2016-05-14",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-227",
+        "name": "Napoli"
+      },
+      "away": {
+        "id": "sb-291",
+        "name": "Frosinone"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879876",
+      "statsbombMatchId": 3879876,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-233",
+        "name": "Genoa"
+      },
+      "away": {
+        "id": "sb-228",
+        "name": "Atalanta"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879875",
+      "statsbombMatchId": 3879875,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2256",
+        "name": "Palermo"
+      },
+      "away": {
+        "id": "sb-226",
+        "name": "Hellas Verona"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3879874",
+      "statsbombMatchId": 3879874,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-236",
+        "name": "Lazio"
+      },
+      "away": {
+        "id": "sb-239",
+        "name": "Fiorentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3879873",
+      "statsbombMatchId": 3879873,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-290",
+        "name": "Empoli"
+      },
+      "away": {
+        "id": "sb-241",
+        "name": "Torino"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3879872",
+      "statsbombMatchId": 3879872,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-231",
+        "name": "Chievo"
+      },
+      "away": {
+        "id": "sb-240",
+        "name": "Bologna"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3879871",
+      "statsbombMatchId": 3879871,
+      "date": "2016-05-15",
+      "timestamp": null,
+      "round": "Regular Season",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-230",
+        "name": "Udinese"
+      },
+      "away": {
+        "id": "sb-1683",
+        "name": "Carpi"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-226",
+      "name": "Hellas Verona"
+    },
+    {
+      "id": "sb-240",
+      "name": "Bologna"
+    },
+    {
+      "id": "sb-236",
+      "name": "Lazio"
+    },
+    {
+      "id": "sb-230",
+      "name": "Udinese"
+    },
+    {
+      "id": "sb-238",
+      "name": "Inter Milan"
+    },
+    {
+      "id": "sb-1683",
+      "name": "Carpi"
+    },
+    {
+      "id": "sb-231",
+      "name": "Chievo"
+    },
+    {
+      "id": "sb-233",
+      "name": "Genoa"
+    },
+    {
+      "id": "sb-229",
+      "name": "AS Roma"
+    },
+    {
+      "id": "sb-234",
+      "name": "Sampdoria"
+    },
+    {
+      "id": "sb-2256",
+      "name": "Palermo"
+    },
+    {
+      "id": "sb-228",
+      "name": "Atalanta"
+    },
+    {
+      "id": "sb-291",
+      "name": "Frosinone"
+    },
+    {
+      "id": "sb-241",
+      "name": "Torino"
+    },
+    {
+      "id": "sb-227",
+      "name": "Napoli"
+    },
+    {
+      "id": "sb-290",
+      "name": "Empoli"
+    },
+    {
+      "id": "sb-239",
+      "name": "Fiorentina"
+    },
+    {
+      "id": "sb-232",
+      "name": "Sassuolo"
+    },
+    {
+      "id": "sb-243",
+      "name": "AC Milan"
+    },
+    {
+      "id": "sb-224",
+      "name": "Juventus"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-226": {
+      "fixtures": {
+        "played": 38,
+        "wins": 5,
+        "draws": 13,
+        "loses": 20
+      },
+      "goals": {
+        "for": {
+          "total": 34
+        },
+        "against": {
+          "total": 63
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-229": {
+      "fixtures": {
+        "played": 38,
+        "wins": 23,
+        "draws": 11,
+        "loses": 4
+      },
+      "goals": {
+        "for": {
+          "total": 83
+        },
+        "against": {
+          "total": 41
+        }
+      },
+      "clean_sheet": {
+        "total": 8
+      }
+    },
+    "sb-236": {
+      "fixtures": {
+        "played": 38,
+        "wins": 15,
+        "draws": 9,
+        "loses": 14
+      },
+      "goals": {
+        "for": {
+          "total": 52
+        },
+        "against": {
+          "total": 52
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-240": {
+      "fixtures": {
+        "played": 38,
+        "wins": 11,
+        "draws": 9,
+        "loses": 18
+      },
+      "goals": {
+        "for": {
+          "total": 33
+        },
+        "against": {
+          "total": 45
+        }
+      },
+      "clean_sheet": {
+        "total": 13
+      }
+    },
+    "sb-290": {
+      "fixtures": {
+        "played": 38,
+        "wins": 12,
+        "draws": 10,
+        "loses": 16
+      },
+      "goals": {
+        "for": {
+          "total": 40
+        },
+        "against": {
+          "total": 49
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-231": {
+      "fixtures": {
+        "played": 38,
+        "wins": 13,
+        "draws": 11,
+        "loses": 14
+      },
+      "goals": {
+        "for": {
+          "total": 43
+        },
+        "against": {
+          "total": 45
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-224": {
+      "fixtures": {
+        "played": 38,
+        "wins": 29,
+        "draws": 4,
+        "loses": 5
+      },
+      "goals": {
+        "for": {
+          "total": 75
+        },
+        "against": {
+          "total": 20
+        }
+      },
+      "clean_sheet": {
+        "total": 22
+      }
+    },
+    "sb-230": {
+      "fixtures": {
+        "played": 38,
+        "wins": 10,
+        "draws": 9,
+        "loses": 19
+      },
+      "goals": {
+        "for": {
+          "total": 35
+        },
+        "against": {
+          "total": 60
+        }
+      },
+      "clean_sheet": {
+        "total": 8
+      }
+    },
+    "sb-291": {
+      "fixtures": {
+        "played": 38,
+        "wins": 8,
+        "draws": 7,
+        "loses": 23
+      },
+      "goals": {
+        "for": {
+          "total": 35
+        },
+        "against": {
+          "total": 76
+        }
+      },
+      "clean_sheet": {
+        "total": 7
+      }
+    },
+    "sb-241": {
+      "fixtures": {
+        "played": 38,
+        "wins": 12,
+        "draws": 9,
+        "loses": 17
+      },
+      "goals": {
+        "for": {
+          "total": 52
+        },
+        "against": {
+          "total": 55
+        }
+      },
+      "clean_sheet": {
+        "total": 6
+      }
+    },
+    "sb-232": {
+      "fixtures": {
+        "played": 38,
+        "wins": 16,
+        "draws": 13,
+        "loses": 9
+      },
+      "goals": {
+        "for": {
+          "total": 49
+        },
+        "against": {
+          "total": 40
+        }
+      },
+      "clean_sheet": {
+        "total": 11
+      }
+    },
+    "sb-227": {
+      "fixtures": {
+        "played": 38,
+        "wins": 25,
+        "draws": 7,
+        "loses": 6
+      },
+      "goals": {
+        "for": {
+          "total": 80
+        },
+        "against": {
+          "total": 32
+        }
+      },
+      "clean_sheet": {
+        "total": 15
+      }
+    },
+    "sb-234": {
+      "fixtures": {
+        "played": 38,
+        "wins": 10,
+        "draws": 10,
+        "loses": 18
+      },
+      "goals": {
+        "for": {
+          "total": 48
+        },
+        "against": {
+          "total": 61
+        }
+      },
+      "clean_sheet": {
+        "total": 7
+      }
+    },
+    "sb-1683": {
+      "fixtures": {
+        "played": 38,
+        "wins": 9,
+        "draws": 11,
+        "loses": 18
+      },
+      "goals": {
+        "for": {
+          "total": 37
+        },
+        "against": {
+          "total": 57
+        }
+      },
+      "clean_sheet": {
+        "total": 8
+      }
+    },
+    "sb-2256": {
+      "fixtures": {
+        "played": 38,
+        "wins": 10,
+        "draws": 9,
+        "loses": 19
+      },
+      "goals": {
+        "for": {
+          "total": 38
+        },
+        "against": {
+          "total": 65
+        }
+      },
+      "clean_sheet": {
+        "total": 10
+      }
+    },
+    "sb-233": {
+      "fixtures": {
+        "played": 38,
+        "wins": 13,
+        "draws": 7,
+        "loses": 18
+      },
+      "goals": {
+        "for": {
+          "total": 45
+        },
+        "against": {
+          "total": 48
+        }
+      },
+      "clean_sheet": {
+        "total": 12
+      }
+    },
+    "sb-238": {
+      "fixtures": {
+        "played": 38,
+        "wins": 20,
+        "draws": 7,
+        "loses": 11
+      },
+      "goals": {
+        "for": {
+          "total": 50
+        },
+        "against": {
+          "total": 38
+        }
+      },
+      "clean_sheet": {
+        "total": 15
+      }
+    },
+    "sb-228": {
+      "fixtures": {
+        "played": 38,
+        "wins": 11,
+        "draws": 12,
+        "loses": 15
+      },
+      "goals": {
+        "for": {
+          "total": 41
+        },
+        "against": {
+          "total": 47
+        }
+      },
+      "clean_sheet": {
+        "total": 11
+      }
+    },
+    "sb-239": {
+      "fixtures": {
+        "played": 38,
+        "wins": 18,
+        "draws": 10,
+        "loses": 10
+      },
+      "goals": {
+        "for": {
+          "total": 60
+        },
+        "against": {
+          "total": 42
+        }
+      },
+      "clean_sheet": {
+        "total": 14
+      }
+    },
+    "sb-243": {
+      "fixtures": {
+        "played": 38,
+        "wins": 15,
+        "draws": 12,
+        "loses": 11
+      },
+      "goals": {
+        "for": {
+          "total": 49
+        },
+        "against": {
+          "total": 43
+        }
+      },
+      "clean_sheet": {
+        "total": 11
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 380,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 20,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

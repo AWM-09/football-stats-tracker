@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "afcon",
+    "name": "Africa Cup of Nations",
+    "country": "Africa"
+  },
+  "season": "2023",
+  "seasonLabel": "2023",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3920384",
+      "statsbombMatchId": 3920384,
+      "date": "2024-01-13",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "away": {
+        "id": "sb-4894",
+        "name": "Guinea-Bissau"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920386",
+      "statsbombMatchId": 3920386,
+      "date": "2024-01-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "away": {
+        "id": "sb-4992",
+        "name": "Equatorial Guinea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920385",
+      "statsbombMatchId": 3920385,
+      "date": "2024-01-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-774",
+        "name": "Egypt"
+      },
+      "away": {
+        "id": "sb-4978",
+        "name": "Mozambique"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920387",
+      "statsbombMatchId": 3920387,
+      "date": "2024-01-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "away": {
+        "id": "sb-4924",
+        "name": "Cape Verde Islands"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920389",
+      "statsbombMatchId": 3920389,
+      "date": "2024-01-15",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "away": {
+        "id": "sb-4892",
+        "name": "Guinea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920390",
+      "statsbombMatchId": 3920390,
+      "date": "2024-01-15",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4898",
+        "name": "Algeria"
+      },
+      "away": {
+        "id": "sb-4901",
+        "name": "Angola"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920388",
+      "statsbombMatchId": 3920388,
+      "date": "2024-01-15",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "away": {
+        "id": "sb-4934",
+        "name": "Gambia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920393",
+      "statsbombMatchId": 3920393,
+      "date": "2024-01-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "away": {
+        "id": "sb-4980",
+        "name": "Namibia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920392",
+      "statsbombMatchId": 3920392,
+      "date": "2024-01-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4921",
+        "name": "Burkina Faso"
+      },
+      "away": {
+        "id": "sb-4932",
+        "name": "Mauritania"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920391",
+      "statsbombMatchId": 3920391,
+      "date": "2024-01-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4930",
+        "name": "Mali"
+      },
+      "away": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920395",
+      "statsbombMatchId": 3920395,
+      "date": "2024-01-17",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "away": {
+        "id": "sb-4963",
+        "name": "Zambia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920394",
+      "statsbombMatchId": 3920394,
+      "date": "2024-01-17",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-4953",
+        "name": "Tanzania"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920397",
+      "statsbombMatchId": 3920397,
+      "date": "2024-01-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4992",
+        "name": "Equatorial Guinea"
+      },
+      "away": {
+        "id": "sb-4894",
+        "name": "Guinea-Bissau"
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920396",
+      "statsbombMatchId": 3920396,
+      "date": "2024-01-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-774",
+        "name": "Egypt"
+      },
+      "away": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920398",
+      "statsbombMatchId": 3920398,
+      "date": "2024-01-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "away": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920399",
+      "statsbombMatchId": 3920399,
+      "date": "2024-01-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4924",
+        "name": "Cape Verde Islands"
+      },
+      "away": {
+        "id": "sb-4978",
+        "name": "Mozambique"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920400",
+      "statsbombMatchId": 3920400,
+      "date": "2024-01-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "away": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920401",
+      "statsbombMatchId": 3920401,
+      "date": "2024-01-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4892",
+        "name": "Guinea"
+      },
+      "away": {
+        "id": "sb-4934",
+        "name": "Gambia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920404",
+      "statsbombMatchId": 3920404,
+      "date": "2024-01-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "away": {
+        "id": "sb-4930",
+        "name": "Mali"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920403",
+      "statsbombMatchId": 3920403,
+      "date": "2024-01-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4932",
+        "name": "Mauritania"
+      },
+      "away": {
+        "id": "sb-4901",
+        "name": "Angola"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3920402",
+      "statsbombMatchId": 3920402,
+      "date": "2024-01-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4898",
+        "name": "Algeria"
+      },
+      "away": {
+        "id": "sb-4921",
+        "name": "Burkina Faso"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920407",
+      "statsbombMatchId": 3920407,
+      "date": "2024-01-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "away": {
+        "id": "sb-4980",
+        "name": "Namibia"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920405",
+      "statsbombMatchId": 3920405,
+      "date": "2024-01-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920406",
+      "statsbombMatchId": 3920406,
+      "date": "2024-01-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4963",
+        "name": "Zambia"
+      },
+      "away": {
+        "id": "sb-4953",
+        "name": "Tanzania"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920409",
+      "statsbombMatchId": 3920409,
+      "date": "2024-01-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4894",
+        "name": "Guinea-Bissau"
+      },
+      "away": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920408",
+      "statsbombMatchId": 3920408,
+      "date": "2024-01-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4992",
+        "name": "Equatorial Guinea"
+      },
+      "away": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920410",
+      "statsbombMatchId": 3920410,
+      "date": "2024-01-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4978",
+        "name": "Mozambique"
+      },
+      "away": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920411",
+      "statsbombMatchId": 3920411,
+      "date": "2024-01-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4924",
+        "name": "Cape Verde Islands"
+      },
+      "away": {
+        "id": "sb-774",
+        "name": "Egypt"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920413",
+      "statsbombMatchId": 3920413,
+      "date": "2024-01-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4934",
+        "name": "Gambia"
+      },
+      "away": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3920412",
+      "statsbombMatchId": 3920412,
+      "date": "2024-01-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4892",
+        "name": "Guinea"
+      },
+      "away": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3920415",
+      "statsbombMatchId": 3920415,
+      "date": "2024-01-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4932",
+        "name": "Mauritania"
+      },
+      "away": {
+        "id": "sb-4898",
+        "name": "Algeria"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920414",
+      "statsbombMatchId": 3920414,
+      "date": "2024-01-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4901",
+        "name": "Angola"
+      },
+      "away": {
+        "id": "sb-4921",
+        "name": "Burkina Faso"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920417",
+      "statsbombMatchId": 3920417,
+      "date": "2024-01-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4980",
+        "name": "Namibia"
+      },
+      "away": {
+        "id": "sb-4930",
+        "name": "Mali"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920416",
+      "statsbombMatchId": 3920416,
+      "date": "2024-01-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "away": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3920419",
+      "statsbombMatchId": 3920419,
+      "date": "2024-01-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4963",
+        "name": "Zambia"
+      },
+      "away": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3920418",
+      "statsbombMatchId": 3920418,
+      "date": "2024-01-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4953",
+        "name": "Tanzania"
+      },
+      "away": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922237",
+      "statsbombMatchId": 3922237,
+      "date": "2024-01-27",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4901",
+        "name": "Angola"
+      },
+      "away": {
+        "id": "sb-4980",
+        "name": "Namibia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922238",
+      "statsbombMatchId": 3922238,
+      "date": "2024-01-27",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "away": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922240",
+      "statsbombMatchId": 3922240,
+      "date": "2024-01-28",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-774",
+        "name": "Egypt"
+      },
+      "away": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3922239",
+      "statsbombMatchId": 3922239,
+      "date": "2024-01-28",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4992",
+        "name": "Equatorial Guinea"
+      },
+      "away": {
+        "id": "sb-4892",
+        "name": "Guinea"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3922242",
+      "statsbombMatchId": 3922242,
+      "date": "2024-01-29",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "away": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3922241",
+      "statsbombMatchId": 3922241,
+      "date": "2024-01-29",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4924",
+        "name": "Cape Verde Islands"
+      },
+      "away": {
+        "id": "sb-4932",
+        "name": "Mauritania"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922244",
+      "statsbombMatchId": 3922244,
+      "date": "2024-01-30",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4930",
+        "name": "Mali"
+      },
+      "away": {
+        "id": "sb-4921",
+        "name": "Burkina Faso"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3922243",
+      "statsbombMatchId": 3922243,
+      "date": "2024-01-30",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3922356",
+      "statsbombMatchId": 3922356,
+      "date": "2024-02-02",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "away": {
+        "id": "sb-4892",
+        "name": "Guinea"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3922321",
+      "statsbombMatchId": 3922321,
+      "date": "2024-02-02",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "away": {
+        "id": "sb-4901",
+        "name": "Angola"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922658",
+      "statsbombMatchId": 3922658,
+      "date": "2024-02-03",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4924",
+        "name": "Cape Verde Islands"
+      },
+      "away": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922659",
+      "statsbombMatchId": 3922659,
+      "date": "2024-02-03",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4930",
+        "name": "Mali"
+      },
+      "away": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3922838",
+      "statsbombMatchId": 3922838,
+      "date": "2024-02-07",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "away": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3922837",
+      "statsbombMatchId": 3922837,
+      "date": "2024-02-07",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "away": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3923880",
+      "statsbombMatchId": 3923880,
+      "date": "2024-02-10",
+      "timestamp": null,
+      "round": "3rd Place Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4976",
+        "name": "South Africa"
+      },
+      "away": {
+        "id": "sb-4881",
+        "name": "Congo DR"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3923881",
+      "statsbombMatchId": 3923881,
+      "date": "2024-02-11",
+      "timestamp": null,
+      "round": "Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-775",
+        "name": "Nigeria"
+      },
+      "away": {
+        "id": "sb-3374",
+        "name": "Côte d'Ivoire"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-774",
+      "name": "Egypt"
+    },
+    {
+      "id": "sb-4881",
+      "name": "Congo DR"
+    },
+    {
+      "id": "sb-4924",
+      "name": "Cape Verde Islands"
+    },
+    {
+      "id": "sb-4978",
+      "name": "Mozambique"
+    },
+    {
+      "id": "sb-4934",
+      "name": "Gambia"
+    },
+    {
+      "id": "sb-2722",
+      "name": "Cameroon"
+    },
+    {
+      "id": "sb-787",
+      "name": "Senegal"
+    },
+    {
+      "id": "sb-4894",
+      "name": "Guinea-Bissau"
+    },
+    {
+      "id": "sb-775",
+      "name": "Nigeria"
+    },
+    {
+      "id": "sb-4980",
+      "name": "Namibia"
+    },
+    {
+      "id": "sb-4930",
+      "name": "Mali"
+    },
+    {
+      "id": "sb-4963",
+      "name": "Zambia"
+    },
+    {
+      "id": "sb-4976",
+      "name": "South Africa"
+    },
+    {
+      "id": "sb-4892",
+      "name": "Guinea"
+    },
+    {
+      "id": "sb-4932",
+      "name": "Mauritania"
+    },
+    {
+      "id": "sb-4898",
+      "name": "Algeria"
+    },
+    {
+      "id": "sb-777",
+      "name": "Tunisia"
+    },
+    {
+      "id": "sb-4901",
+      "name": "Angola"
+    },
+    {
+      "id": "sb-788",
+      "name": "Morocco"
+    },
+    {
+      "id": "sb-4953",
+      "name": "Tanzania"
+    },
+    {
+      "id": "sb-4921",
+      "name": "Burkina Faso"
+    },
+    {
+      "id": "sb-4992",
+      "name": "Equatorial Guinea"
+    },
+    {
+      "id": "sb-3374",
+      "name": "Côte d'Ivoire"
+    },
+    {
+      "id": "sb-4885",
+      "name": "Ghana"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-3374": {
+      "fixtures": {
+        "played": 7,
+        "wins": 4,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4894": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-775": {
+      "fixtures": {
+        "played": 7,
+        "wins": 4,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 4
+      }
+    },
+    "sb-4992": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-774": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 4,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-4978": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-4885": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-4924": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-2722": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-4892": {
+      "fixtures": {
+        "played": 5,
+        "wins": 2,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4898": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-4901": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-787": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4934": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-777": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-4980": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4921": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-4932": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-4930": {
+      "fixtures": {
+        "played": 5,
+        "wins": 2,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4976": {
+      "fixtures": {
+        "played": 7,
+        "wins": 2,
+        "draws": 4,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 5
+      }
+    },
+    "sb-4881": {
+      "fixtures": {
+        "played": 7,
+        "wins": 1,
+        "draws": 5,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4963": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-788": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-4953": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 52,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 24,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

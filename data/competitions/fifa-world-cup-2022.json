@@ -1,0 +1,2129 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "fifa-world-cup",
+    "name": "FIFA World Cup",
+    "country": "International"
+  },
+  "season": "2022",
+  "seasonLabel": "2022",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3857286",
+      "statsbombMatchId": 3857286,
+      "date": "2022-11-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3566",
+        "name": "Qatar"
+      },
+      "away": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857271",
+      "statsbombMatchId": 3857271,
+      "date": "2022-11-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-797",
+        "name": "Iran"
+      },
+      "goals": {
+        "home": 6,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857285",
+      "statsbombMatchId": 3857285,
+      "date": "2022-11-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "away": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857282",
+      "statsbombMatchId": 3857282,
+      "date": "2022-11-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "away": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857254",
+      "statsbombMatchId": 3857254,
+      "date": "2022-11-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "away": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857265",
+      "statsbombMatchId": 3857265,
+      "date": "2022-11-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "away": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857300",
+      "statsbombMatchId": 3857300,
+      "date": "2022-11-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-799",
+        "name": "Saudi Arabia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857279",
+      "statsbombMatchId": 3857279,
+      "date": "2022-11-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-792",
+        "name": "Australia"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857277",
+      "statsbombMatchId": 3857277,
+      "date": "2022-11-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857284",
+      "statsbombMatchId": 3857284,
+      "date": "2022-11-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "away": {
+        "id": "sb-778",
+        "name": "Japan"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857268",
+      "statsbombMatchId": 3857268,
+      "date": "2022-11-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857291",
+      "statsbombMatchId": 3857291,
+      "date": "2022-11-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "away": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857290",
+      "statsbombMatchId": 3857290,
+      "date": "2022-11-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "away": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857298",
+      "statsbombMatchId": 3857298,
+      "date": "2022-11-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "away": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857258",
+      "statsbombMatchId": 3857258,
+      "date": "2022-11-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "away": {
+        "id": "sb-786",
+        "name": "Serbia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857287",
+      "statsbombMatchId": 3857287,
+      "date": "2022-11-24",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "away": {
+        "id": "sb-791",
+        "name": "South Korea"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857274",
+      "statsbombMatchId": 3857274,
+      "date": "2022-11-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857272",
+      "statsbombMatchId": 3857272,
+      "date": "2022-11-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857273",
+      "statsbombMatchId": 3857273,
+      "date": "2022-11-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "away": {
+        "id": "sb-797",
+        "name": "Iran"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857301",
+      "statsbombMatchId": 3857301,
+      "date": "2022-11-25",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3566",
+        "name": "Qatar"
+      },
+      "away": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3857297",
+      "statsbombMatchId": 3857297,
+      "date": "2022-11-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "away": {
+        "id": "sb-799",
+        "name": "Saudi Arabia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857266",
+      "statsbombMatchId": 3857266,
+      "date": "2022-11-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857288",
+      "statsbombMatchId": 3857288,
+      "date": "2022-11-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "away": {
+        "id": "sb-792",
+        "name": "Australia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857289",
+      "statsbombMatchId": 3857289,
+      "date": "2022-11-26",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857295",
+      "statsbombMatchId": 3857295,
+      "date": "2022-11-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-778",
+        "name": "Japan"
+      },
+      "away": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857263",
+      "statsbombMatchId": 3857263,
+      "date": "2022-11-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "away": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857283",
+      "statsbombMatchId": 3857283,
+      "date": "2022-11-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "away": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857281",
+      "statsbombMatchId": 3857281,
+      "date": "2022-11-27",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857269",
+      "statsbombMatchId": 3857269,
+      "date": "2022-11-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857270",
+      "statsbombMatchId": 3857270,
+      "date": "2022-11-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "away": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857259",
+      "statsbombMatchId": 3857259,
+      "date": "2022-11-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "away": {
+        "id": "sb-786",
+        "name": "Serbia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3857299",
+      "statsbombMatchId": 3857299,
+      "date": "2022-11-28",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-791",
+        "name": "South Korea"
+      },
+      "away": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3857278",
+      "statsbombMatchId": 3857278,
+      "date": "2022-11-29",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-797",
+        "name": "Iran"
+      },
+      "away": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857261",
+      "statsbombMatchId": 3857261,
+      "date": "2022-11-29",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "away": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3857294",
+      "statsbombMatchId": 3857294,
+      "date": "2022-11-29",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-3566",
+        "name": "Qatar"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857267",
+      "statsbombMatchId": 3857267,
+      "date": "2022-11-29",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-3565",
+        "name": "Ecuador"
+      },
+      "away": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857275",
+      "statsbombMatchId": 3857275,
+      "date": "2022-11-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-777",
+        "name": "Tunisia"
+      },
+      "away": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857257",
+      "statsbombMatchId": 3857257,
+      "date": "2022-11-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-792",
+        "name": "Australia"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857260",
+      "statsbombMatchId": 3857260,
+      "date": "2022-11-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-799",
+        "name": "Saudi Arabia"
+      },
+      "away": {
+        "id": "sb-794",
+        "name": "Mexico"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857264",
+      "statsbombMatchId": 3857264,
+      "date": "2022-11-30",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "away": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857276",
+      "statsbombMatchId": 3857276,
+      "date": "2022-12-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1833",
+        "name": "Canada"
+      },
+      "away": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857296",
+      "statsbombMatchId": 3857296,
+      "date": "2022-12-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857255",
+      "statsbombMatchId": 3857255,
+      "date": "2022-12-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-778",
+        "name": "Japan"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3857292",
+      "statsbombMatchId": 3857292,
+      "date": "2022-12-01",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-795",
+        "name": "Costa Rica"
+      },
+      "away": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3857256",
+      "statsbombMatchId": 3857256,
+      "date": "2022-12-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-786",
+        "name": "Serbia"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3857293",
+      "statsbombMatchId": 3857293,
+      "date": "2022-12-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-4885",
+        "name": "Ghana"
+      },
+      "away": {
+        "id": "sb-783",
+        "name": "Uruguay"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3857280",
+      "statsbombMatchId": 3857280,
+      "date": "2022-12-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2722",
+        "name": "Cameroon"
+      },
+      "away": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3857262",
+      "statsbombMatchId": 3857262,
+      "date": "2022-12-02",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-791",
+        "name": "South Korea"
+      },
+      "away": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869151",
+      "statsbombMatchId": 3869151,
+      "date": "2022-12-03",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-792",
+        "name": "Australia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869117",
+      "statsbombMatchId": 3869117,
+      "date": "2022-12-03",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-1839",
+        "name": "United States"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869118",
+      "statsbombMatchId": 3869118,
+      "date": "2022-12-04",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-787",
+        "name": "Senegal"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3869152",
+      "statsbombMatchId": 3869152,
+      "date": "2022-12-04",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869219",
+      "statsbombMatchId": 3869219,
+      "date": "2022-12-05",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-778",
+        "name": "Japan"
+      },
+      "away": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869253",
+      "statsbombMatchId": 3869253,
+      "date": "2022-12-05",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "away": {
+        "id": "sb-791",
+        "name": "South Korea"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869254",
+      "statsbombMatchId": 3869254,
+      "date": "2022-12-06",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 6,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869220",
+      "statsbombMatchId": 3869220,
+      "date": "2022-12-06",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3869321",
+      "statsbombMatchId": 3869321,
+      "date": "2022-12-09",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3869420",
+      "statsbombMatchId": 3869420,
+      "date": "2022-12-09",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-781",
+        "name": "Brazil"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869486",
+      "statsbombMatchId": 3869486,
+      "date": "2022-12-10",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "away": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3869354",
+      "statsbombMatchId": 3869354,
+      "date": "2022-12-10",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3869519",
+      "statsbombMatchId": 3869519,
+      "date": "2022-12-13",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3869552",
+      "statsbombMatchId": 3869552,
+      "date": "2022-12-14",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3869684",
+      "statsbombMatchId": 3869684,
+      "date": "2022-12-17",
+      "timestamp": null,
+      "round": "3rd Place Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-788",
+        "name": "Morocco"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3869685",
+      "statsbombMatchId": 3869685,
+      "date": "2022-12-18",
+      "timestamp": null,
+      "round": "Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-779",
+        "name": "Argentina"
+      },
+      "away": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-1833",
+      "name": "Canada"
+    },
+    {
+      "id": "sb-788",
+      "name": "Morocco"
+    },
+    {
+      "id": "sb-768",
+      "name": "England"
+    },
+    {
+      "id": "sb-797",
+      "name": "Iran"
+    },
+    {
+      "id": "sb-785",
+      "name": "Croatia"
+    },
+    {
+      "id": "sb-782",
+      "name": "Belgium"
+    },
+    {
+      "id": "sb-941",
+      "name": "Netherlands"
+    },
+    {
+      "id": "sb-3565",
+      "name": "Ecuador"
+    },
+    {
+      "id": "sb-778",
+      "name": "Japan"
+    },
+    {
+      "id": "sb-772",
+      "name": "Spain"
+    },
+    {
+      "id": "sb-1839",
+      "name": "United States"
+    },
+    {
+      "id": "sb-907",
+      "name": "Wales"
+    },
+    {
+      "id": "sb-777",
+      "name": "Tunisia"
+    },
+    {
+      "id": "sb-771",
+      "name": "France"
+    },
+    {
+      "id": "sb-773",
+      "name": "Switzerland"
+    },
+    {
+      "id": "sb-2722",
+      "name": "Cameroon"
+    },
+    {
+      "id": "sb-780",
+      "name": "Portugal"
+    },
+    {
+      "id": "sb-4885",
+      "name": "Ghana"
+    },
+    {
+      "id": "sb-787",
+      "name": "Senegal"
+    },
+    {
+      "id": "sb-789",
+      "name": "Poland"
+    },
+    {
+      "id": "sb-799",
+      "name": "Saudi Arabia"
+    },
+    {
+      "id": "sb-3566",
+      "name": "Qatar"
+    },
+    {
+      "id": "sb-776",
+      "name": "Denmark"
+    },
+    {
+      "id": "sb-770",
+      "name": "Germany"
+    },
+    {
+      "id": "sb-794",
+      "name": "Mexico"
+    },
+    {
+      "id": "sb-781",
+      "name": "Brazil"
+    },
+    {
+      "id": "sb-779",
+      "name": "Argentina"
+    },
+    {
+      "id": "sb-795",
+      "name": "Costa Rica"
+    },
+    {
+      "id": "sb-786",
+      "name": "Serbia"
+    },
+    {
+      "id": "sb-792",
+      "name": "Australia"
+    },
+    {
+      "id": "sb-783",
+      "name": "Uruguay"
+    },
+    {
+      "id": "sb-791",
+      "name": "South Korea"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-3566": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-3565": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-768": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 13
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-797": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-787": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-941": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-1839": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-907": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-776": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-777": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 1
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-794": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-789": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-779": {
+      "fixtures": {
+        "played": 7,
+        "wins": 4,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 15
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-799": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-771": {
+      "fixtures": {
+        "played": 7,
+        "wins": 5,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 16
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-792": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-788": {
+      "fixtures": {
+        "played": 7,
+        "wins": 3,
+        "draws": 2,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 4
+      }
+    },
+    "sb-785": {
+      "fixtures": {
+        "played": 7,
+        "wins": 2,
+        "draws": 4,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-770": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-778": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-782": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-1833": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-772": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-795": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 11
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-773": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-2722": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-780": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-4885": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-781": {
+      "fixtures": {
+        "played": 5,
+        "wins": 3,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-786": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-783": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-791": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 64,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 32,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}

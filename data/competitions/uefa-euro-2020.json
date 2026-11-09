@@ -1,0 +1,1672 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "uefa-euro",
+    "name": "UEFA European Championship",
+    "country": "Europe"
+  },
+  "season": "2020",
+  "seasonLabel": "2020",
+  "provider": "StatsBomb Open Data",
+  "sourceUrl": "https://github.com/hudl/open-data",
+  "generatedAt": "2026-11-09T15:11:55Z",
+  "fixtures": [
+    {
+      "id": "statsbomb-3788741",
+      "statsbombMatchId": 3788741,
+      "date": "2021-06-11",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-909",
+        "name": "Turkey"
+      },
+      "away": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3788742",
+      "statsbombMatchId": 3788742,
+      "date": "2021-06-12",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "away": {
+        "id": "sb-1835",
+        "name": "Finland"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788743",
+      "statsbombMatchId": 3788743,
+      "date": "2021-06-12",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "away": {
+        "id": "sb-796",
+        "name": "Russia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788744",
+      "statsbombMatchId": 3788744,
+      "date": "2021-06-12",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788747",
+      "statsbombMatchId": 3788747,
+      "date": "2021-06-13",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-915",
+        "name": "Austria"
+      },
+      "away": {
+        "id": "sb-2358",
+        "name": "North Macedonia"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788745",
+      "statsbombMatchId": 3788745,
+      "date": "2021-06-13",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788746",
+      "statsbombMatchId": 3788746,
+      "date": "2021-06-13",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-911",
+        "name": "Ukraine"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788749",
+      "statsbombMatchId": 3788749,
+      "date": "2021-06-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "away": {
+        "id": "sb-908",
+        "name": "Slovakia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788750",
+      "statsbombMatchId": 3788750,
+      "date": "2021-06-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "away": {
+        "id": "sb-790",
+        "name": "Sweden"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788748",
+      "statsbombMatchId": 3788748,
+      "date": "2021-06-14",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-942",
+        "name": "Scotland"
+      },
+      "away": {
+        "id": "sb-912",
+        "name": "Czech Republic"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788751",
+      "statsbombMatchId": 3788751,
+      "date": "2021-06-15",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788752",
+      "statsbombMatchId": 3788752,
+      "date": "2021-06-15",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-916",
+        "name": "Hungary"
+      },
+      "away": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3788755",
+      "statsbombMatchId": 3788755,
+      "date": "2021-06-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-909",
+        "name": "Turkey"
+      },
+      "away": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788754",
+      "statsbombMatchId": 3788754,
+      "date": "2021-06-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788753",
+      "statsbombMatchId": 3788753,
+      "date": "2021-06-16",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1835",
+        "name": "Finland"
+      },
+      "away": {
+        "id": "sb-796",
+        "name": "Russia"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788758",
+      "statsbombMatchId": 3788758,
+      "date": "2021-06-17",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-911",
+        "name": "Ukraine"
+      },
+      "away": {
+        "id": "sb-2358",
+        "name": "North Macedonia"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788757",
+      "statsbombMatchId": 3788757,
+      "date": "2021-06-17",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "away": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788756",
+      "statsbombMatchId": 3788756,
+      "date": "2021-06-17",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-915",
+        "name": "Austria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788761",
+      "statsbombMatchId": 3788761,
+      "date": "2021-06-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-790",
+        "name": "Sweden"
+      },
+      "away": {
+        "id": "sb-908",
+        "name": "Slovakia"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788760",
+      "statsbombMatchId": 3788760,
+      "date": "2021-06-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-912",
+        "name": "Czech Republic"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788759",
+      "statsbombMatchId": 3788759,
+      "date": "2021-06-18",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-942",
+        "name": "Scotland"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788763",
+      "statsbombMatchId": 3788763,
+      "date": "2021-06-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-916",
+        "name": "Hungary"
+      },
+      "away": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788764",
+      "statsbombMatchId": 3788764,
+      "date": "2021-06-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "away": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3788762",
+      "statsbombMatchId": 3788762,
+      "date": "2021-06-19",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "away": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788765",
+      "statsbombMatchId": 3788765,
+      "date": "2021-06-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "away": {
+        "id": "sb-909",
+        "name": "Turkey"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788766",
+      "statsbombMatchId": 3788766,
+      "date": "2021-06-20",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "away": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3788769",
+      "statsbombMatchId": 3788769,
+      "date": "2021-06-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-796",
+        "name": "Russia"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3788770",
+      "statsbombMatchId": 3788770,
+      "date": "2021-06-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-2358",
+        "name": "North Macedonia"
+      },
+      "away": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3788768",
+      "statsbombMatchId": 3788768,
+      "date": "2021-06-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-1835",
+        "name": "Finland"
+      },
+      "away": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788767",
+      "statsbombMatchId": 3788767,
+      "date": "2021-06-21",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-911",
+        "name": "Ukraine"
+      },
+      "away": {
+        "id": "sb-915",
+        "name": "Austria"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788771",
+      "statsbombMatchId": 3788771,
+      "date": "2021-06-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-942",
+        "name": "Scotland"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788772",
+      "statsbombMatchId": 3788772,
+      "date": "2021-06-22",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-912",
+        "name": "Czech Republic"
+      },
+      "away": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3788773",
+      "statsbombMatchId": 3788773,
+      "date": "2021-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "away": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788774",
+      "statsbombMatchId": 3788774,
+      "date": "2021-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "away": {
+        "id": "sb-916",
+        "name": "Hungary"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3788775",
+      "statsbombMatchId": 3788775,
+      "date": "2021-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-908",
+        "name": "Slovakia"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3788776",
+      "statsbombMatchId": 3788776,
+      "date": "2021-06-23",
+      "timestamp": null,
+      "round": "Group Stage",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-790",
+        "name": "Sweden"
+      },
+      "away": {
+        "id": "sb-789",
+        "name": "Poland"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3794685",
+      "statsbombMatchId": 3794685,
+      "date": "2021-06-26",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "away": {
+        "id": "sb-915",
+        "name": "Austria"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3794689",
+      "statsbombMatchId": 3794689,
+      "date": "2021-06-26",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-907",
+        "name": "Wales"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3794687",
+      "statsbombMatchId": 3794687,
+      "date": "2021-06-27",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "away": {
+        "id": "sb-780",
+        "name": "Portugal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3794690",
+      "statsbombMatchId": 3794690,
+      "date": "2021-06-27",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-941",
+        "name": "Netherlands"
+      },
+      "away": {
+        "id": "sb-912",
+        "name": "Czech Republic"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3794686",
+      "statsbombMatchId": 3794686,
+      "date": "2021-06-28",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-785",
+        "name": "Croatia"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 3,
+        "away": 5
+      }
+    },
+    {
+      "id": "statsbomb-3794691",
+      "statsbombMatchId": 3794691,
+      "date": "2021-06-28",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-771",
+        "name": "France"
+      },
+      "away": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "statsbomb-3794692",
+      "statsbombMatchId": 3794692,
+      "date": "2021-06-29",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-790",
+        "name": "Sweden"
+      },
+      "away": {
+        "id": "sb-911",
+        "name": "Ukraine"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3794688",
+      "statsbombMatchId": 3794688,
+      "date": "2021-06-29",
+      "timestamp": null,
+      "round": "Round of 16",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-770",
+        "name": "Germany"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "statsbomb-3795108",
+      "statsbombMatchId": 3795108,
+      "date": "2021-07-02",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-773",
+        "name": "Switzerland"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3795107",
+      "statsbombMatchId": 3795107,
+      "date": "2021-07-02",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-782",
+        "name": "Belgium"
+      },
+      "away": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3795187",
+      "statsbombMatchId": 3795187,
+      "date": "2021-07-03",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-911",
+        "name": "Ukraine"
+      },
+      "away": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "statsbomb-3795109",
+      "statsbombMatchId": 3795109,
+      "date": "2021-07-03",
+      "timestamp": null,
+      "round": "Quarter-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-912",
+        "name": "Czech Republic"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "statsbomb-3795220",
+      "statsbombMatchId": 3795220,
+      "date": "2021-07-06",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "away": {
+        "id": "sb-772",
+        "name": "Spain"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3795221",
+      "statsbombMatchId": 3795221,
+      "date": "2021-07-07",
+      "timestamp": null,
+      "round": "Semi-finals",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "away": {
+        "id": "sb-776",
+        "name": "Denmark"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "statsbomb-3795506",
+      "statsbombMatchId": 3795506,
+      "date": "2021-07-11",
+      "timestamp": null,
+      "round": "Final",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sb-914",
+        "name": "Italy"
+      },
+      "away": {
+        "id": "sb-768",
+        "name": "England"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "sb-911",
+      "name": "Ukraine"
+    },
+    {
+      "id": "sb-2358",
+      "name": "North Macedonia"
+    },
+    {
+      "id": "sb-780",
+      "name": "Portugal"
+    },
+    {
+      "id": "sb-771",
+      "name": "France"
+    },
+    {
+      "id": "sb-773",
+      "name": "Switzerland"
+    },
+    {
+      "id": "sb-909",
+      "name": "Turkey"
+    },
+    {
+      "id": "sb-790",
+      "name": "Sweden"
+    },
+    {
+      "id": "sb-908",
+      "name": "Slovakia"
+    },
+    {
+      "id": "sb-785",
+      "name": "Croatia"
+    },
+    {
+      "id": "sb-912",
+      "name": "Czech Republic"
+    },
+    {
+      "id": "sb-772",
+      "name": "Spain"
+    },
+    {
+      "id": "sb-782",
+      "name": "Belgium"
+    },
+    {
+      "id": "sb-941",
+      "name": "Netherlands"
+    },
+    {
+      "id": "sb-914",
+      "name": "Italy"
+    },
+    {
+      "id": "sb-915",
+      "name": "Austria"
+    },
+    {
+      "id": "sb-907",
+      "name": "Wales"
+    },
+    {
+      "id": "sb-776",
+      "name": "Denmark"
+    },
+    {
+      "id": "sb-768",
+      "name": "England"
+    },
+    {
+      "id": "sb-916",
+      "name": "Hungary"
+    },
+    {
+      "id": "sb-796",
+      "name": "Russia"
+    },
+    {
+      "id": "sb-770",
+      "name": "Germany"
+    },
+    {
+      "id": "sb-789",
+      "name": "Poland"
+    },
+    {
+      "id": "sb-942",
+      "name": "Scotland"
+    },
+    {
+      "id": "sb-1835",
+      "name": "Finland"
+    }
+  ],
+  "standings": [],
+  "teamStats": {
+    "sb-909": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-914": {
+      "fixtures": {
+        "played": 7,
+        "wins": 5,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 13
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-776": {
+      "fixtures": {
+        "played": 6,
+        "wins": 3,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-1835": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-782": {
+      "fixtures": {
+        "played": 5,
+        "wins": 4,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "sb-796": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-907": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-773": {
+      "fixtures": {
+        "played": 5,
+        "wins": 1,
+        "draws": 3,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-915": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-2358": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-768": {
+      "fixtures": {
+        "played": 7,
+        "wins": 5,
+        "draws": 2,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 5
+      }
+    },
+    "sb-785": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-941": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-911": {
+      "fixtures": {
+        "played": 5,
+        "wins": 2,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-789": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-908": {
+      "fixtures": {
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-772": {
+      "fixtures": {
+        "played": 6,
+        "wins": 2,
+        "draws": 4,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 13
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-790": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 5
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-942": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 1
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-912": {
+      "fixtures": {
+        "played": 5,
+        "wins": 2,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sb-771": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 3,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "sb-770": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-916": {
+      "fixtures": {
+        "played": 3,
+        "wins": 0,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sb-780": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 51,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "standings": {
+      "available": false,
+      "rows": 0,
+      "note": "Knockout and selected-season data; no full league table supplied."
+    },
+    "teams": {
+      "available": true,
+      "rows": 24,
+      "fetchedAt": "2026-11-09T15:11:55Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "Player event data is available on supported match pages, not as full season totals."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "No full season scorer table is supplied."
+    }
+  }
+}
