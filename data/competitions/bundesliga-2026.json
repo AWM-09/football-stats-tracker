@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-09T22:50:59Z",
+  "generatedAt": "2026-11-09T23:57:36Z",
   "fixtures": [
     {
       "id": "openmatchday-bundesliga-2026-08-28-fc-bayern-m-nchen-vfb-stuttgart",
@@ -14208,18 +14208,18 @@
     "fixtures": {
       "available": true,
       "rows": 306,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     },
     "standings": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-09T22:50:59Z",
+      "fetchedAt": "2026-11-09T23:57:36Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     },
     "players": {
       "available": true,
@@ -14234,7 +14234,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 81,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     }
   }
 }

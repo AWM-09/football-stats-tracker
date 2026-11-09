@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-09T22:50:59Z",
+  "generatedAt": "2026-11-09T23:57:36Z",
   "fixtures": [
     {
       "id": "openmatchday-ligue-1-2026-08-21-olympique-de-marseille-rc-strasbourg-alsace",
@@ -12638,18 +12638,18 @@
     "fixtures": {
       "available": true,
       "rows": 306,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     },
     "standings": {
       "available": true,
       "rows": 19,
-      "fetchedAt": "2026-11-09T22:50:59Z",
+      "fetchedAt": "2026-11-09T23:57:36Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 19,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     },
     "players": {
       "available": false,
@@ -12664,7 +12664,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 90,
-      "fetchedAt": "2026-11-09T22:50:59Z"
+      "fetchedAt": "2026-11-09T23:57:36Z"
     }
   }
 }
