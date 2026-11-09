@@ -5,6 +5,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import re
+import tempfile
 import urllib.request
 from pathlib import Path
 
@@ -13,6 +14,13 @@ DATA = ROOT / "data"
 SNAPSHOTS = DATA / "competitions"
 OPENFOOTBALL = "https://raw.githubusercontent.com/openfootball/football.json/master"
 STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
+OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/latest"
+OPENPLAY_COMPS = {
+    "eng": "premier-league", "esp": "la-liga", "ita": "serie-a", "ger": "bundesliga", "fra": "ligue-1",
+    "ucl": "champions-league", "uel": "europa-league", "wc": "fifa-world-cup", "euro": "uefa-euro",
+    "copa": "copa-america", "afcon": "afcon", "nla": "nations-league", "nlb": "nations-league",
+}
+PLAYER_FIELDS = ["touches", "passes", "passes_completed", "passes_final_third", "passes_into_box", "progressive_passes", "crosses", "through_balls", "key_passes", "assists", "xa", "shots", "shots_on_target", "shots_off_target", "shots_blocked", "goals", "headed_goals", "penalty_goals", "own_goals", "xg", "npxg", "dribbles", "dribbles_completed", "tackles", "tackles_won", "interceptions", "clearances", "ball_recoveries", "aerials", "aerials_won", "fouls_committed", "fouls_won", "offsides", "errors", "saves", "yellow_cards", "second_yellows", "red_cards"]
 
 # Current-season OpenFootball result/fixture files. Other directory entries remain
 # visible and explicitly show which open datasets do not cover them.
@@ -45,6 +53,109 @@ def fetch_json(url: str):
     request = urllib.request.Request(url, headers={"User-Agent": "football-stats-tracker/1.0"})
     with urllib.request.urlopen(request, timeout=45) as response:
         return json.loads(response.read().decode("utf-8"))
+
+
+def sync_openplay(by_id, coverage):
+    """Import licensed historical season aggregates from the OpenPlay release."""
+    try:
+        import duckdb
+    except ImportError:
+        coverage["openplay"] = {"available": False, "note": "DuckDB is not installed."}
+        return
+    request = urllib.request.Request(OPENPLAY_RELEASES, headers={"User-Agent": "football-stats-tracker/1.0", "Accept": "application/vnd.github+json"})
+    with urllib.request.urlopen(request, timeout=45) as response:
+        release = json.loads(response.read().decode("utf-8"))
+    assets = {asset["name"]: asset["browser_download_url"] for asset in release.get("assets", [])}
+    wanted = ("player_match_stats.parquet", "matches.parquet", "team_match_stats.parquet")
+    missing = [name for name in wanted if name not in assets]
+    if missing:
+        coverage["openplay"] = {"available": False, "note": "Release missing: " + ", ".join(missing)}
+        return
+    with tempfile.TemporaryDirectory() as temp:
+        paths = {}
+        for name in wanted:
+            path = Path(temp) / name
+            req = urllib.request.Request(assets[name], headers={"User-Agent": "football-stats-tracker/1.0"})
+            with urllib.request.urlopen(req, timeout=180) as response, path.open("wb") as output:
+                output.write(response.read())
+            paths[name] = str(path).replace("'", "''")
+        con = duckdb.connect()
+        players_path, matches_path, teams_path = (paths[name] for name in wanted)
+        comp_rows = con.execute(f"SELECT DISTINCT comp, season FROM read_parquet('{players_path}')").fetchall()
+        player_columns = {row[0] for row in con.execute(f"DESCRIBE SELECT * FROM read_parquet('{players_path}')").fetchall()}
+        sum_fields = [field for field in PLAYER_FIELDS if field in player_columns]
+        for source_comp, source_season in comp_rows:
+            comp_id = OPENPLAY_COMPS.get(str(source_comp).lower())
+            item = by_id.get(comp_id)
+            if not item:
+                continue
+            code = str(source_season)
+            if len(code) == 4 and code.isdigit() and int(code[:2]) >= 10:
+                season_key, label = "20" + code[:2], f"20{code[:2]}/{code[2:]}"
+            else:
+                season_key = code
+                label = code if len(code) == 4 else code
+            existing_path = SNAPSHOTS / f"{comp_id}-{season_key}.json"
+            existing = json.loads(existing_path.read_text(encoding="utf-8")) if existing_path.exists() else None
+            where = f"comp = '{str(source_comp).replace(chr(39), chr(39)*2)}' AND season = '{code}'"
+            expressions = [f"sum({field}) AS {field}" for field in sum_fields]
+            grouping = ", ".join(["player_id", "player", "team_id", "team", "position"])
+            query = f"SELECT {grouping}, count(*) FILTER (WHERE played) AS appearances, sum(minutes_played) AS minutes, {', '.join(expressions)} FROM read_parquet('{players_path}') WHERE {where} GROUP BY {grouping}"
+            player_rows = con.execute(query).fetchdf().to_dict("records")
+            players_out = []
+            for p in player_rows:
+                row = {"id": f"op-player-{p['player_id']}", "name": p["player"], "team": p["team"], "teamId": f"op-team-{p['team_id']}", "position": p["position"], "appearances": int(p["appearances"] or 0), "minutes": int(p["minutes"] or 0)}
+                for field in sum_fields:
+                    value = p[field]
+                    if value is not None:
+                        mapped = {"shots_on_target":"shotsOnTarget", "shots_off_target":"shotsOffTarget", "shots_blocked":"shotsBlocked", "key_passes":"keyPasses", "passes_completed":"passesCompleted", "passes_final_third":"passesFinalThird", "passes_into_box":"passesIntoBox", "dribbles_completed":"dribblesCompleted", "tackles_won":"tacklesWon", "ball_recoveries":"ballRecoveries", "yellow_cards":"yellowCards", "second_yellows":"secondYellows", "red_cards":"redCards"}.get(field, field)
+                        row[mapped] = round(float(value), 2) if field in ("xg", "npxg", "xa") else int(value)
+                row.update({"expectedGoals": row.get("xg"), "expectedAssists": row.get("xa")})
+                players_out.append(row)
+            players_out.sort(key=lambda p: (-p.get("goals", 0), -p.get("assists", 0), p["name"]))
+            match_rows = con.execute(f"SELECT * FROM read_parquet('{matches_path}') WHERE {where} ORDER BY date").fetchdf().to_dict("records")
+            fixtures, team_names, standings_rows = [], {}, []
+            for m in match_rows:
+                hid, aid = f"op-team-{m['home_team_id']}", f"op-team-{m['away_team_id']}"
+                hn, an = m["home_team"], m["away_team"]
+                team_names[hid], team_names[aid] = hn, an
+                fixtures.append({"id": f"openplay-{m['match_id']}", "openplayMatchId": int(m["match_id"]), "date": str(m["date"]), "round": str(m.get("round") or ""), "status": "FT", "statusLong": "Finished", "home": {"id": hid, "name": hn}, "away": {"id": aid, "name": an}, "goals": {"home": int(m["home_score"]), "away": int(m["away_score"])}})
+            team_columns = {row[0] for row in con.execute(f"DESCRIBE SELECT * FROM read_parquet('{teams_path}')").fetchall()}
+            available_team_fields = [field for field in ("shots", "shots_on_target", "passes", "passes_completed", "key_passes", "assists", "xg", "npxg", "tackles", "interceptions", "clearances", "saves", "yellow_cards", "red_cards") if field in team_columns]
+            team_sums = ", ".join(["team_id"] + [f"sum({field}) AS {field}" for field in available_team_fields] + ["sum(goals_for) AS goals_for", "sum(goals_against) AS goals_against", "count(*) AS matches"])
+            team_stats = {}
+            for t in con.execute(f"SELECT {team_sums} FROM read_parquet('{teams_path}') WHERE {where} GROUP BY team_id").fetchdf().to_dict("records"):
+                tid = f"op-team-{t['team_id']}"
+                team_stats[tid] = {"fixtures": {"played": int(t["matches"] or 0)}, "goals": {"for": {"total": int(t["goals_for"] or 0)}, "against": {"total": int(t["goals_against"] or 0)}}, "shots": int(t.get("shots") or 0), "xg": round(float(t.get("xg") or 0), 2), "passes": int(t.get("passes") or 0), "tackles": int(t.get("tackles") or 0), "interceptions": int(t.get("interceptions") or 0)}
+            match_team_fields = [field for field in ("shots", "shots_on_target", "passes", "passes_completed", "key_passes", "assists", "xg", "npxg", "tackles", "interceptions", "clearances", "saves", "yellow_cards", "red_cards", "corners_taken") if field in team_columns]
+            match_stats = {}
+            select_match = ", ".join(["match_id", "team_id"] + match_team_fields)
+            for t in con.execute(f"SELECT {select_match} FROM read_parquet('{teams_path}') WHERE {where}").fetchdf().to_dict("records"):
+                mid, tid = f"openplay-{t['match_id']}", f"op-team-{t['team_id']}"
+                labels = {"shots":"Shots", "shots_on_target":"Shots on target", "passes":"Passes", "passes_completed":"Passes completed", "key_passes":"Key passes", "assists":"Assists", "xg":"xG", "npxg":"Non-penalty xG", "tackles":"Tackles", "interceptions":"Interceptions", "clearances":"Clearances", "saves":"Saves", "yellow_cards":"Yellow cards", "red_cards":"Red cards", "corners_taken":"Corners"}
+                match_stats.setdefault(mid, []).append({"teamId": tid, "statistics": {labels[field]: round(float(t[field]), 2) if field in ("xg", "npxg") and t[field] is not None else (int(t[field]) if t[field] is not None else 0) for field in match_team_fields}})
+            if comp_id in {"premier-league", "la-liga", "serie-a", "bundesliga", "ligue-1"}:
+                standings_rows = standings(fixtures)
+            teams_out = [{"id": tid, "name": name} for tid, name in sorted(team_names.items(), key=lambda x: x[1])]
+            merged_fixtures = fixtures
+            if existing:
+                keys = {(f["date"], f["home"]["name"], f["away"]["name"]) for f in fixtures}
+                merged_fixtures = [f for f in existing.get("fixtures", []) if (f.get("date"), f.get("home",{}).get("name"), f.get("away",{}).get("name")) not in keys] + fixtures
+            snapshot = existing or {"schemaVersion": 2, "competition": {"id": comp_id, "name": item["name"], "country": item.get("country")}, "season": season_key, "seasonLabel": label, "standings": [], "fixtureStats": {}, "events": {}, "lineups": {}}
+            snapshot.update({"seasonLabel": label, "provider": "OpenPlay (CC BY 4.0)" + (" + StatsBomb Open Data" if existing and existing.get("provider")=="StatsBomb Open Data" else ""), "sourceUrl": "https://github.com/nlbair/openplay", "generatedAt": release.get("tag_name", "OpenPlay release"), "fixtures": merged_fixtures, "teams": teams_out, "players": players_out, "topScorers": players_out[:100], "teamStats": {**(existing or {}).get("teamStats", {}), **team_stats}, "fixtureStats": {**(existing or {}).get("fixtureStats", {}), **match_stats}, "standings": standings_rows or (existing or {}).get("standings", [])})
+            rows = {"fixtures": len(fixtures), "players": len(players_out), "teams": len(teams_out)}
+            snapshot.setdefault("coverage", {}).update({key: {"available": True, "rows": value, "note": "OpenPlay historical snapshot; not live."} for key, value in rows.items()})
+            snapshot["coverage"]["topScorers"] = {"available": True, "rows": min(len(players_out), 100), "note": "Ranked by goals from OpenPlay player match totals."}
+            write_json(existing_path, snapshot)
+            row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
+            row["seasons"].append(season_key)
+            row["openplay"] = {"available": True, "rows": len(fixtures), "players": len(players_out), "version": release.get("tag_name"), "season": label}
+            for key in ("fixtures", "players", "teams", "topScorers"):
+                row[key] = snapshot["coverage"][key]
+            if standings_rows:
+                row["standings"] = {"available": True, "rows": len(standings_rows), "note": "Calculated from complete OpenPlay league results."}
+        coverage["openplay"] = {"available": True, "version": release.get("tag_name"), "competitions": len(OPENPLAY_COMPS), "license": "CC BY 4.0"}
+        con.close()
 
 
 def slug(value: str) -> str:
@@ -195,9 +306,10 @@ def main():
     fetched_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     index = json.loads((DATA / "competitions.json").read_text(encoding="utf-8"))
     by_id = {item["id"]: item for item in index}
-    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb Open Data", "status": "partial", "generatedAt": fetched_at,
+    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay", "status": "partial", "generatedAt": fetched_at,
                 "sources": [{"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
-                            {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"}],
+                            {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"},
+                            {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"}],
                 "competitions": {}, "message": "Static open datasets; current fixtures and results are limited to the listed OpenFootball leagues. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for comp_id, (filename, season_label) in LEAGUES.items():
@@ -230,10 +342,15 @@ def main():
                 statsbomb["seasons"].append(label)
             except Exception as exc:
                 coverage["competitions"].setdefault(comp_id, {"seasons": []})["statsbomb"] = {"available": False, "note": f"StatsBomb match list unavailable: {exc}"}
+    try:
+        sync_openplay(by_id, coverage)
+    except Exception as exc:
+        coverage["openplay"] = {"available": False, "note": f"OpenPlay download failed: {exc}"}
+        print(f"OpenPlay: {exc}")
     for row in coverage["competitions"].values():
         row["seasons"] = sorted(set(row.get("seasons", [])), reverse=True)
     write_json(DATA / "coverage.json", coverage)
-    print(json.dumps({"sources": 2, "competitions_with_files": len(coverage["competitions"]), "status": coverage["status"]}, indent=2))
+    print(json.dumps({"sources": 3, "competitions_with_files": len(coverage["competitions"]), "status": coverage["status"]}, indent=2))
 
 
 if __name__ == "__main__":

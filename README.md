@@ -4,7 +4,7 @@ A static football statistics site in the AlexMyrusTalksSports family. The home p
 
 ## Competition directory
 
-The directory lists six top-flight leagues, UEFA club competitions, international tournaments and domestic cups. A listed competition is not a promise of data coverage: the open datasets cover only selected competitions and seasons. The Data Status page shows exact coverage.
+The directory lists six top-flight leagues, UEFA club competitions, international tournaments, and domestic cups from England and Poland only. A listed competition is not a promise of data coverage: the open datasets cover only selected competitions and seasons. The Data Status page shows exact coverage.
 
 ## Free, keyless data
 
@@ -12,8 +12,9 @@ The daily GitHub Actions workflow downloads public JSON files from:
 
 - [OpenFootball](https://github.com/openfootball/football.json), licensed CC0-1.0. The current feed is limited to the five configured top-flight leagues. Fixtures and results are published; standings are calculated from completed scores. This source does not provide player statistics.
 - [StatsBomb Open Data](https://github.com/hudl/open-data), which publishes event data for selected historical competitions and seasons. Supported match pages can show shots, xG, cards, events and lineups. StatsBomb requires attribution when sharing analysis; the site links and credits the source.
+- [OpenPlay](https://github.com/nlbair/openplay), a CC BY 4.0 snapshot with player and team match totals, xG/xA, shots, passing, defending and match results across the five major European leagues, UEFA competitions and selected international tournaments. The workflow imports season summaries; attribution is provided on the Data Status page.
 
-There is no API key or paid service. Data is not live; the workflow refreshes once per day. This does not provide full current-season coverage across all 35 competitions, complete player season totals, transfers or live scores. Unsupported sections and seasons are labeled unavailable rather than filled with estimates. Standings derived from partial or knockout schedules are not shown as league tables.
+There is no API key or paid service. Data is not live; OpenPlay currently covers historical seasons through 2025/26, while OpenFootball supplies current 2026/27 results for five leagues. The workflow refreshes once per day. Coverage does not extend to every current season or all 27 competitions. Unsupported sections and seasons are labeled unavailable rather than filled with estimates. Domestic cups are limited to England and Poland; leagues and international competitions remain listed.
 
 ## Local preview
 
