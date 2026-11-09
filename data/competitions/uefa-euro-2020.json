@@ -9,7 +9,7 @@
   "seasonLabel": "2020",
   "provider": "StatsBomb Open Data",
   "sourceUrl": "https://github.com/hudl/open-data",
-  "generatedAt": "2026-11-09T22:08:38Z",
+  "generatedAt": "2026-11-09T22:10:27Z",
   "fixtures": [
     {
       "id": "statsbomb-3788741",
@@ -1646,7 +1646,7 @@
     "fixtures": {
       "available": true,
       "rows": 51,
-      "fetchedAt": "2026-11-09T22:08:38Z"
+      "fetchedAt": "2026-11-09T22:10:27Z"
     },
     "standings": {
       "available": false,
@@ -1656,7 +1656,7 @@
     "teams": {
       "available": true,
       "rows": 24,
-      "fetchedAt": "2026-11-09T22:08:38Z"
+      "fetchedAt": "2026-11-09T22:10:27Z"
     },
     "players": {
       "available": false,
