@@ -1,0 +1,8061 @@
+{
+  "schemaVersion": 2,
+  "competition": {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Germany"
+  },
+  "season": "2026/27",
+  "seasonLabel": "2026/27",
+  "provider": "OpenFootball (CC0)",
+  "sourceUrl": "https://github.com/openfootball/football.json/tree/master/2026-27",
+  "generatedAt": "2026-11-09T15:20:31Z",
+  "fixtures": [
+    {
+      "id": "openfootball-bundesliga-1",
+      "date": "2026-08-28",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-2",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-3",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-4",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "halftime": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-5",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-6",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-7",
+      "date": "2026-08-29",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-8",
+      "date": "2026-08-30",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-9",
+      "date": "2026-08-30",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-10",
+      "date": "2026-09-04",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-11",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-12",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": 2,
+        "away": 3
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-13",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-14",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "halftime": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-15",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-16",
+      "date": "2026-09-05",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-17",
+      "date": "2026-09-06",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "halftime": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-18",
+      "date": "2026-09-06",
+      "timestamp": null,
+      "round": "Matchday 2",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": 1,
+        "away": 4
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-19",
+      "date": "2026-09-11",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-20",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-21",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-22",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-23",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "halftime": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-24",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-25",
+      "date": "2026-09-12",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-26",
+      "date": "2026-09-13",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": 5,
+        "away": 0
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-27",
+      "date": "2026-09-13",
+      "timestamp": null,
+      "round": "Matchday 3",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-28",
+      "date": "2026-09-18",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": 7,
+        "away": 0
+      },
+      "halftime": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-29",
+      "date": "2026-09-19",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-30",
+      "date": "2026-09-19",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": 3,
+        "away": 4
+      },
+      "halftime": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-31",
+      "date": "2026-09-19",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "halftime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-32",
+      "date": "2026-09-19",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "halftime": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-33",
+      "date": "2026-09-19",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "halftime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-34",
+      "date": "2026-09-20",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "halftime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-35",
+      "date": "2026-09-20",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-36",
+      "date": "2026-09-20",
+      "timestamp": null,
+      "round": "Matchday 4",
+      "status": "FT",
+      "statusLong": "Finished",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "halftime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-37",
+      "date": "2026-10-09",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-38",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-39",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-40",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-41",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-42",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-43",
+      "date": "2026-10-10",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-44",
+      "date": "2026-10-11",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-45",
+      "date": "2026-10-11",
+      "timestamp": null,
+      "round": "Matchday 5",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-46",
+      "date": "2026-10-16",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-47",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-48",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-49",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-50",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-51",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-52",
+      "date": "2026-10-17",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-53",
+      "date": "2026-10-18",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-54",
+      "date": "2026-10-18",
+      "timestamp": null,
+      "round": "Matchday 6",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-55",
+      "date": "2026-10-23",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-56",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-57",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-58",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-59",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-60",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-61",
+      "date": "2026-10-24",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-62",
+      "date": "2026-10-25",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-63",
+      "date": "2026-10-25",
+      "timestamp": null,
+      "round": "Matchday 7",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-64",
+      "date": "2026-10-30",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-65",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-66",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-67",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-68",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-69",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-70",
+      "date": "2026-10-31",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-71",
+      "date": "2026-11-01",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-72",
+      "date": "2026-11-01",
+      "timestamp": null,
+      "round": "Matchday 8",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-73",
+      "date": "2026-11-06",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-74",
+      "date": "2026-11-07",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-75",
+      "date": "2026-11-07",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-76",
+      "date": "2026-11-07",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-77",
+      "date": "2026-11-07",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-78",
+      "date": "2026-11-07",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-79",
+      "date": "2026-11-08",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-80",
+      "date": "2026-11-08",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-81",
+      "date": "2026-11-08",
+      "timestamp": null,
+      "round": "Matchday 9",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-82",
+      "date": "2026-11-20",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-83",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-84",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-85",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-86",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-87",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-88",
+      "date": "2026-11-21",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-89",
+      "date": "2026-11-22",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-90",
+      "date": "2026-11-22",
+      "timestamp": null,
+      "round": "Matchday 10",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-91",
+      "date": "2026-11-27",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-92",
+      "date": "2026-11-28",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-93",
+      "date": "2026-11-28",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-94",
+      "date": "2026-11-28",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-95",
+      "date": "2026-11-28",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-96",
+      "date": "2026-11-28",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-97",
+      "date": "2026-11-29",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-98",
+      "date": "2026-11-29",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-99",
+      "date": "2026-11-29",
+      "timestamp": null,
+      "round": "Matchday 11",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-100",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-101",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-102",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-103",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-104",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-105",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-106",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-107",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-108",
+      "date": "2026-12-05",
+      "timestamp": null,
+      "round": "Matchday 12",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-109",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-110",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-111",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-112",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-113",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-114",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-115",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-116",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-117",
+      "date": "2026-12-12",
+      "timestamp": null,
+      "round": "Matchday 13",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-118",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-119",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-120",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-121",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-122",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-123",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-124",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-125",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-126",
+      "date": "2026-12-19",
+      "timestamp": null,
+      "round": "Matchday 14",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-127",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-128",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-129",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-130",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-131",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-132",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-133",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-134",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-135",
+      "date": "2027-01-09",
+      "timestamp": null,
+      "round": "Matchday 15",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-136",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-137",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-138",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-139",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-140",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-141",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-142",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-143",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-144",
+      "date": "2027-01-13",
+      "timestamp": null,
+      "round": "Matchday 16",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-145",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-146",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-147",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-148",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-149",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-150",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-151",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-152",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-153",
+      "date": "2027-01-16",
+      "timestamp": null,
+      "round": "Matchday 17",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-154",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-155",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-156",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-157",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-158",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-159",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-160",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-161",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-162",
+      "date": "2027-01-23",
+      "timestamp": null,
+      "round": "Matchday 18",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-163",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-164",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-165",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-166",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-167",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-168",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-169",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-170",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-171",
+      "date": "2027-01-30",
+      "timestamp": null,
+      "round": "Matchday 19",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-172",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-173",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-174",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-175",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-176",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-177",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-178",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-179",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-180",
+      "date": "2027-02-06",
+      "timestamp": null,
+      "round": "Matchday 20",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-181",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-182",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-183",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-184",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-185",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-186",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-187",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-188",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-189",
+      "date": "2027-02-13",
+      "timestamp": null,
+      "round": "Matchday 21",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-190",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-191",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-192",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-193",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-194",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-195",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-196",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-197",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-198",
+      "date": "2027-02-20",
+      "timestamp": null,
+      "round": "Matchday 22",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-199",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-200",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-201",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-202",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-203",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-204",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-205",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-206",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-207",
+      "date": "2027-02-27",
+      "timestamp": null,
+      "round": "Matchday 23",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-208",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-209",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-210",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-211",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-212",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-213",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-214",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-215",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-216",
+      "date": "2027-03-03",
+      "timestamp": null,
+      "round": "Matchday 24",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-217",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-218",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-219",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-220",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-221",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-222",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-223",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-224",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-225",
+      "date": "2027-03-06",
+      "timestamp": null,
+      "round": "Matchday 25",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-226",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-227",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-228",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-229",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-230",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-231",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-232",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-233",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-234",
+      "date": "2027-03-13",
+      "timestamp": null,
+      "round": "Matchday 26",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-235",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-236",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-237",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-238",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-239",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-240",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-241",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-242",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-243",
+      "date": "2027-03-20",
+      "timestamp": null,
+      "round": "Matchday 27",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-244",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-245",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-246",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-247",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-248",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-249",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-250",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-251",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-252",
+      "date": "2027-04-03",
+      "timestamp": null,
+      "round": "Matchday 28",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-253",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-254",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-255",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-256",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-257",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-258",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-259",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-260",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-261",
+      "date": "2027-04-10",
+      "timestamp": null,
+      "round": "Matchday 29",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-262",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-263",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-264",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-265",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-266",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-267",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-268",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-269",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-270",
+      "date": "2027-04-17",
+      "timestamp": null,
+      "round": "Matchday 30",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-271",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-272",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-273",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-274",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-275",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-276",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-277",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-278",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-279",
+      "date": "2027-04-24",
+      "timestamp": null,
+      "round": "Matchday 31",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-280",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-281",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-282",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-283",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-284",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-285",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-286",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-287",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-288",
+      "date": "2027-05-08",
+      "timestamp": null,
+      "round": "Matchday 32",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-289",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "away": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-290",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "away": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-291",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "away": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-292",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-293",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-294",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-295",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-296",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "away": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-297",
+      "date": "2027-05-15",
+      "timestamp": null,
+      "round": "Matchday 33",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "away": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-298",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "rb-leipzig",
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": "tsg-1899-hoffenheim",
+        "name": "TSG 1899 Hoffenheim"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-299",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-union-berlin",
+        "name": "1. FC Union Berlin"
+      },
+      "away": {
+        "id": "borussia-m-nchengladbach",
+        "name": "Borussia Mönchengladbach"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-300",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fsv-mainz-05",
+        "name": "1. FSV Mainz 05"
+      },
+      "away": {
+        "id": "vfb-stuttgart",
+        "name": "VfB Stuttgart"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-301",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-schalke-04",
+        "name": "FC Schalke 04"
+      },
+      "away": {
+        "id": "bayer-04-leverkusen",
+        "name": "Bayer 04 Leverkusen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-302",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sv-07-elversberg",
+        "name": "SV 07 Elversberg"
+      },
+      "away": {
+        "id": "sv-werder-bremen",
+        "name": "SV Werder Bremen"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-303",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-bayern-m-nchen",
+        "name": "FC Bayern München"
+      },
+      "away": {
+        "id": "eintracht-frankfurt",
+        "name": "Eintracht Frankfurt"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-304",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "fc-augsburg",
+        "name": "FC Augsburg"
+      },
+      "away": {
+        "id": "hamburger-sv",
+        "name": "Hamburger SV"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-305",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "sc-freiburg",
+        "name": "SC Freiburg"
+      },
+      "away": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openfootball-bundesliga-306",
+      "date": "2027-05-22",
+      "timestamp": null,
+      "round": "Matchday 34",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "1-fc-k-ln",
+        "name": "1. FC Köln"
+      },
+      "away": {
+        "id": "sc-paderborn-07",
+        "name": "SC Paderborn 07"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "fc-bayern-m-nchen",
+      "name": "FC Bayern München",
+      "country": "Germany"
+    },
+    {
+      "id": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "country": "Germany"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "country": "Germany"
+    },
+    {
+      "id": "borussia-m-nchengladbach",
+      "name": "Borussia Mönchengladbach",
+      "country": "Germany"
+    },
+    {
+      "id": "1-fsv-mainz-05",
+      "name": "1. FSV Mainz 05",
+      "country": "Germany"
+    },
+    {
+      "id": "sc-paderborn-07",
+      "name": "SC Paderborn 07",
+      "country": "Germany"
+    },
+    {
+      "id": "1-fc-union-berlin",
+      "name": "1. FC Union Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": "eintracht-frankfurt",
+      "name": "Eintracht Frankfurt",
+      "country": "Germany"
+    },
+    {
+      "id": "sv-07-elversberg",
+      "name": "SV 07 Elversberg",
+      "country": "Germany"
+    },
+    {
+      "id": "bayer-04-leverkusen",
+      "name": "Bayer 04 Leverkusen",
+      "country": "Germany"
+    },
+    {
+      "id": "1-fc-k-ln",
+      "name": "1. FC Köln",
+      "country": "Germany"
+    },
+    {
+      "id": "tsg-1899-hoffenheim",
+      "name": "TSG 1899 Hoffenheim",
+      "country": "Germany"
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "country": "Germany"
+    },
+    {
+      "id": "hamburger-sv",
+      "name": "Hamburger SV",
+      "country": "Germany"
+    },
+    {
+      "id": "sc-freiburg",
+      "name": "SC Freiburg",
+      "country": "Germany"
+    },
+    {
+      "id": "sv-werder-bremen",
+      "name": "SV Werder Bremen",
+      "country": "Germany"
+    },
+    {
+      "id": "fc-augsburg",
+      "name": "FC Augsburg",
+      "country": "Germany"
+    },
+    {
+      "id": "fc-schalke-04",
+      "name": "FC Schalke 04",
+      "country": "Germany"
+    }
+  ],
+  "standings": [
+    {
+      "teamId": "borussia-dortmund",
+      "team": "Borussia Dortmund",
+      "played": 4,
+      "won": 4,
+      "drawn": 0,
+      "lost": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
+      "points": 12,
+      "rank": 1,
+      "goalDifference": 7
+    },
+    {
+      "teamId": "fc-bayern-m-nchen",
+      "team": "FC Bayern München",
+      "played": 4,
+      "won": 3,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 14,
+      "goalsAgainst": 2,
+      "points": 10,
+      "rank": 2,
+      "goalDifference": 12
+    },
+    {
+      "teamId": "sc-freiburg",
+      "team": "SC Freiburg",
+      "played": 4,
+      "won": 3,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 12,
+      "goalsAgainst": 3,
+      "points": 10,
+      "rank": 3,
+      "goalDifference": 9
+    },
+    {
+      "teamId": "fc-augsburg",
+      "team": "FC Augsburg",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 11,
+      "goalsAgainst": 6,
+      "points": 7,
+      "rank": 4,
+      "goalDifference": 5
+    },
+    {
+      "teamId": "bayer-04-leverkusen",
+      "team": "Bayer 04 Leverkusen",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 10,
+      "goalsAgainst": 5,
+      "points": 7,
+      "rank": 5,
+      "goalDifference": 5
+    },
+    {
+      "teamId": "1-fsv-mainz-05",
+      "team": "1. FSV Mainz 05",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 10,
+      "goalsAgainst": 6,
+      "points": 7,
+      "rank": 6,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "sv-07-elversberg",
+      "team": "SV 07 Elversberg",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 7,
+      "points": 7,
+      "rank": 7,
+      "goalDifference": 1
+    },
+    {
+      "teamId": "sv-werder-bremen",
+      "team": "SV Werder Bremen",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 8,
+      "points": 7,
+      "rank": 8,
+      "goalDifference": 0
+    },
+    {
+      "teamId": "rb-leipzig",
+      "team": "RB Leipzig",
+      "played": 4,
+      "won": 2,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 9,
+      "goalsAgainst": 5,
+      "points": 6,
+      "rank": 9,
+      "goalDifference": 4
+    },
+    {
+      "teamId": "eintracht-frankfurt",
+      "team": "Eintracht Frankfurt",
+      "played": 4,
+      "won": 1,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 10,
+      "points": 5,
+      "rank": 10,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "fc-schalke-04",
+      "team": "FC Schalke 04",
+      "played": 4,
+      "won": 1,
+      "drawn": 2,
+      "lost": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 4,
+      "points": 5,
+      "rank": 11,
+      "goalDifference": -1
+    },
+    {
+      "teamId": "sc-paderborn-07",
+      "team": "SC Paderborn 07",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "points": 4,
+      "rank": 12,
+      "goalDifference": -2
+    },
+    {
+      "teamId": "1-fc-k-ln",
+      "team": "1. FC Köln",
+      "played": 4,
+      "won": 1,
+      "drawn": 1,
+      "lost": 2,
+      "goalsFor": 6,
+      "goalsAgainst": 9,
+      "points": 4,
+      "rank": 13,
+      "goalDifference": -3
+    },
+    {
+      "teamId": "tsg-1899-hoffenheim",
+      "team": "TSG 1899 Hoffenheim",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 10,
+      "points": 3,
+      "rank": 14,
+      "goalDifference": -3
+    },
+    {
+      "teamId": "vfb-stuttgart",
+      "team": "VfB Stuttgart",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 9,
+      "points": 3,
+      "rank": 15,
+      "goalDifference": -3
+    },
+    {
+      "teamId": "hamburger-sv",
+      "team": "Hamburger SV",
+      "played": 4,
+      "won": 1,
+      "drawn": 0,
+      "lost": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 13,
+      "points": 3,
+      "rank": 16,
+      "goalDifference": -11
+    },
+    {
+      "teamId": "1-fc-union-berlin",
+      "team": "1. FC Union Berlin",
+      "played": 4,
+      "won": 0,
+      "drawn": 1,
+      "lost": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 17,
+      "points": 1,
+      "rank": 17,
+      "goalDifference": -13
+    },
+    {
+      "teamId": "borussia-m-nchengladbach",
+      "team": "Borussia Mönchengladbach",
+      "played": 4,
+      "won": 0,
+      "drawn": 0,
+      "lost": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 16,
+      "points": 0,
+      "rank": 18,
+      "goalDifference": -10
+    }
+  ],
+  "teamStats": {
+    "fc-bayern-m-nchen": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 14
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "vfb-stuttgart": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "rb-leipzig": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "borussia-m-nchengladbach": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 0,
+        "loses": 4
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 16
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "1-fsv-mainz-05": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sc-paderborn-07": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "1-fc-union-berlin": {
+      "fixtures": {
+        "played": 4,
+        "wins": 0,
+        "draws": 1,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 4
+        },
+        "against": {
+          "total": 17
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "eintracht-frankfurt": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sv-07-elversberg": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 7
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "bayer-04-leverkusen": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 10
+        },
+        "against": {
+          "total": 5
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "1-fc-k-ln": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2
+      },
+      "goals": {
+        "for": {
+          "total": 6
+        },
+        "against": {
+          "total": 9
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "tsg-1899-hoffenheim": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 7
+        },
+        "against": {
+          "total": 10
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "borussia-dortmund": {
+      "fixtures": {
+        "played": 4,
+        "wins": 4,
+        "draws": 0,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 9
+        },
+        "against": {
+          "total": 2
+        }
+      },
+      "clean_sheet": {
+        "total": 3
+      }
+    },
+    "hamburger-sv": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 0,
+        "loses": 3
+      },
+      "goals": {
+        "for": {
+          "total": 2
+        },
+        "against": {
+          "total": 13
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "sc-freiburg": {
+      "fixtures": {
+        "played": 4,
+        "wins": 3,
+        "draws": 1,
+        "loses": 0
+      },
+      "goals": {
+        "for": {
+          "total": 12
+        },
+        "against": {
+          "total": 3
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    },
+    "sv-werder-bremen": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 8
+        },
+        "against": {
+          "total": 8
+        }
+      },
+      "clean_sheet": {
+        "total": 0
+      }
+    },
+    "fc-augsburg": {
+      "fixtures": {
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 11
+        },
+        "against": {
+          "total": 6
+        }
+      },
+      "clean_sheet": {
+        "total": 1
+      }
+    },
+    "fc-schalke-04": {
+      "fixtures": {
+        "played": 4,
+        "wins": 1,
+        "draws": 2,
+        "loses": 1
+      },
+      "goals": {
+        "for": {
+          "total": 3
+        },
+        "against": {
+          "total": 4
+        }
+      },
+      "clean_sheet": {
+        "total": 2
+      }
+    }
+  },
+  "players": [],
+  "topScorers": [],
+  "coverage": {
+    "fixtures": {
+      "available": true,
+      "rows": 306,
+      "fetchedAt": "2026-11-09T15:20:31Z"
+    },
+    "standings": {
+      "available": true,
+      "rows": 18,
+      "fetchedAt": "2026-11-09T15:20:31Z",
+      "note": "Calculated from completed OpenFootball results."
+    },
+    "teams": {
+      "available": true,
+      "rows": 18,
+      "fetchedAt": "2026-11-09T15:20:31Z"
+    },
+    "players": {
+      "available": false,
+      "rows": 0,
+      "note": "OpenFootball does not publish player statistics."
+    },
+    "topScorers": {
+      "available": false,
+      "rows": 0,
+      "note": "OpenFootball does not publish player statistics."
+    }
+  }
+}
