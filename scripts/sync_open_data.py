@@ -20,6 +20,12 @@ STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
 OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/tags/data-v0.1.0"
 OPEN_MATCHDAY = "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data"
 CORNERFLICK_SEASON = "https://cornerflick.com/football/leagues/ekstraklasa/results/season.json"
+OPEN_MATCHDAY_COMPS = {
+    "premier-league": "ENG_1_premier-league", "ligue-1": "FRA_1_ligue-1", "la-liga": "ESP_1_la-liga",
+    "serie-a": "ITA_1_serie-a", "bundesliga": "GER_1_bundesliga", "ekstraklasa": "POL_1_ekstraklasa",
+    "champions-league": "UEFA_1_champions-league", "europa-league": "UEFA_1_europa-league",
+    "conference-league": "UEFA_1_conference-league", "fa-cup": "ENG_CUP_fa-cup", "efl-cup": "ENG_CUP_efl-cup",
+}
 OPENPLAY_COMPS = {
     "eng": "premier-league", "esp": "la-liga", "ita": "serie-a", "ger": "bundesliga", "fra": "ligue-1",
     "ucl": "champions-league", "uel": "europa-league", "wc": "fifa-world-cup", "euro": "uefa-euro",
@@ -84,11 +90,20 @@ def normalize_openmatchday(item, season_key, folder, fetched_at):
     base = f"{OPEN_MATCHDAY}/{folder}"
     result_rows = fetch_csv(f"{base}/results_2627.csv")
     fixture_rows = fetch_csv(f"{base}/fixtures_2627.csv")
+    try:
+        goal_rows = fetch_csv(f"{base}/goals_2627.csv")
+    except Exception:
+        goal_rows = []
     merged = {}
     for row in result_rows + fixture_rows:
         key = (row.get("date"), row.get("home"), row.get("away"))
         merged[key] = {**merged.get(key, {}), **{k: v for k, v in row.items() if v not in (None, "")}}
-    fixtures, teams, fixture_stats = [], {}, {}
+    fixtures, teams, fixture_stats, events, players = [], {}, {}, {}, {}
+    def join_key(date, home, away):
+        def clean(value):
+            plain = unicodedata.normalize("NFKD", str(value or "")).encode("ascii", "ignore").decode("ascii").lower()
+            return re.sub(r"[^a-z0-9]+", "", plain)
+        return str(date or "")[:10], clean(home), clean(away)
     stat_fields = {"shots":"Shots", "target":"Shots on target", "fouls":"Fouls", "corners":"Corners", "corners_1h":"Corners (1st half)", "corners_2h":"Corners (2nd half)", "yellow":"Yellow cards", "red":"Red cards"}
     for index, row in enumerate(merged.values(), 1):
         home_name = row.get("home", "").strip(); away_name = row.get("away", "").strip()
@@ -111,6 +126,18 @@ def normalize_openmatchday(item, season_key, folder, fetched_at):
         ]
         if any(entry["statistics"] for entry in stats):
             fixture_stats[mid] = stats
+    fixture_ids = {join_key(f.get("date"), f["home"]["name"], f["away"]["name"]): f["id"] for f in fixtures}
+    for goal in goal_rows:
+        fid = fixture_ids.get(join_key(goal.get("date"), goal.get("home"), goal.get("away")))
+        scorer = (goal.get("scorer") or "").strip()
+        if not fid:
+            continue
+        minute = score_value(goal.get("minute"))
+        events.setdefault(fid, []).append({"time": {"elapsed": minute}, "team": "", "type": "Goal", "detail": "", "player": scorer or None})
+        if scorer:
+            key = slug(scorer)
+            player = players.setdefault(key, {"id": f"openmatchday-player-{key}", "name": scorer, "goals": 0})
+            player["goals"] += 1
     fixtures.sort(key=lambda f: f.get("date") or "")
     team_stats = team_statistics(fixtures)
     for tid, stats in team_stats.items():
@@ -123,17 +150,18 @@ def normalize_openmatchday(item, season_key, folder, fetched_at):
                 if value is not None:
                     team_stats.setdefault(tid, {}).setdefault(field, 0)
                     team_stats[tid][field] += int(value)
-    standings_rows = standings(fixtures)
+    standings_rows = standings(fixtures) if item["id"] not in {"fa-cup", "efl-cup"} else []
     snapshot = {"schemaVersion": 2, "competition": {"id": item["id"], "name": item["name"], "country": item.get("country")},
                 "season": season_key, "seasonLabel": item["season"], "provider": "open-matchday (non-commercial use; attribution required)",
                 "sourceUrl": "https://github.com/oladeeayo/open-matchday", "generatedAt": fetched_at,
                 "fixtures": fixtures, "teams": list(teams.values()), "standings": standings_rows, "teamStats": team_stats,
-                "fixtureStats": fixture_stats, "players": [], "topScorers": [],
+                "fixtureStats": fixture_stats, "events": events, "players": sorted(players.values(), key=lambda p: (-p["goals"], p["name"])),
+                "topScorers": sorted(players.values(), key=lambda p: (-p["goals"], p["name"]))[:100],
                 "coverage": {"fixtures": {"available": bool(fixtures), "rows": len(fixtures), "fetchedAt": fetched_at},
                              "standings": {"available": bool(standings_rows), "rows": len(standings_rows), "fetchedAt": fetched_at, "note": "Calculated from the source's completed match results."},
                              "teams": {"available": bool(teams), "rows": len(teams), "fetchedAt": fetched_at},
-                             "players": {"available": False, "rows": 0, "note": "This source does not publish player season totals."},
-                             "topScorers": {"available": False, "rows": 0, "note": "This source does not publish a player scorer table."},
+                             "players": {"available": bool(players), "rows": len(players), "note": "Scorer names are included only where the source provides them."},
+                             "topScorers": {"available": bool(players), "rows": min(len(players), 100), "note": "Goal totals aggregated from published goal rows."},
                              "fixtureStats": {"available": bool(fixture_stats), "rows": len(fixture_stats), "fetchedAt": fetched_at}}}
     write_json(SNAPSHOTS / f"{item['id']}-{season_key}.json", snapshot)
     return snapshot
@@ -529,7 +557,7 @@ def main():
             row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
             row["openfootball"] = {"available": False, "note": f"OpenFootball file could not be refreshed: {exc}"}
             print(f"OpenFootball {comp_id}: {exc}")
-    for comp_id, folder in (("premier-league", "ENG_1_premier-league"), ("ekstraklasa", "POL_1_ekstraklasa")):
+    for comp_id, folder in OPEN_MATCHDAY_COMPS.items():
         item = by_id.get(comp_id)
         if not item:
             continue
@@ -538,7 +566,7 @@ def main():
             row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
             row["seasons"].append("2026")
             row.setdefault("seasonLabels", {})["2026"] = item["season"]
-            row["openmatchday"] = {"available": True, "rows": len(snap["fixtures"]), "fetchedAt": fetched_at}
+            row["openmatchday"] = {"available": True, "rows": len(snap["fixtures"]), "completed": sum(f["status"] == "FT" for f in snap["fixtures"]), "fetchedAt": fetched_at}
             for section, state in snap["coverage"].items():
                 if state.get("available"):
                     row[section] = state
