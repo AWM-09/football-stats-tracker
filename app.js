@@ -98,7 +98,7 @@ function initCompetitionPage(){
     const seasons=[...new Set((coverage?.competitions?.[item.id]?.seasons||[]).map(String))].sort((a,b)=>Number(b.slice(0,4))-Number(a.slice(0,4)));
     if(!seasons.length)seasons.push(String(currentYear));
     const selected=seasons.includes(String(selectedSeason))?String(selectedSeason):(seasons.includes(String(currentYear))?String(currentYear):seasons[0]);selectedSeason=selected;
-    const labelFor=year=>year===String(currentYear)?item.season:(year.length===4?year:year);
+    const labelFor=year=>year===String(currentYear)?item.season:(coverage?.competitions?.[item.id]?.seasonLabels?.[year]||year);
     hero.innerHTML=`<div class="competition-kicker"><span>${esc(item.group)}</span><span>·</span><span>${esc(item.country)}</span></div><div class="competition-title-row"><span class="competition-crest" style="--card-accent:${esc(item.accent)}">${esc(item.code)}</span><div><h1>${esc(item.name)}</h1><p>${esc(item.description)}</p></div></div><div class="season-row"><label class="season-label" for="seasonSelect">Season</label><select id="seasonSelect" class="season-select">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select><span class="availability-pill ${snapshot?"is-ready":""}"><i class="status-dot ${snapshot?"good":"pending"}"></i>${snapshot?"Snapshot available":"Data unavailable"}</span></div>`;
     const path=`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(selectedSeason)}.json`;
     try{const r=await fetch(path+"?v="+Date.now());snapshot=r.ok?await r.json():null}catch{snapshot=null}

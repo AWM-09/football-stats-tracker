@@ -102,7 +102,7 @@ def sync_openplay(by_id, coverage):
             if not item:
                 continue
             code = str(source_season)
-            if len(code) == 4 and code.isdigit() and int(code[:2]) >= 10:
+            if source_comp in {"eng", "esp", "ita", "ger", "fra", "ucl", "uel", "nla", "nlb"} and len(code) == 4 and code.isdigit():
                 season_key, label = "20" + code[:2], f"20{code[:2]}/{code[2:]}"
             else:
                 season_key = code
@@ -162,11 +162,15 @@ def sync_openplay(by_id, coverage):
             write_json(existing_path, snapshot)
             row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
             row["seasons"].append(season_key)
-            row["openplay"] = {"available": True, "rows": len(fixtures), "players": len(players_out), "version": release.get("tag_name"), "season": label}
+            openplay_state = row.setdefault("openplay", {"available": True, "rows": 0, "players": 0, "version": release.get("tag_name"), "seasons": []})
+            openplay_state["rows"] += len(fixtures)
+            openplay_state["players"] += len(players_out)
+            openplay_state["seasons"].append(label)
+            row.setdefault("seasonLabels", {})[season_key] = label
             for key in ("fixtures", "players", "teams", "topScorers"):
                 row[key] = snapshot["coverage"][key]
             if standings_rows:
-                row["standings"] = {"available": True, "rows": len(standings_rows), "note": "Calculated from complete OpenPlay league results."}
+                row["standings"] = {"available": True, "rows": len(standings_rows), "note": "Calculated from available OpenPlay match results; a small number of source gaps may remain."}
         coverage["openplay"] = {"available": True, "version": release.get("tag_name"), "competitions": len(OPENPLAY_COMPS), "license": "CC BY 4.0"}
         con.close()
 
@@ -347,6 +351,7 @@ def main():
                 snap = normalize_statsbomb(item, source_comp, source_season, label, season_key, fetched_at)
                 row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
                 row["seasons"].append(season_key)
+                row.setdefault("seasonLabels", {})[season_key] = label
                 for section, state in snap["coverage"].items():
                     if state.get("available"):
                         row.setdefault(section, state)
