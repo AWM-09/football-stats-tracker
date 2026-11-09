@@ -48,6 +48,7 @@ class Api:
         self.budget = budget
         self.count = 0
         self.remaining = None
+        self.last_request_at = None
 
     def get(self, endpoint: str, params: dict):
         if self.count >= self.budget:
@@ -57,6 +58,11 @@ class Api:
         last_error = None
         for attempt in range(3):
             try:
+                # The free API plan permits at most 10 requests per minute.
+                now = time.monotonic()
+                if self.last_request_at is not None:
+                    time.sleep(max(0, 6.1 - (now - self.last_request_at)))
+                self.last_request_at = time.monotonic()
                 with urllib.request.urlopen(request, timeout=30) as response:
                     payload = json.loads(response.read().decode("utf-8"))
                     self.count += 1
