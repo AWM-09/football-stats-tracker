@@ -1,10 +1,12 @@
 {
-  "schemaVersion": 1,
-  "provider": null,
-  "status": "provider_not_configured",
+  "schemaVersion": 2,
+  "provider": "OpenFootball + StatsBomb Open Data",
+  "status": "pending_first_sync",
   "generatedAt": null,
-  "lastSyncGroup": null,
-  "requestCount": 0,
+  "sources": [
+    {"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
+    {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"}
+  ],
   "competitions": {},
-  "message": "No provider key is configured. Add API_FOOTBALL_KEY as a repository secret to publish verified data."
+  "message": "The site uses free static open datasets with no key required. Coverage is limited to selected current leagues and historical seasons; no live scores or full player totals are available. Run the GitHub Actions workflow to publish the first data snapshot."
 }

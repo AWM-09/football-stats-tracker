@@ -1,30 +1,29 @@
 # Football & Soccer Stats Tracker
 
-An independent football statistics project in the AlexMyrusTalksSports family. Its card based home page opens competition hubs with season selectors and sections for standings, fixtures, teams, players, head to head and records.
+A static football statistics site in the AlexMyrusTalksSports family. The home page groups competitions into selectable cards; each competition hub includes season selection and sections for tables, fixtures, teams, players, head-to-head and records.
 
 ## Competition directory
 
-- **Leagues:** Premier League, Ligue 1, La Liga, Serie A, Bundesliga and Ekstraklasa.
-- **UEFA club competitions:** Champions League, Europa League and Conference League.
-- **International football:** FIFA World Cup, UEFA European Championship, UEFA Nations League, regional World Cup qualifiers, Copa América, Africa Cup of Nations, AFC Asian Cup and CONCACAF Gold Cup.
-- **Domestic cups:** FA Cup, EFL Cup, Community Shield, Coupe de France, Trophée des Champions, Copa del Rey, Supercopa de España, Coppa Italia, Supercoppa Italiana, DFB-Pokal, DFL-Supercup, Puchar Polski and Superpuchar Polski.
+The directory lists six top-flight leagues, UEFA club competitions, international tournaments and domestic cups. A listed competition is not a promise of data coverage: the open datasets cover only selected competitions and seasons. The Data Status page shows exact coverage.
 
-## Stats and data connection
+## Free, keyless data
 
-Competition snapshots can include tables, fixtures and scores, team lists and season statistics, player appearances and metrics, top scorers, match statistics, events and lineups. Each competition and section records its own source coverage and fetch time. Data is shown only when received from the provider; missing values are not treated as zero. xG, transfers, suspensions, honours and other fields are not implied when the source does not provide them.
+The daily GitHub Actions workflow downloads public JSON files from:
 
-The site is built and published, but live football data remains unavailable until an API-Football key is configured. In the GitHub repository, open **Settings → Secrets and variables → Actions**, add secret `API_FOOTBALL_KEY`, then run **Deploy Football Stats Tracker** in Actions. The secret stays in the workflow and is never sent to the browser. The workflow rotates across data groups and writes dated snapshots to the repository. Team and per-match statistics take multiple provider calls, so full coverage across all competitions takes time and depends on plan limits.
+- [OpenFootball](https://github.com/openfootball/football.json), licensed CC0-1.0. The current feed is limited to the five configured top-flight leagues. Fixtures and results are published; standings are calculated from completed scores. This source does not provide player statistics.
+- [StatsBomb Open Data](https://github.com/hudl/open-data), which publishes event data for selected historical competitions and seasons. Supported match pages can show shots, xG, cards, events and lineups. StatsBomb requires attribution when sharing analysis; the site links and credits the source.
 
-The provider currently lists 1,251 leagues and cups, with coverage depth varying by competition and season. Review [current pricing](https://www.api-football.com/pricing) and [coverage](https://www.api-football.com/coverage) before choosing an API plan. The sync defaults to a 90-request daily budget.
+There is no API key or paid service. Data is not live; the workflow refreshes once per day. This does not provide full current-season coverage across all 35 competitions, complete player season totals, transfers or live scores. Unsupported sections and seasons are labeled unavailable rather than filled with estimates. Standings derived from partial or knockout schedules are not shown as league tables.
 
 ## Local preview
 
-Serve this folder with any static file server. No build step or API credentials are needed to preview the site. Without snapshots the pages show explicit unavailable states.
+Serve this folder with any static file server. No build step or credentials are needed. The workflow can also be run manually from the GitHub Actions tab.
 
 ## Pages
 
 - `index.html` — competition directory.
-- `competition.html?id=...` — competition data and analysis hub.
-- `entity.html?type=team|player&id=...` — team and player season profiles.
-- `match.html?id=...` — match statistics, events and lineups.
-- `health.html` — provider setup and per competition data coverage.
+- `competition.html?id=...` — competition hub and season data.
+- `entity.html?type=team|player&id=...` — team or player profile where source data exists.
+- `match.html?id=...` — match stats, events and lineups for supported matches.
+- `health.html` — source notes and per-competition coverage.
+- `scripts/sync_open_data.py` — fetch and normalize public data files.

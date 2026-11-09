@@ -107,11 +107,7 @@
     "season": "2026",
     "code": "WC",
     "accent": "#77d9be",
-    "description": "Men's national-team world championship and tournament history.",
-    "providerSearchTerms": [
-      "FIFA World Cup",
-      "World Cup"
-    ]
+    "description": "Men's national-team world championship and tournament history."
   },
   {
     "id": "uefa-euro",
@@ -122,12 +118,7 @@
     "season": "2028",
     "code": "EURO",
     "accent": "#78a9ff",
-    "description": "European national-team championship and qualifying history.",
-    "providerSearchTerms": [
-      "UEFA European Championship",
-      "Euro Championship",
-      "UEFA Euro"
-    ]
+    "description": "European national-team championship and qualifying history."
   },
   {
     "id": "nations-league",
@@ -149,11 +140,7 @@
     "season": "2026",
     "code": "UWCQ",
     "accent": "#91c5d7",
-    "description": "UEFA national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - Europe",
-      "World Cup - Qualification - Europe"
-    ]
+    "description": "UEFA national-team qualification for the FIFA World Cup."
   },
   {
     "id": "world-cup-qualifiers-conmebol",
@@ -164,11 +151,7 @@
     "season": "2026",
     "code": "CWCQ",
     "accent": "#91c5d7",
-    "description": "CONMEBOL national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - South America",
-      "World Cup - Qualification - South America"
-    ]
+    "description": "CONMEBOL national-team qualification for the FIFA World Cup."
   },
   {
     "id": "world-cup-qualifiers-afc",
@@ -179,11 +162,7 @@
     "season": "2026",
     "code": "AWCQ",
     "accent": "#91c5d7",
-    "description": "AFC national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - Asia",
-      "World Cup - Qualification - Asia"
-    ]
+    "description": "AFC national-team qualification for the FIFA World Cup."
   },
   {
     "id": "world-cup-qualifiers-caf",
@@ -194,11 +173,7 @@
     "season": "2026",
     "code": "FWCQ",
     "accent": "#91c5d7",
-    "description": "CAF national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - Africa",
-      "World Cup - Qualification - Africa"
-    ]
+    "description": "CAF national-team qualification for the FIFA World Cup."
   },
   {
     "id": "world-cup-qualifiers-concacaf",
@@ -209,11 +184,7 @@
     "season": "2026",
     "code": "NWCQ",
     "accent": "#91c5d7",
-    "description": "CONCACAF national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - N/C America",
-      "World Cup - Qualification - North & Central America"
-    ]
+    "description": "CONCACAF national-team qualification for the FIFA World Cup."
   },
   {
     "id": "world-cup-qualifiers-ofc",
@@ -224,11 +195,7 @@
     "season": "2026",
     "code": "OWCQ",
     "accent": "#91c5d7",
-    "description": "OFC national-team qualification for the FIFA World Cup.",
-    "providerSearchTerms": [
-      "World Cup - Qualification - Oceania",
-      "World Cup - Qualification - Oceania"
-    ]
+    "description": "OFC national-team qualification for the FIFA World Cup."
   },
   {
     "id": "copa-america",
