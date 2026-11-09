@@ -8,6 +8,7 @@ import json
 import math
 import re
 import tempfile
+import unicodedata
 import urllib.request
 from pathlib import Path
 
@@ -202,12 +203,17 @@ def normalize_cornerflick_ekstraklasa(item, season_key, fetched_at):
     # Include forthcoming matchweeks from the no-key CSV feed, where the results source has not published fixtures yet.
     base = f"{OPEN_MATCHDAY}/POL_1_ekstraklasa"
     future_rows = fetch_csv(f"{base}/fixtures_2627.csv")
-    known = {(f["date"][:10] if f.get("date") else None, f["home"]["name"], f["away"]["name"]) for f in fixtures}
+    def team_key(name):
+        plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii").lower()
+        return re.sub(r"[^a-z0-9]+", "", plain)
+    known = {(f["date"][:10] if f.get("date") else None, team_key(f["home"]["name"]), team_key(f["away"]["name"])) for f in fixtures}
+    canonical_team_ids = {team_key(team["name"]): tid for tid, team in teams.items()}
     for row in future_rows:
         home, away = row.get("home", "").strip(), row.get("away", "").strip()
-        if not home or not away or (row.get("date"), home, away) in known:
+        if not home or not away or (row.get("date"), team_key(home), team_key(away)) in known:
             continue
-        hid, aid = f"cornerflick-team-{slug(home)}", f"cornerflick-team-{slug(away)}"
+        hid = canonical_team_ids.get(team_key(home), f"cornerflick-team-{slug(home)}")
+        aid = canonical_team_ids.get(team_key(away), f"cornerflick-team-{slug(away)}")
         teams.setdefault(hid, {"id": hid, "name": home, "country": "Poland"}); teams.setdefault(aid, {"id": aid, "name": away, "country": "Poland"})
         fixtures.append({"id": f"openmatchday-ekstraklasa-{row.get('date')}-{slug(home)}-{slug(away)}", "date": row.get("date"), "round": f"Matchday {row.get('gw')}" if row.get("gw") else "", "status": "NS", "statusLong": "Scheduled", "home": {"id": hid, "name": home}, "away": {"id": aid, "name": away}, "goals": {"home": None, "away": None}})
     fixtures.sort(key=lambda f: f.get("date") or "")
@@ -546,7 +552,7 @@ def main():
             row = coverage["competitions"].setdefault("ekstraklasa", {"seasons": []})
             row["seasons"].append("2026")
             row.setdefault("seasonLabels", {})["2026"] = item["season"]
-            row["cornerflick"] = {"available": True, "rows": len(snap["fixtures"]), "fetchedAt": snap["generatedAt"]}
+            row["cornerflick"] = {"available": True, "rows": len(snap["fixtures"]), "completed": sum(f["status"] == "FT" for f in snap["fixtures"]), "detailedMatches": len(snap["fixtureStats"]), "fetchedAt": snap["generatedAt"]}
             for section, state in snap["coverage"].items():
                 if state.get("available"):
                     row[section] = state
