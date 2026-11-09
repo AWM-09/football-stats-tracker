@@ -125,7 +125,7 @@ def sync_openplay(by_id, coverage):
                         row[mapped] = round(float(value), 2) if field in ("xg", "npxg", "xa") else int(value)
                 row.update({"expectedGoals": row.get("xg"), "expectedAssists": row.get("xa")})
                 players_out.append(row)
-            players_out.sort(key=lambda p: (-p.get("goals", 0), -p.get("assists", 0), p["name"]))
+            players_out.sort(key=lambda p: (-p.get("goals", 0), -p.get("assists", 0), str(p.get("name") or "")))
             match_rows = con.execute(f"SELECT * FROM read_parquet('{matches_path}') WHERE {where} ORDER BY date").fetchdf().to_dict("records")
             fixtures, team_names, standings_rows = [], {}, []
             for m in match_rows:
