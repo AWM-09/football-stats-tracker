@@ -51,6 +51,7 @@ jobs:
           git add -A data/coverage.json data/provider-map.json data/competitions/
           if ! git diff --cached --quiet; then
             git commit -m "Refresh football data snapshots"
+            git push
           fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
