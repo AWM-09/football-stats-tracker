@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import math
 import re
 import tempfile
 import urllib.request
@@ -55,6 +56,17 @@ def fetch_json(url: str):
         return json.loads(response.read().decode("utf-8"))
 
 
+def number(value, default=0):
+    if value is None:
+        return default
+    try:
+        if math.isnan(float(value)):
+            return default
+    except (TypeError, ValueError):
+        pass
+    return value
+
+
 def sync_openplay(by_id, coverage):
     """Import licensed historical season aggregates from the OpenPlay release."""
     try:
@@ -104,10 +116,11 @@ def sync_openplay(by_id, coverage):
             player_rows = con.execute(query).fetchdf().to_dict("records")
             players_out = []
             for p in player_rows:
-                row = {"id": f"op-player-{p['player_id']}", "name": p["player"], "team": p["team"], "teamId": f"op-team-{p['team_id']}", "position": p["position"], "appearances": int(p["appearances"] or 0), "minutes": int(p["minutes"] or 0)}
+                row = {"id": f"op-player-{p['player_id']}", "name": p["player"], "team": p["team"], "teamId": f"op-team-{p['team_id']}", "position": p["position"], "appearances": int(number(p["appearances"])), "minutes": int(number(p["minutes"]))}
                 for field in sum_fields:
                     value = p[field]
-                    if value is not None:
+                    if number(value, None) is not None:
+                        value = number(value)
                         mapped = {"shots_on_target":"shotsOnTarget", "shots_off_target":"shotsOffTarget", "shots_blocked":"shotsBlocked", "key_passes":"keyPasses", "passes_completed":"passesCompleted", "passes_final_third":"passesFinalThird", "passes_into_box":"passesIntoBox", "dribbles_completed":"dribblesCompleted", "tackles_won":"tacklesWon", "ball_recoveries":"ballRecoveries", "yellow_cards":"yellowCards", "second_yellows":"secondYellows", "red_cards":"redCards"}.get(field, field)
                         row[mapped] = round(float(value), 2) if field in ("xg", "npxg", "xa") else int(value)
                 row.update({"expectedGoals": row.get("xg"), "expectedAssists": row.get("xa")})
@@ -126,14 +139,14 @@ def sync_openplay(by_id, coverage):
             team_stats = {}
             for t in con.execute(f"SELECT {team_sums} FROM read_parquet('{teams_path}') WHERE {where} GROUP BY team_id").fetchdf().to_dict("records"):
                 tid = f"op-team-{t['team_id']}"
-                team_stats[tid] = {"fixtures": {"played": int(t["matches"] or 0)}, "goals": {"for": {"total": int(t["goals_for"] or 0)}, "against": {"total": int(t["goals_against"] or 0)}}, "shots": int(t.get("shots") or 0), "xg": round(float(t.get("xg") or 0), 2), "passes": int(t.get("passes") or 0), "tackles": int(t.get("tackles") or 0), "interceptions": int(t.get("interceptions") or 0)}
+                team_stats[tid] = {"fixtures": {"played": int(number(t["matches"]))}, "goals": {"for": {"total": int(number(t["goals_for"]))}, "against": {"total": int(number(t["goals_against"]))}}, "shots": int(number(t.get("shots"))), "xg": round(float(number(t.get("xg"))), 2), "passes": int(number(t.get("passes"))), "tackles": int(number(t.get("tackles"))), "interceptions": int(number(t.get("interceptions")))}
             match_team_fields = [field for field in ("shots", "shots_on_target", "passes", "passes_completed", "key_passes", "assists", "xg", "npxg", "tackles", "interceptions", "clearances", "saves", "yellow_cards", "red_cards", "corners_taken") if field in team_columns]
             match_stats = {}
             select_match = ", ".join(["match_id", "team_id"] + match_team_fields)
             for t in con.execute(f"SELECT {select_match} FROM read_parquet('{teams_path}') WHERE {where}").fetchdf().to_dict("records"):
                 mid, tid = f"openplay-{t['match_id']}", f"op-team-{t['team_id']}"
                 labels = {"shots":"Shots", "shots_on_target":"Shots on target", "passes":"Passes", "passes_completed":"Passes completed", "key_passes":"Key passes", "assists":"Assists", "xg":"xG", "npxg":"Non-penalty xG", "tackles":"Tackles", "interceptions":"Interceptions", "clearances":"Clearances", "saves":"Saves", "yellow_cards":"Yellow cards", "red_cards":"Red cards", "corners_taken":"Corners"}
-                match_stats.setdefault(mid, []).append({"teamId": tid, "statistics": {labels[field]: round(float(t[field]), 2) if field in ("xg", "npxg") and t[field] is not None else (int(t[field]) if t[field] is not None else 0) for field in match_team_fields}})
+                match_stats.setdefault(mid, []).append({"teamId": tid, "statistics": {labels[field]: round(float(number(t[field])), 2) if field in ("xg", "npxg") else int(number(t[field])) for field in match_team_fields}})
             if comp_id in {"premier-league", "la-liga", "serie-a", "bundesliga", "ligue-1"}:
                 standings_rows = standings(fixtures)
             teams_out = [{"id": tid, "name": name} for tid, name in sorted(team_names.items(), key=lambda x: x[1])]
