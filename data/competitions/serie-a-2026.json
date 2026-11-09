@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "OpenFootball (CC0)",
   "sourceUrl": "https://github.com/openfootball/football.json/tree/master/2026-27",
-  "generatedAt": "2026-11-09T22:16:20Z",
+  "generatedAt": "2026-11-09T22:19:45Z",
   "fixtures": [
     {
       "id": "openfootball-serie-a-1",
@@ -9884,18 +9884,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-09T22:16:20Z"
+      "fetchedAt": "2026-11-09T22:19:45Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-09T22:16:20Z",
+      "fetchedAt": "2026-11-09T22:19:45Z",
       "note": "Calculated from completed OpenFootball results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-09T22:16:20Z"
+      "fetchedAt": "2026-11-09T22:19:45Z"
     },
     "players": {
       "available": false,
