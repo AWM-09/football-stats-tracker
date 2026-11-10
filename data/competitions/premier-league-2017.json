@@ -119794,7 +119794,7 @@
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T02:16:07Z",
+      "fetchedAt": "2026-11-10T04:44:13Z",
       "note": "Calculated from completed match results."
     },
     "teams": {
@@ -119815,7 +119815,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 4560,
-      "fetchedAt": "2026-11-10T02:16:07Z",
+      "fetchedAt": "2026-11-10T04:44:13Z",
       "note": "Only statistics published for a match are included."
     }
   }
