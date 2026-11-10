@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T15:07:50Z",
+  "generatedAt": "2026-11-10T15:14:46Z",
   "fixtures": [
     {
       "id": "openmatchday-serie-a-2026-08-22-internazionale-monza",
@@ -15762,18 +15762,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-10T15:07:50Z"
+      "fetchedAt": "2026-11-10T15:14:46Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T15:07:50Z",
+      "fetchedAt": "2026-11-10T15:14:46Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T15:07:50Z"
+      "fetchedAt": "2026-11-10T15:14:46Z"
     },
     "players": {
       "available": false,
@@ -15788,7 +15788,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 110,
-      "fetchedAt": "2026-11-10T15:07:50Z"
+      "fetchedAt": "2026-11-10T15:14:46Z"
     }
   }
 }
