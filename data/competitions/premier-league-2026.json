@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T04:44:13Z",
+  "generatedAt": "2026-11-10T15:07:50Z",
   "fixtures": [
     {
       "id": "openmatchday-premier-league-2026-08-21-arsenal-coventry",
@@ -2191,8 +2191,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2215,8 +2215,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2239,8 +2239,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2263,8 +2263,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2287,8 +2287,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -2311,8 +2311,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -2335,8 +2335,8 @@
         "away": 3
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -2359,8 +2359,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -2383,8 +2383,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -2407,8 +2407,8 @@
         "away": 4
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       }
     },
     {
@@ -9515,9 +9515,9 @@
       "clean_sheet": {
         "total": 7
       },
-      "shots": 117,
+      "shots": 138,
       "corners": 56,
-      "yellowCards": 14,
+      "yellowCards": 16,
       "redCards": 0
     },
     "coventry": {
@@ -9538,9 +9538,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 97,
+      "shots": 112,
       "corners": 36,
-      "yellowCards": 10,
+      "yellowCards": 11,
       "redCards": 1
     },
     "hull": {
@@ -9561,9 +9561,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 96,
+      "shots": 103,
       "corners": 41,
-      "yellowCards": 24,
+      "yellowCards": 27,
       "redCards": 0
     },
     "man-utd": {
@@ -9584,9 +9584,9 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 167,
+      "shots": 193,
       "corners": 63,
-      "yellowCards": 22,
+      "yellowCards": 23,
       "redCards": 1
     },
     "everton": {
@@ -9607,9 +9607,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 125,
+      "shots": 140,
       "corners": 46,
-      "yellowCards": 17,
+      "yellowCards": 18,
       "redCards": 0
     },
     "crystal-palace": {
@@ -9630,9 +9630,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 90,
+      "shots": 109,
       "corners": 33,
-      "yellowCards": 13,
+      "yellowCards": 15,
       "redCards": 2
     },
     "ipswich": {
@@ -9653,9 +9653,9 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 99,
+      "shots": 109,
       "corners": 28,
-      "yellowCards": 16,
+      "yellowCards": 18,
       "redCards": 1
     },
     "sunderland": {
@@ -9676,9 +9676,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 113,
+      "shots": 122,
       "corners": 40,
-      "yellowCards": 17,
+      "yellowCards": 22,
       "redCards": 3
     },
     "nott-m-forest": {
@@ -9699,7 +9699,7 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 152,
+      "shots": 163,
       "corners": 45,
       "yellowCards": 20,
       "redCards": 0
@@ -9722,9 +9722,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 105,
+      "shots": 121,
       "corners": 43,
-      "yellowCards": 17,
+      "yellowCards": 18,
       "redCards": 0
     },
     "brentford": {
@@ -9745,10 +9745,10 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 126,
+      "shots": 131,
       "corners": 39,
-      "yellowCards": 22,
-      "redCards": 2
+      "yellowCards": 24,
+      "redCards": 3
     },
     "spurs": {
       "fixtures": {
@@ -9768,9 +9768,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 148,
+      "shots": 155,
       "corners": 75,
-      "yellowCards": 13,
+      "yellowCards": 15,
       "redCards": 1
     },
     "brighton": {
@@ -9791,9 +9791,9 @@
       "clean_sheet": {
         "total": 7
       },
-      "shots": 149,
+      "shots": 169,
       "corners": 51,
-      "yellowCards": 20,
+      "yellowCards": 24,
       "redCards": 1
     },
     "aston-villa": {
@@ -9814,9 +9814,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 107,
+      "shots": 119,
       "corners": 34,
-      "yellowCards": 19,
+      "yellowCards": 20,
       "redCards": 1
     },
     "man-city": {
@@ -9837,9 +9837,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 138,
+      "shots": 150,
       "corners": 61,
-      "yellowCards": 13,
+      "yellowCards": 15,
       "redCards": 1
     },
     "bournemouth": {
@@ -9860,9 +9860,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 127,
+      "shots": 142,
       "corners": 48,
-      "yellowCards": 24,
+      "yellowCards": 27,
       "redCards": 0
     },
     "newcastle": {
@@ -9883,9 +9883,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 113,
+      "shots": 122,
       "corners": 43,
-      "yellowCards": 26,
+      "yellowCards": 31,
       "redCards": 1
     },
     "liverpool": {
@@ -9906,9 +9906,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 140,
+      "shots": 160,
       "corners": 52,
-      "yellowCards": 23,
+      "yellowCards": 27,
       "redCards": 1
     },
     "fulham": {
@@ -9929,7 +9929,7 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 129,
+      "shots": 140,
       "corners": 59,
       "yellowCards": 19,
       "redCards": 1
@@ -9952,9 +9952,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 126,
+      "shots": 136,
       "corners": 55,
-      "yellowCards": 18,
+      "yellowCards": 22,
       "redCards": 1
     }
   },
@@ -12483,17 +12483,27 @@
       {
         "teamId": "everton",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 7,
+          "Fouls": 10,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "coventry",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 4,
+          "Fouls": 6,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -12501,17 +12511,27 @@
       {
         "teamId": "leeds",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 4,
+          "Fouls": 11,
           "Corners": 6,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "spurs",
         "statistics": {
+          "Shots": 7,
+          "Shots on target": 4,
+          "Fouls": 16,
           "Corners": 4,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -12519,17 +12539,27 @@
       {
         "teamId": "arsenal",
         "statistics": {
+          "Shots": 21,
+          "Shots on target": 10,
+          "Fouls": 6,
           "Corners": 7,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 6
+          "Corners (2nd half)": 6,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "hull",
         "statistics": {
+          "Shots": 7,
+          "Shots on target": 2,
+          "Fouls": 15,
           "Corners": 4,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -12537,17 +12567,27 @@
       {
         "teamId": "fulham",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 5,
+          "Fouls": 9,
           "Corners": 3,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "newcastle",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 5,
+          "Fouls": 13,
           "Corners": 3,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 5,
+          "Red cards": 0
         }
       }
     ],
@@ -12555,17 +12595,27 @@
       {
         "teamId": "nott-m-forest",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 5,
+          "Fouls": 13,
           "Corners": 3,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "man-city",
         "statistics": {
+          "Shots": 12,
+          "Shots on target": 4,
+          "Fouls": 7,
           "Corners": 7,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -12573,17 +12623,27 @@
       {
         "teamId": "brighton",
         "statistics": {
+          "Shots": 20,
+          "Shots on target": 6,
+          "Fouls": 11,
           "Corners": 7,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       },
       {
         "teamId": "brentford",
         "statistics": {
+          "Shots": 5,
+          "Shots on target": 0,
+          "Fouls": 7,
           "Corners": 3,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 2,
+          "Red cards": 1
         }
       }
     ],
@@ -12591,17 +12651,27 @@
       {
         "teamId": "crystal-palace",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 7,
+          "Fouls": 10,
           "Corners": 4,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "liverpool",
         "statistics": {
+          "Shots": 20,
+          "Shots on target": 8,
+          "Fouls": 18,
           "Corners": 7,
           "Corners (1st half)": 5,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       }
     ],
@@ -12609,17 +12679,27 @@
       {
         "teamId": "ipswich",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 2,
+          "Fouls": 6,
           "Corners": 2,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "bournemouth",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 4,
+          "Fouls": 20,
           "Corners": 7,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -12627,17 +12707,27 @@
       {
         "teamId": "sunderland",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 2,
+          "Fouls": 17,
           "Corners": 2,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 5,
+          "Red cards": 0
         }
       },
       {
         "teamId": "chelsea",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 4,
+          "Fouls": 8,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       }
     ],
@@ -12645,17 +12735,27 @@
       {
         "teamId": "man-utd",
         "statistics": {
+          "Shots": 26,
+          "Shots on target": 9,
+          "Fouls": 18,
           "Corners": 8,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "aston-villa",
         "statistics": {
+          "Shots": 12,
+          "Shots on target": 6,
+          "Fouls": 9,
           "Corners": 1,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ]
@@ -14882,18 +14982,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T04:44:13Z",
+      "fetchedAt": "2026-11-10T15:07:50Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "players": {
       "available": false,
@@ -14908,7 +15008,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 100,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     }
   }
 }

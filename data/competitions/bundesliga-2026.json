@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T04:44:13Z",
+  "generatedAt": "2026-11-10T15:07:50Z",
   "fixtures": [
     {
       "id": "openmatchday-bundesliga-2026-08-28-fc-bayern-m-nchen-vfb-stuttgart",
@@ -7703,9 +7703,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 186,
+      "shots": 212,
       "corners": 77,
-      "yellowCards": 8,
+      "yellowCards": 9,
       "redCards": 0
     },
     "vfb-stuttgart": {
@@ -7726,9 +7726,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 133,
+      "shots": 146,
       "corners": 53,
-      "yellowCards": 12,
+      "yellowCards": 13,
       "redCards": 0
     },
     "1-fc-k-ln": {
@@ -7749,9 +7749,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 125,
+      "shots": 137,
       "corners": 50,
-      "yellowCards": 16,
+      "yellowCards": 22,
       "redCards": 0
     },
     "tsg-hoffenheim": {
@@ -7772,7 +7772,7 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 143,
+      "shots": 158,
       "corners": 55,
       "yellowCards": 15,
       "redCards": 2
@@ -7795,9 +7795,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 88,
+      "shots": 92,
       "corners": 28,
-      "yellowCards": 22,
+      "yellowCards": 24,
       "redCards": 1
     },
     "eintracht-frankfurt": {
@@ -7818,9 +7818,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 111,
+      "shots": 127,
       "corners": 45,
-      "yellowCards": 18,
+      "yellowCards": 19,
       "redCards": 0
     },
     "1-fsv-mainz-05": {
@@ -7841,9 +7841,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 134,
+      "shots": 144,
       "corners": 53,
-      "yellowCards": 21,
+      "yellowCards": 24,
       "redCards": 1
     },
     "sc-paderborn-07": {
@@ -7864,7 +7864,7 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 111,
+      "shots": 122,
       "corners": 41,
       "yellowCards": 12,
       "redCards": 0
@@ -7887,9 +7887,9 @@
       "clean_sheet": {
         "total": 5
       },
-      "shots": 138,
+      "shots": 155,
       "corners": 46,
-      "yellowCards": 7,
+      "yellowCards": 8,
       "redCards": 0
     },
     "borussia-m-nchengladbach": {
@@ -7910,10 +7910,10 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 119,
+      "shots": 138,
       "corners": 48,
-      "yellowCards": 25,
-      "redCards": 1
+      "yellowCards": 28,
+      "redCards": 2
     },
     "sv-07-elversberg": {
       "fixtures": {
@@ -7933,9 +7933,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 85,
+      "shots": 101,
       "corners": 39,
-      "yellowCards": 14,
+      "yellowCards": 16,
       "redCards": 0
     },
     "bayer-04-leverkusen": {
@@ -7956,9 +7956,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 151,
+      "shots": 165,
       "corners": 65,
-      "yellowCards": 16,
+      "yellowCards": 21,
       "redCards": 0
     },
     "borussia-dortmund": {
@@ -7979,9 +7979,9 @@
       "clean_sheet": {
         "total": 5
       },
-      "shots": 119,
+      "shots": 138,
       "corners": 50,
-      "yellowCards": 16,
+      "yellowCards": 17,
       "redCards": 1
     },
     "hamburger-sv": {
@@ -8002,9 +8002,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 87,
+      "shots": 105,
       "corners": 37,
-      "yellowCards": 14,
+      "yellowCards": 15,
       "redCards": 0
     },
     "sc-freiburg": {
@@ -8025,9 +8025,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 123,
+      "shots": 143,
       "corners": 43,
-      "yellowCards": 15,
+      "yellowCards": 17,
       "redCards": 1
     },
     "sv-werder-bremen": {
@@ -8048,9 +8048,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 118,
+      "shots": 141,
       "corners": 40,
-      "yellowCards": 11,
+      "yellowCards": 13,
       "redCards": 0
     },
     "fc-augsburg": {
@@ -8071,10 +8071,10 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 139,
+      "shots": 152,
       "corners": 44,
-      "yellowCards": 11,
-      "redCards": 1
+      "yellowCards": 14,
+      "redCards": 2
     },
     "fc-schalke-04": {
       "fixtures": {
@@ -8094,9 +8094,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 76,
+      "shots": 99,
       "corners": 30,
-      "yellowCards": 10,
+      "yellowCards": 12,
       "redCards": 1
     }
   },
@@ -10121,17 +10121,27 @@
       {
         "teamId": "hamburger-sv",
         "statistics": {
+          "Shots": 18,
+          "Shots on target": 9,
+          "Fouls": 6,
           "Corners": 5,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "borussia-m-nchengladbach",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 6,
+          "Fouls": 16,
           "Corners": 3,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 3,
+          "Red cards": 1
         }
       }
     ],
@@ -10139,17 +10149,27 @@
       {
         "teamId": "1-fsv-mainz-05",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 1,
+          "Fouls": 8,
           "Corners": 7,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "fc-bayern-m-nchen",
         "statistics": {
+          "Shots": 26,
+          "Shots on target": 9,
+          "Fouls": 8,
           "Corners": 8,
           "Corners (1st half)": 5,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -10157,17 +10177,27 @@
       {
         "teamId": "borussia-dortmund",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 6,
+          "Fouls": 14,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "sv-07-elversberg",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 7,
+          "Fouls": 11,
           "Corners": 6,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -10175,17 +10205,27 @@
       {
         "teamId": "rb-leipzig",
         "statistics": {
+          "Shots": 17,
+          "Shots on target": 7,
+          "Fouls": 6,
           "Corners": 2,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "fc-augsburg",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 8,
+          "Fouls": 7,
           "Corners": 2,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 3,
+          "Red cards": 1
         }
       }
     ],
@@ -10193,17 +10233,27 @@
       {
         "teamId": "sc-paderborn-07",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 3,
+          "Fouls": 14,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "eintracht-frankfurt",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 3,
+          "Fouls": 13,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -10211,17 +10261,27 @@
       {
         "teamId": "vfb-stuttgart",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 5,
+          "Fouls": 6,
           "Corners": 4,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "sv-werder-bremen",
         "statistics": {
+          "Shots": 23,
+          "Shots on target": 5,
+          "Fouls": 8,
           "Corners": 4,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -10229,17 +10289,27 @@
       {
         "teamId": "1-fc-k-ln",
         "statistics": {
+          "Shots": 12,
+          "Shots on target": 6,
+          "Fouls": 12,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 6,
+          "Red cards": 0
         }
       },
       {
         "teamId": "bayer-04-leverkusen",
         "statistics": {
+          "Shots": 14,
+          "Shots on target": 8,
+          "Fouls": 12,
           "Corners": 6,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 5,
+          "Red cards": 0
         }
       }
     ],
@@ -10247,17 +10317,27 @@
       {
         "teamId": "sc-freiburg",
         "statistics": {
+          "Shots": 20,
+          "Shots on target": 9,
+          "Fouls": 10,
           "Corners": 5,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "1-fc-union-berlin",
         "statistics": {
+          "Shots": 4,
+          "Shots on target": 0,
+          "Fouls": 17,
           "Corners": 1,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -10265,17 +10345,27 @@
       {
         "teamId": "tsg-hoffenheim",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 7,
+          "Fouls": 10,
           "Corners": 6,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "fc-schalke-04",
         "statistics": {
+          "Shots": 23,
+          "Shots on target": 6,
+          "Fouls": 9,
           "Corners": 4,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ]
@@ -14208,18 +14298,18 @@
     "fixtures": {
       "available": true,
       "rows": 306,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "standings": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-10T04:44:13Z",
+      "fetchedAt": "2026-11-10T15:07:50Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "players": {
       "available": true,
@@ -14234,7 +14324,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 81,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     }
   }
 }

@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T04:44:13Z",
+  "generatedAt": "2026-11-10T15:07:50Z",
   "fixtures": [
     {
       "id": "openmatchday-ligue-1-2026-08-21-olympique-de-marseille-rc-strasbourg-alsace",
@@ -1975,8 +1975,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -1999,8 +1999,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2023,8 +2023,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -2047,8 +2047,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -2071,8 +2071,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -2095,8 +2095,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -2119,8 +2119,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -2143,8 +2143,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -2167,8 +2167,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -7721,9 +7721,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 116,
+      "shots": 132,
       "corners": 45,
-      "yellowCards": 12,
+      "yellowCards": 14,
       "redCards": 1
     },
     "rc-strasbourg-alsace": {
@@ -7744,9 +7744,9 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 117,
+      "shots": 126,
       "corners": 25,
-      "yellowCards": 14,
+      "yellowCards": 17,
       "redCards": 1
     },
     "rc-lens": {
@@ -7767,9 +7767,9 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 116,
+      "shots": 129,
       "corners": 58,
-      "yellowCards": 18,
+      "yellowCards": 19,
       "redCards": 2
     },
     "aj-auxerre": {
@@ -7790,9 +7790,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 104,
+      "shots": 111,
       "corners": 47,
-      "yellowCards": 15,
+      "yellowCards": 18,
       "redCards": 2
     },
     "estac-troyes": {
@@ -7813,9 +7813,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 123,
+      "shots": 131,
       "corners": 57,
-      "yellowCards": 16,
+      "yellowCards": 17,
       "redCards": 0
     },
     "paris-fc": {
@@ -7836,9 +7836,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 125,
+      "shots": 135,
       "corners": 36,
-      "yellowCards": 21,
+      "yellowCards": 22,
       "redCards": 0
     },
     "le-mans-fc": {
@@ -7859,7 +7859,7 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 88,
+      "shots": 107,
       "corners": 30,
       "yellowCards": 23,
       "redCards": 1
@@ -7882,9 +7882,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 147,
+      "shots": 160,
       "corners": 40,
-      "yellowCards": 13,
+      "yellowCards": 14,
       "redCards": 0
     },
     "ogc-nice": {
@@ -7905,9 +7905,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 108,
+      "shots": 124,
       "corners": 55,
-      "yellowCards": 22,
+      "yellowCards": 23,
       "redCards": 0
     },
     "fc-lorient": {
@@ -7928,9 +7928,9 @@
       "clean_sheet": {
         "total": 6
       },
-      "shots": 93,
+      "shots": 100,
       "corners": 33,
-      "yellowCards": 10,
+      "yellowCards": 13,
       "redCards": 0
     },
     "toulouse-fc": {
@@ -7951,9 +7951,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 116,
+      "shots": 126,
       "corners": 43,
-      "yellowCards": 18,
+      "yellowCards": 21,
       "redCards": 0
     },
     "olympique-lyonnais": {
@@ -7974,9 +7974,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 119,
+      "shots": 129,
       "corners": 46,
-      "yellowCards": 11,
+      "yellowCards": 13,
       "redCards": 1
     },
     "angers-sco": {
@@ -7997,9 +7997,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 111,
+      "shots": 122,
       "corners": 60,
-      "yellowCards": 13,
+      "yellowCards": 16,
       "redCards": 1
     },
     "losc-lille": {
@@ -8020,9 +8020,9 @@
       "clean_sheet": {
         "total": 5
       },
-      "shots": 106,
+      "shots": 114,
       "corners": 36,
-      "yellowCards": 13,
+      "yellowCards": 16,
       "redCards": 1
     },
     "havre-athletic-club": {
@@ -8043,9 +8043,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 146,
+      "shots": 167,
       "corners": 53,
-      "yellowCards": 14,
+      "yellowCards": 15,
       "redCards": 2
     },
     "as-monaco": {
@@ -8066,7 +8066,7 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 112,
+      "shots": 118,
       "corners": 41,
       "yellowCards": 20,
       "redCards": 0
@@ -8089,7 +8089,7 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 147,
+      "shots": 162,
       "corners": 57,
       "yellowCards": 21,
       "redCards": 0
@@ -8112,9 +8112,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 178,
+      "shots": 193,
       "corners": 55,
-      "yellowCards": 9,
+      "yellowCards": 12,
       "redCards": 0
     },
     "stade-rennais": {
@@ -10414,17 +10414,27 @@
       {
         "teamId": "toulouse-fc",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 5,
+          "Fouls": 16,
           "Corners": 7,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "rc-strasbourg-alsace",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 4,
+          "Fouls": 15,
           "Corners": 1,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -10432,17 +10442,27 @@
       {
         "teamId": "aj-auxerre",
         "statistics": {
+          "Shots": 7,
+          "Shots on target": 2,
+          "Fouls": 24,
           "Corners": 1,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "paris-fc",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 3,
+          "Fouls": 14,
           "Corners": 5,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -10450,17 +10470,27 @@
       {
         "teamId": "paris-saint-germain",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 7,
+          "Fouls": 6,
           "Corners": 5,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "estac-troyes",
         "statistics": {
+          "Shots": 8,
+          "Shots on target": 3,
+          "Fouls": 7,
           "Corners": 1,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -10468,17 +10498,27 @@
       {
         "teamId": "stade-rennais-fc",
         "statistics": {
+          "Shots": 15,
+          "Shots on target": 2,
+          "Fouls": 7,
           "Corners": 7,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "losc-lille",
         "statistics": {
+          "Shots": 8,
+          "Shots on target": 3,
+          "Fouls": 15,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -10486,17 +10526,27 @@
       {
         "teamId": "angers-sco",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 5,
+          "Fouls": 10,
           "Corners": 6,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "ogc-nice",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 8,
+          "Fouls": 6,
           "Corners": 4,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -10504,17 +10554,27 @@
       {
         "teamId": "havre-athletic-club",
         "statistics": {
+          "Shots": 21,
+          "Shots on target": 5,
+          "Fouls": 16,
           "Corners": 5,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "fc-lorient",
         "statistics": {
+          "Shots": 7,
+          "Shots on target": 3,
+          "Fouls": 19,
           "Corners": 0,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -10522,17 +10582,27 @@
       {
         "teamId": "le-mans-fc",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 5,
+          "Fouls": 16,
           "Corners": 8,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       },
       {
         "teamId": "as-monaco",
         "statistics": {
+          "Shots": 6,
+          "Shots on target": 3,
+          "Fouls": 8,
           "Corners": 7,
           "Corners (1st half)": 5,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       }
     ],
@@ -10540,17 +10610,27 @@
       {
         "teamId": "stade-brestois-29",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 6,
+          "Fouls": 14,
           "Corners": 1,
           "Corners (1st half)": 0,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "olympique-lyonnais",
         "statistics": {
+          "Shots": 10,
+          "Shots on target": 2,
+          "Fouls": 10,
           "Corners": 8,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -10558,17 +10638,27 @@
       {
         "teamId": "rc-lens",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 6,
+          "Fouls": 15,
           "Corners": 4,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "olympique-de-marseille",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 5,
+          "Fouls": 8,
           "Corners": 6,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ]
@@ -12638,18 +12728,18 @@
     "fixtures": {
       "available": true,
       "rows": 306,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "standings": {
       "available": true,
       "rows": 19,
-      "fetchedAt": "2026-11-10T04:44:13Z",
+      "fetchedAt": "2026-11-10T15:07:50Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 19,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "players": {
       "available": false,
@@ -12664,7 +12754,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 90,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     }
   }
 }

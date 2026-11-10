@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T04:44:13Z",
+  "generatedAt": "2026-11-10T15:07:50Z",
   "fixtures": [
     {
       "id": "openmatchday-la-liga-2026-08-15-deportivo-alav-s-getafe-cf",
@@ -2647,8 +2647,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2671,8 +2671,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -2695,8 +2695,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2719,8 +2719,8 @@
         "away": 1
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2743,8 +2743,8 @@
         "away": 3
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       }
     },
     {
@@ -2767,8 +2767,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2791,8 +2791,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2815,8 +2815,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2839,8 +2839,8 @@
         "away": 0
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -2863,8 +2863,8 @@
         "away": 2
       },
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -9515,9 +9515,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 140,
+      "shots": 149,
       "corners": 48,
-      "yellowCards": 20,
+      "yellowCards": 23,
       "redCards": 1
     },
     "getafe-cf": {
@@ -9538,9 +9538,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 116,
+      "shots": 125,
       "corners": 48,
-      "yellowCards": 34,
+      "yellowCards": 36,
       "redCards": 4
     },
     "sevilla-fc": {
@@ -9561,9 +9561,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 135,
+      "shots": 148,
       "corners": 41,
-      "yellowCards": 31,
+      "yellowCards": 33,
       "redCards": 4
     },
     "rayo-vallecano": {
@@ -9584,9 +9584,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 147,
+      "shots": 158,
       "corners": 58,
-      "yellowCards": 25,
+      "yellowCards": 27,
       "redCards": 2
     },
     "r-racing-club": {
@@ -9607,9 +9607,9 @@
       "clean_sheet": {
         "total": 0
       },
-      "shots": 134,
+      "shots": 155,
       "corners": 58,
-      "yellowCards": 29,
+      "yellowCards": 31,
       "redCards": 1
     },
     "villarreal-cf": {
@@ -9630,9 +9630,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 180,
+      "shots": 202,
       "corners": 89,
-      "yellowCards": 21,
+      "yellowCards": 23,
       "redCards": 1
     },
     "rcd-espanyol-de-barcelona": {
@@ -9653,9 +9653,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 130,
+      "shots": 141,
       "corners": 37,
-      "yellowCards": 34,
+      "yellowCards": 38,
       "redCards": 1
     },
     "levante-ud": {
@@ -9676,9 +9676,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 133,
+      "shots": 139,
       "corners": 40,
-      "yellowCards": 15,
+      "yellowCards": 17,
       "redCards": 0
     },
     "rc-deportivo": {
@@ -9699,9 +9699,9 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 138,
+      "shots": 143,
       "corners": 64,
-      "yellowCards": 19,
+      "yellowCards": 23,
       "redCards": 3
     },
     "elche-cf": {
@@ -9722,9 +9722,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 131,
+      "shots": 144,
       "corners": 59,
-      "yellowCards": 28,
+      "yellowCards": 32,
       "redCards": 1
     },
     "atl-tico-de-madrid": {
@@ -9745,9 +9745,9 @@
       "clean_sheet": {
         "total": 6
       },
-      "shots": 191,
+      "shots": 200,
       "corners": 67,
-      "yellowCards": 24,
+      "yellowCards": 28,
       "redCards": 1
     },
     "m-laga-cf": {
@@ -9768,10 +9768,10 @@
       "clean_sheet": {
         "total": 1
       },
-      "shots": 119,
+      "shots": 135,
       "corners": 61,
-      "yellowCards": 21,
-      "redCards": 0
+      "yellowCards": 27,
+      "redCards": 1
     },
     "real-betis": {
       "fixtures": {
@@ -9791,7 +9791,7 @@
       "clean_sheet": {
         "total": 6
       },
-      "shots": 187,
+      "shots": 205,
       "corners": 65,
       "yellowCards": 17,
       "redCards": 1
@@ -9814,9 +9814,9 @@
       "clean_sheet": {
         "total": 2
       },
-      "shots": 158,
+      "shots": 175,
       "corners": 80,
-      "yellowCards": 23,
+      "yellowCards": 25,
       "redCards": 3
     },
     "athletic-club": {
@@ -9837,9 +9837,9 @@
       "clean_sheet": {
         "total": 5
       },
-      "shots": 148,
+      "shots": 164,
       "corners": 63,
-      "yellowCards": 19,
+      "yellowCards": 20,
       "redCards": 2
     },
     "valencia-cf": {
@@ -9860,10 +9860,10 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 114,
+      "shots": 118,
       "corners": 46,
-      "yellowCards": 27,
-      "redCards": 1
+      "yellowCards": 31,
+      "redCards": 2
     },
     "celta": {
       "fixtures": {
@@ -9883,9 +9883,9 @@
       "clean_sheet": {
         "total": 6
       },
-      "shots": 108,
+      "shots": 131,
       "corners": 37,
-      "yellowCards": 18,
+      "yellowCards": 19,
       "redCards": 1
     },
     "real-madrid": {
@@ -9906,9 +9906,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 190,
+      "shots": 209,
       "corners": 75,
-      "yellowCards": 23,
+      "yellowCards": 26,
       "redCards": 2
     },
     "fc-barcelona": {
@@ -9929,9 +9929,9 @@
       "clean_sheet": {
         "total": 4
       },
-      "shots": 222,
+      "shots": 241,
       "corners": 77,
-      "yellowCards": 17,
+      "yellowCards": 18,
       "redCards": 0
     },
     "ca-osasuna": {
@@ -9952,9 +9952,9 @@
       "clean_sheet": {
         "total": 3
       },
-      "shots": 118,
+      "shots": 135,
       "corners": 44,
-      "yellowCards": 30,
+      "yellowCards": 33,
       "redCards": 0
     }
   },
@@ -13015,17 +13015,27 @@
       {
         "teamId": "sevilla-fc",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 3,
+          "Fouls": 14,
           "Corners": 5,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "deportivo-alav-s",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 2,
+          "Fouls": 19,
           "Corners": 4,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -13033,17 +13043,27 @@
       {
         "teamId": "m-laga-cf",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 8,
+          "Fouls": 11,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 6,
+          "Red cards": 1
         }
       },
       {
         "teamId": "r-racing-club",
         "statistics": {
+          "Shots": 21,
+          "Shots on target": 7,
+          "Fouls": 5,
           "Corners": 3,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -13051,17 +13071,27 @@
       {
         "teamId": "rcd-espanyol-de-barcelona",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 4,
+          "Fouls": 17,
           "Corners": 9,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 8
+          "Corners (2nd half)": 8,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       },
       {
         "teamId": "rc-deportivo",
         "statistics": {
+          "Shots": 5,
+          "Shots on target": 1,
+          "Fouls": 10,
           "Corners": 5,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       }
     ],
@@ -13069,17 +13099,27 @@
       {
         "teamId": "ca-osasuna",
         "statistics": {
+          "Shots": 17,
+          "Shots on target": 5,
+          "Fouls": 19,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       },
       {
         "teamId": "athletic-club",
         "statistics": {
+          "Shots": 16,
+          "Shots on target": 4,
+          "Fouls": 10,
           "Corners": 4,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ],
@@ -13087,17 +13127,27 @@
       {
         "teamId": "valencia-cf",
         "statistics": {
+          "Shots": 4,
+          "Shots on target": 2,
+          "Fouls": 26,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 4,
+          "Red cards": 1
         }
       },
       {
         "teamId": "real-madrid",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 11,
+          "Fouls": 6,
           "Corners": 5,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 2
+          "Corners (2nd half)": 2,
+          "Yellow cards": 3,
+          "Red cards": 0
         }
       }
     ],
@@ -13105,17 +13155,27 @@
       {
         "teamId": "elche-cf",
         "statistics": {
+          "Shots": 13,
+          "Shots on target": 1,
+          "Fouls": 12,
           "Corners": 9,
           "Corners (1st half)": 5,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       },
       {
         "teamId": "real-betis",
         "statistics": {
+          "Shots": 18,
+          "Shots on target": 9,
+          "Fouls": 7,
           "Corners": 8,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 0,
+          "Red cards": 0
         }
       }
     ],
@@ -13123,17 +13183,27 @@
       {
         "teamId": "real-sociedad",
         "statistics": {
+          "Shots": 17,
+          "Shots on target": 3,
+          "Fouls": 11,
           "Corners": 7,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "rayo-vallecano",
         "statistics": {
+          "Shots": 11,
+          "Shots on target": 3,
+          "Fouls": 8,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -13141,17 +13211,27 @@
       {
         "teamId": "celta",
         "statistics": {
+          "Shots": 23,
+          "Shots on target": 8,
+          "Fouls": 8,
           "Corners": 6,
           "Corners (1st half)": 2,
-          "Corners (2nd half)": 4
+          "Corners (2nd half)": 4,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       },
       {
         "teamId": "levante-ud",
         "statistics": {
+          "Shots": 6,
+          "Shots on target": 0,
+          "Fouls": 9,
           "Corners": 1,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 0
+          "Corners (2nd half)": 0,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -13159,17 +13239,27 @@
       {
         "teamId": "villarreal-cf",
         "statistics": {
+          "Shots": 22,
+          "Shots on target": 7,
+          "Fouls": 6,
           "Corners": 9,
           "Corners (1st half)": 4,
-          "Corners (2nd half)": 5
+          "Corners (2nd half)": 5,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       },
       {
         "teamId": "getafe-cf",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 1,
+          "Fouls": 13,
           "Corners": 4,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 3
+          "Corners (2nd half)": 3,
+          "Yellow cards": 2,
+          "Red cards": 0
         }
       }
     ],
@@ -13177,17 +13267,27 @@
       {
         "teamId": "atl-tico-de-madrid",
         "statistics": {
+          "Shots": 9,
+          "Shots on target": 4,
+          "Fouls": 14,
           "Corners": 4,
           "Corners (1st half)": 3,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 4,
+          "Red cards": 0
         }
       },
       {
         "teamId": "fc-barcelona",
         "statistics": {
+          "Shots": 19,
+          "Shots on target": 4,
+          "Fouls": 14,
           "Corners": 2,
           "Corners (1st half)": 1,
-          "Corners (2nd half)": 1
+          "Corners (2nd half)": 1,
+          "Yellow cards": 1,
+          "Red cards": 0
         }
       }
     ]
@@ -16043,18 +16143,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T04:44:13Z",
+      "fetchedAt": "2026-11-10T15:07:50Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     },
     "players": {
       "available": false,
@@ -16069,7 +16169,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 119,
-      "fetchedAt": "2026-11-10T04:44:13Z"
+      "fetchedAt": "2026-11-10T15:07:50Z"
     }
   }
 }
