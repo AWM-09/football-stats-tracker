@@ -18,7 +18,7 @@ async function fetchSnapshot(path){
   const response=await fetch(path+suffix);
   return response.ok?response.json():null;
 }
-function competitionUrl(item){return `./competition.html?id=${encodeURIComponent(item.id)}`}
+function competitionUrl(item){return item.id==="premier-league"?"./premier-league.html":`./competition.html?id=${encodeURIComponent(item.id)}`}
 function renderCard(item){return `<a class="competition-card" href="${competitionUrl(item)}" style="--card-accent:${esc(item.accent)}"><div class="card-top"><span class="competition-badge" aria-hidden="true">${esc(item.code)}</span><span class="card-category">${esc(item.kind)}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>${esc(item.name)}</h3><p class="card-detail">${esc(item.country)} <span>·</span> ${esc(item.season)}</p><p class="card-description">${esc(item.description)}</p></a>`}
 
 function initDirectory(){
@@ -48,9 +48,10 @@ function initCompetitionPage(){
     tabs.innerHTML="";panel.innerHTML=`<div class="unavailable"><span class="unavailable-icon">◷</span><h2>Competition not found</h2><p>Choose a competition from the directory.</p><a class="text-link" href="./index.html">Browse competitions →</a></div>`;return;
   }
   document.title=`${item.name} | Football & Soccer Stats`;
-  tabs.innerHTML=TABS.map((name,i)=>`<button class="tab-button${i===0?" active":""}" role="tab" aria-selected="${i===0}" data-tab="${esc(name)}">${esc(name)}</button>`).join("");
+  const requestedTab=String(params.get("tab")||"").toLowerCase(),initialTab=TABS.find(name=>name.toLowerCase()===requestedTab)||"Overview";
+  tabs.innerHTML=TABS.map(name=>`<button class="tab-button${name===initialTab?" active":""}" role="tab" aria-selected="${name===initialTab}" data-tab="${esc(name)}">${esc(name)}</button>`).join("");
   const currentYear=Number(String(item.season).slice(0,4));
-  let selectedSeason=params.get("season")||String(currentYear),activeTab="Overview",snapshot=null,coverage=null;
+  let selectedSeason=params.get("season")||String(currentYear),activeTab=initialTab,snapshot=null,coverage=null;
   const table=(headers,rows,emptyText="No rows are available for this section yet.")=>rows&&rows.length?`<div class="table-scroll"><table class="data-table"><thead><tr>${headers.map(h=>`<th>${esc(h.label)}</th>`).join("")}</tr></thead><tbody>${rows.map(row=>`<tr>${headers.map(h=>`<td>${h.render? h.render(row):esc(row[h.key]??"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:`<div class="data-empty"><span class="unavailable-icon">◷</span><h3>${esc(emptyText)}</h3><p>This section is unavailable in the published open dataset for this competition and season.</p></div>`;
   const nameLink=(name,type,entityId)=>entityId?`<a class="data-link" href="./entity.html?type=${type}&id=${encodeURIComponent(entityId)}&competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}">${esc(name||"Unknown")}</a>`:esc(name||"Unknown");
   const sourceState=group=>snapshot?.coverage?.[group];
@@ -117,7 +118,7 @@ function initCompetitionPage(){
     hero.querySelector("#seasonSelect")?.addEventListener("change",async event=>{selectedSeason=event.target.value;const next=new URL(location.href);next.searchParams.set("season",selectedSeason);history.replaceState({},"",next);await load();render(activeTab)});
     render(activeTab);
   }
-  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
+  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
   load();
 }
 

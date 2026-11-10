@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09111a">
+  <meta name="description" content="Explore Premier League statistics, standings, fixtures, team and player profiles, head-to-heads and records.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Premier League | Football & Soccer Stats</title>
+</head>
+<body>
+  <main>
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Football Stats Tracker home">
+        <span class="brand-mark" aria-hidden="true">⚽</span>
+        <span><span class="eyebrow">AlexMyrusTalksSports</span><strong>Football <span class="brand-divider">/</span> Soccer</strong></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="./index.html">Competitions</a>
+        <a href="./competition.html?view=teams">Teams</a>
+        <a href="./competition.html?view=players">Players</a>
+        <a href="./competition.html?view=calendar">Calendar</a>
+        <a href="./competition.html?view=records">Records</a>
+        <a href="./health.html">Data status</a>
+      </nav>
+    </header>
+
+    <a class="back-link" href="./index.html">← All competitions</a>
+    <section class="hero league-hub-hero">
+      <div class="eyebrow">Premier League · 2026/27</div>
+      <h1 class="title">Explore the<br><span>Premier League.</span></h1>
+      <p class="subtitle">Choose a tool based on what you want to investigate. Explore the league table, match results, club and player data, head-to-head records and more.</p>
+      <div class="hero-meta"><span class="status-dot good"></span><span>2026/27 data snapshot</span><span class="meta-sep">·</span><span>Scores and statistics update with the published data feeds</span></div>
+    </section>
+
+    <section class="directory" aria-labelledby="platform-title">
+      <div class="section-heading">
+        <div><h2 id="platform-title">Explore the platform</h2><p>Choose a tool based on what you want to investigate.</p></div>
+      </div>
+      <div class="competition-grid league-hub-grid">
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Overview" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">📊</span><span class="card-category">Core statistics</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Premier League Stats</h3><p class="card-description">Season overview, completed matches, upcoming fixtures and the statistics currently available.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Players" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">⚽</span><span class="card-category">Player database</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Player Profiles</h3><p class="card-description">Browse player totals and open individual player pages when the snapshot includes their data.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Teams" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">🏟️</span><span class="card-category">Team database</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Team Platform</h3><p class="card-description">Explore the clubs, their season results and team statistics supplied by the data feed.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Standings" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">🏆</span><span class="card-category">League table</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Standings</h3><p class="card-description">Check points, goal difference, wins, draws and losses across the current season.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Fixtures%20%26%20Results" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">🗓️</span><span class="card-category">Match centre</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Calendar &amp; Results</h3><p class="card-description">Search the fixture list by club or matchweek and review published scores.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Head%20to%20Head" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">⚔️</span><span class="card-category">Matchups</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Head to Head</h3><p class="card-description">Compare two clubs across their meetings in the available season snapshot.</p></a>
+        <a class="competition-card" href="./competition.html?id=premier-league&amp;tab=Records" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">📈</span><span class="card-category">Season records</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Records &amp; Milestones</h3><p class="card-description">See the highest-scoring match, largest margin and top scorer when supplied.</p></a>
+        <a class="competition-card" href="./health.html" style="--card-accent:#71d6b3"><div class="card-top"><span class="competition-badge" aria-hidden="true">🛠️</span><span class="card-category">Reliability</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Data Status</h3><p class="card-description">Check which seasons, matches and statistical categories are covered by the sources.</p></a>
+      </div>
+      <p class="source-note">This page uses published data snapshots. Live scores and some player statistics are not available in every feed.</p>
+    </section>
+
+    <footer class="footer"><span>Independent football &amp; soccer statistics project</span><span><a href="./health.html">Data status</a></span></footer>
+  </main>
+  <script src="./app.js?v=pl-hub-1" defer></script>
+</body>
+</html>

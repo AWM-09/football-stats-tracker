@@ -13,3 +13,5 @@
 +@media(max-width:560px){.record-grid,.entity-grid{grid-template-columns:1fr}.metric-card strong{font-size:19px}.compare-controls select{width:100%;min-width:0}.compare-controls label{width:100%}.profile-photo{width:60px;height:60px;border-radius:16px}.data-table{font-size:11px}}
 +CSS
 .match-scoreline{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(16px,4vw,56px);text-align:center;padding:24px 0}.match-scoreline>div{display:grid;justify-items:center;gap:12px}.match-scoreline img{width:72px;height:72px;object-fit:contain}.match-scoreline h1{margin:0;font-size:clamp(1.25rem,3vw,2rem)}.match-scoreline>strong{font-size:clamp(2rem,6vw,4rem);white-space:nowrap}.match-scoreline+.subtitle{text-align:center;margin:0 0 10px}@media(max-width:600px){.match-scoreline{gap:12px}.match-scoreline img{width:48px;height:48px}}
+
+.league-hub-hero{max-width:1100px;padding-top:32px}.league-hub-grid{margin-top:10px}.league-hub-grid .competition-card{min-height:205px}.league-hub-grid .competition-badge{font-size:20px;letter-spacing:0}
