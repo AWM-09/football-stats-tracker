@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09111a">
+  <meta name="description" content="Explore football player and team statistics by competition, season and matchweek.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./stats.css">
+  <title>Soccer Stats Tracker | Football & Soccer</title>
+</head>
+<body>
+  <main>
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Football Stats Tracker home"><span class="brand-mark" aria-hidden="true">⚽</span><span><span class="eyebrow">AlexMyrusTalksSports</span><strong>Football <span class="brand-divider">/</span> Soccer</strong></span></a>
+      <nav class="nav" aria-label="Main navigation"><a href="./index.html">Competitions</a><a class="active" href="./stats.html">Stats tracker</a><a href="./competition.html?view=teams">Teams</a><a href="./competition.html?view=players">Players</a><a href="./competition.html?view=calendar">Calendar</a><a href="./health.html">Data status</a></nav>
+    </header>
+    <section class="stats-hero">
+      <div class="eyebrow">Football &amp; soccer data workspace</div>
+      <h1 class="title">Track the numbers.<br><span>Read the match.</span></h1>
+      <p class="subtitle">Compare player and team performance across competitions, seasons and matchweeks. The tracker only shows statistics supplied by each selected data source.</p>
+      <div class="stats-source-strip" id="statsSourceStrip"><i class="status-dot pending"></i><span>Loading available match data…</span></div>
+    </section>
+    <section class="stats-summary" id="statsSummary" aria-live="polite"></section>
+    <section class="stats-controls panel" aria-label="Tracker filters">
+      <div class="stats-control-grid">
+        <label>Season<select id="seasonFilter"></select></label>
+        <label>Competition<select id="competitionFilter"></select></label>
+        <label>Matchweek<select id="matchweekFilter"></select></label>
+        <label>Statistic<select id="statisticFilter"></select></label>
+        <label>Team<select id="teamFilter"></select></label>
+        <label>Find player<input id="playerFilter" type="search" placeholder="e.g. Mohamed Salah" autocomplete="off"></label>
+      </div>
+      <div class="selected-weeks">
+        <div class="week-heading"><div><h2>Matchweeks included in totals and trends</h2><p id="selectedWeekSummary">Choose one or more matchweeks.</p></div><span class="availability-pill" id="weekCount">0 selected</span></div>
+        <div class="week-chips" id="weekChips"></div>
+        <div class="week-actions"><button class="button-secondary" id="selectAllWeeks" type="button">Select all available matchweeks</button><button class="button-secondary" id="clearWeeks" type="button">Clear selection</button></div>
+      </div>
+    </section>
+    <section class="stats-workspace">
+      <div class="stats-tabs" id="statsTabs" role="tablist" aria-label="Stat views">
+        <button class="stats-tab active" type="button" data-view="weekly" role="tab" aria-selected="true">Weekly leaderboard</button>
+        <button class="stats-tab" type="button" data-view="total" role="tab" aria-selected="false">Selected weeks total</button>
+        <button class="stats-tab" type="button" data-view="trend" role="tab" aria-selected="false">Week-by-week breakdown</button>
+        <button class="stats-tab" type="button" data-view="teams" role="tab" aria-selected="false">Team totals</button>
+        <button class="stats-tab" type="button" data-view="players" role="tab" aria-selected="false">Player comparison</button>
+        <button class="stats-tab" type="button" data-view="compare" role="tab" aria-selected="false">Team comparison</button>
+        <button class="stats-tab" type="button" data-view="table" role="tab" aria-selected="false">Team statistics</button>
+      </div>
+      <section class="panel stats-panel" id="statsPanel" role="tabpanel" aria-live="polite"><div class="data-empty">Loading the selected competition snapshot…</div></section>
+    </section>
+    <footer class="footer"><span>Independent football &amp; soccer statistics project</span><span><a href="./health.html">Data status</a></span></footer>
+  </main>
+  <script src="./stats.js" defer></script>
+</body>
+</html>

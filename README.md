@@ -26,6 +26,7 @@ Serve this folder with any static file server. No build step or credentials are 
 
 - `index.html` — competition directory.
 - `competition.html?id=...` — competition hub and season data.
+- `stats.html?competition=...&season=...` — soccer stats tracker with matchweek filters, player and team leaderboards, totals, trends and comparisons.
 - `entity.html?type=team|player&id=...` — team or player profile where source data exists.
 - `match.html?id=...` — match stats, events and lineups for supported matches.
 - `health.html` — source notes and per-competition coverage.

@@ -450,6 +450,21 @@ def sync_openplay(by_id, coverage):
                 row.update({"expectedGoals": row.get("xg"), "expectedAssists": row.get("xa")})
                 players_out.append(row)
             players_out.sort(key=lambda p: (-p.get("goals", 0), -p.get("assists", 0), str(p.get("name") or "")))
+            player_match_fields = [field for field in sum_fields if field in player_columns]
+            player_match_grouping = ["match_id", "player_id", "player", "team_id", "team", "position"]
+            player_match_select = player_match_grouping + ["count(*) FILTER (WHERE played) AS appearances", "sum(minutes_played) AS minutes"] + [f"sum({field}) AS {field}" for field in player_match_fields]
+            player_match_query = f"SELECT {', '.join(player_match_select)} FROM read_parquet('{players_path}') WHERE {where} GROUP BY {', '.join(player_match_grouping)}"
+            player_match_rows = con.execute(player_match_query).fetchdf().to_dict("records")
+            player_match_stats = {}
+            field_map = {"shots_on_target":"shotsOnTarget", "shots_off_target":"shotsOffTarget", "shots_blocked":"shotsBlocked", "key_passes":"keyPasses", "passes_completed":"passesCompleted", "passes_final_third":"passesFinalThird", "passes_into_box":"passesIntoBox", "dribbles_completed":"dribblesCompleted", "tackles_won":"tacklesWon", "ball_recoveries":"ballRecoveries", "yellow_cards":"yellowCards", "second_yellows":"secondYellows", "red_cards":"redCards"}
+            for p in player_match_rows:
+                row = {"id": f"op-player-{p['player_id']}", "name": p["player"], "team": p["team"], "teamId": f"op-team-{p['team_id']}", "position": p["position"], "appearances": int(number(p["appearances"])), "minutes": int(number(p["minutes"]))}
+                for field in player_match_fields:
+                    value = number(p.get(field), None)
+                    if value is not None:
+                        row[field_map.get(field, field)] = round(float(value), 2) if field in ("xg", "npxg", "xa") else int(value)
+                row.update({"expectedGoals": row.get("xg"), "expectedAssists": row.get("xa")})
+                player_match_stats.setdefault(f"openplay-{p['match_id']}", []).append(row)
             match_rows = con.execute(f"SELECT * FROM read_parquet('{matches_path}') WHERE {where} ORDER BY date").fetchdf().to_dict("records")
             fixtures, team_names, standings_rows = [], {}, []
             for m in match_rows:
@@ -479,9 +494,10 @@ def sync_openplay(by_id, coverage):
                 keys = {(f["date"], f["home"]["name"], f["away"]["name"]) for f in fixtures}
                 merged_fixtures = [f for f in existing.get("fixtures", []) if (f.get("date"), f.get("home",{}).get("name"), f.get("away",{}).get("name")) not in keys] + fixtures
             snapshot = existing or {"schemaVersion": 2, "competition": {"id": comp_id, "name": item["name"], "country": item.get("country")}, "season": season_key, "seasonLabel": label, "standings": [], "fixtureStats": {}, "events": {}, "lineups": {}}
-            snapshot.update({"seasonLabel": label, "provider": "OpenPlay (CC BY 4.0)" + (" + StatsBomb Open Data" if existing and existing.get("provider")=="StatsBomb Open Data" else ""), "sourceUrl": "https://github.com/nlbair/openplay", "generatedAt": release.get("tag_name", "OpenPlay release"), "fixtures": merged_fixtures, "teams": teams_out, "players": players_out, "topScorers": players_out[:100], "teamStats": {**(existing or {}).get("teamStats", {}), **team_stats}, "fixtureStats": {**(existing or {}).get("fixtureStats", {}), **match_stats}, "standings": standings_rows or (existing or {}).get("standings", [])})
+            snapshot.update({"seasonLabel": label, "provider": "OpenPlay (CC BY 4.0)" + (" + StatsBomb Open Data" if existing and existing.get("provider")=="StatsBomb Open Data" else ""), "sourceUrl": "https://github.com/nlbair/openplay", "generatedAt": release.get("tag_name", "OpenPlay release"), "fixtures": merged_fixtures, "teams": teams_out, "players": players_out, "topScorers": players_out[:100], "teamStats": {**(existing or {}).get("teamStats", {}), **team_stats}, "fixtureStats": {**(existing or {}).get("fixtureStats", {}), **match_stats}, "playerMatchStats": {**(existing or {}).get("playerMatchStats", {}), **player_match_stats}, "standings": standings_rows or (existing or {}).get("standings", [])})
             rows = {"fixtures": len(fixtures), "players": len(players_out), "teams": len(teams_out)}
             snapshot.setdefault("coverage", {}).update({key: {"available": True, "rows": value, "note": "OpenPlay historical snapshot; not live."} for key, value in rows.items()})
+            snapshot["coverage"]["playerMatchStats"] = {"available": bool(player_match_stats), "rows": sum(len(matches) for matches in player_match_stats.values()), "note": "OpenPlay player match totals; not available for every competition or season."}
             snapshot["coverage"]["topScorers"] = {"available": True, "rows": min(len(players_out), 100), "note": "Ranked by goals from OpenPlay player match totals."}
             write_json(existing_path, snapshot)
             row = coverage["competitions"].setdefault(comp_id, {"seasons": []})
