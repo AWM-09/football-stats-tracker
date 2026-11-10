@@ -20,6 +20,8 @@ STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
 OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/tags/data-v0.1.0"
 OPEN_MATCHDAY = "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data"
 CORNERFLICK_SEASON = "https://cornerflick.com/football/leagues/ekstraklasa/results/season.json"
+CORNERFLICK_NATIONS = "https://cornerflick.com/football/leagues/nations-league/results/season.json"
+FIXTURE_DOWNLOAD_NATIONS = "https://fixturedownload.com/feed/json/nations-league-2026"
 OPEN_MATCHDAY_COMPS = {
     "premier-league": "ENG_1_premier-league", "ligue-1": "FRA_1_ligue-1", "la-liga": "ESP_1_la-liga",
     "serie-a": "ITA_1_serie-a", "bundesliga": "GER_1_bundesliga", "ekstraklasa": "POL_1_ekstraklasa",
@@ -264,6 +266,114 @@ def normalize_cornerflick_ekstraklasa(item, season_key, fetched_at):
                              "players": {"available": bool(goals_by_player), "rows": len(goals_by_player), "note": "Season goals and assists aggregated from published match event records."},
                              "topScorers": {"available": bool(goals_by_player), "rows": min(len(goals_by_player), 100)},
                              "fixtureStats": {"available": bool(fixture_stats), "rows": stats_rows}, "events": {"available": bool(events), "rows": sum(len(x) for x in events.values())},
+                             "lineups": {"available": bool(lineups), "rows": sum(len(x) for x in lineups.values())}}}
+    write_json(SNAPSHOTS / f"{item['id']}-{season_key}.json", snapshot)
+    return snapshot
+
+
+def normalize_nations_league(item, season_key, fetched_at):
+    """Current 2026/27 schedule from FixtureDownload plus Cornerflick match reports."""
+    source = fetch_json(CORNERFLICK_NATIONS)
+    schedule = fetch_json(FIXTURE_DOWNLOAD_NATIONS)
+    source_updated = source.get("meta", {}).get("last_updated_at") or fetched_at
+    teams, fixtures, fixture_stats, events, lineups, goals_by_player = {}, [], {}, {}, {}, {}
+
+    def team_key(name):
+        plain = unicodedata.normalize("NFKD", str(name or "")).encode("ascii", "ignore").decode("ascii").lower()
+        key = re.sub(r"[^a-z0-9]+", "", plain)
+        return {"fyrmacedonia": "northmacedonia", "republicofireland": "ireland", "repofireland": "ireland"}.get(key, key)
+
+    # Schedule feed contains the full season. Use its dates and round labels, then
+    # overlay authoritative completed scores and detailed reports from Cornerflick.
+    reports = source.get("matches", [])
+    report_by_teams = {(team_key(m.get("home_team")), team_key(m.get("away_team"))): m for m in reports}
+    for row in schedule:
+        home_name, away_name = row.get("HomeTeam"), row.get("AwayTeam")
+        if not home_name or not away_name:
+            continue
+        report = report_by_teams.get((team_key(home_name), team_key(away_name)))
+        # Cornerflick may use an alternate country display name; preserve the
+        # schedule record regardless and overlay scores when the pairing matches.
+        hid, aid = f"nation-{slug(home_name)}", f"nation-{slug(away_name)}"
+        teams[hid] = {"id": hid, "name": home_name}
+        teams[aid] = {"id": aid, "name": away_name}
+        home_score = score_value(row.get("HomeTeamScore"))
+        away_score = score_value(row.get("AwayTeamScore"))
+        finished = home_score is not None and away_score is not None
+        if report and str(report.get("status", "")).lower() == "finished":
+            home_score = score_value(report.get("home_score"))
+            away_score = score_value(report.get("away_score"))
+            finished = True
+        match_number = row.get("MatchNumber")
+        fixtures.append({"id": f"nations-league-{match_number or len(fixtures)+1}", "date": row.get("DateUtc"), "timestamp": None,
+                         "round": f"Matchday {row.get('RoundNumber')}" if row.get("RoundNumber") else str(row.get("Group") or ""),
+                         "group": row.get("Group"), "status": "FT" if finished else "NS", "statusLong": "Finished" if finished else "Scheduled",
+                         "home": {"id": hid, "name": home_name}, "away": {"id": aid, "name": away_name},
+                         "goals": {"home": home_score, "away": away_score}, "venue": row.get("Location")})
+
+    # Match reports provide match-level stats, events, lineups, scorers and assists.
+    fixture_lookup = {(team_key(f["home"]["name"]), team_key(f["away"]["name"])): f for f in fixtures}
+    report_urls = []
+    for match in reports:
+        fixture = fixture_lookup.get((team_key(match.get("home_team")), team_key(match.get("away_team"))))
+        if fixture and match.get("dataset_url"):
+            report_urls.append((fixture, match["dataset_url"]))
+    from concurrent.futures import ThreadPoolExecutor
+    def load_match(item):
+        fixture, url = item
+        try:
+            return fixture, fetch_json(url)
+        except Exception as exc:
+            print(f"Nations League match detail unavailable {url}: {exc}")
+            return fixture, None
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for fixture, detail in pool.map(load_match, report_urls):
+            if not detail:
+                continue
+            fid, hid, aid = fixture["id"], fixture["home"]["id"], fixture["away"]["id"]
+            statistics = detail.get("statistics") or []
+            if statistics:
+                fixture_stats[fid] = [{"teamId": hid, "statistics": {r["label"]: r.get("home") for r in statistics if r.get("home") is not None}},
+                                      {"teamId": aid, "statistics": {r["label"]: r.get("away") for r in statistics if r.get("away") is not None}}]
+            events[fid] = [{"time": {"elapsed": ev.get("minute"), "extra": ev.get("extra")}, "team": ev.get("team"), "type": str(ev.get("type", "event")).replace("_", " ").title(), "detail": ev.get("detail", ""), "player": ev.get("player"), "assist": ev.get("assist")} for ev in detail.get("events", [])]
+            lineup_data = detail.get("lineups") or {}
+            lineups[fid] = [{"team": data.get("team", fixture["home"]["name"] if side == "home" else fixture["away"]["name"]), "formation": data.get("formation"), "coach": data.get("coach"),
+                             "startXI": [{"name": p.get("name"), "position": p.get("position")} for p in data.get("starting_xi", [])],
+                             "substitutes": [{"name": p.get("name"), "position": p.get("position")} for p in data.get("bench", [])]} for side, data in lineup_data.items()]
+            for goal in detail.get("goals", []):
+                name, team = goal.get("player"), goal.get("team")
+                if name:
+                    p = goals_by_player.setdefault(slug(name), {"id": f"nation-player-{slug(name)}", "name": name, "team": team, "goals": 0, "assists": 0})
+                    if goal.get("credited_side"):
+                        p["goals"] += 1
+                if goal.get("assist"):
+                    name = goal["assist"]
+                    p = goals_by_player.setdefault(slug(name), {"id": f"nation-player-{slug(name)}", "name": name, "team": team, "goals": 0, "assists": 0})
+                    p["assists"] += 1
+
+    fixtures.sort(key=lambda f: f.get("date") or "")
+    completed = [f for f in fixtures if f["status"] == "FT"]
+    group_names = {fixture.get("group") for fixture in fixtures if fixture.get("group")}
+    standings_rows = []
+    for group_name in sorted(group_names):
+        group_rows = standings([fixture for fixture in completed if fixture.get("group") == group_name])
+        for row in group_rows:
+            row["group"] = group_name
+        standings_rows.extend(group_rows)
+    snapshot = {"schemaVersion": 2, "competition": {"id": item["id"], "name": item["name"], "country": item.get("country")},
+                "season": season_key, "seasonLabel": item["season"], "provider": "FixtureDownload schedule + Cornerflick match reports (CC BY 4.0)",
+                "sourceUrl": "https://fixturedownload.com/feed/json/nations-league-2026", "generatedAt": fetched_at,
+                "fixtures": fixtures, "teams": list(teams.values()), "standings": standings_rows, "teamStats": team_statistics(completed),
+                "fixtureStats": fixture_stats, "events": events, "lineups": lineups,
+                "players": sorted(goals_by_player.values(), key=lambda p: (-p["goals"], -p["assists"], p["name"])),
+                "topScorers": sorted(goals_by_player.values(), key=lambda p: (-p["goals"], -p["assists"], p["name"]))[:100],
+                "coverage": {"fixtures": {"available": bool(fixtures), "rows": len(fixtures), "fetchedAt": fetched_at},
+                             "standings": {"available": bool(standings_rows), "rows": len(standings_rows), "note": "Calculated separately for each UEFA Nations League league-phase group from completed results."},
+                             "teams": {"available": bool(teams), "rows": len(teams), "fetchedAt": fetched_at},
+                             "players": {"available": bool(goals_by_player), "rows": len(goals_by_player), "note": "Goals and assists aggregated from Cornerflick match reports."},
+                             "topScorers": {"available": bool(goals_by_player), "rows": min(len(goals_by_player), 100)},
+                             "fixtureStats": {"available": bool(fixture_stats), "rows": len(fixture_stats)},
+                             "events": {"available": bool(events), "rows": sum(len(x) for x in events.values())},
                              "lineups": {"available": bool(lineups), "rows": sum(len(x) for x in lineups.values())}}}
     write_json(SNAPSHOTS / f"{item['id']}-{season_key}.json", snapshot)
     return snapshot
@@ -536,13 +646,14 @@ def main():
     fetched_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     index = json.loads((DATA / "competitions.json").read_text(encoding="utf-8"))
     by_id = {item["id"]: item for item in index}
-    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick", "status": "partial", "generatedAt": fetched_at,
+    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick + FixtureDownload", "status": "partial", "generatedAt": fetched_at,
                 "sources": [{"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
                             {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"},
                             {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"},
                             {"name": "open-matchday", "url": "https://github.com/oladeeayo/open-matchday", "license": "Non-commercial use only; attribution required"},
-                            {"name": "Cornerflick", "url": "https://cornerflick.com/data", "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"}],
-                "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball and open-matchday coverage. Ekstraklasa includes Cornerflick match reports, events, lineups and stats. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
+                            {"name": "Cornerflick", "url": "https://cornerflick.com/data", "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"},
+                            {"name": "FixtureDownload", "url": "https://fixturedownload.com/", "license": "Free fixture feed; attribution recommended"}],
+                "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for comp_id, (filename, season_label) in LEAGUES.items():
         item = by_id.get(comp_id)
@@ -610,6 +721,23 @@ def main():
     except Exception as exc:
         coverage["openplay"] = {"available": False, "note": f"OpenPlay download failed: {exc}"}
         print(f"OpenPlay: {exc}")
+    item = by_id.get("nations-league")
+    if item:
+        try:
+            snap = normalize_nations_league(item, "2026", fetched_at)
+            row = coverage["competitions"].setdefault("nations-league", {"seasons": []})
+            row["seasons"].append("2026")
+            row.setdefault("seasonLabels", {})["2026"] = item["season"]
+            row["fixtureDownload"] = {"available": True, "rows": len(snap["fixtures"]), "completed": sum(f["status"] == "FT" for f in snap["fixtures"]), "fetchedAt": fetched_at}
+            row["cornerflick"] = {"available": True, "detailedMatches": len(snap["fixtureStats"]), "fetchedAt": fetched_at}
+            for section, state in snap["coverage"].items():
+                row[section] = state
+        except Exception as exc:
+            row = coverage["competitions"].setdefault("nations-league", {"seasons": []})
+            row["seasons"].append("2026")
+            row.setdefault("seasonLabels", {})["2026"] = item["season"]
+            row["currentSeason"] = {"available": False, "note": str(exc)}
+            print(f"Nations League 2026/27: {exc}")
     for row in coverage["competitions"].values():
         row["seasons"] = sorted(set(row.get("seasons", [])), reverse=True)
     write_json(DATA / "coverage.json", coverage)
