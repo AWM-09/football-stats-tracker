@@ -1,13 +1,18 @@
 {
   "schemaVersion": 2,
-  "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick + FixtureDownload",
+  "provider": "OpenFootball + Premier League History (PDDL) + StatsBomb + OpenPlay + open-matchday + Cornerflick + FixtureDownload",
   "status": "partial",
-  "generatedAt": "2026-11-10T01:54:18Z",
+  "generatedAt": "2026-11-10T02:16:07Z",
   "sources": [
     {
       "name": "OpenFootball",
       "url": "https://github.com/openfootball/football.json",
       "license": "CC0-1.0"
+    },
+    {
+      "name": "Football datasets",
+      "url": "https://github.com/datasets/football-datasets",
+      "license": "PDDL-1.0 · sourced from Football-Data.co.uk"
     },
     {
       "name": "StatsBomb Open Data",
@@ -51,7 +56,27 @@
         "2016",
         "2015",
         "2014",
-        "2003"
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007",
+        "2006",
+        "2005",
+        "2004",
+        "2003",
+        "2002",
+        "2001",
+        "2000",
+        "1999",
+        "1998",
+        "1997",
+        "1996",
+        "1995",
+        "1994",
+        "1993"
       ],
       "fixtures": {
         "available": true,
@@ -81,37 +106,98 @@
       "seasonLabels": {
         "2026": "2026/27",
         "2003": "2003/04",
-        "2018": "2018/19",
+        "1993": "1993/94",
+        "1994": "1994/95",
+        "1995": "1995/96",
+        "1996": "1996/97",
+        "1997": "1997/98",
+        "1998": "1998/99",
+        "1999": "1999/00",
+        "2000": "2000/01",
+        "2001": "2001/02",
+        "2002": "2002/03",
+        "2004": "2004/05",
+        "2005": "2005/06",
+        "2006": "2006/07",
+        "2007": "2007/08",
+        "2008": "2008/09",
+        "2009": "2009/10",
+        "2010": "2010/11",
+        "2011": "2011/12",
+        "2012": "2012/13",
+        "2013": "2013/14",
         "2014": "2014/15",
-        "2016": "2016/17",
-        "2021": "2021/22",
-        "2025": "2025/26",
         "2015": "2015/16",
+        "2016": "2016/17",
+        "2017": "2017/18",
+        "2018": "2018/19",
+        "2019": "2019/20",
+        "2020": "2020/21",
+        "2021": "2021/22",
         "2022": "2022/23",
         "2023": "2023/24",
         "2024": "2024/25",
-        "2017": "2017/18",
-        "2019": "2019/20",
-        "2020": "2020/21"
+        "2025": "2025/26"
       },
       "openmatchday": {
         "available": true,
         "rows": 380,
         "completed": 100,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtureStats": {
         "available": true,
-        "rows": 100,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "rows": 4560,
+        "fetchedAt": "2026-11-10T02:16:07Z",
+        "note": "Only statistics published for a match are included."
       },
       "statsbomb": {
         "available": true,
         "rows": 38,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2003/04"
         ]
+      },
+      "premierLeagueHistory": {
+        "available": true,
+        "rows": 12704,
+        "seasons": [
+          "1993/94",
+          "1994/95",
+          "1995/96",
+          "1996/97",
+          "1997/98",
+          "1998/99",
+          "1999/00",
+          "2000/01",
+          "2001/02",
+          "2002/03",
+          "2003/04",
+          "2004/05",
+          "2005/06",
+          "2006/07",
+          "2007/08",
+          "2008/09",
+          "2009/10",
+          "2010/11",
+          "2011/12",
+          "2012/13",
+          "2013/14",
+          "2014/15",
+          "2015/16",
+          "2016/17",
+          "2017/18",
+          "2018/19",
+          "2019/20",
+          "2020/21",
+          "2021/22",
+          "2022/23",
+          "2023/24",
+          "2024/25",
+          "2025/26"
+        ],
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "openplay": {
         "available": true,
@@ -120,14 +206,14 @@
         "version": "data-v0.1.0",
         "seasons": [
           "2018/19",
-          "2014/15",
-          "2016/17",
-          "2021/22",
-          "2025/26",
           "2015/16",
           "2022/23",
           "2023/24",
           "2024/25",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
           "2017/18",
           "2019/20",
           "2020/21"
@@ -179,13 +265,13 @@
         "2026": "2026/27",
         "2022": "2022/23",
         "2018": "2018/19",
+        "2015": "2015/16",
+        "2023": "2023/24",
+        "2024": "2024/25",
         "2014": "2014/15",
         "2016": "2016/17",
         "2021": "2021/22",
         "2025": "2025/26",
-        "2015": "2015/16",
-        "2023": "2023/24",
-        "2024": "2024/25",
         "2017": "2017/18",
         "2019": "2019/20",
         "2020": "2020/21"
@@ -194,17 +280,17 @@
         "available": true,
         "rows": 306,
         "completed": 90,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtureStats": {
         "available": true,
         "rows": 90,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2022/23"
         ]
@@ -216,14 +302,14 @@
         "version": "data-v0.1.0",
         "seasons": [
           "2018/19",
-          "2014/15",
-          "2016/17",
-          "2021/22",
-          "2025/26",
           "2015/16",
           "2022/23",
           "2023/24",
           "2024/25",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
           "2017/18",
           "2019/20",
           "2020/21"
@@ -278,9 +364,9 @@
         "2016": "2016/17",
         "2021": "2021/22",
         "2025": "2025/26",
-        "2018": "2018/19",
         "2017": "2017/18",
         "2019": "2019/20",
+        "2018": "2018/19",
         "2015": "2015/16",
         "2022": "2022/23",
         "2023": "2023/24",
@@ -290,17 +376,17 @@
         "available": true,
         "rows": 380,
         "completed": 119,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtureStats": {
         "available": true,
         "rows": 119,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 35,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2020/21"
         ]
@@ -315,10 +401,10 @@
           "2016/17",
           "2021/22",
           "2025/26",
-          "2018/19",
           "2017/18",
           "2019/20",
           "2020/21",
+          "2018/19",
           "2015/16",
           "2022/23",
           "2023/24",
@@ -373,10 +459,10 @@
         "2022": "2022/23",
         "2023": "2023/24",
         "2024": "2024/25",
+        "2018": "2018/19",
         "2017": "2017/18",
         "2019": "2019/20",
         "2020": "2020/21",
-        "2018": "2018/19",
         "2014": "2014/15",
         "2016": "2016/17",
         "2021": "2021/22",
@@ -386,17 +472,17 @@
         "available": true,
         "rows": 380,
         "completed": 110,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtureStats": {
         "available": true,
         "rows": 110,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 380,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2015/16"
         ]
@@ -411,10 +497,10 @@
           "2022/23",
           "2023/24",
           "2024/25",
+          "2018/19",
           "2017/18",
           "2019/20",
           "2020/21",
-          "2018/19",
           "2014/15",
           "2016/17",
           "2021/22",
@@ -470,10 +556,10 @@
         "2016": "2016/17",
         "2021": "2021/22",
         "2025": "2025/26",
-        "2018": "2018/19",
         "2017": "2017/18",
         "2019": "2019/20",
         "2020": "2020/21",
+        "2018": "2018/19",
         "2015": "2015/16",
         "2022": "2022/23",
         "2024": "2024/25"
@@ -482,17 +568,17 @@
         "available": true,
         "rows": 306,
         "completed": 81,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtureStats": {
         "available": true,
         "rows": 81,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "statsbomb": {
         "available": true,
         "rows": 34,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2023/24"
         ]
@@ -507,10 +593,10 @@
           "2016/17",
           "2021/22",
           "2025/26",
-          "2018/19",
           "2017/18",
           "2019/20",
           "2020/21",
+          "2018/19",
           "2015/16",
           "2022/23",
           "2023/24",
@@ -529,7 +615,7 @@
         "available": true,
         "rows": 216,
         "completed": 106,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
@@ -611,7 +697,7 @@
         "available": true,
         "rows": 144,
         "completed": 72,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
@@ -621,7 +707,7 @@
       "standings": {
         "available": true,
         "rows": 36,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "note": "Calculated from the source's completed match results."
       },
       "teams": {
@@ -632,7 +718,7 @@
       "statsbomb": {
         "available": true,
         "rows": 1,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2018/19"
         ]
@@ -647,10 +733,10 @@
           "2022/23",
           "2023/24",
           "2024/25",
+          "2018/19",
           "2017/18",
           "2019/20",
           "2020/21",
-          "2018/19",
           "2014/15",
           "2016/17",
           "2021/22",
@@ -687,14 +773,14 @@
       "seasonLabels": {
         "2026": "2026/27",
         "2018": "2018/19",
-        "2014": "2014/15",
-        "2016": "2016/17",
-        "2021": "2021/22",
-        "2025": "2025/26",
         "2015": "2015/16",
         "2022": "2022/23",
         "2023": "2023/24",
         "2024": "2024/25",
+        "2014": "2014/15",
+        "2016": "2016/17",
+        "2021": "2021/22",
+        "2025": "2025/26",
         "2017": "2017/18",
         "2019": "2019/20",
         "2020": "2020/21"
@@ -703,7 +789,7 @@
         "available": true,
         "rows": 144,
         "completed": 72,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
@@ -713,7 +799,7 @@
       "standings": {
         "available": true,
         "rows": 36,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "note": "Calculated from the source's completed match results."
       },
       "teams": {
@@ -728,14 +814,14 @@
         "version": "data-v0.1.0",
         "seasons": [
           "2018/19",
-          "2014/15",
-          "2016/17",
-          "2021/22",
-          "2025/26",
           "2015/16",
           "2022/23",
           "2023/24",
           "2024/25",
+          "2014/15",
+          "2016/17",
+          "2021/22",
+          "2025/26",
           "2017/18",
           "2019/20",
           "2020/21"
@@ -763,23 +849,23 @@
         "available": true,
         "rows": 108,
         "completed": 54,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
         "rows": 108,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "standings": {
         "available": true,
         "rows": 36,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "note": "Calculated from the source's completed match results."
       },
       "teams": {
         "available": true,
         "rows": 36,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       }
     },
     "fa-cup": {
@@ -793,17 +879,17 @@
         "available": true,
         "rows": 142,
         "completed": 141,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
         "rows": 142,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "teams": {
         "available": true,
         "rows": 166,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       }
     },
     "efl-cup": {
@@ -817,17 +903,17 @@
         "available": true,
         "rows": 88,
         "completed": 84,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "fixtures": {
         "available": true,
         "rows": 88,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "teams": {
         "available": true,
         "rows": 92,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       }
     },
     "fifa-world-cup": {
@@ -854,7 +940,7 @@
       "statsbomb": {
         "available": true,
         "rows": 128,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2022",
           "2018"
@@ -906,7 +992,7 @@
       "statsbomb": {
         "available": true,
         "rows": 102,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2024",
           "2020"
@@ -958,7 +1044,7 @@
       "statsbomb": {
         "available": true,
         "rows": 32,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2024"
         ]
@@ -1013,7 +1099,7 @@
       "statsbomb": {
         "available": true,
         "rows": 52,
-        "fetchedAt": "2026-11-10T01:54:18Z",
+        "fetchedAt": "2026-11-10T02:16:07Z",
         "seasons": [
           "2023"
         ]
@@ -1056,10 +1142,10 @@
         "players": 5271,
         "version": "data-v0.1.0",
         "seasons": [
-          "2018/19",
-          "2018/19",
           "2020/21",
           "2020/21",
+          "2018/19",
+          "2018/19",
           "2022/23",
           "2022/23",
           "2024/25",
@@ -1067,8 +1153,8 @@
         ]
       },
       "seasonLabels": {
-        "2018": "2018/19",
         "2020": "2020/21",
+        "2018": "2018/19",
         "2022": "2022/23",
         "2024": "2024/25",
         "2026": "2026/27"
@@ -1076,7 +1162,7 @@
       "fixtures": {
         "available": true,
         "rows": 156,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "players": {
         "available": true,
@@ -1086,7 +1172,7 @@
       "teams": {
         "available": true,
         "rows": 54,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "topScorers": {
         "available": true,
@@ -1096,12 +1182,12 @@
         "available": true,
         "rows": 156,
         "completed": 104,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "cornerflick": {
         "available": true,
         "detailedMatches": 103,
-        "fetchedAt": "2026-11-10T01:54:18Z"
+        "fetchedAt": "2026-11-10T02:16:07Z"
       },
       "standings": {
         "available": true,
@@ -1122,7 +1208,7 @@
       }
     }
   },
-  "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them.",
+  "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Premier League history includes match results from 1993/94 onward, with match statistics where the dataset supplies them. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them.",
   "openplay": {
     "available": true,
     "version": "data-v0.1.0",

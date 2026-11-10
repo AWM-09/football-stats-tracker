@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-10T01:54:18Z",
+  "generatedAt": "2026-11-10T02:16:07Z",
   "fixtures": [
     {
       "id": "openmatchday-fa-cup-2026-09-22-braintree-needham-market",
@@ -8081,18 +8081,18 @@
     "fixtures": {
       "available": true,
       "rows": 142,
-      "fetchedAt": "2026-11-10T01:54:18Z"
+      "fetchedAt": "2026-11-10T02:16:07Z"
     },
     "standings": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-10T01:54:18Z",
+      "fetchedAt": "2026-11-10T02:16:07Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 166,
-      "fetchedAt": "2026-11-10T01:54:18Z"
+      "fetchedAt": "2026-11-10T02:16:07Z"
     },
     "players": {
       "available": false,
@@ -8107,7 +8107,7 @@
     "fixtureStats": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-10T01:54:18Z"
+      "fetchedAt": "2026-11-10T02:16:07Z"
     }
   }
 }
