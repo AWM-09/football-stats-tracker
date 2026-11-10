@@ -22,6 +22,7 @@ OPEN_MATCHDAY = "https://raw.githubusercontent.com/oladeeayo/open-matchday/maste
 CORNERFLICK_SEASON = "https://cornerflick.com/football/leagues/ekstraklasa/results/season.json"
 CORNERFLICK_NATIONS = "https://cornerflick.com/football/leagues/nations-league/results/season.json"
 FIXTURE_DOWNLOAD_NATIONS = "https://fixturedownload.com/feed/json/nations-league-2026"
+PREMIER_LEAGUE_HISTORY_CSV = "https://raw.githubusercontent.com/datasets/football-datasets/main/datasets/premier-league/season-{season}.csv"
 OPEN_MATCHDAY_COMPS = {
     "premier-league": "ENG_1_premier-league", "ligue-1": "FRA_1_ligue-1", "la-liga": "ESP_1_la-liga",
     "serie-a": "ITA_1_serie-a", "bundesliga": "GER_1_bundesliga", "ekstraklasa": "POL_1_ekstraklasa",
@@ -613,6 +614,80 @@ def normalize_openfootball(item, source_file, season_label, fetched_at):
     return snapshot
 
 
+
+def normalize_premier_league_history(item, start_year, fetched_at):
+    """Normalize a published, PDDL season CSV into the site's standard snapshot."""
+    end_year = start_year + 1
+    season_code = f"{start_year % 100:02d}{end_year % 100:02d}"
+    label = f"{start_year}/{str(end_year)[-2:]}"
+    source_url = PREMIER_LEAGUE_HISTORY_CSV.format(season=season_code)
+    rows = fetch_csv(source_url)
+    fixtures, teams, fixture_stats = [], {}, {}
+    stat_fields = {
+        "HS": ("Shots", "home"), "AS": ("Shots", "away"),
+        "HST": ("Shots on target", "home"), "AST": ("Shots on target", "away"),
+        "HC": ("Corners", "home"), "AC": ("Corners", "away"),
+        "HF": ("Fouls", "home"), "AF": ("Fouls", "away"),
+        "HY": ("Yellow cards", "home"), "AY": ("Yellow cards", "away"),
+        "HR": ("Red cards", "home"), "AR": ("Red cards", "away"),
+    }
+    for index, row in enumerate(rows, 1):
+        home_name, away_name = (row.get("HomeTeam") or "").strip(), (row.get("AwayTeam") or "").strip()
+        if not home_name or not away_name:
+            continue
+        home_id, away_id = f"fd-{slug(home_name)}", f"fd-{slug(away_name)}"
+        teams[home_id] = {"id": home_id, "name": home_name, "country": item.get("country")}
+        teams[away_id] = {"id": away_id, "name": away_name, "country": item.get("country")}
+        date = row.get("Date")
+        if date:
+            for fmt in ("%Y-%m-%d", "%d/%m/%y", "%d/%m/%Y"):
+                try:
+                    date = dt.datetime.strptime(date.strip(), fmt).date().isoformat()
+                    break
+                except ValueError:
+                    pass
+        home_goals, away_goals = score_value(row.get("FTHG")), score_value(row.get("FTAG"))
+        played = home_goals is not None and away_goals is not None
+        fixture_id = f"football-data-premier-league-{start_year}-{index}"
+        fixtures.append({
+            "id": fixture_id, "date": date, "timestamp": None, "round": "",
+            "status": "FT" if played else "NS", "statusLong": "Finished" if played else "Scheduled",
+            "home": {"id": home_id, "name": home_name}, "away": {"id": away_id, "name": away_name},
+            "goals": {"home": home_goals, "away": away_goals},
+            "halftime": {"home": score_value(row.get("HTHG")), "away": score_value(row.get("HTAG"))},
+        })
+        grouped = {}
+        for field, (label_name, side) in stat_fields.items():
+            value = score_value(row.get(field))
+            if value is not None:
+                team_id = home_id if side == "home" else away_id
+                grouped.setdefault(team_id, {})[label_name] = value
+        if grouped:
+            fixture_stats[fixture_id] = [{"teamId": team_id, "statistics": stats} for team_id, stats in grouped.items()]
+    fixtures.sort(key=lambda fixture: fixture.get("date") or "")
+    table = standings(fixtures)
+    stats_rows = sum(len(team["statistics"]) for match in fixture_stats.values() for team in match)
+    snapshot = {
+        "schemaVersion": 2, "competition": {"id": item["id"], "name": item["name"], "country": item.get("country")},
+        "season": label, "seasonLabel": label,
+        "provider": "Football datasets (PDDL; sourced from Football-Data.co.uk)",
+        "sourceUrl": "https://github.com/datasets/football-datasets/tree/main/datasets/premier-league",
+        "generatedAt": fetched_at, "fixtures": fixtures, "teams": list(teams.values()),
+        "standings": table, "teamStats": team_statistics(fixtures), "fixtureStats": fixture_stats,
+        "players": [], "topScorers": [],
+        "coverage": {
+            "fixtures": {"available": bool(fixtures), "rows": len(fixtures), "completed": sum(f["status"] == "FT" for f in fixtures), "fetchedAt": fetched_at},
+            "standings": {"available": bool(table), "rows": len(table), "fetchedAt": fetched_at, "note": "Calculated from completed match results."},
+            "teams": {"available": bool(teams), "rows": len(teams), "fetchedAt": fetched_at},
+            "players": {"available": False, "rows": 0, "note": "This match dataset does not provide player season totals."},
+            "topScorers": {"available": False, "rows": 0, "note": "This match dataset does not provide player season totals."},
+            "fixtureStats": {"available": bool(fixture_stats), "rows": stats_rows, "fetchedAt": fetched_at, "note": "Only statistics published for a match are included."},
+        },
+    }
+    write_json(SNAPSHOTS / f"{item['id']}-{start_year}.json", snapshot)
+    return snapshot
+
+
 def normalize_statsbomb(item, comp_id, season_id, label, season_key, fetched_at):
     matches = fetch_json(f"{STATSBOMB}/matches/{comp_id}/{season_id}.json")
     fixtures, teams = [], {}
@@ -646,14 +721,15 @@ def main():
     fetched_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     index = json.loads((DATA / "competitions.json").read_text(encoding="utf-8"))
     by_id = {item["id"]: item for item in index}
-    coverage = {"schemaVersion": 2, "provider": "OpenFootball + StatsBomb + OpenPlay + open-matchday + Cornerflick + FixtureDownload", "status": "partial", "generatedAt": fetched_at,
+    coverage = {"schemaVersion": 2, "provider": "OpenFootball + Premier League History (PDDL) + StatsBomb + OpenPlay + open-matchday + Cornerflick + FixtureDownload", "status": "partial", "generatedAt": fetched_at,
                 "sources": [{"name": "OpenFootball", "url": "https://github.com/openfootball/football.json", "license": "CC0-1.0"},
+                            {"name": "Football datasets", "url": "https://github.com/datasets/football-datasets", "license": "PDDL-1.0 · sourced from Football-Data.co.uk"},
                             {"name": "StatsBomb Open Data", "url": "https://github.com/hudl/open-data", "license": "Attribution required"},
                             {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"},
                             {"name": "open-matchday", "url": "https://github.com/oladeeayo/open-matchday", "license": "Non-commercial use only; attribution required"},
                             {"name": "Cornerflick", "url": "https://cornerflick.com/data", "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"},
                             {"name": "FixtureDownload", "url": "https://fixturedownload.com/", "license": "Free fixture feed; attribution recommended"}],
-                "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
+                "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Premier League history includes match results from 1993/94 onward, with match statistics where the dataset supplies them. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for comp_id, (filename, season_label) in LEAGUES.items():
         item = by_id.get(comp_id)
@@ -716,6 +792,23 @@ def main():
                 statsbomb["seasons"].append(label)
             except Exception as exc:
                 coverage["competitions"].setdefault(comp_id, {"seasons": []})["statsbomb"] = {"available": False, "note": f"StatsBomb match list unavailable: {exc}"}
+    premier_league = by_id.get("premier-league")
+    if premier_league:
+        row = coverage["competitions"].setdefault("premier-league", {"seasons": []})
+        for start_year in range(1993, 2026):
+            try:
+                snap = normalize_premier_league_history(premier_league, start_year, fetched_at)
+                season_key = str(start_year)
+                row["seasons"].append(season_key)
+                row.setdefault("seasonLabels", {})[season_key] = snap["seasonLabel"]
+                state = row.setdefault("premierLeagueHistory", {"available": True, "rows": 0, "seasons": [], "fetchedAt": fetched_at})
+                state["rows"] += len(snap["fixtures"])
+                state["seasons"].append(snap["seasonLabel"])
+                for section, section_state in snap["coverage"].items():
+                    if section_state.get("available") and section not in {"players", "topScorers"}:
+                        row[section] = section_state
+            except Exception as exc:
+                print(f"Premier League historical season {start_year}/{str(start_year + 1)[-2:]}: {exc}")
     try:
         sync_openplay(by_id, coverage)
     except Exception as exc:
