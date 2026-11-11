@@ -31,3 +31,6 @@ Serve this folder with any static file server. No build step or credentials are 
 - `match.html?id=...` — match stats, events and lineups for supported matches.
 - `health.html` — source notes and per-competition coverage.
 - `scripts/sync_open_data.py` — fetch and normalize public data files.
+
+
+The 2026/27 Premier League player season and match statistics are refreshed from the public CSV snapshots in [FPL Core Insights](https://github.com/olbauday/FPL-Core-Insights). Player coverage beyond the Premier League depends on the other published open datasets.

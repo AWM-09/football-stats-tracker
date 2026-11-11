@@ -3,7 +3,7 @@ const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&
 const PLAYER_STATS=[
   ["goals","Goals",["goals"]],["assists","Assists",["assists"]],["appearances","Appearances",["appearances","matches"]],["minutes","Minutes played",["minutes","minutesPlayed"]],
   ["expectedGoals","Expected goals (xG)",["expectedGoals","xg"]],["expectedAssists","Expected assists (xA)",["expectedAssists","xa"]],["shots","Shots",["shots"]],["shotsOnTarget","Shots on target",["shotsOnTarget","shots_on_target"]],
-  ["keyPasses","Key passes",["keyPasses","key_passes"]],["passesCompleted","Passes completed",["passesCompleted","passes_completed"]],["tackles","Tackles",["tackles"]],["interceptions","Interceptions",["interceptions"]],
+  ["keyPasses","Key passes",["keyPasses","key_passes"]],["chancesCreated","Chances created",["chancesCreated","chances_created"]],["passesCompleted","Passes completed",["passesCompleted","passes_completed"]],["tackles","Tackles",["tackles"]],["interceptions","Interceptions",["interceptions"]],
   ["clearances","Clearances",["clearances"]],["saves","Saves",["saves"]],["yellowCards","Yellow cards",["yellowCards","yellow_cards"]],["redCards","Red cards",["redCards","red_cards"]]
 ].map(([key,label,aliases])=>({key,label,aliases,kind:"player"}));
 const TEAM_STATS=[

@@ -19,6 +19,8 @@ OPENFOOTBALL = "https://raw.githubusercontent.com/openfootball/football.json/mas
 STATSBOMB = "https://raw.githubusercontent.com/hudl/open-data/master/data"
 OPENPLAY_RELEASES = "https://api.github.com/repos/nlbair/openplay/releases/tags/data-v0.1.0"
 OPEN_MATCHDAY = "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data"
+FPL_CORE_GW_API = "https://api.github.com/repos/olbauday/FPL-Core-Insights/contents/data/2026-2027/By%20Tournament/Premier%20League"
+FPL_CORE_RAW = "https://raw.githubusercontent.com/olbauday/FPL-Core-Insights/main/data/2026-2027/By%20Tournament/Premier%20League"
 CORNERFLICK_SEASON = "https://cornerflick.com/football/leagues/ekstraklasa/results/season.json"
 CORNERFLICK_NATIONS = "https://cornerflick.com/football/leagues/nations-league/results/season.json"
 FIXTURE_DOWNLOAD_NATIONS = "https://fixturedownload.com/feed/json/nations-league-2026"
@@ -515,6 +517,241 @@ def sync_openplay(by_id, coverage):
         con.close()
 
 
+
+def sync_fpl_core_premier_league(by_id, coverage, fetched_at):
+    """Merge public Premier League player and detailed match CSVs into the 2026/27 snapshot."""
+    item = by_id.get("premier-league")
+    snapshot_path = SNAPSHOTS / "premier-league-2026.json"
+    if not item or not snapshot_path.exists():
+        return
+
+    folders = fetch_json(FPL_CORE_GW_API)
+    gameweeks = sorted(
+        [int(match.group(1)) for entry in folders if entry.get("type") == "dir"
+         if (match := re.fullmatch(r"GW(\d+)", entry.get("name", "")))],
+    )
+    if not gameweeks:
+        raise RuntimeError("FPL Core Insights has no published Premier League gameweeks")
+    latest = max(gameweeks)
+    latest_base = f"{FPL_CORE_RAW}/GW{latest}"
+    player_rows = fetch_csv(f"{latest_base}/players.csv")
+    season_rows = fetch_csv(f"{latest_base}/playerstats.csv")
+    source_teams = fetch_csv(f"{latest_base}/teams.csv")
+
+    def source_id(value):
+        try:
+            return str(int(float(str(value).strip())))
+        except (TypeError, ValueError):
+            return str(value or "").strip()
+
+    def team_key(value):
+        plain = unicodedata.normalize("NFKD", str(value or "")).encode("ascii", "ignore").decode("ascii").lower()
+        plain = re.sub(r"[^a-z0-9]+", " ", plain).strip()
+        aliases = {
+            "coventry city": "coventry", "hull city": "hull", "ipswich town": "ipswich",
+            "manchester united": "man utd", "manchester city": "man city",
+            "tottenham hotspur": "spurs", "nottingham forest": "nottm forest",
+            "brighton and hove albion": "brighton", "leeds united": "leeds",
+        }
+        return aliases.get(plain, plain)
+
+    snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+    snapshot_teams = snapshot.get("teams", [])
+    snapshot_team_ids = {team_key(team.get("name")): str(team.get("id")) for team in snapshot_teams}
+    source_team_by_id = {source_id(team.get("id")): team for team in source_teams}
+    source_team_to_snapshot = {}
+    for source_team in source_teams:
+        team_id = snapshot_team_ids.get(team_key(source_team.get("name")))
+        if team_id:
+            source_team_to_snapshot[source_id(source_team.get("id"))] = team_id
+    player_meta = {source_id(player.get("player_id")): player for player in player_rows}
+    player_team_ids = {}
+    source_team_by_code = {str(team.get("code")): team for team in source_teams}
+    for player in player_rows:
+        team = source_team_by_code.get(str(player.get("team_code")))
+        if team:
+            player_team_ids[source_id(player.get("player_id"))] = source_id(team.get("id"))
+
+    fixture_by_teams = {}
+    for fixture in snapshot.get("fixtures", []):
+        fixture_by_teams[(str(fixture.get("date") or "")[:10], team_key(fixture.get("home", {}).get("name")), team_key(fixture.get("away", {}).get("name")))] = fixture
+    player_match_stats = {}
+    player_aggregates = {}
+    team_match_fields = {
+        "possession": "Possession", "expected_goals_xg": "xG", "total_shots": "Shots",
+        "shots_on_target": "Shots on target", "big_chances": "Big chances",
+        "big_chances_missed": "Big chances missed", "accurate_passes": "Passes completed",
+        "accurate_passes_pct": "Pass accuracy %", "fouls_committed": "Fouls", "corners": "Corners",
+        "yellow_cards": "Yellow cards", "red_cards": "Red cards", "offsides": "Offsides",
+        "tackles_won": "Tackles", "interceptions": "Interceptions", "blocks": "Blocks",
+        "clearances": "Clearances", "keeper_saves": "Saves", "duels_won": "Duels won",
+        "successful_dribbles": "Successful dribbles",
+    }
+    player_match_fields = {
+        "minutes_played": "minutes", "goals": "goals", "assists": "assists",
+        "total_shots": "shots", "xg": "expectedGoals", "xa": "expectedAssists",
+        "shots_on_target": "shotsOnTarget", "chances_created": "chancesCreated",
+        "accurate_passes": "passesCompleted", "tackles": "tackles", "interceptions": "interceptions",
+        "clearances": "clearances", "saves": "saves", "yellow_cards": "yellowCards",
+        "red_cards": "redCards", "penalties_scored": "penaltiesScored",
+        "penalties_missed": "penaltiesMissed", "defensive_contributions": "defensiveContributions",
+        "successful_dribbles": "dribblesCompleted",
+    }
+
+    for gameweek in gameweeks:
+        base = f"{FPL_CORE_RAW}/GW{gameweek}"
+        try:
+            match_rows = fetch_csv(f"{base}/matches.csv")
+        except Exception:
+            match_rows = []
+        try:
+            match_player_rows = fetch_csv(f"{base}/playermatchstats.csv")
+        except Exception:
+            match_player_rows = []
+        match_to_fixture = {}
+        for match_row in match_rows:
+            source_home = source_team_by_id.get(source_id(match_row.get("home_team")))
+            source_away = source_team_by_id.get(source_id(match_row.get("away_team")))
+            if not source_home or not source_away:
+                continue
+            match_date = str(match_row.get("kickoff_time") or "")[:10]
+            key = (match_date, team_key(source_home.get("name")), team_key(source_away.get("name")))
+            fixture = fixture_by_teams.get(key)
+            if not fixture:
+                continue
+            match_id = str(match_row.get("match_id") or "")
+            if not match_id:
+                continue
+            match_to_fixture[match_id] = fixture
+            existing_rows = {
+                str(row.get("teamId")): dict(row.get("statistics") or {})
+                for row in snapshot.get("fixtureStats", {}).get(str(fixture["id"]), [])
+            }
+            for side in ("home", "away"):
+                team_id = fixture.get(side, {}).get("id")
+                values = existing_rows.setdefault(str(team_id), {})
+                for field, label in team_match_fields.items():
+                    raw = match_row.get(f"{side}_{field}")
+                    if raw in (None, ""):
+                        continue
+                    try:
+                        number_value = float(raw)
+                    except (TypeError, ValueError):
+                        continue
+                    if math.isfinite(number_value):
+                        values[label] = int(number_value) if number_value.is_integer() else round(number_value, 2)
+            snapshot.setdefault("fixtureStats", {})[str(fixture["id"])] = [
+                {"teamId": str(team_id), "statistics": values} for team_id, values in existing_rows.items()
+            ]
+
+        for match_player in match_player_rows:
+            fixture = match_to_fixture.get(str(match_player.get("match_id") or ""))
+            player_id = source_id(match_player.get("player_id"))
+            meta = player_meta.get(player_id)
+            if not fixture or not meta:
+                continue
+            player_name = " ".join(part for part in (meta.get("first_name"), meta.get("second_name")) if part).strip() or meta.get("web_name") or "Unknown player"
+            source_team_id = player_team_ids.get(player_id)
+            team_id = source_team_to_snapshot.get(source_team_id, "")
+            team_name = next((t.get("name") for t in snapshot_teams if str(t.get("id")) == str(team_id)), "")
+            row = {"id": f"fpl-player-{player_id}", "name": player_name, "team": team_name, "teamId": team_id,
+                   "position": meta.get("position") or "—", "appearances": 0}
+            for field, target in player_match_fields.items():
+                raw = match_player.get(field)
+                if raw in (None, ""):
+                    continue
+                try:
+                    number_value = float(raw)
+                except (TypeError, ValueError):
+                    continue
+                if not math.isfinite(number_value):
+                    continue
+                value = int(number_value) if number_value.is_integer() else round(number_value, 2)
+                row[target] = value
+                if target != "minutes":
+                    aggregate = player_aggregates.setdefault(player_id, {})
+                    aggregate[target] = aggregate.get(target, 0) + value
+            minutes = float(row.get("minutes") or 0)
+            row["appearances"] = 1 if minutes > 0 else 0
+            if minutes > 0:
+                aggregate = player_aggregates.setdefault(player_id, {})
+                aggregate["appearances"] = aggregate.get("appearances", 0) + 1
+            if minutes > 0 or any(row.get(field) for field in ("goals", "assists", "shots", "saves")):
+                player_match_stats.setdefault(str(fixture["id"]), []).append(row)
+
+    players_out = []
+    season_fields = {
+        "goals_scored": "goals", "assists": "assists", "minutes": "minutes",
+        "expected_goals": "expectedGoals", "expected_assists": "expectedAssists",
+        "clean_sheets": "cleanSheets", "goals_conceded": "goalsConceded", "own_goals": "ownGoals",
+        "yellow_cards": "yellowCards", "red_cards": "redCards", "saves": "saves",
+        "penalties_missed": "penaltiesMissed", "penalties_saved": "penaltiesSaved",
+        "starts": "starts", "bonus": "bonus", "total_points": "totalPoints",
+        "defensive_contribution": "defensiveContributions",
+    }
+    for stats_row in season_rows:
+        player_id = source_id(stats_row.get("id"))
+        meta = player_meta.get(player_id)
+        if not meta:
+            continue
+        player_name = " ".join(part for part in (meta.get("first_name"), meta.get("second_name")) if part).strip() or meta.get("web_name") or "Unknown player"
+        source_team_id = player_team_ids.get(player_id)
+        team_id = source_team_to_snapshot.get(source_team_id)
+        if not team_id:
+            continue
+        team_name = next((t.get("name") for t in snapshot_teams if str(t.get("id")) == str(team_id)), "")
+        out = {"id": f"fpl-player-{player_id}", "name": player_name, "team": team_name, "teamId": team_id,
+               "position": meta.get("position") or "—"}
+        for field, target in season_fields.items():
+            raw = stats_row.get(field)
+            if raw in (None, ""):
+                continue
+            try:
+                number_value = float(raw)
+            except (TypeError, ValueError):
+                continue
+            if math.isfinite(number_value):
+                out[target] = int(number_value) if number_value.is_integer() else round(number_value, 2)
+        aggregate = player_aggregates.get(player_id, {})
+        out["appearances"] = int(aggregate.get("appearances", 0))
+        for field in ("shots", "shotsOnTarget", "chancesCreated", "passesCompleted", "tackles", "interceptions", "clearances", "dribblesCompleted"):
+            if aggregate.get(field) is not None:
+                out[field] = aggregate[field]
+        for field in ("key_passes",):
+            if aggregate.get(field) is not None:
+                out[field] = aggregate[field]
+        players_out.append(out)
+    players_out.sort(key=lambda player: (-float(player.get("goals", 0)), -float(player.get("assists", 0)), player.get("name", "")))
+    if not players_out:
+        raise RuntimeError("FPL Core Insights player totals could not be joined to Premier League clubs")
+
+    snapshot["players"] = players_out
+    snapshot["topScorers"] = [player for player in players_out if float(player.get("goals", 0)) > 0][:100]
+    snapshot["playerMatchStats"] = player_match_stats
+    snapshot["provider"] = "open-matchday + FPL Core Insights"
+    snapshot["sourceUrl"] = "https://github.com/oladeeayo/open-matchday"
+    snapshot["sources"] = [
+        {"name": "open-matchday", "url": "https://github.com/oladeeayo/open-matchday"},
+        {"name": "FPL Core Insights", "url": "https://github.com/olbauday/FPL-Core-Insights", "attribution": "FPL Core Insights"},
+    ]
+    snapshot["generatedAt"] = fetched_at
+    snapshot.setdefault("coverage", {}).update({
+        "players": {"available": True, "rows": len(players_out), "fetchedAt": fetched_at, "source": "FPL Core Insights"},
+        "topScorers": {"available": bool(snapshot["topScorers"]), "rows": len(snapshot["topScorers"]), "fetchedAt": fetched_at},
+        "playerMatchStats": {"available": bool(player_match_stats), "rows": sum(len(rows) for rows in player_match_stats.values()),
+                             "matches": len(player_match_stats), "fetchedAt": fetched_at, "source": "FPL Core Insights"},
+        "fixtureStats": {"available": bool(snapshot.get("fixtureStats")), "rows": len(snapshot.get("fixtureStats", {})),
+                         "fetchedAt": fetched_at, "note": "Combined team statistics from open-matchday and FPL Core Insights."},
+    })
+    snapshot_path.write_text(json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    comp_coverage = coverage.setdefault("competitions", {}).setdefault("premier-league", {"seasons": []})
+    comp_coverage["seasonLabels"] = {**comp_coverage.get("seasonLabels", {}), "2026": "2026/27"}
+    for key in ("players", "topScorers", "playerMatchStats", "fixtureStats"):
+        comp_coverage[key] = snapshot["coverage"][key]
+    comp_coverage["fplCoreInsights"] = {"available": True, "latestGameweek": latest, "fetchedAt": fetched_at,
+                                        "players": len(players_out), "matchesWithPlayerRows": len(player_match_stats)}
+    coverage["fplCoreInsights"] = {"available": True, "latestGameweek": latest, "source": "https://github.com/olbauday/FPL-Core-Insights"}
+
 def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
@@ -744,7 +981,8 @@ def main():
                             {"name": "OpenPlay", "url": "https://github.com/nlbair/openplay", "license": "CC BY 4.0 · credit Noah Bair / openplay"},
                             {"name": "open-matchday", "url": "https://github.com/oladeeayo/open-matchday", "license": "Non-commercial use only; attribution required"},
                             {"name": "Cornerflick", "url": "https://cornerflick.com/data", "license": "CC BY 4.0 · attribution: Data by Cornerflick — cornerflick.com"},
-                            {"name": "FixtureDownload", "url": "https://fixturedownload.com/", "license": "Free fixture feed; attribution recommended"}],
+                            {"name": "FixtureDownload", "url": "https://fixturedownload.com/", "license": "Free fixture feed; attribution recommended"},
+                            {"name": "FPL Core Insights", "url": "https://github.com/olbauday/FPL-Core-Insights", "license": "Upstream permits reuse in websites; attribution requested; static CSV snapshots only"}],
                 "competitions": {}, "message": "Static open datasets; current fixtures and results include OpenFootball, open-matchday and FixtureDownload coverage. Premier League history includes match results from 1993/94 onward, with match statistics where the dataset supplies them. Ekstraklasa and Nations League include Cornerflick match reports where available. Historical event data is available for selected StatsBomb seasons. Other sections stay unavailable where no open file source covers them."}
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     for comp_id, (filename, season_label) in LEAGUES.items():
@@ -830,6 +1068,11 @@ def main():
     except Exception as exc:
         coverage["openplay"] = {"available": False, "note": f"OpenPlay download failed: {exc}"}
         print(f"OpenPlay: {exc}")
+    try:
+        sync_fpl_core_premier_league(by_id, coverage, fetched_at)
+    except Exception as exc:
+        coverage["fplCoreInsights"] = {"available": False, "note": f"Player CSV refresh failed: {exc}"}
+        print(f"FPL Core Insights: {exc}")
     item = by_id.get("nations-league")
     if item:
         try:
