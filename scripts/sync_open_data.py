@@ -689,17 +689,26 @@ def sync_fpl_core_premier_league(by_id, coverage, fetched_at):
         "starts": "starts", "bonus": "bonus", "total_points": "totalPoints",
         "defensive_contribution": "defensiveContributions",
     }
-    for stats_row in season_rows:
-        player_id = source_id(stats_row.get("id"))
-        meta = player_meta.get(player_id)
-        if not meta:
+    season_stats_by_player = {source_id(row.get("id")): row for row in season_rows}
+    source_teams_by_code = {source_id(team.get("code")): team for team in source_teams}
+    joined_stats = 0
+    joined_clubs = 0
+    for meta in player_rows:
+        player_id = source_id(meta.get("player_id"))
+        stats_row = season_stats_by_player.get(player_id)
+        if not stats_row:
             continue
-        player_name = " ".join(part for part in (meta.get("first_name"), meta.get("second_name")) if part).strip() or meta.get("web_name") or "Unknown player"
-        source_team_id = player_team_ids.get(player_id)
-        team_id = source_team_to_snapshot.get(source_team_id)
+        joined_stats += 1
+        source_team = source_teams_by_code.get(source_id(meta.get("team_code")))
+        source_team_name = source_team.get("name", "") if source_team else ""
+        team_id = snapshot_team_ids.get(team_key(source_team_name))
+        if not team_id and source_team:
+            team_id = source_team_to_snapshot.get(source_id(source_team.get("id")))
         if not team_id:
             continue
-        team_name = next((t.get("name") for t in snapshot_teams if str(t.get("id")) == str(team_id)), "")
+        joined_clubs += 1
+        team_name = next((t.get("name") for t in snapshot_teams if str(t.get("id")) == str(team_id)), source_team_name)
+        player_name = " ".join(part for part in (meta.get("first_name"), meta.get("second_name")) if part).strip() or meta.get("web_name") or "Unknown player"
         out = {"id": f"fpl-player-{player_id}", "name": player_name, "team": team_name, "teamId": team_id,
                "position": meta.get("position") or "—"}
         for field, target in season_fields.items():
@@ -717,10 +726,16 @@ def sync_fpl_core_premier_league(by_id, coverage, fetched_at):
         for field in ("shots", "shotsOnTarget", "chancesCreated", "passesCompleted", "tackles", "interceptions", "clearances", "dribblesCompleted"):
             if aggregate.get(field) is not None:
                 out[field] = aggregate[field]
-        for field in ("key_passes",):
-            if aggregate.get(field) is not None:
-                out[field] = aggregate[field]
+        if aggregate.get("key_passes") is not None:
+            out["key_passes"] = aggregate["key_passes"]
         players_out.append(out)
+    if not players_out:
+        raise RuntimeError(
+            "FPL Core Insights could not be joined: "
+            f"{len(player_rows)} roster rows, {len(season_rows)} season rows, "
+            f"{joined_stats} player IDs matched, {joined_clubs} club names matched. "
+            "Check the public source CSV schema and team names."
+        )
     players_out.sort(key=lambda player: (-float(player.get("goals", 0)), -float(player.get("assists", 0)), player.get("name", "")))
     if not players_out:
         raise RuntimeError("FPL Core Insights player totals could not be joined to Premier League clubs")
