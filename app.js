@@ -52,6 +52,23 @@ function initCompetitionPage(){
   tabs.innerHTML=TABS.map(name=>`<button class="tab-button${name===initialTab?" active":""}" role="tab" aria-selected="${name===initialTab}" data-tab="${esc(name)}">${esc(name)}</button>`).join("");
   const currentYear=Number(String(item.season).slice(0,4));
   let selectedSeason=params.get("season")||String(currentYear),activeTab=initialTab,snapshot=null,coverage=null;
+  const tools=byId("competitionTools");
+  function renderCompetitionTools(){
+    if(!tools)return;
+    const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
+    const statHref=`./stats.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
+    const cards=[
+      ["📊","Core statistics",`${item.name} Stats`,"Filter matchweeks, explore player leaders and team totals, compare performance and follow trends.",statHref],
+      ["⚽","Player database","Player Profiles","Search this competition’s players, inspect season totals and open individual profiles.",tabHref("Players")],
+      ["🏟️","Team database","Team Platform","Explore clubs, match results, supplied team statistics and season performance.",tabHref("Teams")],
+      ["🏆","League table","Standings & Groups","Review points, wins, draws, losses, goal difference and group positions where supplied.",tabHref("Standings")],
+      ["🗓️","Match centre","Calendar & Results","Search the fixture list by club or round and review published scores.",tabHref("Fixtures & Results")],
+      ["⚔️","Matchups","Head to Head","Compare two clubs across their meetings in the available season snapshot.",tabHref("Head to Head")],
+      ["📈","Season records","Records & Milestones","See the highest scoring match, largest margin and top scorer when data is available.",tabHref("Records")],
+      ["🛠️","Reliability","Data Status","Check source coverage, refresh time and which statistics are available.",`./health.html?competition=${encodeURIComponent(item.id)}`]
+    ];
+    tools.innerHTML=cards.map(([icon,category,title,description,href])=>`<a class="competition-card" href="${href}" style="--card-accent:${esc(item.accent)}"><div class="card-top"><span class="competition-badge" aria-hidden="true">${icon}</span><span class="card-category">${esc(category)}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>${esc(title)}</h3><p class="card-description">${esc(description)}</p></a>`).join("");
+  }
   const table=(headers,rows,emptyText="No rows are available for this section yet.")=>rows&&rows.length?`<div class="table-scroll"><table class="data-table"><thead><tr>${headers.map(h=>`<th>${esc(h.label)}</th>`).join("")}</tr></thead><tbody>${rows.map(row=>`<tr>${headers.map(h=>`<td>${h.render? h.render(row):esc(row[h.key]??"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:`<div class="data-empty"><span class="unavailable-icon">◷</span><h3>${esc(emptyText)}</h3><p>This section is unavailable in the published open dataset for this competition and season.</p></div>`;
   const nameLink=(name,type,entityId)=>entityId?`<a class="data-link" href="./entity.html?type=${type}&id=${encodeURIComponent(entityId)}&competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}">${esc(name||"Unknown")}</a>`:esc(name||"Unknown");
   const sourceState=group=>snapshot?.coverage?.[group];
@@ -112,6 +129,7 @@ function initCompetitionPage(){
     if(!seasons.length)seasons.push(String(currentYear));
     const selected=seasons.includes(String(selectedSeason))?String(selectedSeason):(seasons.includes(String(currentYear))?String(currentYear):seasons[0]);selectedSeason=selected;
     const labelFor=year=>year===String(currentYear)?item.season:(coverage?.competitions?.[item.id]?.seasonLabels?.[year]||year);
+    renderCompetitionTools();
     hero.innerHTML=`<div class="competition-kicker"><span>${esc(item.group)}</span><span>·</span><span>${esc(item.country)}</span></div><div class="competition-title-row"><span class="competition-crest" style="--card-accent:${esc(item.accent)}">${esc(item.code)}</span><div><h1>${esc(item.name)}</h1><p>${esc(item.description)}</p></div></div><div class="season-row"><label class="season-label" for="seasonSelect">Season</label><select id="seasonSelect" class="season-select">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select><span class="availability-pill ${snapshot?"is-ready":""}"><i class="status-dot ${snapshot?"good":"pending"}"></i>${snapshot?"Snapshot available":"Data unavailable"}</span></div><a class="button-link stats-hero-link" href="./stats.html?competition=${encodeURIComponent(item.id)}&amp;season=${encodeURIComponent(selectedSeason)}">Track stats →</a>`;
     const path=`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(selectedSeason)}.json`;
     try{snapshot=await fetchSnapshot(path)}catch{snapshot=null}

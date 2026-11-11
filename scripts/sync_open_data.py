@@ -532,11 +532,22 @@ def sync_fpl_core_premier_league(by_id, coverage, fetched_at):
     )
     if not gameweeks:
         raise RuntimeError("FPL Core Insights has no published Premier League gameweeks")
-    latest = max(gameweeks)
-    latest_base = f"{FPL_CORE_RAW}/GW{latest}"
-    player_rows = fetch_csv(f"{latest_base}/players.csv")
-    season_rows = fetch_csv(f"{latest_base}/playerstats.csv")
-    source_teams = fetch_csv(f"{latest_base}/teams.csv")
+    latest = None
+    player_rows, season_rows, source_teams = [], [], []
+    for gameweek in reversed(gameweeks):
+        latest_base = f"{FPL_CORE_RAW}/GW{gameweek}"
+        try:
+            candidate_players = fetch_csv(f"{latest_base}/players.csv")
+            candidate_stats = fetch_csv(f"{latest_base}/playerstats.csv")
+            candidate_teams = fetch_csv(f"{latest_base}/teams.csv")
+        except Exception:
+            continue
+        if candidate_players and candidate_stats and candidate_teams:
+            latest = gameweek
+            player_rows, season_rows, source_teams = candidate_players, candidate_stats, candidate_teams
+            break
+    if latest is None:
+        raise RuntimeError("FPL Core Insights has no gameweek with both a player roster and season statistics")
 
     def source_id(value):
         try:
