@@ -4,6 +4,28 @@ const FILTERS = ["All", ...GROUPS];
 const TABS = ["Overview", "Standings", "Fixtures & Results", "Teams", "Players", "Head to Head", "Records"];
 const VIEW_TITLES = {teams:"Teams",players:"Players",calendar:"Calendar",records:"Records"};
 const DATA_MESSAGE = "Open-data coverage varies by competition and season. OpenPlay adds historical player and team totals through 2025/26; missing fields are shown as unavailable rather than estimated.";
+const PREMIER_LEAGUE_TEAM_DETAILS={
+  arsenal:{founded:1886,stadium:"Emirates Stadium",capacity:60704},
+  "aston-villa":{founded:1874,stadium:"Villa Park",capacity:36887},
+  bournemouth:{founded:1899,stadium:"Vitality Stadium",capacity:12357},
+  brentford:{founded:1889,stadium:"Gtech Community Stadium",capacity:17250},
+  brighton:{founded:1901,stadium:"American Express Stadium",capacity:32176},
+  chelsea:{founded:1905,stadium:"Stamford Bridge",capacity:40044},
+  coventry:{founded:1883,stadium:"Coventry Building Society Arena",capacity:32609},
+  "crystal-palace":{founded:1905,stadium:"Selhurst Park",capacity:25194},
+  everton:{founded:1878,stadium:"Hill Dickinson Stadium",capacity:52769},
+  fulham:{founded:1879,stadium:"Craven Cottage",capacity:28107},
+  hull:{founded:1904,stadium:"MKM Stadium",capacity:24983},
+  ipswich:{founded:1878,stadium:"Portman Road",capacity:30294},
+  leeds:{founded:1919,stadium:"Elland Road",capacity:37633},
+  liverpool:{founded:1892,stadium:"Anfield",capacity:61276},
+  "man-city":{founded:1880,stadium:"Etihad Stadium",capacity:61038},
+  "man-utd":{founded:1878,stadium:"Old Trafford",capacity:74158},
+  newcastle:{founded:1892,stadium:"St James’ Park",capacity:52729},
+  "nott-m-forest":{founded:1865,stadium:"The City Ground",capacity:31212},
+  sunderland:{founded:1879,stadium:"Stadium of Light",capacity:48095},
+  spurs:{founded:1882,stadium:"Tottenham Hotspur Stadium",capacity:62850}
+};
 
 function byId(id){return document.getElementById(id)}
 function esc(value){return String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}
@@ -53,6 +75,7 @@ function initCompetitionPage(){
   const currentYear=Number(String(item.season).slice(0,4));
   let selectedSeason=params.get("season")||String(currentYear),activeTab=initialTab,snapshot=null,coverage=null;
   const tools=byId("competitionTools");
+  if(tools&&params.has("tab"))tools.style.display="none";
   function renderCompetitionTools(){
     if(!tools)return;
     const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
@@ -95,7 +118,8 @@ function initCompetitionPage(){
     } else if(tab==="Teams"){
       const rows=snapshot.teams||[];
       panel.innerHTML=`${sectionHead(titles[tab],"teams")}<label class="table-search"><span>Find a team</span><input id="rowSearch" type="search" placeholder="Search teams"></label><div id="teamsTable">${teamsTable(rows)}</div>`;
-      byId("rowSearch")?.addEventListener("input",event=>{const q=event.target.value.toLowerCase();byId("teamsTable").innerHTML=teamsTable(rows.filter(r=>`${r.name} ${r.country} ${r.venue?.name}`.toLowerCase().includes(q)))})
+      byId("rowSearch")?.addEventListener("input",event=>{const q=event.target.value.toLowerCase();byId("teamsTable").innerHTML=teamsTable(rows.filter(r=>`${r.name} ${r.country} ${r.venue?.name||PREMIER_LEAGUE_TEAM_DETAILS[r.id]?.stadium||""}`.toLowerCase().includes(q)))});
+      if(item.id==="premier-league")panel.insertAdjacentHTML("beforeend",`<p class="source-note">Stadiums and 2026/27 capacities: <a href="https://www.premierleague.com/en/news/4725666/all-you-need-to-know-about-the-20-premier-league-stadiums/" target="_blank" rel="noopener">Premier League stadium guide</a>. Founded years are club establishment years.</p>`)
     } else if(tab==="Players"){
       const rows=snapshot.players?.length?snapshot.players:(snapshot.topScorers||[]);
       panel.innerHTML=`${sectionHead(titles[tab],"players")}<label class="table-search"><span>Find a player</span><input id="rowSearch" type="search" placeholder="Search player, club or position"></label><div id="playersTable">${playersTable(rows)}</div>`;
@@ -111,7 +135,7 @@ function initCompetitionPage(){
   }
   function tabKey(tab){return ({"Standings":"standings","Fixtures & Results":"fixtures","Teams":"teams","Players":"players","Records":"fixtures"})[tab]||"fixtures"}
   function fixturesTable(rows){const columns=[{label:"Date",render:r=>esc(formatDate(r.date))},{label:"Round",key:"round"},...(rows.some(row=>row.group)?[{label:"Group",key:"group"}]:[]),{label:"Home",render:r=>nameLink(r.home?.name,"team",r.home?.id)},{label:"Score",render:r=>`<a class="data-link" href="./match.html?id=${encodeURIComponent(r.id)}&competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}"><strong>${scoreText(r)}</strong></a>`},{label:"Away",render:r=>nameLink(r.away?.name,"team",r.away?.id)},{label:"Status",render:r=>esc(r.statusLong||r.status||"—")}];return table(columns,rows,"No fixture rows supplied")}
-  function teamsTable(rows){return table([{label:"Team",render:r=>`<span class="team-cell">${r.logo?`<img loading="lazy" src="${esc(r.logo)}" alt="">`:""}${nameLink(r.name,"team",r.id)}</span>`},{label:"Country",key:"country"},{label:"Founded",key:"founded"},{label:"Ground",render:r=>esc(r.venue?.name||"—")},{label:"Capacity",render:r=>esc(r.venue?.capacity??"—")}],rows,"No team list supplied")}
+  function teamsTable(rows){const enriched=rows.map(r=>{const profile=item.id==="premier-league"?PREMIER_LEAGUE_TEAM_DETAILS[r.id]||{}:{};return{...r,founded:r.founded??profile.founded,stadium:r.venue?.name||profile.stadium,capacity:r.venue?.capacity??profile.capacity}});return table([{label:"Team",render:r=>`<span class="team-cell">${r.logo?`<img loading="lazy" src="${esc(r.logo)}" alt="">`:""}${nameLink(r.name,"team",r.id)}</span>`},{label:"Country",key:"country"},{label:"Founded",render:r=>esc(r.founded??"—")},{label:"Stadium",render:r=>esc(r.stadium||"—")},{label:"Capacity",render:r=>esc(r.capacity==null?"—":Number(r.capacity).toLocaleString())}],enriched,"No team list supplied") }
   function playersTable(rows){return table([{label:"Player",render:r=>`<span class="player-cell">${r.photo?`<img loading="lazy" src="${esc(r.photo)}" alt="">`:""}${nameLink(r.name,"player",r.id)}</span>`},{label:"Club",key:"team"},{label:"Pos",key:"position"},{label:"Apps",key:"appearances"},{label:"Mins",key:"minutes"},{label:"Goals",key:"goals"},{label:"Assists",key:"assists"},{label:"xG",key:"expectedGoals"},{label:"xA",key:"expectedAssists"},{label:"Shots",key:"shots"},{label:"Shots on target",key:"shotsOnTarget"},{label:"Chances created",key:"chancesCreated"},{label:"Passes completed",key:"passesCompleted"},{label:"Tackles",key:"tackles"},{label:"Interceptions",key:"interceptions"},{label:"Clearances",key:"clearances"},{label:"Saves",key:"saves"},{label:"Y/R",render:r=>esc(`${r.yellow_cards??r.yellowCards??"—"}/${r.red_cards??r.redCards??"—"}`)}],rows,"No player statistics supplied")}
   function formatDate(value){if(!value)return"—";const d=new Date(value);return Number.isNaN(d.valueOf())?value:new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(d)}
   function scoreText(f){return f.goals?.home==null||f.goals?.away==null?"—":`${f.goals.home} – ${f.goals.away}`}
@@ -137,7 +161,7 @@ function initCompetitionPage(){
     render(activeTab);
     if(params.has("tab")&&activeTab!=="Overview")requestAnimationFrame(()=>document.querySelector(".competition-content")?.scrollIntoView({block:"start",behavior:"smooth"}));
   }
-  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
+  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;if(tools)tools.style.display="none";const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
   load();
 }
 
