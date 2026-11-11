@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-11T10:15:30Z",
+  "generatedAt": "2026-11-11T10:58:45Z",
   "fixtures": [
     {
       "id": "openmatchday-premier-league-2026-08-21-arsenal-coventry",
@@ -14982,18 +14982,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-11T10:15:30Z"
+      "fetchedAt": "2026-11-11T10:58:45Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-11T10:15:30Z",
+      "fetchedAt": "2026-11-11T10:58:45Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-11T10:15:30Z"
+      "fetchedAt": "2026-11-11T10:58:45Z"
     },
     "players": {
       "available": false,
@@ -15008,7 +15008,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 100,
-      "fetchedAt": "2026-11-11T10:15:30Z"
+      "fetchedAt": "2026-11-11T10:58:45Z"
     }
   }
 }
