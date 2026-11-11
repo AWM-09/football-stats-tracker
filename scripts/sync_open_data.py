@@ -621,8 +621,8 @@ def sync_fpl_core_premier_league(by_id, coverage, fetched_at):
             match_player_rows = []
         match_to_fixture = {}
         for match_row in match_rows:
-            source_home = source_team_by_id.get(source_id(match_row.get("home_team")))
-            source_away = source_team_by_id.get(source_id(match_row.get("away_team")))
+            source_home = source_team_by_code.get(source_id(match_row.get("home_team")))
+            source_away = source_team_by_code.get(source_id(match_row.get("away_team")))
             if not source_home or not source_away:
                 continue
             match_date = str(match_row.get("kickoff_time") or "")[:10]
