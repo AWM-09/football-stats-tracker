@@ -135,6 +135,7 @@ function initCompetitionPage(){
     try{snapshot=await fetchSnapshot(path)}catch{snapshot=null}
     hero.querySelector("#seasonSelect")?.addEventListener("change",async event=>{selectedSeason=event.target.value;const next=new URL(location.href);next.searchParams.set("season",selectedSeason);history.replaceState({},"",next);await load();render(activeTab)});
     render(activeTab);
+    if(params.has("tab")&&activeTab!=="Overview")requestAnimationFrame(()=>document.querySelector(".competition-content")?.scrollIntoView({block:"start",behavior:"smooth"}));
   }
   tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
   load();
