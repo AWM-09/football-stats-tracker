@@ -9,7 +9,7 @@
   "seasonLabel": "2010/11",
   "provider": "Football datasets (PDDL; sourced from Football-Data.co.uk)",
   "sourceUrl": "https://github.com/datasets/football-datasets/tree/main/datasets/premier-league",
-  "generatedAt": "2026-11-11T04:52:37Z",
+  "generatedAt": "2026-11-11T10:15:30Z",
   "fixtures": [
     {
       "id": "football-data-premier-league-2010-1",
@@ -19007,18 +19007,18 @@
       "available": true,
       "rows": 380,
       "completed": 380,
-      "fetchedAt": "2026-11-11T04:52:37Z"
+      "fetchedAt": "2026-11-11T10:15:30Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-11T04:52:37Z",
+      "fetchedAt": "2026-11-11T10:15:30Z",
       "note": "Calculated from completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-11T04:52:37Z"
+      "fetchedAt": "2026-11-11T10:15:30Z"
     },
     "players": {
       "available": false,
@@ -19033,7 +19033,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 4560,
-      "fetchedAt": "2026-11-11T04:52:37Z",
+      "fetchedAt": "2026-11-11T10:15:30Z",
       "note": "Only statistics published for a match are included."
     }
   }
