@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "Cornerflick (CC BY 4.0) + open-matchday (non-commercial, attribution required)",
   "sourceUrl": "https://cornerflick.com/data",
-  "generatedAt": "2026-11-11T13:00:52+00:00",
+  "generatedAt": "2026-11-11T23:00:45+00:00",
   "fixtures": [
     {
       "id": "cornerflick-wisla-krakow-vs-wisla-plock-ekstraklasa-2026-08-07",
@@ -47421,18 +47421,18 @@
     "fixtures": {
       "available": true,
       "rows": 217,
-      "fetchedAt": "2026-11-11T13:00:52+00:00"
+      "fetchedAt": "2026-11-11T23:00:45+00:00"
     },
     "standings": {
       "available": true,
       "rows": 18,
-      "fetchedAt": "2026-11-11T13:00:52+00:00",
+      "fetchedAt": "2026-11-11T23:00:45+00:00",
       "note": "Calculated from completed Cornerflick results."
     },
     "teams": {
       "available": true,
       "rows": 23,
-      "fetchedAt": "2026-11-11T13:00:52+00:00"
+      "fetchedAt": "2026-11-11T23:00:45+00:00"
     },
     "players": {
       "available": true,
