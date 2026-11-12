@@ -193,12 +193,14 @@ async function initEntityPage(){
   let coverage={};try{const r=await fetch("./data/coverage.json");if(r.ok)coverage=(await r.json()).competitions?.[item.id]||{}}catch{}
   const years=[...new Set([season,...(coverage.seasons||[]).map(String)])].sort((a,b)=>Number(b.slice(0,4))-Number(a.slice(0,4)));
   const snapshots=await Promise.all(years.map(async year=>{try{return await fetchSnapshot(`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(year)}.json`)}catch{return null}}));
+  const requestedSnapshot=snapshots.find(snap=>snap&&String(snap.season).slice(0,4)===String(season))||snapshots.find(Boolean);
+  const requestedTeam=requestedSnapshot?.teams?.find(team=>String(team.id)===String(id));
   const found=[];
   for(const snap of snapshots.filter(Boolean)){
     if(type==="player"){
-      const row=(snap.players||[]).find(p=>String(p.id)===String(id))||(snap.topScorers||[]).find(p=>String(p.id)===String(id));if(row)found.push({year:String(snap.season),season:snap.seasonLabel||String(snap.season),data:row,snapshot:snap});
+      const row=(snap.players||[]).find(p=>String(p.id)===String(id))||(snap.topScorers||[]).find(p=>String(p.id)===String(id));if(row)found.push({year:String(snap.season).slice(0,4),season:snap.seasonLabel||String(snap.season),data:row,snapshot:snap});
     }else{
-      const row=(snap.teams||[]).find(t=>String(t.id)===String(id));if(row)found.push({year:String(snap.season),season:snap.seasonLabel||String(snap.season),data:row,snapshot:snap,stats:snap.teamStats?.[String(id)]});
+      const row=(snap.teams||[]).find(t=>String(t.id)===String(id))||(requestedTeam&&(snap.teams||[]).find(t=>String(t.name||"").trim().toLowerCase()===String(requestedTeam.name||"").trim().toLowerCase()));if(row)found.push({year:String(snap.season).slice(0,4),season:snap.seasonLabel||String(snap.season),data:row,snapshot:snap,stats:snap.teamStats?.[String(row.id)]||snap.teamStats?.[String(id)]});
     }
   }
   const current=found.find(r=>String(r.snapshot.season)===String(season))||found[0];
