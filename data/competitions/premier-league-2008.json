@@ -9,7 +9,7 @@
   "seasonLabel": "2008/09",
   "provider": "Football datasets (PDDL; sourced from Football-Data.co.uk)",
   "sourceUrl": "https://github.com/datasets/football-datasets/tree/main/datasets/premier-league",
-  "generatedAt": "2026-11-12T22:58:27Z",
+  "generatedAt": "2026-11-13T00:12:44Z",
   "fixtures": [
     {
       "id": "football-data-premier-league-2008-1",
@@ -19007,18 +19007,18 @@
       "available": true,
       "rows": 380,
       "completed": 380,
-      "fetchedAt": "2026-11-12T22:58:27Z"
+      "fetchedAt": "2026-11-13T00:12:44Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-12T22:58:27Z",
+      "fetchedAt": "2026-11-13T00:12:44Z",
       "note": "Calculated from completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-12T22:58:27Z"
+      "fetchedAt": "2026-11-13T00:12:44Z"
     },
     "players": {
       "available": false,
@@ -19033,7 +19033,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 4560,
-      "fetchedAt": "2026-11-12T22:58:27Z",
+      "fetchedAt": "2026-11-13T00:12:44Z",
       "note": "Only statistics published for a match are included."
     }
   }
