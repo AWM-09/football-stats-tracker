@@ -40,7 +40,7 @@ async function fetchSnapshot(path){
   const response=await fetch(path+suffix);
   return response.ok?response.json():null;
 }
-function competitionUrl(item){return item.id==="premier-league"?"./premier-league.html":`./competition.html?id=${encodeURIComponent(item.id)}`}
+function competitionUrl(item){return `./competition.html?id=${encodeURIComponent(item.id)}`}
 function renderCard(item){return `<a class="competition-card" href="${competitionUrl(item)}" style="--card-accent:${esc(item.accent)}"><div class="card-top"><span class="competition-badge" aria-hidden="true">${esc(item.code)}</span><span class="card-category">${esc(item.kind)}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>${esc(item.name)}</h3><p class="card-detail">${esc(item.country)} <span>·</span> ${esc(item.season)}</p><p class="card-description">${esc(item.description)}</p></a>`}
 
 function initDirectory(){
@@ -65,32 +65,35 @@ function initCompetitionPage(){
   const params=new URLSearchParams(location.search),id=params.get("id"),view=params.get("view"),item=COMPETITIONS.find(comp=>comp.id===id);
   if(!item){
     const title=VIEW_TITLES[view];
-    if(title){tabs.innerHTML="";initGlobalView(view,hero,panel);return}
+    if(title){tabs.innerHTML="";byId("leagueHomeShell").hidden=true;byId("competitionContent").hidden=false;initGlobalView(view,hero,panel);return}
     hero.innerHTML=`<div class="eyebrow">Competition not found</div><h1 class="title">Choose a <span>competition.</span></h1><a class="button-link" href="./index.html">Browse competitions →</a>`;
     tabs.innerHTML="";panel.innerHTML=`<div class="unavailable"><span class="unavailable-icon">◷</span><h2>Competition not found</h2><p>Choose a competition from the directory.</p><a class="text-link" href="./index.html">Browse competitions →</a></div>`;return;
   }
-  document.title=`${item.name} | Football & Soccer Stats`;
+  document.title=`${item.name} | Football/Soccer Analytics`;
   const requestedTab=String(params.get("tab")||"").toLowerCase(),initialTab=TABS.find(name=>name.toLowerCase()===requestedTab)||"Overview";
   tabs.innerHTML=TABS.map(name=>`<button class="tab-button${name===initialTab?" active":""}" role="tab" aria-selected="${name===initialTab}" data-tab="${esc(name)}">${esc(name)}</button>`).join("");
+  const homeShell=byId("leagueHomeShell"),competitionContent=byId("competitionContent");
+  const showToolView=params.has("tab")&&initialTab!=="Overview";
+  if(homeShell)homeShell.hidden=showToolView;
+  if(competitionContent)competitionContent.hidden=!showToolView;
   const currentYear=Number(String(item.season).slice(0,4));
   let selectedSeason=params.get("season")||String(currentYear),activeTab=initialTab,snapshot=null,coverage=null;
-  const tools=byId("competitionTools");
-  if(tools&&params.has("tab"))tools.style.display="none";
+  const tools=byId("competitionTools"),nav=byId("competitionNav"),features=byId("competitionFeatures");
   function renderCompetitionTools(){
     if(!tools)return;
     const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
     const statHref=`./stats.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     const cards=[
-      ["📊","Core statistics",`${item.name} Stats`,"Filter matchweeks, explore player leaders and team totals, compare performance and follow trends.",statHref],
-      ["⚽","Player database","Player Profiles","Search this competition’s players, inspect season totals and open individual profiles.",tabHref("Players")],
-      ["🏟️","Team database","Team Platform","Explore clubs, match results, supplied team statistics and season performance.",tabHref("Teams")],
-      ["🏆","League table","Standings & Groups","Review points, wins, draws, losses, goal difference and group positions where supplied.",tabHref("Standings")],
-      ["🗓️","Match centre","Calendar & Results","Search the fixture list by club or round and review published scores.",tabHref("Fixtures & Results")],
-      ["⚔️","Matchups","Head to Head","Compare two clubs across their meetings in the available season snapshot.",tabHref("Head to Head")],
-      ["📈","Season records","Records & Milestones","See the highest scoring match, largest margin and top scorer when data is available.",tabHref("Records")],
-      ["🛠️","Reliability","Data Status","Check source coverage, refresh time and which statistics are available.",`./health.html?competition=${encodeURIComponent(item.id)}`]
+      ["📊","Core statistics",`${item.name} Stats`,"Weekly leaders, season totals, team comparisons, trends and statistical records.",statHref],
+      ["⚽","Player database","Player Profiles","Search league players, review season totals and open individual profiles.",tabHref("Players")],
+      ["🏟️","Team database","Team Platform","Explore clubs, team statistics, results and season performance.",tabHref("Teams")],
+      ["🏆","League table","Standings & Groups","Review points, wins, draws, losses, goal difference and group positions.",tabHref("Standings")],
+      ["🗓️","Match centre","Calendar & Results","Search fixtures by club or round and open the published match details.",tabHref("Fixtures & Results")],
+      ["⚔️","Matchups","Head to Head","Compare clubs across their meetings in the selected season.",tabHref("Head to Head")],
+      ["📈","Season records","Records & Milestones","Explore highest scoring matches, largest margins and top scorers.",tabHref("Records")],
+      ["🛠️","Reliability","Data Status","Review source coverage, refresh times and available statistics.",`./health.html?competition=${encodeURIComponent(item.id)}`]
     ];
-    tools.innerHTML=cards.map(([icon,category,title,description,href])=>`<a class="competition-card" href="${href}" style="--card-accent:${esc(item.accent)}"><div class="card-top"><span class="competition-badge" aria-hidden="true">${icon}</span><span class="card-category">${esc(category)}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>${esc(title)}</h3><p class="card-description">${esc(description)}</p></a>`).join("");
+    tools.innerHTML=cards.map(([icon,category,title,description,href])=>`<a class="tool" href="${href}"><div class="tool-top"><span class="iconbox">${icon}</span><span class="tag">${esc(category)}</span><span class="arrow">↗</span></div><h3>${esc(title)}</h3><p>${esc(description)}</p></a>`).join("");
   }
   const table=(headers,rows,emptyText="No rows are available for this section yet.")=>rows&&rows.length?`<div class="table-scroll"><table class="data-table"><thead><tr>${headers.map(h=>`<th>${esc(h.label)}</th>`).join("")}</tr></thead><tbody>${rows.map(row=>`<tr>${headers.map(h=>`<td>${h.render? h.render(row):esc(row[h.key]??"—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:`<div class="data-empty"><span class="unavailable-icon">◷</span><h3>${esc(emptyText)}</h3><p>This section is unavailable in the published open dataset for this competition and season.</p></div>`;
   const nameLink=(name,type,entityId)=>entityId?`<a class="data-link" href="./entity.html?type=${type}&id=${encodeURIComponent(entityId)}&competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}">${esc(name||"Unknown")}</a>`:esc(name||"Unknown");
@@ -153,15 +156,25 @@ function initCompetitionPage(){
     if(!seasons.length)seasons.push(String(currentYear));
     const selected=seasons.includes(String(selectedSeason))?String(selectedSeason):(seasons.includes(String(currentYear))?String(currentYear):seasons[0]);selectedSeason=selected;
     const labelFor=year=>year===String(currentYear)?item.season:(coverage?.competitions?.[item.id]?.seasonLabels?.[year]||year);
+    const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
+    const statHref=`./stats.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     renderCompetitionTools();
-    hero.innerHTML=`<div class="competition-kicker"><span>${esc(item.group)}</span><span>·</span><span>${esc(item.country)}</span></div><div class="competition-title-row"><span class="competition-crest" style="--card-accent:${esc(item.accent)}">${esc(item.code)}</span><div><h1>${esc(item.name)}</h1><p>${esc(item.description)}</p></div></div><div class="season-row"><label class="season-label" for="seasonSelect">Season</label><select id="seasonSelect" class="season-select">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select><span class="availability-pill ${snapshot?"is-ready":""}"><i class="status-dot ${snapshot?"good":"pending"}"></i>${snapshot?"Snapshot available":"Data unavailable"}</span></div><a class="button-link stats-hero-link" href="./stats.html?competition=${encodeURIComponent(item.id)}&amp;season=${encodeURIComponent(selectedSeason)}">Track stats →</a>`;
+    if(nav)nav.innerHTML=[
+      ["Stats Tracker",statHref],["Players",tabHref("Players")],["Teams",tabHref("Teams")],["Standings",tabHref("Standings")],["Match Centre",tabHref("Fixtures & Results")],["Records",tabHref("Records")],["Data Status",`./health.html?competition=${encodeURIComponent(item.id)}`]
+    ].map(([label,href])=>`<a href="${href}">${esc(label)}</a>`).join("");
+    if(features)features.innerHTML=`<a class="feature" href="${tabHref("Standings")}"><h3>${esc(item.name)} table and form ↗</h3><p>Review positions, points, recent results and the teams shaping this season.</p></a><a class="feature" href="./health.html?competition=${encodeURIComponent(item.id)}"><h3>Transparent data coverage ↗</h3><p>See which seasons and statistics are available, when data was refreshed, and where gaps remain.</p></a>`;
+    hero.innerHTML=`<div class="eyebrow">${esc(item.name)} data workspace</div><h1 class="title">Understand the game.<br><span>Beyond the table.</span></h1><p class="sub">Explore ${esc(item.name)} standings, player performances, club statistics, match data and season records in one connected Football/Soccer workspace.</p><div class="hero-actions"><a class="button primary" href="${statHref}">Open ${esc(item.name)} Stats ↗</a><a class="button" href="${tabHref("Players")}">Explore Player Profiles ↗</a><a class="button" href="${tabHref("Fixtures & Results")}">Open Match Centre ↗</a></div><div class="hero-meta"><span class="status-dot pending" id="heroSnapshotDot"></span><span id="heroSnapshotLabel">${esc(labelFor(selectedSeason))} data snapshot</span><span class="meta-sep">·</span><label class="home-season" for="seasonSelect">Season<select id="seasonSelect">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select></label></div>`;
     const path=`./data/competitions/${encodeURIComponent(item.id)}-${encodeURIComponent(selectedSeason)}.json`;
     try{snapshot=await fetchSnapshot(path)}catch{snapshot=null}
+    const healthDot=byId("healthDot"),healthLabel=byId("healthLabel"),healthDetail=byId("healthDetail"),heroDot=byId("heroSnapshotDot"),heroLabel=byId("heroSnapshotLabel");
+    if(snapshot){healthDot?.classList.add("good");healthDot?.classList.remove("bad");if(healthLabel)healthLabel.textContent="Published data available";if(healthDetail)healthDetail.textContent=`${esc(labelFor(selectedSeason))} · ${Number(snapshot.fixtures?.length||0).toLocaleString()} fixtures · ${snapshot.provider||"Open data"}`;heroDot?.classList.add("good");heroDot?.classList.remove("pending");if(heroLabel)heroLabel.textContent=`${labelFor(selectedSeason)} data snapshot available`;}
+    else{healthDot?.classList.add("bad");if(healthLabel)healthLabel.textContent="Data snapshot unavailable";if(healthDetail)healthDetail.textContent=`No published snapshot for ${labelFor(selectedSeason)}.`;heroDot?.classList.remove("good");heroDot?.classList.add("pending");if(heroLabel)heroLabel.textContent=`${labelFor(selectedSeason)} data snapshot unavailable`;}
+    const healthLink=byId("healthLink");if(healthLink)healthLink.href=`./health.html?competition=${encodeURIComponent(item.id)}`;
     hero.querySelector("#seasonSelect")?.addEventListener("change",async event=>{selectedSeason=event.target.value;const next=new URL(location.href);next.searchParams.set("season",selectedSeason);history.replaceState({},"",next);await load();render(activeTab)});
     render(activeTab);
     if(params.has("tab")&&activeTab!=="Overview")requestAnimationFrame(()=>document.querySelector(".competition-content")?.scrollIntoView({block:"start",behavior:"smooth"}));
   }
-  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;if(tools)tools.style.display="none";const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
+  tabs.addEventListener("click",event=>{const btn=event.target.closest("[data-tab]");if(!btn)return;activeTab=btn.dataset.tab;if(homeShell)homeShell.hidden=true;if(competitionContent)competitionContent.hidden=false;const next=new URL(location.href);next.searchParams.set("tab",activeTab);history.replaceState({},"",next);tabs.querySelectorAll(".tab-button").forEach(tab=>{const selected=tab===btn;tab.classList.toggle("active",selected);tab.setAttribute("aria-selected",String(selected))});render(activeTab)});
   load();
 }
 
