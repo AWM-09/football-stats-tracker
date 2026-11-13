@@ -15,3 +15,48 @@
 .match-scoreline{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(16px,4vw,56px);text-align:center;padding:24px 0}.match-scoreline>div{display:grid;justify-items:center;gap:12px}.match-scoreline img{width:72px;height:72px;object-fit:contain}.match-scoreline h1{margin:0;font-size:clamp(1.25rem,3vw,2rem)}.match-scoreline>strong{font-size:clamp(2rem,6vw,4rem);white-space:nowrap}.match-scoreline+.subtitle{text-align:center;margin:0 0 10px}@media(max-width:600px){.match-scoreline{gap:12px}.match-scoreline img{width:48px;height:48px}}
 
 .league-hub-hero{max-width:1100px;padding-top:32px}.league-hub-grid{margin-top:10px}.league-hub-grid .competition-card{min-height:205px}.league-hub-grid .competition-badge{font-size:20px;letter-spacing:0}
+
+/* League landing page mirrors the NFL platform home layout. */
+.nfl-home{max-width:1440px;padding:26px 18px 56px}
+.nfl-home .topbar{padding:0 0 0;border:0;align-items:center;gap:14px}
+.nfl-home .brand{display:flex;align-items:center;gap:14px}
+.league-logo{width:64px;height:64px;border-radius:50%;object-fit:contain;border:1px solid var(--line);background:#05080d}
+.league-brand-copy{display:grid;gap:3px;min-width:0}
+.league-brand-copy strong{line-height:1.2}
+.nfl-home .league-nav{justify-content:flex-end;gap:4px}
+.nfl-home .league-nav a{padding:8px 10px;border:1px solid transparent;border-radius:9px;white-space:nowrap;color:var(--muted);font-size:13px;font-weight:500}
+.nfl-home .league-nav a:hover{color:var(--text);border-color:var(--line);background:#10202c}
+.nfl-home .league-back{margin:17px 0 0}
+.nfl-home .hero{padding:38px 0 26px;max-width:940px}
+.nfl-home .title{font-size:clamp(34px,5vw,58px);letter-spacing:-.05em;line-height:1.03;margin:9px 0;font-weight:950}
+.nfl-home .sub{max-width:740px;color:var(--muted);font-size:16px}
+.nfl-home .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.nfl-home .button{display:inline-flex;align-items:center;justify-content:center;padding:11px 16px;border-radius:10px;border:1px solid var(--line);font-weight:850}
+.nfl-home .button.primary{background:var(--accent);border-color:var(--accent);color:#092016}
+.nfl-home .button:hover{filter:brightness(1.09)}
+.nfl-home .hero-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:17px;color:var(--muted);font-size:13px}
+.nfl-home .home-season{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;font-weight:800}
+.nfl-home .home-season select{color:var(--text);background:#0c1822;border:1px solid var(--line);border-radius:8px;padding:6px 9px}
+.nfl-home .healthbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:rgba(17,30,43,.8);color:var(--muted);font-size:13px}
+.league-health-dot{width:9px;height:9px;border-radius:50%;background:var(--gold);flex:none}
+.league-health-dot.good{background:var(--accent)}.league-health-dot.bad{background:var(--red)}
+.nfl-home .healthbar a{color:var(--accent);margin-left:auto;white-space:nowrap}
+.nfl-home .section-title{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin:30px 0 14px}
+.nfl-home .section-title h2{font-size:23px;margin:0}
+.nfl-home .section-title p{color:var(--muted);margin:0;font-size:13px}
+.nfl-home .tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.nfl-home .tool{display:flex;flex-direction:column;gap:9px;padding:17px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(155deg,rgba(23,40,56,.97),rgba(14,26,38,.97));min-height:160px;transition:transform .15s,border-color .15s}
+.nfl-home .tool:hover{transform:translateY(-2px);border-color:#497365}
+.nfl-home .tool-top{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.nfl-home .iconbox{width:38px;height:38px;display:grid;place-items:center;border:1px solid #35566a;border-radius:10px;background:#102a37;font-size:19px}
+.nfl-home .arrow{color:var(--accent);font-size:17px}
+.nfl-home .tool h3{font-size:17px;margin:2px 0 0}
+.nfl-home .tool p{font-size:13px;color:var(--muted);margin:0}
+.nfl-home .tag{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:850}
+.nfl-home .feature-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+.nfl-home .feature{display:block;padding:19px;border-radius:14px;border:1px solid var(--line);background:#10202c;transition:border-color .15s,transform .15s}
+.nfl-home .feature:hover{border-color:#497365;transform:translateY(-2px)}
+.nfl-home .feature h3{margin:0 0 5px}.nfl-home .feature p{color:var(--muted);margin:0;font-size:13px}
+.nfl-home .footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);border-top:1px solid var(--line);margin-top:34px;padding-top:16px;font-size:12px}
+@media(max-width:900px){.nfl-home .tools{grid-template-columns:repeat(2,minmax(0,1fr))}.nfl-home .feature-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.nfl-home{padding:16px 10px 32px}.league-logo{width:50px;height:50px}.league-brand-copy{overflow-wrap:anywhere}.nfl-home .topbar{align-items:flex-start}.nfl-home .league-nav{justify-content:flex-start;gap:4px;width:100%}.nfl-home .league-nav a{padding:7px 8px}.nfl-home .hero{padding:22px 0 18px}.nfl-home .sub{font-size:14px}.nfl-home .tools{grid-template-columns:1fr}.nfl-home .tool{min-height:unset}.nfl-home .button{flex:1}.nfl-home .healthbar{align-items:flex-start}.nfl-home .section-title h2{font-size:21px}}
