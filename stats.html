@@ -27,12 +27,12 @@
       <div class="stats-control-grid">
         <label>Season<select id="seasonFilter"></select></label>
         <label>Competition<select id="competitionFilter"></select></label>
-        <label>Matchweek<select id="matchweekFilter"></select></label>
-        <label>Statistics <span>(⌘/Ctrl-click to select multiple)</span><select id="statisticFilter" multiple size="5" aria-label="Select multiple statistics"></select></label>
+        
+        <label>Statistics<select id="statisticFilter" aria-label="Choose a statistic"></select></label>
         <label>Team<select id="teamFilter"></select></label>
         <label>Find player<input id="playerFilter" type="search" placeholder="e.g. Mohamed Salah" autocomplete="off"></label>
       </div>
-      <div class="selected-weeks">
+      <div class="selected-weeks"><h2 class="visually-hidden">Matchweeks included in totals and trends</h2>
         <div class="week-heading"><div><h2>Matchweeks included in totals and trends</h2><p id="selectedWeekSummary">Choose one or more matchweeks.</p></div><span class="availability-pill" id="weekCount">0 selected</span></div>
         <div class="week-chips" id="weekChips"></div>
         <div class="week-actions"><button class="button-secondary" id="selectAllWeeks" type="button">Select all available matchweeks</button><button class="button-secondary" id="clearWeeks" type="button">Clear selection</button></div>
@@ -52,6 +52,6 @@
     </section>
     <footer class="footer"><span>Independent football &amp; soccer statistics project</span><span><a href="./health.html">Data status</a></span></footer>
   </main>
-  <script src="./stats.js?v=multi-stat-1" defer></script>
+  <script src="./stats.js?v=season-week-dropdown-2" defer></script>
 </body>
 </html>
