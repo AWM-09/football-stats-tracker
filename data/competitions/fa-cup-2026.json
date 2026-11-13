@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-13T04:52:24Z",
+  "generatedAt": "2026-11-13T23:40:27Z",
   "fixtures": [
     {
       "id": "openmatchday-fa-cup-2026-09-22-braintree-needham-market",
@@ -3420,19 +3420,19 @@
       }
     },
     {
-      "id": "openmatchday-fa-cup-2026-12-05-afc-fylde-luton",
-      "date": "2026-12-05",
+      "id": "openmatchday-fa-cup-2026-12-04-wimborne-bradford-city",
+      "date": "2026-12-04",
       "timestamp": null,
       "round": "Matchday 1",
       "status": "NS",
       "statusLong": "Scheduled",
       "home": {
-        "id": "afc-fylde",
-        "name": "AFC Fylde"
+        "id": "wimborne",
+        "name": "Wimborne"
       },
       "away": {
-        "id": "luton",
-        "name": "Luton"
+        "id": "bradford-city",
+        "name": "Bradford City"
       },
       "goals": {
         "home": null,
@@ -3516,30 +3516,6 @@
       }
     },
     {
-      "id": "openmatchday-fa-cup-2026-12-05-crewe-plymouth",
-      "date": "2026-12-05",
-      "timestamp": null,
-      "round": "Matchday 1",
-      "status": "NS",
-      "statusLong": "Scheduled",
-      "home": {
-        "id": "crewe",
-        "name": "Crewe"
-      },
-      "away": {
-        "id": "plymouth",
-        "name": "Plymouth"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "halftime": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
       "id": "openmatchday-fa-cup-2026-12-05-dover-leicester",
       "date": "2026-12-05",
       "timestamp": null,
@@ -3601,54 +3577,6 @@
       "away": {
         "id": "oldham",
         "name": "Oldham"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "halftime": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": "openmatchday-fa-cup-2026-12-05-guiseley-notts-county",
-      "date": "2026-12-05",
-      "timestamp": null,
-      "round": "Matchday 1",
-      "status": "NS",
-      "statusLong": "Scheduled",
-      "home": {
-        "id": "guiseley",
-        "name": "Guiseley"
-      },
-      "away": {
-        "id": "notts-county",
-        "name": "Notts County"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "halftime": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": "openmatchday-fa-cup-2026-12-05-plymouth-parkway-barnet",
-      "date": "2026-12-05",
-      "timestamp": null,
-      "round": "Matchday 1",
-      "status": "NS",
-      "statusLong": "Scheduled",
-      "home": {
-        "id": "plymouth-parkway",
-        "name": "Plymouth Parkway"
-      },
-      "away": {
-        "id": "barnet",
-        "name": "Barnet"
       },
       "goals": {
         "home": null,
@@ -3756,30 +3684,6 @@
       }
     },
     {
-      "id": "openmatchday-fa-cup-2026-12-05-salisbury-blackpool",
-      "date": "2026-12-05",
-      "timestamp": null,
-      "round": "Matchday 1",
-      "status": "NS",
-      "statusLong": "Scheduled",
-      "home": {
-        "id": "salisbury",
-        "name": "Salisbury"
-      },
-      "away": {
-        "id": "blackpool",
-        "name": "Blackpool"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "halftime": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
       "id": "openmatchday-fa-cup-2026-12-05-shrewsbury-burton",
       "date": "2026-12-05",
       "timestamp": null,
@@ -3828,30 +3732,6 @@
       }
     },
     {
-      "id": "openmatchday-fa-cup-2026-12-05-wimborne-bradford-city",
-      "date": "2026-12-05",
-      "timestamp": null,
-      "round": "Matchday 1",
-      "status": "NS",
-      "statusLong": "Scheduled",
-      "home": {
-        "id": "wimborne",
-        "name": "Wimborne"
-      },
-      "away": {
-        "id": "bradford-city",
-        "name": "Bradford City"
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "halftime": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
       "id": "openmatchday-fa-cup-2026-12-05-wycombe-mk-dons",
       "date": "2026-12-05",
       "timestamp": null,
@@ -3889,6 +3769,126 @@
       "away": {
         "id": "carlisle",
         "name": "Carlisle"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-fa-cup-2026-12-06-afc-fylde-luton",
+      "date": "2026-12-06",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "afc-fylde",
+        "name": "AFC Fylde"
+      },
+      "away": {
+        "id": "luton",
+        "name": "Luton"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-fa-cup-2026-12-06-crewe-plymouth",
+      "date": "2026-12-06",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "crewe",
+        "name": "Crewe"
+      },
+      "away": {
+        "id": "plymouth",
+        "name": "Plymouth"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-fa-cup-2026-12-06-plymouth-parkway-barnet",
+      "date": "2026-12-06",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "plymouth-parkway",
+        "name": "Plymouth Parkway"
+      },
+      "away": {
+        "id": "barnet",
+        "name": "Barnet"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-fa-cup-2026-12-06-salisbury-blackpool",
+      "date": "2026-12-06",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "salisbury",
+        "name": "Salisbury"
+      },
+      "away": {
+        "id": "blackpool",
+        "name": "Blackpool"
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "halftime": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "openmatchday-fa-cup-2026-12-07-guiseley-notts-county",
+      "date": "2026-12-07",
+      "timestamp": null,
+      "round": "Matchday 1",
+      "status": "NS",
+      "statusLong": "Scheduled",
+      "home": {
+        "id": "guiseley",
+        "name": "Guiseley"
+      },
+      "away": {
+        "id": "notts-county",
+        "name": "Notts County"
       },
       "goals": {
         "home": null,
@@ -8561,18 +8561,18 @@
     "fixtures": {
       "available": true,
       "rows": 162,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     },
     "standings": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-13T04:52:24Z",
+      "fetchedAt": "2026-11-13T23:40:27Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 166,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     },
     "players": {
       "available": false,
@@ -8587,7 +8587,7 @@
     "fixtureStats": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     }
   }
 }

@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-13T04:52:24Z",
+  "generatedAt": "2026-11-13T23:40:27Z",
   "fixtures": [
     {
       "id": "openmatchday-la-liga-2026-08-15-deportivo-alav-s-getafe-cf",
@@ -16143,18 +16143,18 @@
     "fixtures": {
       "available": true,
       "rows": 380,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     },
     "standings": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-13T04:52:24Z",
+      "fetchedAt": "2026-11-13T23:40:27Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 20,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     },
     "players": {
       "available": false,
@@ -16169,7 +16169,7 @@
     "fixtureStats": {
       "available": true,
       "rows": 119,
-      "fetchedAt": "2026-11-13T04:52:24Z"
+      "fetchedAt": "2026-11-13T23:40:27Z"
     }
   }
 }
