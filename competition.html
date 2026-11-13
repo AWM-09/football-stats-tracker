@@ -4,25 +4,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#09111a">
+  <meta name="description" content="Competition statistics, teams, players, fixtures and records from AlexMyrusTalksSports Football/Soccer.">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./styles.css">
-  <title>Competition Hub | Football & Soccer</title>
+  <title>League Hub | Football/Soccer</title>
 </head>
 <body>
-  <main>
+  <main class="nfl-home">
     <header class="topbar">
-      <a class="brand" href="./index.html" aria-label="Football Stats Tracker home"><span class="brand-mark" aria-hidden="true">⚽</span><span><span class="eyebrow">AlexMyrusTalksSports</span><strong>Football <span class="brand-divider">/</span> Soccer</strong></span></a>
-      <nav class="nav" aria-label="Main navigation"><a href="./index.html">Competitions</a><a href="./stats.html">Stats tracker</a><a href="./competition.html?view=teams">Teams</a><a href="./competition.html?view=players">Players</a><a href="./competition.html?view=calendar">Calendar</a><a href="./competition.html?view=records">Records</a><a href="./health.html">Data status</a></nav>
+      <a class="brand" href="./index.html" aria-label="AlexMyrusTalksSports home">
+        <img class="league-logo" src="https://avatarsapi.com/youtube/@AlexMyrusTalksSports?size=160" alt="AlexMyrusTalksSports logo" onerror="this.style.display='none'">
+        <span class="league-brand-copy"><span class="eyebrow">Independent Football/Soccer analytics</span><strong>AlexMyrusTalksSports</strong></span>
+      </a>
+      <nav class="nav league-nav" id="competitionNav" aria-label="Main navigation"></nav>
     </header>
-    <a class="back-link" href="./index.html">← All competitions</a>
-    <section class="competition-hero" id="competitionHero" aria-live="polite"></section>
-    <section class="directory competition-tools" aria-labelledby="competitionToolsTitle"><div class="section-heading"><div><h2 id="competitionToolsTitle">Explore the platform</h2><p>Choose a tool for this competition.</p></div></div><div class="competition-grid league-hub-grid" id="competitionTools"></div></section>
-    <section class="competition-content">
+    <a class="back-link league-back" href="./index.html">← All leagues and competitions</a>
+
+    <div id="leagueHomeShell">
+      <section class="hero" id="competitionHero" aria-live="polite"></section>
+      <div class="healthbar" id="competitionHealth" aria-live="polite">
+        <span class="league-health-dot" id="healthDot"></span>
+        <strong id="healthLabel">Checking data status…</strong>
+        <span id="healthDetail">Reading the latest published data for this competition.</span>
+        <a id="healthLink" href="./health.html">View data status ↗</a>
+      </div>
+      <div class="section-title">
+        <div><h2>Explore the platform</h2><p>Choose a tool for this competition.</p></div>
+      </div>
+      <section class="tools" id="competitionTools" aria-label="Competition tools"></section>
+      <div class="section-title">
+        <div><h2>Built for more than browsing stats</h2><p>Follow clubs, players, fixtures and season history in one place.</p></div>
+      </div>
+      <section class="feature-grid" id="competitionFeatures"></section>
+    </div>
+
+    <section class="competition-content" id="competitionContent" hidden>
       <div class="tab-row" id="competitionTabs" role="tablist" aria-label="Competition sections"></div>
       <div id="competitionPanel" class="panel" role="tabpanel" aria-live="polite"></div>
     </section>
-    <footer class="footer"><span>Independent football &amp; soccer statistics project</span><span><a href="./health.html">Data status</a></span></footer>
+    <footer class="footer">
+      <span>AlexMyrusTalksSports · Independent Football/Soccer statistics project</span>
+      <span>Values are shown when supplied by the published data sources.</span>
+      <span><a href="https://www.youtube.com/@AlexMyrusTalksSports" target="_blank" rel="noopener noreferrer">AlexMyrusTalksSports on YouTube ↗</a></span>
+    </footer>
   </main>
-  <script src="./app.js?v=pl-hub-3" defer></script>
+  <script src="./app.js?v=league-home-nfl-1" defer></script>
 </body>
 </html>
