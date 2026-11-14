@@ -9,7 +9,7 @@
   "seasonLabel": "1993/94",
   "provider": "Football datasets (PDDL; sourced from Football-Data.co.uk)",
   "sourceUrl": "https://github.com/datasets/football-datasets/tree/main/datasets/premier-league",
-  "generatedAt": "2026-11-13T23:40:27Z",
+  "generatedAt": "2026-11-14T00:02:13Z",
   "fixtures": [
     {
       "id": "football-data-premier-league-1993-1",
@@ -11928,18 +11928,18 @@
       "available": true,
       "rows": 462,
       "completed": 462,
-      "fetchedAt": "2026-11-13T23:40:27Z"
+      "fetchedAt": "2026-11-14T00:02:13Z"
     },
     "standings": {
       "available": true,
       "rows": 22,
-      "fetchedAt": "2026-11-13T23:40:27Z",
+      "fetchedAt": "2026-11-14T00:02:13Z",
       "note": "Calculated from completed match results."
     },
     "teams": {
       "available": true,
       "rows": 22,
-      "fetchedAt": "2026-11-13T23:40:27Z"
+      "fetchedAt": "2026-11-14T00:02:13Z"
     },
     "players": {
       "available": false,
@@ -11954,7 +11954,7 @@
     "fixtureStats": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-13T23:40:27Z",
+      "fetchedAt": "2026-11-14T00:02:13Z",
       "note": "Only statistics published for a match are included."
     }
   }
