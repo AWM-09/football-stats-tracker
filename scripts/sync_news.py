@@ -7,7 +7,7 @@ import json
 import urllib.request
 import xml.etree.ElementTree as ET
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data' / 'news.json'
 FEED = 'https://feeds.bbci.co.uk/sport/football/rss.xml'
 
