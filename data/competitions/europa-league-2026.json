@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "open-matchday (non-commercial use; attribution required)",
   "sourceUrl": "https://github.com/oladeeayo/open-matchday",
-  "generatedAt": "2026-11-14T00:02:13Z",
+  "generatedAt": "2026-11-14T07:53:15Z",
   "fixtures": [
     {
       "id": "openmatchday-europa-league-2026-09-16-ararat-armenia-sparta-praha",
@@ -6619,18 +6619,18 @@
     "fixtures": {
       "available": true,
       "rows": 144,
-      "fetchedAt": "2026-11-14T00:02:13Z"
+      "fetchedAt": "2026-11-14T07:53:15Z"
     },
     "standings": {
       "available": true,
       "rows": 36,
-      "fetchedAt": "2026-11-14T00:02:13Z",
+      "fetchedAt": "2026-11-14T07:53:15Z",
       "note": "Calculated from the source's completed match results."
     },
     "teams": {
       "available": true,
       "rows": 36,
-      "fetchedAt": "2026-11-14T00:02:13Z"
+      "fetchedAt": "2026-11-14T07:53:15Z"
     },
     "players": {
       "available": false,
@@ -6645,7 +6645,7 @@
     "fixtureStats": {
       "available": false,
       "rows": 0,
-      "fetchedAt": "2026-11-14T00:02:13Z"
+      "fetchedAt": "2026-11-14T07:53:15Z"
     }
   }
 }

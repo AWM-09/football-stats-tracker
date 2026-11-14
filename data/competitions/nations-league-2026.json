@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "FixtureDownload schedule + Cornerflick match reports (CC BY 4.0)",
   "sourceUrl": "https://fixturedownload.com/feed/json/nations-league-2026",
-  "generatedAt": "2026-11-14T00:02:13Z",
+  "generatedAt": "2026-11-14T07:53:15Z",
   "fixtures": [
     {
       "id": "nations-league-79",
@@ -59093,7 +59093,7 @@
     "fixtures": {
       "available": true,
       "rows": 156,
-      "fetchedAt": "2026-11-14T00:02:13Z"
+      "fetchedAt": "2026-11-14T07:53:15Z"
     },
     "standings": {
       "available": true,
@@ -59103,7 +59103,7 @@
     "teams": {
       "available": true,
       "rows": 54,
-      "fetchedAt": "2026-11-14T00:02:13Z"
+      "fetchedAt": "2026-11-14T07:53:15Z"
     },
     "players": {
       "available": true,
