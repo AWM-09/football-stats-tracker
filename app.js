@@ -82,6 +82,7 @@ function initCompetitionPage(){
   function renderCompetitionTools(){
     if(!tools)return;
     const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
+    const platformHref=page=>`./${page}.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     const statHref=`./stats.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     const cards=[
       ["📊","Core statistics",`${item.name} Stats`,"Weekly leaders, season totals, team comparisons, trends and statistical records.",statHref],
@@ -91,6 +92,15 @@ function initCompetitionPage(){
       ["🗓️","Match centre","Calendar & Results","Search fixtures by club or round and open the published match details.",tabHref("Fixtures & Results")],
       ["⚔️","Matchups","Head to Head","Compare clubs across their meetings in the selected season.",tabHref("Head to Head")],
       ["📈","Season records","Records & Milestones","Explore highest scoring matches, largest margins and top scorers.",tabHref("Records")],
+      ["📉","Deep analytics","Advanced Stats Lab","Explore xG, xA, shots, passing and defensive metrics.",platformHref("advanced")],
+      ["🔎","Historical research","Research Lab","Compare player and team histories across published seasons.",platformHref("research")],
+      ["🎯","Weekly preview","Weekly Picks","Review match probabilities and save forecasts.",platformHref("weekly")],
+      ["✅","Model evaluation","Prediction Accuracy","Review saved predictions as results arrive.",platformHref("accuracy")],
+      ["⭐","Your shortlist","Favorites","Save players and clubs in this browser.",platformHref("favorites")],
+      ["📰","League updates","Football News","Read football headlines from linked publishers.",platformHref("news")],
+      ["🎙️","Research & storytelling","Commentary Box","Write and save your own analysis.",platformHref("commentary")],
+      ["🧠","Tactics","Playbook Lab","Explore formations, pressing and team structure.",platformHref("playbook")],
+      ["📖","Education","Football Rulebook","Browse the Laws of the Game.",platformHref("rulebook")],
       ["🛠️","Reliability","Data Status","Review source coverage, refresh times and available statistics.",`./health.html?competition=${encodeURIComponent(item.id)}`]
     ];
     tools.innerHTML=cards.map(([icon,category,title,description,href])=>`<a class="tool" href="${href}"><div class="tool-top"><span class="iconbox">${icon}</span><span class="tag">${esc(category)}</span><span class="arrow">↗</span></div><h3>${esc(title)}</h3><p>${esc(description)}</p></a>`).join("");
@@ -167,10 +177,11 @@ function initCompetitionPage(){
     const selected=seasons.includes(String(selectedSeason))?String(selectedSeason):(seasons.includes(String(currentYear))?String(currentYear):seasons[0]);selectedSeason=selected;
     const labelFor=year=>year===String(currentYear)?item.season:(coverage?.competitions?.[item.id]?.seasonLabels?.[year]||year);
     const tabHref=tab=>`./competition.html?id=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}&tab=${encodeURIComponent(tab)}`;
+    const platformHref=page=>`./${page}.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     const statHref=`./stats.html?competition=${encodeURIComponent(item.id)}&season=${encodeURIComponent(selectedSeason)}`;
     renderCompetitionTools();
     if(nav)nav.innerHTML=[
-      ["Stats Tracker",statHref],["Players",tabHref("Players")],["Teams",tabHref("Teams")],["Standings",tabHref("Standings")],["Match Centre",tabHref("Fixtures & Results")],["Records",tabHref("Records")],["Data Status",`./health.html?competition=${encodeURIComponent(item.id)}`]
+      ["Stats Tracker",statHref],["Players",tabHref("Players")],["Teams",tabHref("Teams")],["Favorites",platformHref("favorites")],["Advanced Lab",platformHref("advanced")],["Research",platformHref("research")],["Match Centre",tabHref("Fixtures & Results")],["Data Status",`./health.html?competition=${encodeURIComponent(item.id)}`]
     ].map(([label,href])=>`<a href="${href}">${esc(label)}</a>`).join("");
     if(features)features.innerHTML=`<a class="feature" href="${tabHref("Standings")}"><h3>${esc(item.name)} table and form ↗</h3><p>Review positions, points, recent results and the teams shaping this season.</p></a><a class="feature" href="./health.html?competition=${encodeURIComponent(item.id)}"><h3>Transparent data coverage ↗</h3><p>See which seasons and statistics are available, when data was refreshed, and where gaps remain.</p></a>`;
     hero.innerHTML=`<div class="eyebrow">${esc(item.name)} data workspace</div><h1 class="title">Understand the game.<br><span>Beyond the table.</span></h1><p class="sub">Explore ${esc(item.name)} standings, player performances, club statistics, match data and season records in one connected Football/Soccer workspace.</p><div class="hero-actions"><a class="button primary" href="${statHref}">Open ${esc(item.name)} Stats ↗</a><a class="button" href="${tabHref("Players")}">Explore Player Profiles ↗</a><a class="button" href="${tabHref("Fixtures & Results")}">Open Match Centre ↗</a></div><div class="hero-meta"><span class="status-dot pending" id="heroSnapshotDot"></span><span id="heroSnapshotLabel">${esc(labelFor(selectedSeason))} data snapshot</span><span class="meta-sep">·</span><label class="home-season" for="seasonSelect">Season<select id="seasonSelect">${seasons.map(year=>`<option value="${esc(year)}" ${year===selected?"selected":""}>${esc(labelFor(year))}</option>`).join("")}</select></label></div>`;
