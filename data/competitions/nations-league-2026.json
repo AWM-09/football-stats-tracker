@@ -9,7 +9,7 @@
   "seasonLabel": "2026/27",
   "provider": "FixtureDownload schedule + Cornerflick match reports (CC BY 4.0)",
   "sourceUrl": "https://fixturedownload.com/feed/json/nations-league-2026",
-  "generatedAt": "2026-11-14T07:53:15Z",
+  "generatedAt": "2026-11-15T04:48:47Z",
   "fixtures": [
     {
       "id": "nations-league-79",
@@ -2701,8 +2701,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B3",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-kosovo",
         "name": "Kosovo"
@@ -2712,8 +2712,8 @@
         "name": "Israel"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "venue": "Stadiumi Fadil Vokrri"
     },
@@ -2723,8 +2723,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group A4",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-norway",
         "name": "Norway"
@@ -2734,8 +2734,8 @@
         "name": "Wales"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "venue": "Ullevaal Stadion"
     },
@@ -2745,8 +2745,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B2",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-georgia",
         "name": "Georgia"
@@ -2756,8 +2756,8 @@
         "name": "Hungary"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "venue": "Boris Paichadze National Stadium Dinamo Arena"
     },
@@ -2767,8 +2767,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B4",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-sweden",
         "name": "Sweden"
@@ -2778,8 +2778,8 @@
         "name": "Bosnia and Herzegovina"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "venue": "Strawberry Arena"
     },
@@ -2789,8 +2789,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B4",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-romania",
         "name": "Romania"
@@ -2800,8 +2800,8 @@
         "name": "Poland"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "venue": "National Arena Bucharest"
     },
@@ -2811,8 +2811,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group A4",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-portugal",
         "name": "Portugal"
@@ -2822,8 +2822,8 @@
         "name": "Denmark"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 4
       },
       "venue": "Estádio Municipal de Braga"
     },
@@ -2833,8 +2833,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B3",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-austria",
         "name": "Austria"
@@ -2844,8 +2844,8 @@
         "name": "Republic of Ireland"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "venue": "Oberösterreich Arena"
     },
@@ -2855,8 +2855,8 @@
       "timestamp": null,
       "round": "Matchday 5",
       "group": "Group B2",
-      "status": "NS",
-      "statusLong": "Scheduled",
+      "status": "FT",
+      "statusLong": "Finished",
       "home": {
         "id": "nation-northern-ireland",
         "name": "Northern Ireland"
@@ -2866,8 +2866,8 @@
         "name": "Ukraine"
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "venue": "National Football Stadium at Windsor Park"
     },
@@ -3834,57 +3834,57 @@
     {
       "teamId": "nation-portugal",
       "team": "Portugal",
-      "played": 4,
+      "played": 5,
       "won": 4,
       "drawn": 0,
-      "lost": 0,
-      "goalsFor": 9,
-      "goalsAgainst": 4,
+      "lost": 1,
+      "goalsFor": 10,
+      "goalsAgainst": 8,
       "points": 12,
       "rank": 1,
-      "goalDifference": 5,
+      "goalDifference": 2,
       "group": "Group A4"
     },
     {
       "teamId": "nation-denmark",
       "team": "Denmark",
-      "played": 4,
-      "won": 2,
+      "played": 5,
+      "won": 3,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 7,
-      "points": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 8,
+      "points": 9,
       "rank": 2,
-      "goalDifference": 0,
+      "goalDifference": 3,
       "group": "Group A4"
     },
     {
       "teamId": "nation-norway",
       "team": "Norway",
-      "played": 4,
-      "won": 1,
+      "played": 5,
+      "won": 2,
       "drawn": 0,
       "lost": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 8,
-      "points": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 9,
+      "points": 6,
       "rank": 3,
-      "goalDifference": -2,
+      "goalDifference": 0,
       "group": "Group A4"
     },
     {
       "teamId": "nation-wales",
       "team": "Wales",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 0,
-      "lost": 3,
-      "goalsFor": 2,
-      "goalsAgainst": 5,
+      "lost": 4,
+      "goalsFor": 3,
+      "goalsAgainst": 8,
       "points": 3,
       "rank": 4,
-      "goalDifference": -3,
+      "goalDifference": -5,
       "group": "Group A4"
     },
     {
@@ -3946,111 +3946,111 @@
     {
       "teamId": "nation-northern-ireland",
       "team": "Northern Ireland",
-      "played": 4,
-      "won": 2,
+      "played": 5,
+      "won": 3,
       "drawn": 2,
       "lost": 0,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 0,
-      "points": 8,
+      "points": 11,
       "rank": 1,
-      "goalDifference": 4,
+      "goalDifference": 5,
       "group": "Group B2"
     },
     {
       "teamId": "nation-hungary",
       "team": "Hungary",
-      "played": 4,
-      "won": 2,
+      "played": 5,
+      "won": 3,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 3,
+      "goalsFor": 5,
       "goalsAgainst": 2,
-      "points": 7,
+      "points": 10,
       "rank": 2,
-      "goalDifference": 1,
+      "goalDifference": 3,
       "group": "Group B2"
     },
     {
       "teamId": "nation-ukraine",
       "team": "Ukraine",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 1,
-      "lost": 2,
+      "lost": 3,
       "goalsFor": 2,
-      "goalsAgainst": 5,
+      "goalsAgainst": 6,
       "points": 4,
       "rank": 3,
-      "goalDifference": -3,
+      "goalDifference": -4,
       "group": "Group B2"
     },
     {
       "teamId": "nation-georgia",
       "team": "Georgia",
-      "played": 4,
+      "played": 5,
       "won": 0,
       "drawn": 2,
-      "lost": 2,
+      "lost": 3,
       "goalsFor": 0,
-      "goalsAgainst": 2,
+      "goalsAgainst": 4,
       "points": 2,
       "rank": 4,
-      "goalDifference": -2,
+      "goalDifference": -4,
       "group": "Group B2"
     },
     {
       "teamId": "nation-austria",
       "team": "Austria",
-      "played": 4,
-      "won": 2,
+      "played": 5,
+      "won": 3,
       "drawn": 2,
       "lost": 0,
-      "goalsFor": 9,
+      "goalsFor": 10,
       "goalsAgainst": 5,
-      "points": 8,
+      "points": 11,
       "rank": 1,
-      "goalDifference": 4,
-      "group": "Group B3"
-    },
-    {
-      "teamId": "nation-republic-of-ireland",
-      "team": "Republic of Ireland",
-      "played": 4,
-      "won": 1,
-      "drawn": 2,
-      "lost": 1,
-      "goalsFor": 6,
-      "goalsAgainst": 4,
-      "points": 5,
-      "rank": 2,
-      "goalDifference": 2,
+      "goalDifference": 5,
       "group": "Group B3"
     },
     {
       "teamId": "nation-kosovo",
       "team": "Kosovo",
-      "played": 4,
+      "played": 5,
       "won": 1,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 1,
       "goalsFor": 3,
       "goalsAgainst": 4,
+      "points": 6,
+      "rank": 2,
+      "goalDifference": -1,
+      "group": "Group B3"
+    },
+    {
+      "teamId": "nation-republic-of-ireland",
+      "team": "Republic of Ireland",
+      "played": 5,
+      "won": 1,
+      "drawn": 2,
+      "lost": 2,
+      "goalsFor": 6,
+      "goalsAgainst": 5,
       "points": 5,
       "rank": 3,
-      "goalDifference": -1,
+      "goalDifference": 1,
       "group": "Group B3"
     },
     {
       "teamId": "nation-israel",
       "team": "Israel",
-      "played": 4,
+      "played": 5,
       "won": 0,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 2,
       "goalsFor": 2,
       "goalsAgainst": 7,
-      "points": 2,
+      "points": 3,
       "rank": 4,
       "goalDifference": -5,
       "group": "Group B3"
@@ -4058,57 +4058,57 @@
     {
       "teamId": "nation-sweden",
       "team": "Sweden",
-      "played": 4,
-      "won": 3,
+      "played": 5,
+      "won": 4,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "points": 10,
+      "goalsFor": 10,
+      "goalsAgainst": 5,
+      "points": 13,
       "rank": 1,
-      "goalDifference": 4,
+      "goalDifference": 5,
       "group": "Group B4"
     },
     {
       "teamId": "nation-bosnia-and-herzegovina",
       "team": "Bosnia and Herzegovina",
-      "played": 4,
+      "played": 5,
       "won": 2,
       "drawn": 2,
-      "lost": 0,
-      "goalsFor": 6,
-      "goalsAgainst": 3,
+      "lost": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
       "points": 8,
       "rank": 2,
-      "goalDifference": 3,
+      "goalDifference": 2,
       "group": "Group B4"
     },
     {
       "teamId": "nation-poland",
       "team": "Poland",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 1,
-      "lost": 2,
-      "goalsFor": 7,
-      "goalsAgainst": 4,
+      "lost": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
       "points": 4,
       "rank": 3,
-      "goalDifference": 3,
+      "goalDifference": 2,
       "group": "Group B4"
     },
     {
       "teamId": "nation-romania",
       "team": "Romania",
-      "played": 4,
-      "won": 0,
+      "played": 5,
+      "won": 1,
       "drawn": 0,
       "lost": 4,
-      "goalsFor": 3,
-      "goalsAgainst": 13,
-      "points": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 14,
+      "points": 3,
       "rank": 4,
-      "goalDifference": -10,
+      "goalDifference": -9,
       "group": "Group B4"
     },
     {
@@ -4461,17 +4461,17 @@
     },
     "nation-portugal": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 4,
         "draws": 0,
-        "loses": 0
+        "loses": 1
       },
       "goals": {
         "for": {
-          "total": 9
+          "total": 10
         },
         "against": {
-          "total": 4
+          "total": 8
         }
       },
       "clean_sheet": {
@@ -4480,17 +4480,17 @@
     },
     "nation-wales": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 1,
         "draws": 0,
-        "loses": 3
+        "loses": 4
       },
       "goals": {
         "for": {
-          "total": 2
+          "total": 3
         },
         "against": {
-          "total": 5
+          "total": 8
         }
       },
       "clean_sheet": {
@@ -4575,17 +4575,17 @@
     },
     "nation-norway": {
       "fixtures": {
-        "played": 4,
-        "wins": 1,
+        "played": 5,
+        "wins": 2,
         "draws": 0,
         "loses": 3
       },
       "goals": {
         "for": {
-          "total": 6
+          "total": 9
         },
         "against": {
-          "total": 8
+          "total": 9
         }
       },
       "clean_sheet": {
@@ -4594,17 +4594,17 @@
     },
     "nation-denmark": {
       "fixtures": {
-        "played": 4,
-        "wins": 2,
+        "played": 5,
+        "wins": 3,
         "draws": 0,
         "loses": 2
       },
       "goals": {
         "for": {
-          "total": 7
+          "total": 11
         },
         "against": {
-          "total": 7
+          "total": 8
         }
       },
       "clean_sheet": {
@@ -4613,28 +4613,28 @@
     },
     "nation-austria": {
       "fixtures": {
-        "played": 4,
-        "wins": 2,
+        "played": 5,
+        "wins": 3,
         "draws": 2,
         "loses": 0
       },
       "goals": {
         "for": {
-          "total": 9
+          "total": 10
         },
         "against": {
           "total": 5
         }
       },
       "clean_sheet": {
-        "total": 0
+        "total": 1
       }
     },
     "nation-israel": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 0,
-        "draws": 2,
+        "draws": 3,
         "loses": 2
       },
       "goals": {
@@ -4646,14 +4646,14 @@
         }
       },
       "clean_sheet": {
-        "total": 1
+        "total": 2
       }
     },
     "nation-kosovo": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 1,
-        "draws": 2,
+        "draws": 3,
         "loses": 1
       },
       "goals": {
@@ -4665,22 +4665,22 @@
         }
       },
       "clean_sheet": {
-        "total": 2
+        "total": 3
       }
     },
     "nation-republic-of-ireland": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 1,
         "draws": 2,
-        "loses": 1
+        "loses": 2
       },
       "goals": {
         "for": {
           "total": 6
         },
         "against": {
-          "total": 4
+          "total": 5
         }
       },
       "clean_sheet": {
@@ -4727,17 +4727,17 @@
     },
     "nation-georgia": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 0,
         "draws": 2,
-        "loses": 2
+        "loses": 3
       },
       "goals": {
         "for": {
           "total": 0
         },
         "against": {
-          "total": 2
+          "total": 4
         }
       },
       "clean_sheet": {
@@ -4746,21 +4746,21 @@
     },
     "nation-northern-ireland": {
       "fixtures": {
-        "played": 4,
-        "wins": 2,
+        "played": 5,
+        "wins": 3,
         "draws": 2,
         "loses": 0
       },
       "goals": {
         "for": {
-          "total": 4
+          "total": 5
         },
         "against": {
           "total": 0
         }
       },
       "clean_sheet": {
-        "total": 4
+        "total": 5
       }
     },
     "nation-armenia": {
@@ -4879,36 +4879,36 @@
     },
     "nation-hungary": {
       "fixtures": {
-        "played": 4,
-        "wins": 2,
+        "played": 5,
+        "wins": 3,
         "draws": 1,
         "loses": 1
       },
       "goals": {
         "for": {
-          "total": 3
+          "total": 5
         },
         "against": {
           "total": 2
         }
       },
       "clean_sheet": {
-        "total": 2
+        "total": 3
       }
     },
     "nation-ukraine": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 1,
         "draws": 1,
-        "loses": 2
+        "loses": 3
       },
       "goals": {
         "for": {
           "total": 2
         },
         "against": {
-          "total": 5
+          "total": 6
         }
       },
       "clean_sheet": {
@@ -4917,17 +4917,17 @@
     },
     "nation-poland": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 1,
         "draws": 1,
-        "loses": 2
+        "loses": 3
       },
       "goals": {
         "for": {
-          "total": 7
+          "total": 8
         },
         "against": {
-          "total": 4
+          "total": 6
         }
       },
       "clean_sheet": {
@@ -4936,17 +4936,17 @@
     },
     "nation-bosnia-and-herzegovina": {
       "fixtures": {
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 2,
-        "loses": 0
+        "loses": 1
       },
       "goals": {
         "for": {
-          "total": 6
+          "total": 8
         },
         "against": {
-          "total": 3
+          "total": 6
         }
       },
       "clean_sheet": {
@@ -4955,17 +4955,17 @@
     },
     "nation-sweden": {
       "fixtures": {
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "loses": 0
       },
       "goals": {
         "for": {
-          "total": 7
+          "total": 10
         },
         "against": {
-          "total": 3
+          "total": 5
         }
       },
       "clean_sheet": {
@@ -4974,17 +4974,17 @@
     },
     "nation-romania": {
       "fixtures": {
-        "played": 4,
-        "wins": 0,
+        "played": 5,
+        "wins": 1,
         "draws": 0,
         "loses": 4
       },
       "goals": {
         "for": {
-          "total": 3
+          "total": 5
         },
         "against": {
-          "total": 13
+          "total": 14
         }
       },
       "clean_sheet": {
@@ -5449,6 +5449,278 @@
     }
   },
   "fixtureStats": {
+    "nations-league-51": [
+      {
+        "teamId": "nation-austria",
+        "statistics": {
+          "Possession": 55,
+          "Shots": 21,
+          "Shots on Target": 8,
+          "xG": 2.44,
+          "Corners": 7,
+          "Offsides": 1,
+          "Saves": 7,
+          "Passes": 472,
+          "Fouls": 11,
+          "Yellow Cards": 3,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-republic-of-ireland",
+        "statistics": {
+          "Possession": 45,
+          "Shots": 16,
+          "Shots on Target": 7,
+          "xG": 0.98,
+          "Corners": 12,
+          "Offsides": 0,
+          "Saves": 7,
+          "Passes": 372,
+          "Fouls": 12,
+          "Yellow Cards": 2,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-49": [
+      {
+        "teamId": "nation-romania",
+        "statistics": {
+          "Possession": 45,
+          "Shots": 11,
+          "Shots on Target": 4,
+          "xG": 0.92,
+          "Corners": 4,
+          "Offsides": 2,
+          "Saves": 2,
+          "Passes": 337,
+          "Fouls": 21,
+          "Yellow Cards": 5,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-poland",
+        "statistics": {
+          "Possession": 55,
+          "Shots": 15,
+          "Shots on Target": 3,
+          "xG": 1.63,
+          "Corners": 7,
+          "Offsides": 0,
+          "Saves": 2,
+          "Passes": 400,
+          "Fouls": 16,
+          "Yellow Cards": 2,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-52": [
+      {
+        "teamId": "nation-northern-ireland",
+        "statistics": {
+          "Possession": 38,
+          "Shots": 15,
+          "Shots on Target": 5,
+          "xG": 1.63,
+          "Corners": 4,
+          "Offsides": 2,
+          "Saves": 2,
+          "Passes": 364,
+          "Fouls": 9,
+          "Yellow Cards": 1,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-ukraine",
+        "statistics": {
+          "Possession": 62,
+          "Shots": 7,
+          "Shots on Target": 2,
+          "xG": 0.86,
+          "Corners": 2,
+          "Offsides": 2,
+          "Saves": 4,
+          "Passes": 593,
+          "Fouls": 6,
+          "Yellow Cards": 0,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-50": [
+      {
+        "teamId": "nation-portugal",
+        "statistics": {
+          "Possession": 52,
+          "Shots": 15,
+          "Shots on Target": 8,
+          "xG": 0.82,
+          "Corners": 6,
+          "Offsides": 5,
+          "Saves": 1,
+          "Passes": 473,
+          "Fouls": 19,
+          "Yellow Cards": 2,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-denmark",
+        "statistics": {
+          "Possession": 48,
+          "Shots": 17,
+          "Shots on Target": 6,
+          "xG": 2.38,
+          "Corners": 7,
+          "Offsides": 1,
+          "Saves": 7,
+          "Passes": 446,
+          "Fouls": 4,
+          "Yellow Cards": 0,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-48": [
+      {
+        "teamId": "nation-sweden",
+        "statistics": {
+          "Possession": 42,
+          "Shots": 13,
+          "Shots on Target": 7,
+          "xG": 2.32,
+          "Corners": 3,
+          "Offsides": 2,
+          "Saves": 5,
+          "Passes": 361,
+          "Fouls": 10,
+          "Yellow Cards": 1,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-bosnia-and-herzegovina",
+        "statistics": {
+          "Possession": 58,
+          "Shots": 16,
+          "Shots on Target": 7,
+          "xG": 1.13,
+          "Corners": 7,
+          "Offsides": 3,
+          "Saves": 4,
+          "Passes": 476,
+          "Fouls": 10,
+          "Yellow Cards": 0,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-47": [
+      {
+        "teamId": "nation-georgia",
+        "statistics": {
+          "Possession": 53,
+          "Shots": 7,
+          "Shots on Target": 1,
+          "xG": 0.69,
+          "Corners": 8,
+          "Offsides": 3,
+          "Saves": 5,
+          "Passes": 406,
+          "Fouls": 10,
+          "Yellow Cards": 1,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-hungary",
+        "statistics": {
+          "Possession": 47,
+          "Shots": 12,
+          "Shots on Target": 6,
+          "xG": 1.56,
+          "Corners": 6,
+          "Offsides": 2,
+          "Saves": 1,
+          "Passes": 350,
+          "Fouls": 14,
+          "Yellow Cards": 2,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-46": [
+      {
+        "teamId": "nation-norway",
+        "statistics": {
+          "Possession": 55,
+          "Shots": 15,
+          "Shots on Target": 5,
+          "xG": 2.22,
+          "Corners": 8,
+          "Offsides": 2,
+          "Saves": 4,
+          "Passes": 602,
+          "Fouls": 8,
+          "Yellow Cards": 0,
+          "Red Cards": 0
+        }
+      },
+      {
+        "teamId": "nation-wales",
+        "statistics": {
+          "Possession": 45,
+          "Shots": 12,
+          "Shots on Target": 5,
+          "xG": 1.05,
+          "Corners": 2,
+          "Offsides": 0,
+          "Saves": 2,
+          "Passes": 503,
+          "Fouls": 9,
+          "Yellow Cards": 3,
+          "Red Cards": 0
+        }
+      }
+    ],
+    "nations-league-45": [
+      {
+        "teamId": "nation-kosovo",
+        "statistics": {
+          "Possession": 46,
+          "Shots": 16,
+          "Shots on Target": 3,
+          "xG": 1.18,
+          "Corners": 7,
+          "Offsides": 0,
+          "Saves": 3,
+          "Passes": 442,
+          "Fouls": 16,
+          "Yellow Cards": 0,
+          "Red Cards": 1
+        }
+      },
+      {
+        "teamId": "nation-israel",
+        "statistics": {
+          "Possession": 54,
+          "Shots": 6,
+          "Shots on Target": 3,
+          "xG": 0.35,
+          "Corners": 2,
+          "Offsides": 1,
+          "Saves": 3,
+          "Passes": 550,
+          "Fouls": 13,
+          "Yellow Cards": 4,
+          "Red Cards": 0
+        }
+      }
+    ],
     "nations-league-41": [
       {
         "teamId": "nation-netherlands",
@@ -9347,6 +9619,1386 @@
     ]
   },
   "events": {
+    "nations-league-51": [
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Romano Schmid",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Jack Moylan",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Substitution",
+        "detail": "On: Sasa Kalajdzic",
+        "player": "Christoph Lang",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Substitution",
+        "detail": "On: Chiedozie Ogbene",
+        "player": "Adam Idah",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Substitution",
+        "detail": "On: Jake O'Brien",
+        "player": "Ryan Manning",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 69,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Substitution",
+        "detail": "On: Harvey Vale",
+        "player": "Jack Moylan",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Jake O'Brien",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Konrad Laimer",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Substitution",
+        "detail": "On: Sascha Horvath",
+        "player": "Stefan Posch",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Substitution",
+        "detail": "On: Raul Florucz",
+        "player": "Christoph Baumgartner",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 78,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Goal",
+        "detail": "",
+        "player": "Sasa Kalajdzic",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": "Rep. Of Ireland",
+        "type": "Substitution",
+        "detail": "On: Bosun Lawal",
+        "player": "James Abankwah",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": "Austria",
+        "type": "Substitution",
+        "detail": "On: David Affengruber",
+        "player": "Romano Schmid",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": "Austria",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Michael Gregoritsch",
+        "assist": null
+      }
+    ],
+    "nations-league-49": [
+      {
+        "time": {
+          "elapsed": 2,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Radu Drăguşin",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 34,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Marcel Regula",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Tudor Băluță",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Jakub Kiwior",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Ianis Hagi",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "player": "Florinel Coman",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Andrei Rațiu",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Substitution",
+        "detail": "On: Daniel Birligea",
+        "player": "Florinel Coman",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Substitution",
+        "detail": "On: marius corbu",
+        "player": "Ianis Hagi",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Goal",
+        "detail": "",
+        "player": "Alexandru Cicâldău",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Substitution",
+        "detail": "On: Bartosz Mazurek",
+        "player": "Karol Świderski",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Substitution",
+        "detail": "On: Adrian Benedyczak",
+        "player": "Robert Lewandowski",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Goal",
+        "detail": "",
+        "player": "Dennis Man",
+        "assist": "Daniel Birligea"
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Substitution",
+        "detail": "On: Ianis Stoica",
+        "player": "Dennis Man",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Substitution",
+        "detail": "On: Arkadiusz Pyrka",
+        "player": "Matty Cash",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Substitution",
+        "detail": "On: Matei Cristian Ilie",
+        "player": "Alexandru Cicâldău",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": "Romania",
+        "type": "Substitution",
+        "detail": "On: Olimpiu Moruțan",
+        "player": "Andrei Rațiu",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": "Poland",
+        "type": "Goal",
+        "detail": "",
+        "player": "Marcel Regula",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": "Romania",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Lisav Naif Eissat",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": "Poland",
+        "type": "Substitution",
+        "detail": "On: Michał Skóraś",
+        "player": "Marcel Regula",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": "Poland",
+        "type": "Substitution",
+        "detail": "On: Mateusz Zukowski",
+        "player": "Wiktor Nowak",
+        "assist": null
+      }
+    ],
+    "nations-league-52": [
+      {
+        "time": {
+          "elapsed": 23,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "player": "Jamie Donley",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Goal",
+        "detail": "",
+        "player": "Terry Devlin",
+        "assist": "Ethan Galbraith"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Ukraine",
+        "type": "Substitution",
+        "detail": "On: Gennadiy Synchuk",
+        "player": "Heorhii Sudakov",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Ukraine",
+        "type": "Substitution",
+        "detail": "On: Igor Krasnopir",
+        "player": "Roman Yaremchuk",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Jamie Donley",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 80,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Substitution",
+        "detail": "On: Patrick Kelly",
+        "player": "Terry Devlin",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": "Ukraine",
+        "type": "Substitution",
+        "detail": "On: Egor Nazaryna",
+        "player": "Oleg Ocheretko",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Michael Andrew Martin O'Neill",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Substitution",
+        "detail": "On: Brodie Spencer",
+        "player": "Justin Devenny",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": "Northern Ireland",
+        "type": "Substitution",
+        "detail": "On: Josh Magennis",
+        "player": "Jamie Donley",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": "Ukraine",
+        "type": "Substitution",
+        "detail": "On: Artem Dovbyk",
+        "player": "Oleksii Kashchuk",
+        "assist": null
+      }
+    ],
+    "nations-league-50": [
+      {
+        "time": {
+          "elapsed": 40,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Var",
+        "detail": "Penalty confirmed",
+        "player": "Rasmus Hojlund",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 43,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Penalty",
+        "detail": "",
+        "player": "Pierre-Emile Højbjerg",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 46,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Rúben Dias",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Goal",
+        "detail": "",
+        "player": "Rasmus Hojlund",
+        "assist": "Mikkel Damsgaard"
+      },
+      {
+        "time": {
+          "elapsed": 57,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Goal",
+        "detail": "",
+        "player": "Rasmus Hojlund",
+        "assist": "Pierre-Emile Højbjerg"
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Substitution",
+        "detail": "On: Francisco Trincão",
+        "player": "Pedro Neto",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Substitution",
+        "detail": "On: Carlos Forbs",
+        "player": "Joao Felix",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Substitution",
+        "detail": "On: João Palhinha",
+        "player": "Rúben Neves",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Substitution",
+        "detail": "On: Andreas Skov Olsen",
+        "player": "Gustav Isaksen",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Substitution",
+        "detail": "On: Mathias Jensen",
+        "player": "Mikkel Damsgaard",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Substitution",
+        "detail": "On: Victor Froholdt",
+        "player": "Mohammed Daramy",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Substitution",
+        "detail": "On: William Osula",
+        "player": "Rasmus Hojlund",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 75,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Goal",
+        "detail": "",
+        "player": "Joachim Andersen",
+        "assist": "Mathias Jensen"
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Substitution",
+        "detail": "On: Bernardo Silva",
+        "player": "Bruno Fernandes",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": "Denmark",
+        "type": "Substitution",
+        "detail": "On: Victor Nelsson",
+        "player": "Joachim Andersen",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 83,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Substitution",
+        "detail": "On: João Neves",
+        "player": "Vitinha",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": "Portugal",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "João Palhinha",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 3
+        },
+        "team": "Portugal",
+        "type": "Goal",
+        "detail": "",
+        "player": "Bernardo Silva",
+        "assist": null
+      }
+    ],
+    "nations-league-48": [
+      {
+        "time": {
+          "elapsed": 5,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Goal",
+        "detail": "",
+        "player": "Daniel Svensson",
+        "assist": "Anthony Elanga"
+      },
+      {
+        "time": {
+          "elapsed": 11,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Penalty",
+        "detail": "",
+        "player": "Viktor Gyökeres",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 24,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Var",
+        "detail": "Goal cancelled",
+        "player": "Alexander Isak",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 39,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Substitution",
+        "detail": "On: Ermin Mahmić",
+        "player": "Haris Tabaković",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 2
+        },
+        "team": "Sweden",
+        "type": "Penalty",
+        "detail": "",
+        "player": "Viktor Gyökeres",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 47,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Goal",
+        "detail": "",
+        "player": "Armin Gigovic",
+        "assist": "Ermin Mahmić"
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Substitution",
+        "detail": "On: Dejan Kulusevski",
+        "player": "Anthony Elanga",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Substitution",
+        "detail": "On: Benjamin Nygren",
+        "player": "Sebastian Nanasi",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Goal",
+        "detail": "",
+        "player": "Sead Kolašinac",
+        "assist": "Kerim Alajbegovic"
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Substitution",
+        "detail": "On: Arjan Malić",
+        "player": "Esmir Bajraktarević",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Substitution",
+        "detail": "On: Amar Memić",
+        "player": "Stjepan Radeljić",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 67,
+          "extra": null
+        },
+        "team": "Bosnia and Herzegovina",
+        "type": "Substitution",
+        "detail": "On: Benjamin Tahirovic",
+        "player": "Ivan Bašić",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Gustaf Lagerbielke",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 81,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Substitution",
+        "detail": "On: Elliot Stroud",
+        "player": "Alexander Isak",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": "Sweden",
+        "type": "Substitution",
+        "detail": "On: Felix Beijmo",
+        "player": "Daniel Svensson",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 1
+        },
+        "team": "Sweden",
+        "type": "Substitution",
+        "detail": "On: Jesper Karlstrom",
+        "player": "Yasin Ayari",
+        "assist": null
+      }
+    ],
+    "nations-league-47": [
+      {
+        "time": {
+          "elapsed": 18,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Willi Orbán",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 51,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Milan Vitális",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 60,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Georgiy Tsitaishvili",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 61,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Substitution",
+        "detail": "On: Áron Csongvai",
+        "player": "Zsolt Nagy",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 63,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Substitution",
+        "detail": "On: Zuriko Davitashvili",
+        "player": "Georgiy Tsitaishvili",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Substitution",
+        "detail": "On: Bendeguz Bolla",
+        "player": "Attila Osváth",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Substitution",
+        "detail": "On: Rajmund Tóth",
+        "player": "Milan Vitális",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 73,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Own Goal",
+        "detail": "",
+        "player": "Lasha Dvali",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Substitution",
+        "detail": "On: Irakli Yegoian",
+        "player": "Nika Gagnidze",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Substitution",
+        "detail": "On: Budu Zivzivadze",
+        "player": "Giorgi Chakvetadze",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 77,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Substitution",
+        "detail": "On: Irakli Azarov",
+        "player": "Lasha Dvali",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Goal",
+        "detail": "",
+        "player": "Barnabás Varga",
+        "assist": "Dominik Szoboszlai"
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Substitution",
+        "detail": "On: Milan Pető",
+        "player": "Roland Sallai",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 86,
+          "extra": null
+        },
+        "team": "Hungary",
+        "type": "Substitution",
+        "detail": "On: Ákos Szendrei",
+        "player": "Barnabás Varga",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": null
+        },
+        "team": "Georgia",
+        "type": "Substitution",
+        "detail": "On: Giorgi Guliashvili",
+        "player": "Giorgi Kvernadze",
+        "assist": null
+      }
+    ],
+    "nations-league-46": [
+      {
+        "time": {
+          "elapsed": 16,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Ethan Ampadu",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 59,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Goal",
+        "detail": "",
+        "player": "Antonio Nusa",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 64,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Substitution",
+        "detail": "On: Mark Harris",
+        "player": "Lewis Koumas",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Substitution",
+        "detail": "On: Andreas Schjelderup",
+        "player": "Oscar Bobb",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Substitution",
+        "detail": "On: Patrick Berg",
+        "player": "Thelo Aasgaard",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Goal",
+        "detail": "",
+        "player": "Andreas Schjelderup",
+        "assist": "Erling Haaland"
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Substitution",
+        "detail": "On: Connor Roberts",
+        "player": "Neco Williams",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Substitution",
+        "detail": "On: Rubin Colwill",
+        "player": "Liam Cullen",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 72,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Substitution",
+        "detail": "On: David Brooks",
+        "player": "Daniel James",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 79,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Goal",
+        "detail": "",
+        "player": "David Brooks",
+        "assist": "Harry Wilson"
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Substitution",
+        "detail": "On: Marcus Pedersen",
+        "player": "Julian Ryerson",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 85,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Connor Roberts",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": "Wales",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Harry Wilson",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": "Norway",
+        "type": "Penalty",
+        "detail": "",
+        "player": "Erling Haaland",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": "Norway",
+        "type": "Substitution",
+        "detail": "On: Felix Horn Myhre",
+        "player": "Martin Odegaard",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": "Norway",
+        "type": "Substitution",
+        "detail": "On: Leo Østigård",
+        "player": "David Møller Wolfe",
+        "assist": null
+      }
+    ],
+    "nations-league-45": [
+      {
+        "time": {
+          "elapsed": 20,
+          "extra": null
+        },
+        "team": "Kosovo",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Veldin Hodza",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 26,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Eli Dasa",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Ilay Feingold",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Substitution",
+        "detail": "On: Ilay Feingold",
+        "player": "Eli Dasa",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 62,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Substitution",
+        "detail": "On: Omri Gandelman",
+        "player": "Idan Toklomati Jorno",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": "Kosovo",
+        "type": "Red Card",
+        "detail": "",
+        "player": "Veldin Hodza",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Kosovo",
+        "type": "Substitution",
+        "detail": "On: Fisnik Asllani",
+        "player": "Vedat Muriqi",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": "Kosovo",
+        "type": "Substitution",
+        "detail": "On: Baton Zabergja",
+        "player": "Milot Rashica",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 70,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Substitution",
+        "detail": "On: Dor Turgeman",
+        "player": "Ethane Azoulay",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 74,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Omri Gandelman",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": "Israel",
+        "type": "Substitution",
+        "detail": "On: Yarden Shua",
+        "player": "Idan Nachmias",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 82,
+          "extra": null
+        },
+        "team": "Kosovo",
+        "type": "Substitution",
+        "detail": "On: Dion Kacuri",
+        "player": "Edon Zhegrova",
+        "assist": null
+      },
+      {
+        "time": {
+          "elapsed": 90,
+          "extra": 2
+        },
+        "team": "Israel",
+        "type": "Yellow Card",
+        "detail": "",
+        "player": "Raz Shlomo",
+        "assist": null
+      }
+    ],
     "nations-league-41": [
       {
         "time": {
@@ -31604,6 +33256,1638 @@
     ]
   },
   "lineups": {
+    "nations-league-51": [
+      {
+        "team": "Austria",
+        "formation": "4-2-3-1",
+        "coach": "R. Rangnick",
+        "startXI": [
+          {
+            "name": "A. Schlager",
+            "position": "GK"
+          },
+          {
+            "name": "S. Posch",
+            "position": "DF"
+          },
+          {
+            "name": "P. Lienhart",
+            "position": "DF"
+          },
+          {
+            "name": "K. Danso",
+            "position": "DF"
+          },
+          {
+            "name": "P. Mwene",
+            "position": "DF"
+          },
+          {
+            "name": "K. Laimer",
+            "position": "MF"
+          },
+          {
+            "name": "N. Seiwald",
+            "position": "MF"
+          },
+          {
+            "name": "R. Schmid",
+            "position": "MF"
+          },
+          {
+            "name": "C. Baumgartner",
+            "position": "MF"
+          },
+          {
+            "name": "C. Lang",
+            "position": "MF"
+          },
+          {
+            "name": "M. Gregoritsch",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "D. Affengruber",
+            "position": "DF"
+          },
+          {
+            "name": "J. Adamu",
+            "position": "FW"
+          },
+          {
+            "name": "F. Bacher",
+            "position": "DF"
+          },
+          {
+            "name": "Y. Demir",
+            "position": "FW"
+          },
+          {
+            "name": "R. Florucz",
+            "position": "FW"
+          },
+          {
+            "name": "S. Horvath",
+            "position": "MF"
+          },
+          {
+            "name": "L. Jungwirth",
+            "position": "GK"
+          },
+          {
+            "name": "S. Kalajdzic",
+            "position": "FW"
+          },
+          {
+            "name": "Y. Spalt",
+            "position": "DF"
+          },
+          {
+            "name": "M. Svoboda",
+            "position": "DF"
+          },
+          {
+            "name": "Luca Weinhandl",
+            "position": "MF"
+          },
+          {
+            "name": "F. Wiegele",
+            "position": "GK"
+          }
+        ]
+      },
+      {
+        "team": "Rep. Of Ireland",
+        "formation": "3-5-2",
+        "coach": "H. Hallgrímsson",
+        "startXI": [
+          {
+            "name": "C. Kelleher",
+            "position": "GK"
+          },
+          {
+            "name": "D. O&apos;Shea",
+            "position": "DF"
+          },
+          {
+            "name": "N. Collins",
+            "position": "DF"
+          },
+          {
+            "name": "L. Scales",
+            "position": "DF"
+          },
+          {
+            "name": "J. Abankwah",
+            "position": "MF"
+          },
+          {
+            "name": "J. Moylan",
+            "position": "MF"
+          },
+          {
+            "name": "J. Molumby",
+            "position": "MF"
+          },
+          {
+            "name": "F. Azaz",
+            "position": "MF"
+          },
+          {
+            "name": "R. Manning",
+            "position": "MF"
+          },
+          {
+            "name": "T. Parrott",
+            "position": "FW"
+          },
+          {
+            "name": "A. Idah",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "R. Vata",
+            "position": "FW"
+          },
+          {
+            "name": "H. Vale",
+            "position": "MF"
+          },
+          {
+            "name": "M. Travers",
+            "position": "GK"
+          },
+          {
+            "name": "C. Ogbene",
+            "position": "FW"
+          },
+          {
+            "name": "M. O’Leary",
+            "position": "GK"
+          },
+          {
+            "name": "J. O&apos;Brien",
+            "position": "DF"
+          },
+          {
+            "name": "B. Lawal",
+            "position": "DF"
+          },
+          {
+            "name": "J. Knight",
+            "position": "MF"
+          },
+          {
+            "name": "L. Kitching",
+            "position": "DF"
+          },
+          {
+            "name": "J. Egan",
+            "position": "DF"
+          },
+          {
+            "name": "T. Cannon",
+            "position": "FW"
+          },
+          {
+            "name": "C. Coventry",
+            "position": "MF"
+          }
+        ]
+      }
+    ],
+    "nations-league-49": [
+      {
+        "team": "Romania",
+        "formation": "4-3-1-2",
+        "coach": "G. Hagi",
+        "startXI": [
+          {
+            "name": "O. Hindrich",
+            "position": "GK"
+          },
+          {
+            "name": "A. Rațiu",
+            "position": "DF"
+          },
+          {
+            "name": "A. Coubiș",
+            "position": "DF"
+          },
+          {
+            "name": "R. Drăgușin",
+            "position": "DF"
+          },
+          {
+            "name": "L. Eissat",
+            "position": "DF"
+          },
+          {
+            "name": "A. Cicâldău",
+            "position": "MF"
+          },
+          {
+            "name": "T. Băluță",
+            "position": "MF"
+          },
+          {
+            "name": "V. Dragomir",
+            "position": "MF"
+          },
+          {
+            "name": "I. Hagi",
+            "position": "MF"
+          },
+          {
+            "name": "F. Coman",
+            "position": "FW"
+          },
+          {
+            "name": "D. Man",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "D. Bîrligea",
+            "position": "FW"
+          },
+          {
+            "name": "N. Bancu",
+            "position": "DF"
+          },
+          {
+            "name": "O. Moruțan",
+            "position": "FW"
+          },
+          {
+            "name": "M. Ilie",
+            "position": "DF"
+          },
+          {
+            "name": "V. Ghiță",
+            "position": "DF"
+          },
+          {
+            "name": "M. Corbu",
+            "position": "MF"
+          },
+          {
+            "name": "L. Popescu",
+            "position": "GK"
+          },
+          {
+            "name": "V. Screciu",
+            "position": "MF"
+          },
+          {
+            "name": "C. Cîrjan",
+            "position": "MF"
+          },
+          {
+            "name": "I. Stoica",
+            "position": "FW"
+          },
+          {
+            "name": "T. Strata",
+            "position": "DF"
+          },
+          {
+            "name": "Ș. Târnovanu",
+            "position": "GK"
+          }
+        ]
+      },
+      {
+        "team": "Poland",
+        "formation": "4-2-3-1",
+        "coach": "J. Urban",
+        "startXI": [
+          {
+            "name": "B. Drągowski",
+            "position": "GK"
+          },
+          {
+            "name": "M. Cash",
+            "position": "DF"
+          },
+          {
+            "name": "K. Potulski",
+            "position": "DF"
+          },
+          {
+            "name": "J. Kiwior",
+            "position": "DF"
+          },
+          {
+            "name": "O. Kubiak",
+            "position": "DF"
+          },
+          {
+            "name": "W. Nowak",
+            "position": "MF"
+          },
+          {
+            "name": "S. Szymański",
+            "position": "MF"
+          },
+          {
+            "name": "K. Świderski",
+            "position": "MF"
+          },
+          {
+            "name": "M. Reguła",
+            "position": "MF"
+          },
+          {
+            "name": "N. Zalewski",
+            "position": "MF"
+          },
+          {
+            "name": "R. Lewandowski",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "T. Kędziora",
+            "position": "DF"
+          },
+          {
+            "name": "M. Kochalski",
+            "position": "GK"
+          },
+          {
+            "name": "B. Mazurek",
+            "position": "MF"
+          },
+          {
+            "name": "K. Piątkowski",
+            "position": "DF"
+          },
+          {
+            "name": "Ł. Poręba",
+            "position": "MF"
+          },
+          {
+            "name": "T. Puchacz",
+            "position": "DF"
+          },
+          {
+            "name": "A. Pyrka",
+            "position": "DF"
+          },
+          {
+            "name": "M. Skóraś",
+            "position": "FW"
+          },
+          {
+            "name": "K. UrbaÅski",
+            "position": "MF"
+          },
+          {
+            "name": "M. Żukowski",
+            "position": "FW"
+          },
+          {
+            "name": "S. Abramowicz",
+            "position": "GK"
+          },
+          {
+            "name": "A. Benedyczak",
+            "position": "FW"
+          }
+        ]
+      }
+    ],
+    "nations-league-52": [
+      {
+        "team": "Northern Ireland",
+        "formation": "4-3-3",
+        "coach": "M. O'Neill",
+        "startXI": [
+          {
+            "name": "P. Charles",
+            "position": "GK"
+          },
+          {
+            "name": "T. Devlin",
+            "position": "DF"
+          },
+          {
+            "name": "Tom Atcheson",
+            "position": "DF"
+          },
+          {
+            "name": "Ruairi McConville",
+            "position": "DF"
+          },
+          {
+            "name": "C. Brown",
+            "position": "DF"
+          },
+          {
+            "name": "T. Hume",
+            "position": "MF"
+          },
+          {
+            "name": "S. Charles",
+            "position": "MF"
+          },
+          {
+            "name": "J. Devenny",
+            "position": "MF"
+          },
+          {
+            "name": "I. Price",
+            "position": "FW"
+          },
+          {
+            "name": "J. Donley",
+            "position": "FW"
+          },
+          {
+            "name": "E. Galbraith",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "B. Graham",
+            "position": "FW"
+          },
+          {
+            "name": "M. Forbes",
+            "position": "DF"
+          },
+          {
+            "name": "C. Hazard",
+            "position": "GK"
+          },
+          {
+            "name": "Patrick Kelly",
+            "position": "MF"
+          },
+          {
+            "name": "J. Magennis",
+            "position": "FW"
+          },
+          {
+            "name": "C. Marshall",
+            "position": "FW"
+          },
+          {
+            "name": "P. McNair",
+            "position": "DF"
+          },
+          {
+            "name": "K. Morrison",
+            "position": "MF"
+          },
+          {
+            "name": "P. Smyth",
+            "position": "FW"
+          },
+          {
+            "name": "B. Spencer",
+            "position": "DF"
+          },
+          {
+            "name": "J. Thompson",
+            "position": "MF"
+          },
+          {
+            "name": "Dermot William Mee",
+            "position": "GK"
+          }
+        ]
+      },
+      {
+        "team": "Ukraine",
+        "formation": "4-4-2",
+        "coach": "Andrea Maldera",
+        "startXI": [
+          {
+            "name": "A. Trubin",
+            "position": "GK"
+          },
+          {
+            "name": "I. Zabarnyi",
+            "position": "DF"
+          },
+          {
+            "name": "E. Sarapiy",
+            "position": "DF"
+          },
+          {
+            "name": "M. Matvienko",
+            "position": "DF"
+          },
+          {
+            "name": "V. Mykolenko",
+            "position": "DF"
+          },
+          {
+            "name": "O. Kashchuk",
+            "position": "MF"
+          },
+          {
+            "name": "Y. Yarmolyuk",
+            "position": "MF"
+          },
+          {
+            "name": "O. Ocheretko",
+            "position": "MF"
+          },
+          {
+            "name": "H. Sudakov",
+            "position": "MF"
+          },
+          {
+            "name": "D. Sikan",
+            "position": "FW"
+          },
+          {
+            "name": "R. Yaremchuk",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "I. Krasnopir",
+            "position": "FW"
+          },
+          {
+            "name": "I. Krupskyi",
+            "position": "DF"
+          },
+          {
+            "name": "B. Krushynskyi",
+            "position": "DF"
+          },
+          {
+            "name": "T. Mykhavko",
+            "position": "DF"
+          },
+          {
+            "name": "E. Nazaryna",
+            "position": "MF"
+          },
+          {
+            "name": "D. Riznyk",
+            "position": "GK"
+          },
+          {
+            "name": "V. Vanat",
+            "position": "FW"
+          },
+          {
+            "name": "I. Varfolomeev",
+            "position": "MF"
+          },
+          {
+            "name": "H. Ermakov",
+            "position": "GK"
+          },
+          {
+            "name": "O. Andrievskyi",
+            "position": "MF"
+          },
+          {
+            "name": "A. Dovbyk",
+            "position": "FW"
+          },
+          {
+            "name": "H. Synchuk",
+            "position": "MF"
+          }
+        ]
+      }
+    ],
+    "nations-league-50": [
+      {
+        "team": "Portugal",
+        "formation": "4-2-3-1",
+        "coach": "Jorge Jesus",
+        "startXI": [
+          {
+            "name": "Diogo Costa",
+            "position": "GK"
+          },
+          {
+            "name": "Alberto Baio",
+            "position": "DF"
+          },
+          {
+            "name": "Rúben Dias",
+            "position": "DF"
+          },
+          {
+            "name": "Renato Veiga",
+            "position": "DF"
+          },
+          {
+            "name": "Diogo Dalot",
+            "position": "DF"
+          },
+          {
+            "name": "Rúben Neves",
+            "position": "MF"
+          },
+          {
+            "name": "Vitinha",
+            "position": "MF"
+          },
+          {
+            "name": "Pedro Neto",
+            "position": "MF"
+          },
+          {
+            "name": "João Félix",
+            "position": "MF"
+          },
+          {
+            "name": "Bruno Fernandes",
+            "position": "MF"
+          },
+          {
+            "name": "Gonçalo Ramos",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Rodrigo Mora",
+            "position": "MF"
+          },
+          {
+            "name": "Carlos Forbs",
+            "position": "FW"
+          },
+          {
+            "name": "Flávio Nazinho",
+            "position": "DF"
+          },
+          {
+            "name": "João Neves",
+            "position": "MF"
+          },
+          {
+            "name": "João Palhinha",
+            "position": "MF"
+          },
+          {
+            "name": "Geovany Tcherno Quenda",
+            "position": "MF"
+          },
+          {
+            "name": "António Silva",
+            "position": "DF"
+          },
+          {
+            "name": "Bernardo Silva",
+            "position": "MF"
+          },
+          {
+            "name": "Fábio Silva",
+            "position": "FW"
+          },
+          {
+            "name": "Rui Silva",
+            "position": "GK"
+          },
+          {
+            "name": "Samuel Soares",
+            "position": "GK"
+          },
+          {
+            "name": "Trincão",
+            "position": "FW"
+          }
+        ]
+      },
+      {
+        "team": "Denmark",
+        "formation": "4-2-3-1",
+        "coach": "B. Riemer",
+        "startXI": [
+          {
+            "name": "M. Hermansen",
+            "position": "GK"
+          },
+          {
+            "name": "A. Bah",
+            "position": "DF"
+          },
+          {
+            "name": "O. Provstgaard",
+            "position": "DF"
+          },
+          {
+            "name": "J. Andersen",
+            "position": "DF"
+          },
+          {
+            "name": "J. Mæhle",
+            "position": "DF"
+          },
+          {
+            "name": "M. Hjulmand",
+            "position": "MF"
+          },
+          {
+            "name": "P. Højbjerg",
+            "position": "MF"
+          },
+          {
+            "name": "G. Isaksen",
+            "position": "MF"
+          },
+          {
+            "name": "M. Damsgaard",
+            "position": "MF"
+          },
+          {
+            "name": "M. Daramy",
+            "position": "MF"
+          },
+          {
+            "name": "R. Højlund",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "A. Skov Olsen",
+            "position": "MF"
+          },
+          {
+            "name": "W. Osula",
+            "position": "FW"
+          },
+          {
+            "name": "R. Nicolaisen",
+            "position": "DF"
+          },
+          {
+            "name": "V. Nelsson",
+            "position": "DF"
+          },
+          {
+            "name": "J. Lindstrøm",
+            "position": "MF"
+          },
+          {
+            "name": "R. Kristensen",
+            "position": "DF"
+          },
+          {
+            "name": "A. Jungdal",
+            "position": "GK"
+          },
+          {
+            "name": "F. Jörgensen",
+            "position": "GK"
+          },
+          {
+            "name": "M. Jensen",
+            "position": "MF"
+          },
+          {
+            "name": "Victor Mow Froholdt",
+            "position": "MF"
+          },
+          {
+            "name": "V. Bak Jensen",
+            "position": "DF"
+          },
+          {
+            "name": "M. Bidstrup",
+            "position": "MF"
+          }
+        ]
+      }
+    ],
+    "nations-league-48": [
+      {
+        "team": "Sweden",
+        "formation": "4-4-2",
+        "coach": "G. Potter",
+        "startXI": [
+          {
+            "name": "V. Johansson",
+            "position": "GK"
+          },
+          {
+            "name": "D. Svensson",
+            "position": "MF"
+          },
+          {
+            "name": "G. Lagerbielke",
+            "position": "DF"
+          },
+          {
+            "name": "V. Lindelöf",
+            "position": "DF"
+          },
+          {
+            "name": "G. Gudmundsson",
+            "position": "DF"
+          },
+          {
+            "name": "A. Elanga",
+            "position": "FW"
+          },
+          {
+            "name": "H. Larsson",
+            "position": "MF"
+          },
+          {
+            "name": "Y. Ayari",
+            "position": "MF"
+          },
+          {
+            "name": "S. Nanasi",
+            "position": "MF"
+          },
+          {
+            "name": "V. Gyökeres",
+            "position": "FW"
+          },
+          {
+            "name": "A. Isak",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "F. Beijmo",
+            "position": "MF"
+          },
+          {
+            "name": "J. Widell Zetterström",
+            "position": "GK"
+          },
+          {
+            "name": "N. Törnqvist",
+            "position": "GK"
+          },
+          {
+            "name": "E. Stroud",
+            "position": "MF"
+          },
+          {
+            "name": "E. Smith",
+            "position": "MF"
+          },
+          {
+            "name": "B. Nygren",
+            "position": "FW"
+          },
+          {
+            "name": "A. Njie",
+            "position": "FW"
+          },
+          {
+            "name": "G. Antwi",
+            "position": "MF"
+          },
+          {
+            "name": "A. Bernhardsson",
+            "position": "FW"
+          },
+          {
+            "name": "H. Ekdal",
+            "position": "DF"
+          },
+          {
+            "name": "J. Karlström",
+            "position": "MF"
+          },
+          {
+            "name": "D. Kulusevski",
+            "position": "FW"
+          }
+        ]
+      },
+      {
+        "team": "Bosnia & Herzegovina",
+        "formation": "3-5-2",
+        "coach": "S. Barbarez",
+        "startXI": [
+          {
+            "name": "M. Zlomislić",
+            "position": "GK"
+          },
+          {
+            "name": "S. Radeljić",
+            "position": "DF"
+          },
+          {
+            "name": "N. Katić",
+            "position": "DF"
+          },
+          {
+            "name": "S. Kolašinac",
+            "position": "DF"
+          },
+          {
+            "name": "A. Dedić",
+            "position": "DF"
+          },
+          {
+            "name": "A. Gigović",
+            "position": "MF"
+          },
+          {
+            "name": "Kerim-Sam Alajbegović",
+            "position": "FW"
+          },
+          {
+            "name": "E. Demirović",
+            "position": "FW"
+          },
+          {
+            "name": "I. Bašić",
+            "position": "MF"
+          },
+          {
+            "name": "H. Tabaković",
+            "position": "FW"
+          },
+          {
+            "name": "E. Bajraktarevic",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "B. Tahirović",
+            "position": "MF"
+          },
+          {
+            "name": "S. Baždar",
+            "position": "FW"
+          },
+          {
+            "name": "D. Burnić",
+            "position": "DF"
+          },
+          {
+            "name": "I. Šunjić",
+            "position": "MF"
+          },
+          {
+            "name": "Z. Smajlović",
+            "position": "DF"
+          },
+          {
+            "name": "N. Mujakić",
+            "position": "DF"
+          },
+          {
+            "name": "A. Memić",
+            "position": "FW"
+          },
+          {
+            "name": "A. Malic",
+            "position": "MF"
+          },
+          {
+            "name": "Ermin Mahmić",
+            "position": "MF"
+          },
+          {
+            "name": "M. Jurkas",
+            "position": "GK"
+          },
+          {
+            "name": "S. Hamzić",
+            "position": "GK"
+          },
+          {
+            "name": "M. Deket",
+            "position": "FW"
+          }
+        ]
+      }
+    ],
+    "nations-league-47": [
+      {
+        "team": "Georgia",
+        "formation": "4-2-3-1",
+        "coach": "R. Svanadze",
+        "startXI": [
+          {
+            "name": "G. Mamardashvili",
+            "position": "GK"
+          },
+          {
+            "name": "O. Kakabadze",
+            "position": "DF"
+          },
+          {
+            "name": "S. Goglichidze",
+            "position": "DF"
+          },
+          {
+            "name": "L. Dvali",
+            "position": "DF"
+          },
+          {
+            "name": "L. Lochoshvili",
+            "position": "DF"
+          },
+          {
+            "name": "G. Chakvetadze",
+            "position": "MF"
+          },
+          {
+            "name": "A. Mekvabishvili",
+            "position": "MF"
+          },
+          {
+            "name": "G. Kvernadze",
+            "position": "MF"
+          },
+          {
+            "name": "N. Gagnidze",
+            "position": "MF"
+          },
+          {
+            "name": "G. Tsitaishvili",
+            "position": "MF"
+          },
+          {
+            "name": "G. Mikautadze",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "I. Yegoian",
+            "position": "MF"
+          },
+          {
+            "name": "Z. Davitashvili",
+            "position": "FW"
+          },
+          {
+            "name": "G. Guliashvili",
+            "position": "FW"
+          },
+          {
+            "name": "B. Zivzivadze",
+            "position": "FW"
+          },
+          {
+            "name": "N. Lominadze",
+            "position": "MF"
+          },
+          {
+            "name": "L. Gugeshashvili",
+            "position": "GK"
+          },
+          {
+            "name": "G. Maisuradze",
+            "position": "DF"
+          },
+          {
+            "name": "S. Sazonov",
+            "position": "DF"
+          },
+          {
+            "name": "I. Azarovi",
+            "position": "DF"
+          },
+          {
+            "name": "J. Tabidze",
+            "position": "DF"
+          },
+          {
+            "name": "G. Moistsrapishvili",
+            "position": "MF"
+          },
+          {
+            "name": "N Kalichava",
+            "position": "GK"
+          }
+        ]
+      },
+      {
+        "team": "Hungary",
+        "formation": "4-2-3-1",
+        "coach": "M. Rossi",
+        "startXI": [
+          {
+            "name": "B. Tóth",
+            "position": "GK"
+          },
+          {
+            "name": "A. Osváth",
+            "position": "DF"
+          },
+          {
+            "name": "W. Orbán",
+            "position": "DF"
+          },
+          {
+            "name": "M. Csinger",
+            "position": "DF"
+          },
+          {
+            "name": "M. Kerkez",
+            "position": "DF"
+          },
+          {
+            "name": "A. Schäfer",
+            "position": "MF"
+          },
+          {
+            "name": "D. Szoboszlai",
+            "position": "MF"
+          },
+          {
+            "name": "R. Sallai",
+            "position": "MF"
+          },
+          {
+            "name": "M. Vitális",
+            "position": "MF"
+          },
+          {
+            "name": "Z. Nagy",
+            "position": "MF"
+          },
+          {
+            "name": "B. Varga",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "C. Styles",
+            "position": "DF"
+          },
+          {
+            "name": "B. Gundel-Takács",
+            "position": "GK"
+          },
+          {
+            "name": "Á. Pécsi",
+            "position": "GK"
+          },
+          {
+            "name": "Á. Csongvai",
+            "position": "MF"
+          },
+          {
+            "name": "B. Bolla",
+            "position": "DF"
+          },
+          {
+            "name": "A. Markgráf",
+            "position": "DF"
+          },
+          {
+            "name": "A. Szalai",
+            "position": "DF"
+          },
+          {
+            "name": "G. Jurek",
+            "position": "FW"
+          },
+          {
+            "name": "R.Tóth",
+            "position": "MF"
+          },
+          {
+            "name": "J. Urblík",
+            "position": "MF"
+          },
+          {
+            "name": "M. Pető",
+            "position": "MF"
+          },
+          {
+            "name": "Á. Szendrei",
+            "position": "FW"
+          }
+        ]
+      }
+    ],
+    "nations-league-46": [
+      {
+        "team": "Norway",
+        "formation": "4-2-3-1",
+        "coach": "S. Solbakken",
+        "startXI": [
+          {
+            "name": "E. Selvik",
+            "position": "GK"
+          },
+          {
+            "name": "J. Ryerson",
+            "position": "DF"
+          },
+          {
+            "name": "K. Ajer",
+            "position": "DF"
+          },
+          {
+            "name": "T. Heggem",
+            "position": "DF"
+          },
+          {
+            "name": "D. Møller Wolfe",
+            "position": "DF"
+          },
+          {
+            "name": "S. Berge",
+            "position": "MF"
+          },
+          {
+            "name": "T. Aasgaard",
+            "position": "MF"
+          },
+          {
+            "name": "Oscar Bobb",
+            "position": "MF"
+          },
+          {
+            "name": "M. Ødegaard",
+            "position": "MF"
+          },
+          {
+            "name": "A. Nusa",
+            "position": "MF"
+          },
+          {
+            "name": "E. Haaland",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "E. Botheim",
+            "position": "FW"
+          },
+          {
+            "name": "P. Berg",
+            "position": "MF"
+          },
+          {
+            "name": "E. Helland",
+            "position": "DF"
+          },
+          {
+            "name": "M. Pedersen",
+            "position": "DF"
+          },
+          {
+            "name": "F. Myhre",
+            "position": "MF"
+          },
+          {
+            "name": "Ø. Nyland",
+            "position": "GK"
+          },
+          {
+            "name": "O. Bjørtuft",
+            "position": "DF"
+          },
+          {
+            "name": "A. Schjelderup",
+            "position": "FW"
+          },
+          {
+            "name": "L. Østigård",
+            "position": "DF"
+          },
+          {
+            "name": "A. Sørloth",
+            "position": "FW"
+          },
+          {
+            "name": "S. Tangvik",
+            "position": "GK"
+          },
+          {
+            "name": "H. Vetlesen",
+            "position": "MF"
+          }
+        ]
+      },
+      {
+        "team": "Wales",
+        "formation": "4-2-3-1",
+        "coach": "Craig Bellamy",
+        "startXI": [
+          {
+            "name": "K. Darlow",
+            "position": "GK"
+          },
+          {
+            "name": "N. Williams",
+            "position": "DF"
+          },
+          {
+            "name": "J. Rodon",
+            "position": "DF"
+          },
+          {
+            "name": "B. Davies",
+            "position": "DF"
+          },
+          {
+            "name": "J. Dasilva",
+            "position": "DF"
+          },
+          {
+            "name": "E. Ampadu",
+            "position": "MF"
+          },
+          {
+            "name": "H. Wilson",
+            "position": "MF"
+          },
+          {
+            "name": "D. James",
+            "position": "MF"
+          },
+          {
+            "name": "L. Cullen",
+            "position": "MF"
+          },
+          {
+            "name": "B. Johnson",
+            "position": "MF"
+          },
+          {
+            "name": "L. Koumas",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "Cian Ashford",
+            "position": "FW"
+          },
+          {
+            "name": "D. Brooks",
+            "position": "MF"
+          },
+          {
+            "name": "A. Collins",
+            "position": "FW"
+          },
+          {
+            "name": "R. Colwill",
+            "position": "MF"
+          },
+          {
+            "name": "Joseph Duncan",
+            "position": "GK"
+          },
+          {
+            "name": "M. Harris",
+            "position": "FW"
+          },
+          {
+            "name": "J. Lienou",
+            "position": "DF"
+          },
+          {
+            "name": "C. Mepham",
+            "position": "DF"
+          },
+          {
+            "name": "C. Roberts",
+            "position": "DF"
+          },
+          {
+            "name": "J. Sheehan",
+            "position": "MF"
+          },
+          {
+            "name": "D. Ward",
+            "position": "GK"
+          },
+          {
+            "name": "Kai Andrews",
+            "position": "MF"
+          }
+        ]
+      }
+    ],
+    "nations-league-45": [
+      {
+        "team": "Kosovo",
+        "formation": "4-1-4-1",
+        "coach": "F. Foda",
+        "startXI": [
+          {
+            "name": "A. Saipi",
+            "position": "GK"
+          },
+          {
+            "name": "L. Kamberi",
+            "position": "DF"
+          },
+          {
+            "name": "K. Hajrizi",
+            "position": "DF"
+          },
+          {
+            "name": "I. Krasniqi",
+            "position": "DF"
+          },
+          {
+            "name": "D. Gallapeni",
+            "position": "DF"
+          },
+          {
+            "name": "L. Avdullahu",
+            "position": "MF"
+          },
+          {
+            "name": "E. Zhegrova",
+            "position": "MF"
+          },
+          {
+            "name": "M. Vojvoda",
+            "position": "MF"
+          },
+          {
+            "name": "V. Hodža",
+            "position": "MF"
+          },
+          {
+            "name": "M. Rashica",
+            "position": "MF"
+          },
+          {
+            "name": "V. Muriqi",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "M. Avdyli",
+            "position": "MF"
+          },
+          {
+            "name": "F. Asllani",
+            "position": "FW"
+          },
+          {
+            "name": "V. Bekaj",
+            "position": "GK"
+          },
+          {
+            "name": "L. Emërllahu",
+            "position": "MF"
+          },
+          {
+            "name": "B. Fazliji",
+            "position": "MF"
+          },
+          {
+            "name": "D. Kacuri",
+            "position": "MF"
+          },
+          {
+            "name": "B. Kurtulus",
+            "position": "DF"
+          },
+          {
+            "name": "A. Murić",
+            "position": "GK"
+          },
+          {
+            "name": "R. Raci",
+            "position": "DF"
+          },
+          {
+            "name": "E. Rexhbeçaj",
+            "position": "MF"
+          },
+          {
+            "name": "A. Rrahmani",
+            "position": "FW"
+          },
+          {
+            "name": "B. Zabërgja",
+            "position": "FW"
+          }
+        ]
+      },
+      {
+        "team": "Israel",
+        "formation": "5-4-1",
+        "coach": "R. Ben Shimon",
+        "startXI": [
+          {
+            "name": "Daniel Peretz",
+            "position": "GK"
+          },
+          {
+            "name": "E. Dasa",
+            "position": "DF"
+          },
+          {
+            "name": "R. Shlomo",
+            "position": "DF"
+          },
+          {
+            "name": "N. Yehoshua",
+            "position": "DF"
+          },
+          {
+            "name": "I. Nachmias",
+            "position": "DF"
+          },
+          {
+            "name": "N. Stoioanov",
+            "position": "DF"
+          },
+          {
+            "name": "L. Abada",
+            "position": "MF"
+          },
+          {
+            "name": "Dor Peretz",
+            "position": "MF"
+          },
+          {
+            "name": "E. Azoulay",
+            "position": "MF"
+          },
+          {
+            "name": "O. Gloukh",
+            "position": "MF"
+          },
+          {
+            "name": "I. Toklomati Giorno",
+            "position": "FW"
+          }
+        ],
+        "substitutes": [
+          {
+            "name": "I. Feingold",
+            "position": "DF"
+          },
+          {
+            "name": "Y. Levi",
+            "position": "MF"
+          },
+          {
+            "name": "A. Tzur",
+            "position": "GK"
+          },
+          {
+            "name": "D. Turgeman",
+            "position": "FW"
+          },
+          {
+            "name": "Y. Shua",
+            "position": "FW"
+          },
+          {
+            "name": "R. Revivo",
+            "position": "DF"
+          },
+          {
+            "name": "G. Mizrahi",
+            "position": "DF"
+          },
+          {
+            "name": "G. Kanichowsky",
+            "position": "MF"
+          },
+          {
+            "name": "O. Glazer",
+            "position": "GK"
+          },
+          {
+            "name": "O. Gandelman",
+            "position": "MF"
+          },
+          {
+            "name": "Z. Ahmed",
+            "position": "FW"
+          },
+          {
+            "name": "N. Sztejfman",
+            "position": "DF"
+          }
+        ]
+      }
+    ],
     "nations-league-41": [
       {
         "team": "Netherlands",
@@ -56203,6 +59487,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-viktor-gy-keres",
+      "name": "Viktor Gyökeres",
+      "team": "Sweden",
+      "goals": 6,
+      "assists": 0
+    },
+    {
       "id": "nation-player-michael-olise",
       "name": "Michael Olise",
       "team": "France",
@@ -56217,11 +59508,25 @@
       "assists": 1
     },
     {
+      "id": "nation-player-rasmus-hojlund",
+      "name": "Rasmus Hojlund",
+      "team": "Denmark",
+      "goals": 5,
+      "assists": 0
+    },
+    {
       "id": "nation-player-orri-steinn-skarsson",
       "name": "Orri Steinn Óskarsson",
       "team": "Iceland",
       "goals": 4,
       "assists": 2
+    },
+    {
+      "id": "nation-player-erling-haaland",
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4,
+      "assists": 1
     },
     {
       "id": "nation-player-lamine-yamal",
@@ -56255,13 +59560,6 @@
       "id": "nation-player-troy-parrott",
       "name": "Troy Parrott",
       "team": "Rep. Of Ireland",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-viktor-gy-keres",
-      "name": "Viktor Gyökeres",
-      "team": "Sweden",
       "goals": 4,
       "assists": 0
     },
@@ -56336,13 +59634,6 @@
       "assists": 0
     },
     {
-      "id": "nation-player-erling-haaland",
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "goals": 3,
-      "assists": 0
-    },
-    {
       "id": "nation-player-joel-pohjanpalo",
       "name": "Joel Pohjanpalo",
       "team": "Finland",
@@ -56360,13 +59651,6 @@
       "id": "nation-player-petru-popescu",
       "name": "Petru popescu",
       "team": "Moldova",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-rasmus-hojlund",
-      "name": "Rasmus Hojlund",
-      "team": "Denmark",
       "goals": 3,
       "assists": 0
     },
@@ -56399,6 +59683,13 @@
       "assists": 2
     },
     {
+      "id": "nation-player-mikkel-damsgaard",
+      "name": "Mikkel Damsgaard",
+      "team": "Denmark",
+      "goals": 2,
+      "assists": 2
+    },
+    {
       "id": "nation-player-artem-shumanskiy",
       "name": "Artem Shumanskiy",
       "team": "Belarus",
@@ -56427,16 +59718,16 @@
       "assists": 1
     },
     {
-      "id": "nation-player-mikkel-damsgaard",
-      "name": "Mikkel Damsgaard",
-      "team": "Denmark",
+      "id": "nation-player-morgan-rogers",
+      "name": "Morgan Rogers",
+      "team": "England",
       "goals": 2,
       "assists": 1
     },
     {
-      "id": "nation-player-morgan-rogers",
-      "name": "Morgan Rogers",
-      "team": "England",
+      "id": "nation-player-sasa-kalajdzic",
+      "name": "Sasa Kalajdzic",
+      "team": "Austria",
       "goals": 2,
       "assists": 1
     },
@@ -56451,6 +59742,20 @@
       "id": "nation-player-alessandro-bastoni",
       "name": "Alessandro Bastoni",
       "team": "Italy",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-alexandru-cic-ld-u",
+      "name": "Alexandru Cicâldău",
+      "team": "Romania",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-armin-gigovic",
+      "name": "Armin Gigovic",
+      "team": "Bosnia and Herzegovina",
       "goals": 2,
       "assists": 0
     },
@@ -56479,6 +59784,13 @@
       "id": "nation-player-davide-frattesi",
       "name": "Davide Frattesi",
       "team": "Italy",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-dennis-man",
+      "name": "Dennis Man",
+      "team": "Romania",
       "goals": 2,
       "assists": 0
     },
@@ -56665,6 +59977,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-antonio-nusa",
+      "name": "Antonio Nusa",
+      "team": "Norway",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-artur-serobyan",
       "name": "Artur Serobyan",
       "team": "Armenia",
@@ -56675,6 +59994,13 @@
       "id": "nation-player-christoph-lang",
       "name": "Christoph Lang",
       "team": "Austria",
+      "goals": 1,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-daniel-birligea",
+      "name": "Daniel Birligea",
+      "team": "Romania",
       "goals": 1,
       "assists": 1
     },
@@ -56696,6 +60022,13 @@
       "id": "nation-player-emil-tsenov",
       "name": "Emil Tsenov",
       "team": "Iceland",
+      "goals": 1,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-ermin-mahmi",
+      "name": "Ermin Mahmić",
+      "team": "Bosnia and Herzegovina",
       "goals": 1,
       "assists": 1
     },
@@ -56742,6 +60075,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-kerim-alajbegovic",
+      "name": "Kerim Alajbegovic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-leo-sauer",
       "name": "Leo Sauer",
       "team": "Slovakia",
@@ -56763,6 +60103,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-pierre-emile-h-jbjerg",
+      "name": "Pierre-Emile Højbjerg",
+      "team": "Denmark",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-rasmus-peetson",
       "name": "Rasmus Peetson",
       "team": "Estonia",
@@ -56772,13 +60119,6 @@
     {
       "id": "nation-player-romano-schmid",
       "name": "Romano Schmid",
-      "team": "Austria",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "id": "nation-player-sasa-kalajdzic",
-      "name": "Sasa Kalajdzic",
       "team": "Austria",
       "goals": 1,
       "assists": 1
@@ -56861,16 +60201,16 @@
       "assists": 0
     },
     {
-      "id": "nation-player-alexandru-cic-ld-u",
-      "name": "Alexandru Cicâldău",
-      "team": "Romania",
+      "id": "nation-player-anastasios-douvikas",
+      "name": "Anastasios Douvikas",
+      "team": "Greece",
       "goals": 1,
       "assists": 0
     },
     {
-      "id": "nation-player-anastasios-douvikas",
-      "name": "Anastasios Douvikas",
-      "team": "Greece",
+      "id": "nation-player-andreas-schjelderup",
+      "name": "Andreas Schjelderup",
+      "team": "Norway",
       "goals": 1,
       "assists": 0
     },
@@ -56910,13 +60250,6 @@
       "assists": 0
     },
     {
-      "id": "nation-player-armin-gigovic",
-      "name": "Armin Gigovic",
-      "team": "Bosnia and Herzegovina",
-      "goals": 1,
-      "assists": 0
-    },
-    {
       "id": "nation-player-artur-dol-nikov",
       "name": "Artur Dolžnikov",
       "team": "Lithuania",
@@ -56945,6 +60278,13 @@
       "assists": 0
     },
     {
+      "id": "nation-player-barnab-s-varga",
+      "name": "Barnabás Varga",
+      "team": "Hungary",
+      "goals": 1,
+      "assists": 0
+    },
+    {
       "id": "nation-player-ben-davies",
       "name": "Ben Davies",
       "team": "Denmark",
@@ -56962,6 +60302,13 @@
       "id": "nation-player-benjamin-nygren",
       "name": "Benjamin Nygren",
       "team": "Sweden",
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-bernardo-silva",
+      "name": "Bernardo Silva",
+      "team": "Portugal",
       "goals": 1,
       "assists": 0
     },
@@ -57001,16 +60348,16 @@
       "assists": 0
     },
     {
-      "id": "nation-player-daniel-birligea",
-      "name": "Daniel Birligea",
-      "team": "Romania",
+      "id": "nation-player-daniel-james",
+      "name": "Daniel James",
+      "team": "Wales",
       "goals": 1,
       "assists": 0
     },
     {
-      "id": "nation-player-daniel-james",
-      "name": "Daniel James",
-      "team": "Wales",
+      "id": "nation-player-daniel-svensson",
+      "name": "Daniel Svensson",
+      "team": "Sweden",
       "goals": 1,
       "assists": 0
     },
@@ -57029,6 +60376,13 @@
       "assists": 0
     },
     {
+      "id": "nation-player-david-brooks",
+      "name": "David Brooks",
+      "team": "Wales",
+      "goals": 1,
+      "assists": 0
+    },
+    {
       "id": "nation-player-david-strelec",
       "name": "David Strelec",
       "team": "Slovakia",
@@ -57039,13 +60393,6 @@
       "id": "nation-player-deniss-me-iks",
       "name": "Deniss Meļņiks",
       "team": "Latvia",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-dennis-man",
-      "name": "Dennis Man",
-      "team": "Romania",
       "goals": 1,
       "assists": 0
     },
@@ -57102,13 +60449,6 @@
       "id": "nation-player-erik-prekop",
       "name": "Erik Prekop",
       "team": "Slovakia",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-ermin-mahmi",
-      "name": "Ermin Mahmić",
-      "team": "Bosnia and Herzegovina",
       "goals": 1,
       "assists": 0
     },
@@ -57239,6 +60579,13 @@
       "assists": 0
     },
     {
+      "id": "nation-player-joachim-andersen",
+      "name": "Joachim Andersen",
+      "team": "Denmark",
+      "goals": 1,
+      "assists": 0
+    },
+    {
       "id": "nation-player-johan-manzambi",
       "name": "Johan Manzambi",
       "team": "Switzerland",
@@ -57263,13 +60610,6 @@
       "id": "nation-player-junior-chukwubuike-adamu",
       "name": "Junior Chukwubuike Adamu",
       "team": "Austria",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-kerim-alajbegovic",
-      "name": "Kerim Alajbegovic",
-      "team": "Bosnia and Herzegovina",
       "goals": 1,
       "assists": 0
     },
@@ -57305,6 +60645,13 @@
       "id": "nation-player-kylian-mbapp",
       "name": "Kylian Mbappé",
       "team": "France",
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-lasha-dvali",
+      "name": "Lasha Dvali",
+      "team": "Hungary",
       "goals": 1,
       "assists": 0
     },
@@ -57347,6 +60694,13 @@
       "id": "nation-player-lukas-michelbrink",
       "name": "Lukas Michelbrink",
       "team": "Lithuania",
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-marcel-regula",
+      "name": "Marcel Regula",
+      "team": "Poland",
       "goals": 1,
       "assists": 0
     },
@@ -57568,6 +60922,13 @@
       "assists": 0
     },
     {
+      "id": "nation-player-sead-kola-inac",
+      "name": "Sead Kolašinac",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1,
+      "assists": 0
+    },
+    {
       "id": "nation-player-sergey-malyy",
       "name": "Sergey Malyy",
       "team": "Kazakhstan",
@@ -57592,6 +60953,13 @@
       "id": "nation-player-temirlan-erlanov",
       "name": "Temirlan Erlanov",
       "team": "Kazakhstan",
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-terry-devlin",
+      "name": "Terry Devlin",
+      "team": "Northern Ireland",
       "goals": 1,
       "assists": 0
     },
@@ -57834,9 +61202,9 @@
       "assists": 1
     },
     {
-      "id": "nation-player-antonio-nusa",
-      "name": "Antonio Nusa",
-      "team": "Norway",
+      "id": "nation-player-anthony-elanga",
+      "name": "Anthony Elanga",
+      "team": "Sweden",
       "goals": 0,
       "assists": 1
     },
@@ -57865,6 +61233,13 @@
       "id": "nation-player-diogo-dalot",
       "name": "Diogo Dalot",
       "team": "Portugal",
+      "goals": 0,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-dominik-szoboszlai",
+      "name": "Dominik Szoboszlai",
+      "team": "Hungary",
       "goals": 0,
       "assists": 1
     },
@@ -57904,6 +61279,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-ethan-galbraith",
+      "name": "Ethan Galbraith",
+      "team": "Northern Ireland",
+      "goals": 0,
+      "assists": 1
+    },
+    {
       "id": "nation-player-federico-dimarco",
       "name": "Federico Dimarco",
       "team": "Italy",
@@ -57935,6 +61317,13 @@
       "id": "nation-player-gylfi-sigur-sson",
       "name": "Gylfi Sigurðsson",
       "team": "Iceland",
+      "goals": 0,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-harry-wilson",
+      "name": "Harry Wilson",
+      "team": "Wales",
       "goals": 0,
       "assists": 1
     },
@@ -58089,6 +61478,13 @@
       "id": "nation-player-mart-n-zubimendi",
       "name": "Martín Zubimendi",
       "team": "Spain",
+      "goals": 0,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-mathias-jensen",
+      "name": "Mathias Jensen",
+      "team": "Denmark",
       "goals": 0,
       "assists": 1
     },
@@ -58396,6 +61792,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-viktor-gy-keres",
+      "name": "Viktor Gyökeres",
+      "team": "Sweden",
+      "goals": 6,
+      "assists": 0
+    },
+    {
       "id": "nation-player-michael-olise",
       "name": "Michael Olise",
       "team": "France",
@@ -58410,11 +61813,25 @@
       "assists": 1
     },
     {
+      "id": "nation-player-rasmus-hojlund",
+      "name": "Rasmus Hojlund",
+      "team": "Denmark",
+      "goals": 5,
+      "assists": 0
+    },
+    {
       "id": "nation-player-orri-steinn-skarsson",
       "name": "Orri Steinn Óskarsson",
       "team": "Iceland",
       "goals": 4,
       "assists": 2
+    },
+    {
+      "id": "nation-player-erling-haaland",
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4,
+      "assists": 1
     },
     {
       "id": "nation-player-lamine-yamal",
@@ -58448,13 +61865,6 @@
       "id": "nation-player-troy-parrott",
       "name": "Troy Parrott",
       "team": "Rep. Of Ireland",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-viktor-gy-keres",
-      "name": "Viktor Gyökeres",
-      "team": "Sweden",
       "goals": 4,
       "assists": 0
     },
@@ -58529,13 +61939,6 @@
       "assists": 0
     },
     {
-      "id": "nation-player-erling-haaland",
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "goals": 3,
-      "assists": 0
-    },
-    {
       "id": "nation-player-joel-pohjanpalo",
       "name": "Joel Pohjanpalo",
       "team": "Finland",
@@ -58553,13 +61956,6 @@
       "id": "nation-player-petru-popescu",
       "name": "Petru popescu",
       "team": "Moldova",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-rasmus-hojlund",
-      "name": "Rasmus Hojlund",
-      "team": "Denmark",
       "goals": 3,
       "assists": 0
     },
@@ -58592,6 +61988,13 @@
       "assists": 2
     },
     {
+      "id": "nation-player-mikkel-damsgaard",
+      "name": "Mikkel Damsgaard",
+      "team": "Denmark",
+      "goals": 2,
+      "assists": 2
+    },
+    {
       "id": "nation-player-artem-shumanskiy",
       "name": "Artem Shumanskiy",
       "team": "Belarus",
@@ -58620,16 +62023,16 @@
       "assists": 1
     },
     {
-      "id": "nation-player-mikkel-damsgaard",
-      "name": "Mikkel Damsgaard",
-      "team": "Denmark",
+      "id": "nation-player-morgan-rogers",
+      "name": "Morgan Rogers",
+      "team": "England",
       "goals": 2,
       "assists": 1
     },
     {
-      "id": "nation-player-morgan-rogers",
-      "name": "Morgan Rogers",
-      "team": "England",
+      "id": "nation-player-sasa-kalajdzic",
+      "name": "Sasa Kalajdzic",
+      "team": "Austria",
       "goals": 2,
       "assists": 1
     },
@@ -58644,6 +62047,20 @@
       "id": "nation-player-alessandro-bastoni",
       "name": "Alessandro Bastoni",
       "team": "Italy",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-alexandru-cic-ld-u",
+      "name": "Alexandru Cicâldău",
+      "team": "Romania",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-armin-gigovic",
+      "name": "Armin Gigovic",
+      "team": "Bosnia and Herzegovina",
       "goals": 2,
       "assists": 0
     },
@@ -58672,6 +62089,13 @@
       "id": "nation-player-davide-frattesi",
       "name": "Davide Frattesi",
       "team": "Italy",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "id": "nation-player-dennis-man",
+      "name": "Dennis Man",
+      "team": "Romania",
       "goals": 2,
       "assists": 0
     },
@@ -58858,6 +62282,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-antonio-nusa",
+      "name": "Antonio Nusa",
+      "team": "Norway",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-artur-serobyan",
       "name": "Artur Serobyan",
       "team": "Armenia",
@@ -58868,6 +62299,13 @@
       "id": "nation-player-christoph-lang",
       "name": "Christoph Lang",
       "team": "Austria",
+      "goals": 1,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-daniel-birligea",
+      "name": "Daniel Birligea",
+      "team": "Romania",
       "goals": 1,
       "assists": 1
     },
@@ -58889,6 +62327,13 @@
       "id": "nation-player-emil-tsenov",
       "name": "Emil Tsenov",
       "team": "Iceland",
+      "goals": 1,
+      "assists": 1
+    },
+    {
+      "id": "nation-player-ermin-mahmi",
+      "name": "Ermin Mahmić",
+      "team": "Bosnia and Herzegovina",
       "goals": 1,
       "assists": 1
     },
@@ -58935,6 +62380,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-kerim-alajbegovic",
+      "name": "Kerim Alajbegovic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-leo-sauer",
       "name": "Leo Sauer",
       "team": "Slovakia",
@@ -58956,6 +62408,13 @@
       "assists": 1
     },
     {
+      "id": "nation-player-pierre-emile-h-jbjerg",
+      "name": "Pierre-Emile Højbjerg",
+      "team": "Denmark",
+      "goals": 1,
+      "assists": 1
+    },
+    {
       "id": "nation-player-rasmus-peetson",
       "name": "Rasmus Peetson",
       "team": "Estonia",
@@ -58965,13 +62424,6 @@
     {
       "id": "nation-player-romano-schmid",
       "name": "Romano Schmid",
-      "team": "Austria",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "id": "nation-player-sasa-kalajdzic",
-      "name": "Sasa Kalajdzic",
       "team": "Austria",
       "goals": 1,
       "assists": 1
@@ -59031,69 +62483,13 @@
       "team": "Montenegro",
       "goals": 1,
       "assists": 0
-    },
-    {
-      "id": "nation-player-aleksa-mara",
-      "name": "Aleksa Maraš",
-      "team": "Montenegro",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-alexander-isak",
-      "name": "Alexander Isak",
-      "team": "Sweden",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-alexander-prass",
-      "name": "Alexander Prass",
-      "team": "Austria",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-alexandru-cic-ld-u",
-      "name": "Alexandru Cicâldău",
-      "team": "Romania",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-anastasios-douvikas",
-      "name": "Anastasios Douvikas",
-      "team": "Greece",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-andrija-ivkovi",
-      "name": "Andrija Živković",
-      "team": "Serbia",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-andronikos-kakoullis",
-      "name": "Andronikos Kakoullis",
-      "team": "Cyprus",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "id": "nation-player-anis-mehmeti",
-      "name": "Anis·Mehmeti",
-      "team": "Albania",
-      "goals": 1,
-      "assists": 0
     }
   ],
   "coverage": {
     "fixtures": {
       "available": true,
       "rows": 156,
-      "fetchedAt": "2026-11-14T07:53:15Z"
+      "fetchedAt": "2026-11-15T04:48:47Z"
     },
     "standings": {
       "available": true,
@@ -59103,11 +62499,11 @@
     "teams": {
       "available": true,
       "rows": 54,
-      "fetchedAt": "2026-11-14T07:53:15Z"
+      "fetchedAt": "2026-11-15T04:48:47Z"
     },
     "players": {
       "available": true,
-      "rows": 313,
+      "rows": 329,
       "note": "Goals and assists aggregated from Cornerflick match reports."
     },
     "topScorers": {
@@ -59116,15 +62512,15 @@
     },
     "fixtureStats": {
       "available": true,
-      "rows": 121
+      "rows": 129
     },
     "events": {
       "available": true,
-      "rows": 2001
+      "rows": 2125
     },
     "lineups": {
       "available": true,
-      "rows": 242
+      "rows": 258
     }
   }
 }
