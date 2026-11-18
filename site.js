@@ -104,21 +104,39 @@
     const selectedTab=params.get("tab");
     if(selectedTab){
       const view=tabPages[selectedTab]||"platform",meta=descriptions[view]||descriptions.platform;
-      const content=placeholderPage(view,item);
-      common(item.name+" · "+meta[0],meta[1],"",content,breadcrumb);
+      common(item.name+" · "+meta[0],meta[1],"",placeholderPage(view,item),breadcrumb);
       return;
     }
-    const toolsHtml=tools.map(entry=>card(entry,item)).join("");
-    const overview='<section class="panel"><div class="section-head"><div><div class="eyebrow">'+escapeHtml(item.country||"Competition")+' · '+escapeHtml(item.kind||"Football")+'</div><h2>Competition workspace</h2><p>Browse the sections planned for this competition.</p></div><span class="badge"><i class="dot"></i>Layout preview</span></div><div class="tab-row">'+["Overview","Standings","Fixtures & Results","Teams","Players","Head to Head","Records"].map(tab=>'<a href="./competition.html?id='+encodeURIComponent(item.id)+'&tab='+encodeURIComponent(tab)+'">'+escapeHtml(tab)+'</a>').join("")+'</div><div class="empty-state"><strong>Competition sections are being laid out</strong><p>Each section will get its own page structure before any scores or statistics are brought back.</p></div></section>';
-    common(item.name, (item.description||"Competition workspace").replace(/ · .*/,"")+". Explore the platform sections below. Scores and statistics are hidden while the layout is built.", "", overview+'<div class="section-head"><div><h2>Explore the platform</h2><p>Choose a tool for '+escapeHtml(item.name)+'.</p></div></div><div class="tool-grid">'+toolsHtml+'</div>',breadcrumb);
+    const featured=[tools[0],tools[2],tools[3],tools[14],tools[4],tools[5],tools[6],tools[1],tools[9],tools[10],tools[11],tools[12],tools[13],tools[15]];
+    const toolsHtml=featured.map(entry=>{
+      const url=entry[4].startsWith("competition.html")?"./"+entry[4]+"&id="+encodeURIComponent(item.id):"./"+entry[4]+"?competition="+encodeURIComponent(item.id);
+      return '<a class="tool-card dashboard-tool-card" href="'+url+'"><div class="card-top"><span class="tool-icon">'+entry[0]+'</span><span class="dashboard-category">'+escapeHtml(entry[1])+'</span><span class="card-arrow">↗</span></div><h3>'+escapeHtml(entry[2])+'</h3><p>'+escapeHtml(entry[3])+'</p></a>';
+    }).join("");
+    const title=item.name;
+    const description=(item.description||item.kind||"Football competition")+" · Explore the tools and sections available for this competition.";
+    const header='<div class="competition-status"><span class="status-light"></span><strong>'+escapeHtml(item.country||item.kind||"Competition")+'</strong><span>Football / Soccer workspace</span></div>';
+    common(title,description,"",header+'<div class="section-head explore-head"><div><h2>Explore the platform</h2><p>Choose a tool based on what you want to investigate.</p></div></div><div class="tool-grid dashboard-tool-grid">'+toolsHtml+'</div>',breadcrumb);
   }
   function placeholderPage(view,item){
     const title=descriptions[view]?.[0]||"Football / Soccer workspace";
     const description=descriptions[view]?.[1]||"This page is part of the layout-first rebuild.";
-    const layoutKinds=["stats","advanced","research","weekly","accuracy","calendar","fixtures","standings","headtohead","records","players","teams","profile","match","health"].includes(view);
+    const info='<div class="notice"><span class="notice-mark">i</span><div><strong>Layout first</strong><p>Real statistics, scores, records, and matchweek data are hidden while the page design is built.</p></div></div>';
+    if(view==="stats"){
+      const statFilters=[
+        ["SEASON","Select season"],["COMPETITION",item?.name||"Select competition"],["MATCHWEEK","Choose matchweek"],
+        ["STATISTIC","Choose statistic"],["TEAM","All teams"],["POSITION GROUP","All positions"]
+      ];
+      const controls=statFilters.map(([label,value])=>'<label class="tracker-field"><span>'+label+'</span><select class="select" disabled><option>'+escapeHtml(value)+'</option></select></label>').join("");
+      const summary=["PLAYERS IN VIEW","MATCHWEEKS SELECTED","CURRENT LEADER","ROWS IN SELECTION"].map(label=>'<article class="tracker-summary"><span>'+label+'</span><strong class="summary-placeholder" aria-label="Statistics hidden">—</strong></article>').join("");
+      const weeks=Array.from({length:10},(_,i)=>'<span class="week-placeholder" aria-hidden="true"></span>').join("");
+      const tabs=["Weekly leaderboard","Selected weeks total","Week-by-week breakdown","Team totals","Player comparison","Team comparison","Team statistics","Match Centre + Predictions","Advanced Lab","Records"];
+      const table='<div class="tracker-table-wrap"><div class="tracker-table-heading">Weekly leaderboard <span class="badge">Layout preview</span></div><table class="tracker-table"><thead><tr>'+["RANK","PLAYER","TEAM","POSITION","STATISTIC"].map(x=>'<th>'+x+'</th>').join("")+'</tr></thead><tbody>'+[0,1,2,3,4,5].map(()=>'<tr>'+[0,1,2,3,4].map(()=>'<td><span class="table-placeholder" aria-hidden="true"></span></td>').join("")+'</tr>').join("")+'</tbody></table></div>';
+      const panel='<div class="tracker-status"><i class="dot"></i>Layout preview · statistics hidden</div><div class="tracker-summary-grid">'+summary+'</div><section class="tracker-controls">'+controls+'<label class="tracker-field"><span>FIND PLAYER</span><input class="input" disabled placeholder="Search players"></label><label class="tracker-field"><span>STATISTIC AND ORDER</span><select class="select" disabled><option>Choose a statistic</option></select></label><label class="tracker-field"><span>SORT ORDER</span><select class="select" disabled><option>High to low</option></select></label></section><section class="week-selector"><h2>MATCHWEEKS INCLUDED IN TOTALS AND TRENDS</h2><div class="week-placeholder-row">'+weeks+'</div><div class="week-actions"><button class="button" disabled>Select all available matchweeks</button><button class="button" disabled>Clear selection</button><span>Matchweeks appear when data is added.</span></div></section><nav class="tracker-tabs" aria-label="Tracker sections">'+tabs.map((tab,i)=>'<a class="'+(i===0?'active':'')+'" href="#tracker-results">'+escapeHtml(tab)+'</a>').join("")+'</nav>'+table;
+      return info+'<section class="tracker-page">'+panel+'</section>';
+    }
+    const layoutKinds=["advanced","research","weekly","accuracy","calendar","fixtures","standings","headtohead","records","players","teams","profile","match","health"].includes(view);
     const filters=layoutKinds?'<section class="filter-panel">'+["Competition","Season","Matchweek","View"].map(label=>'<label class="field"><span>'+escapeHtml(label)+'</span><select class="select" disabled><option>Coming soon</option></select></label>').join("")+'</section>':"";
     const skeletons='<div class="skeleton-grid">'+[0,1,2,3].map(()=>'<div class="skeleton-card" aria-hidden="true"></div>').join("")+'</div><div class="skeleton-table" aria-hidden="true">'+[0,1,2,3,4].map(()=>'<div class="skeleton-row"></div>').join("")+'</div>';
-    const info='<div class="notice"><span class="notice-mark">i</span><div><strong>Layout first</strong><p>All scores, statistical values, forecasts, and data-driven tables are hidden for now. This page is a visual structure preview.</p></div></div>';
     const context=item?'<div class="hero-meta"><span class="meta-pill"><i class="dot"></i>'+escapeHtml(item.name)+'</span><a class="meta-pill" href="./competition.html?id='+encodeURIComponent(item.id)+'">Competition hub ↗</a></div>':"";
     const panel='<section class="panel"><div class="section-head"><div><h2>'+escapeHtml(title)+'</h2><p>'+escapeHtml(description)+'</p></div><span class="badge">Structure preview</span></div>'+filters+skeletons+'</section>';
     return info+context+panel;
