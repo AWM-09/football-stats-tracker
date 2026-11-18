@@ -3,57 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#09111a">
-  <meta name="description" content="A football and soccer statistics hub for European leagues, domestic cups, UEFA competitions and international football.">
+  <meta name="theme-color" content="#080f17">
+  <meta name="description" content="Football/Soccer platform layout preview.">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="stylesheet" href="./styles.css">
-  <title>AlexMyrusTalksSports | Football & Soccer</title>
+  <link rel="stylesheet" href="./layout.css?v=layout-first-1">
+  <title>Football/Soccer | Layout First</title>
 </head>
-<body>
-  <main>
+<body data-page="home">
+  <div class="shell">
     <header class="topbar">
-      <a class="brand" href="./index.html" aria-label="Football Stats Tracker home">
-        <span class="brand-mark" aria-hidden="true">⚽</span>
-        <span><span class="eyebrow">AlexMyrusTalksSports</span><strong>Football <span class="brand-divider">/</span> Soccer</strong></span>
+      <a class="brand" href="./index.html" aria-label="Football and Soccer home">
+        <span class="brand-icon" aria-hidden="true">⚽</span>
+        <span class="brand-copy"><small>AlexMyrusTalksSports</small><strong>Football <span aria-hidden="true">/</span> Soccer</strong></span>
       </a>
-      <nav class="nav" aria-label="Main navigation"><a href="./stats.html">Stats Tracker</a><a href="./competition.html?view=players">Players</a><a href="./competition.html?view=teams">Teams</a><a href="./favorites.html">Favorites</a><a href="./advanced.html">Advanced Lab</a><a href="./research.html">Research</a><a href="./calendar.html">Match Centre</a><a href="./health.html">Data Status</a></nav>
+      <nav class="main-nav" id="siteNav" aria-label="Main navigation"></nav>
     </header>
-
-    <section class="hero">
-      <div class="eyebrow">Your football data workspace</div>
-      <h1 class="title">Every competition.<br><span>One place to explore.</span></h1>
-      <p class="subtitle">Choose a league, cup or international tournament to open its competition hub. The platform is being set up for standings, fixtures, results, team and player profiles, historical seasons and records.</p>
-      <div class="hero-meta"><span class="status-dot pending"></span><span>Competition directory ready</span><span class="meta-sep">·</span><span>Current and historical statistics are available where source data exists · no live scores</span></div>
-    </section>
-
-    <section class="directory" aria-labelledby="directory-title">
-      <div class="section-heading">
-        <div><h2 id="directory-title">Explore competitions</h2><p>Choose a competition to open its dedicated hub.</p></div>
-        <label class="search-wrap"><span class="sr-only">Search competitions</span><span aria-hidden="true">⌕</span><input id="competitionSearch" type="search" placeholder="Search competitions" autocomplete="off"></label>
-      </div>
-      <div class="filter-row" id="filterRow" aria-label="Filter competitions"></div>
-      <div class="group-list" id="competitionGroups" aria-live="polite"></div>
-      <div class="empty-state" id="emptyState" hidden>No competitions match your search.</div>
-    </section>
-
-    <section class="section-title"><div><h2>Explore the Football/Soccer platform</h2><p>Research, match previews and fan tools connected to published competition data.</p></div></section>
-    <section class="tools" aria-label="Football platform tools">
-      <a class="tool" href="./stats.html"><div class="tool-top"><span class="iconbox">📊</span><span class="tag">Core statistics</span><span class="arrow">↗</span></div><h3>Stats Tracker</h3><p>Compare player and team performance across competitions, seasons and played matchweeks.</p></a>
-      <a class="tool" href="./advanced.html"><div class="tool-top"><span class="iconbox">📈</span><span class="tag">Deep analytics</span><span class="arrow">↗</span></div><h3>Advanced Stats Lab</h3><p>Explore xG, xA, shots, passing and defensive metrics where feeds provide them.</p></a>
-      <a class="tool" href="./research.html"><div class="tool-top"><span class="iconbox">🔎</span><span class="tag">Historical research</span><span class="arrow">↗</span></div><h3>Research Lab</h3><p>Compare player and team seasons using published historical snapshots.</p></a>
-      <a class="tool" href="./calendar.html"><div class="tool-top"><span class="iconbox">🗓️</span><span class="tag">Fixtures & results</span><span class="arrow">↗</span></div><h3>Match Centre</h3><p>Filter by matchweek and find completed and upcoming fixtures.</p></a>
-      <a class="tool" href="./weekly.html"><div class="tool-top"><span class="iconbox">🎯</span><span class="tag">Previews & picks</span><span class="arrow">↗</span></div><h3>Weekly Picks</h3><p>Review experimental match probabilities and save forecasts for later accuracy tracking.</p></a>
-      <a class="tool" href="./favorites.html"><div class="tool-top"><span class="iconbox">⭐</span><span class="tag">Your shortlist</span><span class="arrow">↗</span></div><h3>Favorites</h3><p>Save players and clubs in this browser and review their latest available statistics.</p></a>
-      <a class="tool" href="./news.html"><div class="tool-top"><span class="iconbox">📰</span><span class="tag">League updates</span><span class="arrow">↗</span></div><h3>Football News</h3><p>Read current football headlines from linked publishers.</p></a>
-      <a class="tool" href="./commentary.html"><div class="tool-top"><span class="iconbox">🎙️</span><span class="tag">Research & storytelling</span><span class="arrow">↗</span></div><h3>Commentary Box</h3><p>Write and save evidence-led analysis in your browser.</p></a>
-      <a class="tool" href="./playbook.html"><div class="tool-top"><span class="iconbox">🧠</span><span class="tag">Learn the tactics</span><span class="arrow">↗</span></div><h3>Playbook Lab</h3><p>Study formations, pressing, roles and in-possession structure.</p></a>
-      <a class="tool" href="./rulebook.html"><div class="tool-top"><span class="iconbox">📖</span><span class="tag">Education</span><span class="arrow">↗</span></div><h3>Football Rulebook</h3><p>Browse the Laws of the Game and open the current IFAB edition.</p></a>
-      <a class="tool" href="./accuracy.html"><div class="tool-top"><span class="iconbox">✅</span><span class="tag">Model evaluation</span><span class="arrow">↗</span></div><h3>Prediction Accuracy</h3><p>Review saved forecasts after games finish.</p></a>
-      <a class="tool" href="./health.html"><div class="tool-top"><span class="iconbox">🛠️</span><span class="tag">Reliability</span><span class="arrow">↗</span></div><h3>Data Status</h3><p>See source coverage, refresh times, and unavailable fields.</p></a>
-    </section>
-
-    <footer class="footer"><span>Independent football &amp; soccer statistics project</span><span>Data status is shown on each page</span></footer>
-  </main>
-  <script src="./app.js?v=football-platform-3" defer></script>
+    <main class="page">
+      <div class="breadcrumb" id="siteCrumbs"></div>
+      <section class="hero" id="siteHero" aria-live="polite"></section>
+      <div id="siteContent"></div>
+    </main>
+    <footer class="page-footer"><span>Football/Soccer · Layout phase</span><span>Statistics and results are hidden for now.</span><a href="./index.html">Browse competitions</a></footer>
+  </div>
+  <script src="./site.js?v=layout-first-1" defer></script>
 </body>
 </html>
