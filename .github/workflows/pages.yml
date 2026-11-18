@@ -1,14 +1,12 @@
-name: Deploy Football Stats Tracker
+name: Deploy Football/Soccer Layout
 
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -25,35 +23,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-      - name: Install Parquet reader
-        run: python -m pip install duckdb pandas
-      - name: Refresh static open-data snapshots
-        run: python scripts/sync_open_data.py
-      - name: Refresh football headlines
-        run: python scripts/sync_news.py
-      - name: Commit data snapshots
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p data/competitions
-          git add -A data/coverage.json data/competitions/ data/news.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Refresh football data snapshots"
-            git push
-          fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Prepare compressed Pages site
+      - name: Prepare layout-only site
         run: |
-          mkdir -p _site/data/competitions
-          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./data/competitions' -cf - . | tar -C _site -xf -
-          for snapshot in data/competitions/*.json; do
-            gzip -n -c "$snapshot" > "_site/${snapshot}.gz"
-          done
+          mkdir -p _site/data
+          cp index.html competition.html platform.html stats.html entity.html match.html health.html advanced.html research.html weekly.html accuracy.html news.html commentary.html playbook.html rulebook.html favorites.html calendar.html _site/
+          cp layout.css site.js favicon.svg _site/
+          cp data/competitions.json _site/data/
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
