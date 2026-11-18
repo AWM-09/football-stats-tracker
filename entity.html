@@ -1,14 +1,30 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09111a">
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="stylesheet" href="./styles.css">
-  <title>Football profile | Football & Soccer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080f17">
+  <meta name="description" content="Football/Soccer platform layout preview.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./layout.css?v=layout-first-1">
+  <title>Football/Soccer | Layout First</title>
 </head>
-<body><main>
-  <header class="topbar"><a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">⚽</span><span><span class="eyebrow">AlexMyrusTalksSports</span><strong>Football <span class="brand-divider">/</span> Soccer</strong></span></a><nav class="nav" aria-label="Main navigation"><a href="./stats.html">Stats Tracker</a><a href="./competition.html?view=players">Players</a><a href="./competition.html?view=teams">Teams</a><a href="./favorites.html">Favorites</a><a href="./advanced.html">Advanced Lab</a><a href="./research.html">Research</a><a href="./calendar.html">Match Centre</a><a href="./health.html">Data Status</a></nav></header>
-  <a class="back-link" id="entityBack" href="./index.html">← All competitions</a>
-  <section class="competition-hero" id="entityHero" aria-live="polite"></section>
-  <section class="competition-content"><div class="panel" id="entityPanel" aria-live="polite"><div class="unavailable"><span class="unavailable-icon">◷</span><h2>Loading profile</h2></div></div></section>
-  <footer class="footer"><span>Statistics are attributed to their source and season.</span><span><a href="./health.html">Data status</a></span></footer>
-</main><script src="./app.js?v=football-platform-3" defer></script></body></html>
+<body data-page="profile">
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Football and Soccer home">
+        <span class="brand-icon" aria-hidden="true">⚽</span>
+        <span class="brand-copy"><small>AlexMyrusTalksSports</small><strong>Football <span aria-hidden="true">/</span> Soccer</strong></span>
+      </a>
+      <nav class="main-nav" id="siteNav" aria-label="Main navigation"></nav>
+    </header>
+    <main class="page">
+      <div class="breadcrumb" id="siteCrumbs"></div>
+      <section class="hero" id="siteHero" aria-live="polite"></section>
+      <div id="siteContent"></div>
+    </main>
+    <footer class="page-footer"><span>Football/Soccer · Layout phase</span><span>Statistics and results are hidden for now.</span><a href="./index.html">Browse competitions</a></footer>
+  </div>
+  <script src="./site.js?v=layout-first-1" defer></script>
+</body>
+</html>
